@@ -110,7 +110,6 @@ FIN FONT
 	background: -o-linear-gradient(left,#A71726, #DF1D28, #A71726); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(left,#A71726, #DF1D28, #A71726); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(left,#A71726, #DF1D28, #A71726); /* Standard syntax */
-	background-color: transparent !important;
 }
 
 input:focus, select:focus{
@@ -216,14 +215,23 @@ input:focus, select:focus{
 	border-color: transparent;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.navbar-brand{
+    position: relative;
+    top:-45px;
+}
 .affix {
 	top: 0;
 	width: 100%;
 	z-index: 9999 !important;
 }
-
 .affix + .container-fluid {
 	padding-top: 70px;
+}
+.affix .navbar-brand {
+    top : -15px;
+}
+.affix .navbar-brand > img{
+    width: 60px;
 }
 .jumbotron{
 	background-color: #fff;
@@ -246,12 +254,19 @@ input:focus, select:focus{
 	left: 0px;
 	z-index: 1;
 }
+.jumbotron h1{
+    background-color: rgba(0,0,0,0.5);
+    background: -webkit-linear-gradient(left,transparent, rgba(0,0,0,0.5), transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,transparent, rgba(0,0,0,0.5), transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,transparent, rgba(0,0,0,0.5), transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,transparent, rgba(0,0,0,0.5), transparent); /* Standard syntax */
+}
 .shadow{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
 .menu-rapide{
 	position: fixed;
-	top: 50%;
+	top: 35%;
 	right: -70px;
 	font-size: 25px;
 	z-index: 99998;
@@ -273,6 +288,10 @@ input:focus, select:focus{
 
 .main-article .text-white{
 	background-color: #DA2235;
+}
+h2.indie-flower{
+    border-left: solid #A71726 3px;
+    padding-left: 10px;
 }
 /* VIGNETTE SLIDER	*/
 ul.thumbnails {
