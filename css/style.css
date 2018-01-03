@@ -13,7 +13,7 @@ PRE LOADER
 	right: 0;
 	bottom: 0;
 	background-color: #fefefe;
-	background-image: url(../img/logo.png);
+	background-image: url(../img/logo1.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	z-index: 99999;
@@ -235,7 +235,7 @@ input:focus, select:focus{
 }
 .jumbotron{
 	background-color: #fff;
-	background-image: url(../img/logo.png);
+	background-image: url(../img/logo1.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	color: white;
