@@ -3,6 +3,16 @@ html, body{
 }
 
 /*==========================================
+LOGO
+==========================================*/
+
+.img-logo-dagonline{
+	margin-top: -47px;
+    margin-left: -14px;
+    width: 150px;
+}
+
+/*==========================================
 PRE LOADER
 ==========================================*/
 
@@ -13,7 +23,7 @@ PRE LOADER
 	right: 0;
 	bottom: 0;
 	background-color: #fefefe;
-	background-image: url(../img/logo.png);
+	background-image: url(../img/logo1.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	z-index: 99999;
