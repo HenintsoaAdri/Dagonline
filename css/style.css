@@ -3,16 +3,6 @@ html, body{
 }
 
 /*==========================================
-LOGO
-==========================================*/
-
-.img-logo-dagonline{
-	margin-top: -47px;
-    margin-left: -14px;
-    width: 150px;
-}
-
-/*==========================================
 PRE LOADER
 ==========================================*/
 
@@ -225,10 +215,8 @@ input:focus, select:focus{
 	border-color: transparent;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.navbar-brand{
-    position: relative;
-    top:-45px;
-}
+
+
 .affix {
 	top: 0;
 	width: 100%;
@@ -237,12 +225,24 @@ input:focus, select:focus{
 .affix + .container-fluid {
 	padding-top: 70px;
 }
+/*==========================================
+LOGO
+==========================================*/
+.navbar-brand{
+	position: relative;
+	top:-47px;
+	left: 0;
+	margin-left: -30px !important;
+}
 .affix .navbar-brand {
-    top : -15px;
+	top : -15px;
 }
 .affix .navbar-brand > img{
-    width: 60px;
+	width: 60px;
 }
+/*==========================================
+FIN LOGO
+==========================================*/
 .jumbotron{
 	background-color: #fff;
 	background-image: url(../img/logo1.png);
