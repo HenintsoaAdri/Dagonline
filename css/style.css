@@ -155,6 +155,9 @@ input:focus, select:focus{
 .p-b-20{padding-bottom: 20px;}
 .p-l-20{padding-left: 20px;}
 .p-r-20{padding-right: 20px;}
+.shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
 
 #body{
 	background-image: url("../img/papyrus-texture.jpg");
@@ -236,6 +239,7 @@ LOGO
 }
 .affix .navbar-brand {
 	top : -15px;
+	left: 15px;
 }
 .affix .navbar-brand > img{
 	width: 60px;
@@ -266,14 +270,12 @@ FIN LOGO
 }
 .jumbotron h1{
     background-color: rgba(0,0,0,0.5);
-    background: -webkit-linear-gradient(left,transparent, rgba(0,0,0,0.5), transparent); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(left,transparent, rgba(0,0,0,0.5), transparent); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(left,transparent, rgba(0,0,0,0.5), transparent); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(left,transparent, rgba(0,0,0,0.5), transparent); /* Standard syntax */
+    background: -webkit-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* Standard syntax */
 }
-.shadow{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
-}
+/* MENU RAPIDE	*/
 .menu-rapide{
 	position: fixed;
 	top: 35%;
@@ -286,15 +288,50 @@ FIN LOGO
 	border-bottom-left-radius: 50%;
 	border-top-left-radius: 50%;
 }
+.menu-rapide .btn{
+	font-size: 1.25em !important;
+	border-radius: 50% !important;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background: rgba(255, 235, 194,0.1);
+	-webkit-transition: background 0.5s, color 0.2s;
+	-moz-transition: background 0.5s, color 0.2s;
+	transition: background 0.5s, color 0.2s;
+}
+.menu-rapide .btn :after {
+	top: -7px;
+	left: -7px;
+	padding: 7px;
+	box-shadow: 0 0 0 4px #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-webkit-transform: scale(.8);
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transition: transform 0.2s, opacity 0.2s;
+	transform: scale(.8);
+	opacity: 0;
+}
+
 .menu-rapide:hover{
 	right:0%;
 	background-color: rgba(167,23,38,0.75);
 	transition: 0.3s;
 }
-.menu-rapide .btn{
-	background-color: transparent;
-	font-size: 1.25em !important;
+.menu-rapide .btn:hover {
+	background: rgba(255, 235, 194,1);
 }
+.menu-rapide .btn:hover .fa{
+	color: #A71726;
+}
+.menu-rapide .btn:hover :after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+/* FIN MENU RAPIDE	*/
 
 .main-article .text-white{
 	background-color: #DA2235;
@@ -308,7 +345,3 @@ ul.thumbnails {
 	margin-bottom: 0px;
 }
 /* FIN VIGNETTE SLIDER	*/
-
-/* SLIDER CARTE	*/
-
-/* FIN SLIDER CARTE	*/

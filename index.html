@@ -675,7 +675,6 @@
     </a>
   </div>
 </div>
-
 <!--Fin Slide principal-->
 
 <div class="container-fluid bg-warning text-danger pacifico shadow">
@@ -683,26 +682,24 @@
 </div>
 
 <!--Lien rapide-->
-
-<div class="btn-group menu-rapide">
+<div class="btn-group menu-rapide text-white">
   <span class="glyphicon glyphicon-chevron-left"></span>
   <div class="btn-group-vertical">
-    <button type="button" class="btn"><i class="fa fa-bed"></i></button>
-    <button type="button" class="btn"><i class="fa fa-cutlery"></i></button>
-    <button type="button" class="btn"><i class="fa fa-laptop"></i></button>
-    <button type="button" class="btn"><i class="fa fa-glass"></i></button>
-    <button type="button" class="btn"><i class="glyphicon glyphicon-briefcase"></i></button>
+    <a class="btn" title="H&ocirc;tel"><i class="fa fa-bed"></i></a>
+    <a class="btn" title="Restaurant"><i class="fa fa-cutlery"></i></a>
+    <a class="btn" title="Cyber"><i class="fa fa-laptop"></i></a>
+    <a class="btn" title="Bons Plans"><i class="fa fa-glass"></i></a>
+    <a class="btn" title="Jobs"><i class="fa fa-briefcase"></i></a>
   </div>
 </div>
-
 <!--Fin de lien rapide-->
 
 <!--Corps-->
 <div id="body">
   <!-- Container Carte MDG -->
-  <div class="container-fluid">
+  <div class="container-fluid p-t-20">
     <div class="row">
-      <div class="col-sm-2">
+      <div class="col-sm-3">
         <h4><a href="#">Antananarivo</a></h4>
         <h4><a href="#">Diégo-Suarez</a></h4>
         <h4><a href="#">Majunga</a></h4>
@@ -710,12 +707,14 @@
         <h4><a href="#">Fianarantsoa</a></h4>
         <h4><a href="#">Tuléar</a></h4>
       </div>
-      <div class="col-sm-5">
-        MADAGASCAR
+      <div class="col-sm-3 text-center">
+        <a href="#">
+          <img width="256" alt="Madagascar map" src="img/256px-Madagascar_map.svg.png"/>
+        </a>
       </div>
 
       <!-- Carte PUB -->
-      <div class="col-sm-5">
+      <div class="col-sm-6 text-center">
         <div class="main">
           <div id="sb-container" class="sb-container">
 
@@ -760,12 +759,10 @@
               <h4><a href="#">Mobile Theme</a></h4>
             </div>
             <div>
-              <span class="sb-icon icon-camera"></span>
-              <h4><a href="#">Digital App</a></h4>
+              <img src="img/deemar.png">
             </div>
             <div>
-              <h4><span>Profile</span></h4>
-              <h5><span>&hearts; D.O</span></h5>
+              <img src="img/manou-pub.png">
             </div>
 
           </div>
@@ -1419,10 +1416,6 @@
             <div class="item">
               <img src="img/smartup/2.png" title="SMART UP" alt="SMART UP" class="img-responsive">
             </div>
-
-            <div class="item">
-              <img src="img/smartup/4.png" title="SMART UP" alt="SMART UP" class="img-responsive">
-            </div>
           </div>
 
           <!-- Left and right controls -->
@@ -1479,7 +1472,7 @@
 <script type="text/javascript">
 	$(function() {
 		$( '#sb-container' ).swatchbook( {
-			openAt : 0
+			openAt : 5
 		} );
 	});
 </script>
