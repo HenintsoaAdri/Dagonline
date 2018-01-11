@@ -212,6 +212,10 @@ MENU CUSTOMIZE
 .dropdown-menu a{
 	color: #e3e3e3!important;
 }
+.dropdown-menu img{
+    width: 75px;
+    margin: auto;
+}
 .more a{
 	color: #ffc93e !important;
 }
