@@ -13,8 +13,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/style5.css" />
-<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+  <link rel="stylesheet" type="text/css" href="css/carte-style.css" />
 </head>
 <body>
 
@@ -46,7 +45,7 @@
         <span class="icon-bar"></span>
       </button>
         <a class="navbar-brand">
-          <img src="img/logo.png" class="img-responsive">
+          <img src="img/logo.png" class="img-responsive shadow">
         </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -618,6 +617,12 @@
             </div>
           </div>
         </li>
+        <li>
+          <a href="#">Petites Annonces</a>
+        </li>
+        <li>
+          <a href="#">Communaut&eacute;</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -626,7 +631,7 @@
 
 <!--Slide principal-->
 <div class="jumbotron text-center m-b-0">
-  <h1>DagOnline</h1>
+  <h1>Dagonline</h1>
   <p>Trouvez et achetez ce qui vous chante sur tout Madagascar</p>
   <form class="form-inline">
     <div class="form-group">
@@ -678,18 +683,18 @@
 <!--Fin Slide principal-->
 
 <div class="container-fluid bg-warning text-danger pacifico shadow">
-  <div class="pull-right p-r-20 mada"><h2>Madagascar &agrave; port&eacute;e de clic</h2></div>
+  <div class="text-center"><h2>Madagascar &agrave; port&eacute;e de clic</h2></div>
 </div>
 
 <!--Lien rapide-->
 <div class="btn-group menu-rapide text-white">
   <span class="glyphicon glyphicon-chevron-left"></span>
   <div class="btn-group-vertical">
-    <a class="btn" title="H&ocirc;tel"><i class="fa fa-bed"></i></a>
-    <a class="btn" title="Restaurant"><i class="fa fa-cutlery"></i></a>
-    <a class="btn" title="Cyber"><i class="fa fa-laptop"></i></a>
-    <a class="btn" title="Bons Plans"><i class="fa fa-glass"></i></a>
-    <a class="btn" title="Jobs"><i class="fa fa-briefcase"></i></a>
+    <a class="btn" title="H&ocirc;tel" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-bed"></i></a>
+    <a class="btn" title="Restaurant" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-cutlery"></i></a>
+    <a class="btn" title="Cyber" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-laptop"></i></a>
+    <a class="btn" title="Bons Plans" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-glass"></i></a>
+    <a class="btn" title="Jobs" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-briefcase"></i></a>
   </div>
 </div>
 <!--Fin de lien rapide-->
@@ -715,54 +720,58 @@
 
       <!-- Carte PUB -->
       <div class="col-sm-6 text-center">
-        <div class="main">
-          <div id="sb-container" class="sb-container">
+        <div class="carte-pub">
+          <div>
+            <img src="img/manou-pub.png" alt="Bijouterie Manou" />
+            <input type="radio" name="radio-set" checked="checked"/>
+            <p><span>Bijouterie Manou</span></p>
 
             <div>
-              <span class="sb-icon icon-cog"></span>
-              <h4><a href="#">All Settings</a></h4>
-            </div>
-            <div>
-              <span class="sb-icon icon-flight"></span>
-              <h4><a href="#">User Modes</a></h4>
-            </div>
-            <div>
-              <span class="sb-icon icon-eye"></span>
-              <h4><a href="#">Browse All</a></h4>
-            </div>
-            <div>
-              <span class="sb-icon icon-install"></span>
-              <h4><a href="#">Install App</a></h4>
-            </div>
-            <div>
-              <span class="sb-icon icon-bag"></span>
-              <h4><a href="#">Productivity</a></h4>
-            </div>
-            <div>
-              <span class="sb-icon icon-globe"></span>
-              <h4><a href="#">All Options</a></h4>
-            </div>
-            <div>
-              <span class="sb-icon icon-picture"></span>
-              <h4><a href="#">User Images</a></h4>
-            </div>
-            <div>
-              <span class="sb-icon icon-video"></span>
-              <h4><a href="#">User Videos</a></h4>
-            </div>
-            <div>
-              <span class="sb-icon icon-download"></span>
-              <h4><a href="#">Download App</a></h4>
-            </div>
-            <div>
-              <span class="sb-icon icon-mobile"></span>
-              <h4><a href="#">Mobile Theme</a></h4>
-            </div>
-            <div>
-              <img src="img/deemar.png">
-            </div>
-            <div>
-              <img src="img/manou-pub.png">
+              <img src="img/deemar.png" alt="Deemar" />
+              <input type="radio" name="radio-set" />
+              <p><span>Deemar</span></p>
+
+              <div>
+                <img src="img/burhotel.png" alt="Burhotel" />
+                <input type="radio" name="radio-set" />
+                <p><span>Burhotel</span></p>
+
+                <div>
+                  <img src="img/quincgi.png" alt="Quincaillerie GI" />
+                  <input type="radio" name="radio-set" checked="checked"/>
+                  <p><span>Quincaillerie GI</span></p>
+
+                  <div>
+                    <img src="img/wazamoto.png" alt="WazaMoto" />
+                    <input type="radio" name="radio-set" />
+                    <p><span>WazaMoto</span></p>
+
+                    <div>
+                      <img src="img/speed.png" alt="Speed Burger" />
+                      <input type="radio" name="radio-set" />
+                      <p><span>Speed Burger</span></p>
+
+                      <div>
+                        <img src="img/veto.png" alt="Vétérinaire" />
+                        <input type="radio" name="radio-set" checked="checked"/>
+                        <p><span>Vétérinaire</span></p>
+
+                        <div>
+                          <img src="img/dagonline.png" alt="Dagonline" />
+                          <input id="carte-pub-selector-last" type="radio" name="radio-set" />
+                          <p><span>Dagonline</span></p>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
             </div>
 
           </div>
@@ -1460,6 +1469,7 @@
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <p>Revenir en d&eacute;but de page</p>
+  <p>&copy; Dagonline 2018</p>
 </footer>
 <!--Fin footer-->
 <script src="js/jquery-3.2.1.min.js"></script>
@@ -1467,15 +1477,14 @@
 <!--Toast-->
 <script src="js/jquery.toast.min.js"></script>
 <!--Fin Toast-->
+<!--Animation Carte PUB-->
+<script src="js/carte-pub.js"></script>
+<!--Fin Animation Carte PUB-->
 <script src="js/main.js"></script>
-<script type="text/javascript" src="js/jquery.swatchbook.js"></script>
-<script type="text/javascript">
-	$(function() {
-		$( '#sb-container' ).swatchbook( {
-			openAt : 5
-		} );
-	});
+<script>
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+  });
 </script>
-
 </body>
 </html>
