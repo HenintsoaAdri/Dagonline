@@ -199,9 +199,6 @@ MENU CUSTOMIZE
 .dropdown{
 	position: static !important;
 }
-.navbar-nav{
-	position: absolute;
-}
 .dropdown hr{
 	margin: 0;
 	margin-right: -15px;
@@ -393,7 +390,7 @@ ul.thumbnails {
 }
 /* FIN VIGNETTE SLIDER	*/
 
-@media screen and (max-width: 736px){
+@media screen and (max-width: 900px){
     .navbar-nav li{
         text-align: center;
     }
