@@ -180,11 +180,6 @@ MENU CUSTOMIZE
 	background-position: center bottom;
     background-size: 1em;
 }
-@media screen and (max-width: 736px){
-    .navbar-nav li{
-        text-align: center;
-    }
-}
 .dropdown:hover .dropdown-menu{
 	display : block;
 }
@@ -397,3 +392,15 @@ ul.thumbnails {
 	margin-bottom: 0px;
 }
 /* FIN VIGNETTE SLIDER	*/
+
+@media screen and (max-width: 736px){
+    .navbar-nav li{
+        text-align: center;
+    }
+    .navbar-brand {
+        top: -30px;
+    }
+    .navbar-brand img{
+        width: 90px;
+    }
+}
