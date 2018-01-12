@@ -1083,6 +1083,15 @@
     </div>
   </div>
   <!-- Fin Container Partie Evenement-->
+  <!-- Container Timeline -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="timeline"></div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Container Timeline -->
 </div>
 <!--Fin Corps-->
 
@@ -1166,14 +1175,22 @@
 <script src="js/bootstrap.min.js"></script>
 <!--Toast-->
 <script src="js/jquery.toast.min.js"></script>
-<!--Fin Toast-->
 <!--Animation Carte PUB-->
 <script src="js/carte-pub.js"></script>
-<!--Fin Animation Carte PUB-->
+<!--TimeLine-->
+<script src="js/timeline-min.js"></script>
+<!--JS personnalisé-->
 <script src="js/main.js"></script>
 <script>
   $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
+    createStoryJS({
+      type:		'timeline',
+      width:		'800',
+      height:		'600',
+      source:		'data.json',
+      embed_id:	'timeline'
+    });
   });
 </script>
 </body>
