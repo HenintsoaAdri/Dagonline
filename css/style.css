@@ -387,6 +387,7 @@ FIN LOGO
 h2.indie-flower{
     border-left: solid #A71726 3px;
     padding-left: 10px;
+	text-transform: capitalize;
 }
 /* VIGNETTE SLIDER	*/
 ul.thumbnails {

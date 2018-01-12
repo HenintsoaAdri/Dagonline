@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/carte-style.css" />
+  <link rel="stylesheet" type="text/css" href="css/calendrier-style.css" />
 </head>
 <body>
 
@@ -684,15 +684,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="img/restoessai.jpg">
+        <img src="img/evenementessai.jpg">
       </div>
 
       <div class="item">
-        <img src="img/restoessai.jpg">
+        <img src="img/evenementessai.jpg">
       </div>
 
       <div class="item">
-        <img src="img/restoessai.jpg">
+        <img src="img/evenementessai.jpg">
       </div>
     </div>
 
@@ -710,7 +710,7 @@
 <!--Fin Slide principal-->
 
 <div class="container-fluid bg-warning text-danger pacifico shadow">
-  <div class="text-center"><h2>Madagascar &agrave; port&eacute;e de clic</h2></div>
+  <div class="text-right p-r-20"><h2>&Eacute;v&egrave;nement</h2></div>
 </div>
 
 <!--Lien rapide-->
@@ -731,87 +731,156 @@
   <!-- Container Carte MDG -->
   <div class="container-fluid p-t-20">
     <div class="row">
-      <div class="col-sm-2">
-        <h4><a href="#">Antananarivo</a></h4>
-        <h4><a href="#">Diégo-Suarez</a></h4>
-        <h4><a href="#">Majunga</a></h4>
-        <h4><a href="#">Tamatave</a></h4>
-        <h4><a href="#">Fianarantsoa</a></h4>
-        <h4><a href="#">Tuléar</a></h4>
+      <!--Calendrier-->
+      <div class="col-sm-4">
+        <div class="calendar-container">
+
+          <header>
+
+            <div class="day">18</div>
+            <div class="month">August</div>
+
+          </header>
+
+          <table class="calendar">
+
+            <thead>
+
+            <tr>
+
+              <td>Mon</td>
+              <td>Tue</td>
+              <td>Wed</td>
+              <td>Thu</td>
+              <td>Fri</td>
+              <td>Sat</td>
+              <td>Sun</td>
+
+            </tr>
+
+            </thead>
+
+            <tbody>
+
+            <tr>
+              <td class="prev-month">29</td>
+              <td class="prev-month">30</td>
+              <td class="prev-month">31</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+            </tr>
+
+            <tr>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+              <td class="current-day">18</td>
+            </tr>
+
+            <tr>
+              <td>19</td>
+              <td>20</td>
+              <td>21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td>25</td>
+            </tr>
+
+            <tr>
+              <td>26</td>
+              <td>27</td>
+              <td>28</td>
+              <td>29</td>
+              <td>30</td>
+              <td>31</td>
+              <td class="next-month">1</td>
+            </tr>
+
+            </tbody>
+
+          </table>
+
+          <div class="ring-left"></div>
+          <div class="ring-right"></div>
+
+        </div> <!-- end calendar-container -->
       </div>
-      <div class="col-sm-4 text-center">
-        <a href="#">
-          <img width="256" alt="Madagascar map" src="img/256px-Madagascar_map.svg.png"/>
-        </a>
-      </div>
-
-      <!-- Carte PUB -->
-      <div class="col-sm-6 text-center">
-        <div class="carte-pub">
-          <div>
-            <img src="img/manou-pub.png" alt="Bijouterie Manou" />
-            <input type="radio" name="radio-set" checked="checked"/>
-            <p><span>Bijouterie Manou</span></p>
-
-            <div>
-              <img src="img/deemar.png" alt="Deemar" />
-              <input type="radio" name="radio-set" />
-              <p><span>Deemar</span></p>
-
-              <div>
-                <img src="img/burhotel.png" alt="Burhotel" />
-                <input type="radio" name="radio-set" />
-                <p><span>Burhotel</span></p>
-
-                <div>
-                  <img src="img/quincgi.png" alt="Quincaillerie GI" />
-                  <input type="radio" name="radio-set" checked="checked"/>
-                  <p><span>Quincaillerie GI</span></p>
-
-                  <div>
-                    <img src="img/wazamoto.png" alt="WazaMoto" />
-                    <input type="radio" name="radio-set" />
-                    <p><span>WazaMoto</span></p>
-
-                    <div>
-                      <img src="img/speed.png" alt="Speed Burger" />
-                      <input type="radio" name="radio-set" />
-                      <p><span>Speed Burger</span></p>
-
-                      <div>
-                        <img src="img/veto.png" alt="Vétérinaire" />
-                        <input type="radio" name="radio-set" checked="checked"/>
-                        <p><span>Vétérinaire</span></p>
-
-                        <div>
-                          <img src="img/dagonline.png" alt="Dagonline" />
-                          <input id="carte-pub-selector-last" type="radio" name="radio-set" />
-                          <p><span>Dagonline</span></p>
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                  </div>
-
-                </div>
-
+      <!--Fin Calendrier-->
+      <div class="col-sm-8">
+        <div class="thumbnails">
+          <div class="col-sm-3">
+            <div class="fff">
+              <div class="thumbnail">
+                <a href="#"><img src="img/360x240.png" alt=""></a>
               </div>
-
+              <div class="caption">
+                <h4>Praesent commodo</h4>
+                <p>Nullam Condimentum Nibh Etiam Sem</p>
+                <a class="btn btn-mini" href="#">» Voir détails</a>
+              </div>
             </div>
-
+          </div>
+          <div class="col-sm-3">
+            <div class="fff">
+              <div class="thumbnail">
+                <a href="#"><img src="img/360x240.png" alt=""></a>
+              </div>
+              <div class="caption">
+                <h4>Praesent commodo</h4>
+                <p>Nullam Condimentum Nibh Etiam Sem</p>
+                <a class="btn btn-mini" href="#">» Voir détails</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="fff">
+              <div class="thumbnail">
+                <a href="#"><img src="img/360x240.png" alt=""></a>
+              </div>
+              <div class="caption">
+                <h4>Praesent commodo</h4>
+                <p>Nullam Condimentum Nibh Etiam Sem</p>
+                <a class="btn btn-mini" href="#">» Voir détails</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="fff">
+              <div class="thumbnail">
+                <a href="#"><img src="img/360x240.png" alt=""></a>
+              </div>
+              <div class="caption">
+                <h4>Praesent commodo</h4>
+                <p>Nullam Condimentum Nibh Etiam Sem</p>
+                <a class="btn btn-mini" href="#">» Voir détails</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <!-- Fin Container Carte PUB -->
     </div>
   </div>
   <!--Fin Container Carte MDG-->
 
   <!-- Container Partie Evenementiel-->
   <div class="container-fluid">
-    <h2 class="indie-flower">&Eacute;V&Egrave;NEMENTIEL</h2>
+    <h2 class="indie-flower">&Eacute;V&Egrave;NEMENTS DU MOIS</h2>
     <div class="row main-article">
       <div class="col-sm-8">
         <!--Grand Article-->
@@ -838,7 +907,7 @@
                     <div class="col-sm-3">
                       <div class="fff">
                         <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
                         </div>
                         <div class="caption">
                           <h4>Praesent commodo</h4>
@@ -850,7 +919,7 @@
                     <div class="col-sm-3">
                       <div class="fff">
                         <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
                         </div>
                         <div class="caption">
                           <h4>Praesent commodo</h4>
@@ -862,7 +931,7 @@
                     <div class="col-sm-3">
                       <div class="fff">
                         <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
                         </div>
                         <div class="caption">
                           <h4>Praesent commodo</h4>
@@ -874,7 +943,7 @@
                     <div class="col-sm-3">
                       <div class="fff">
                         <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
                         </div>
                         <div class="caption">
                           <h4>Praesent commodo</h4>
@@ -890,7 +959,7 @@
                     <div class="col-sm-3">
                       <div class="fff">
                         <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
                         </div>
                         <div class="caption">
                           <h4>Praesent commodo</h4>
@@ -902,7 +971,7 @@
                     <div class="col-sm-3">
                       <div class="fff">
                         <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
                         </div>
                         <div class="caption">
                           <h4>Praesent commodo</h4>
@@ -914,7 +983,7 @@
                     <div class="col-sm-3">
                       <div class="fff">
                         <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
                         </div>
                         <div class="caption">
                           <h4>Praesent commodo</h4>
@@ -926,7 +995,7 @@
                     <div class="col-sm-3">
                       <div class="fff">
                         <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
                         </div>
                         <div class="caption">
                           <h4>Praesent commodo</h4>
@@ -942,7 +1011,7 @@
                     <div class="col-sm-3">
                       <div class="fff">
                         <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
                         </div>
                         <div class="caption">
                           <h4>Praesent commodo</h4>
@@ -954,7 +1023,7 @@
                     <div class="col-sm-3">
                       <div class="fff">
                         <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
                         </div>
                         <div class="caption">
                           <h4>Praesent commodo</h4>
@@ -966,7 +1035,7 @@
                     <div class="col-sm-3">
                       <div class="fff">
                         <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
                         </div>
                         <div class="caption">
                           <h4>Praesent commodo</h4>
@@ -978,7 +1047,7 @@
                     <div class="col-sm-3">
                       <div class="fff">
                         <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
                         </div>
                         <div class="caption">
                           <h4>Praesent commodo</h4>
@@ -1012,414 +1081,6 @@
     </div>
   </div>
   <!-- Fin Container Partie Evenement-->
-
-  <!-- Container Partie Resto-->
-  <div class="container-fluid">
-    <h2 class="indie-flower">RESTAURANT</h2>
-    <div class="row">
-      <div class="col-sm-8">
-        <!--Grand Article-->
-        <div class="row main-article">
-          <div class="col-sm-8 p-r-20">
-            <img src="img/restaurantessai.jpg" alt=""/>
-          </div>
-          <div class="col-sm-4 p-l-20 text-white">
-            <h3 class="pacifico">Restaurant Les Saveurs</h3>
-            <p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
-            <div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
-          </div>
-        </div>
-        <!--Fin Grand Article Resto-->
-        <br>
-
-        <!--Vignette Article Resto-->
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="carousel slide" id="vignetteRestaurant">
-              <div class="carousel-inner">
-                <div class="item active">
-                  <div class="thumbnails">
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- /Slide1 -->
-                <div class="item">
-                  <div class="thumbnails">
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- /Slide2 -->
-                <div class="item">
-                  <div class="thumbnails">
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- /Slide3 -->
-              </div>
-
-
-              <nav>
-                <ul class="control-box pager pull-right">
-                  <li><a data-slide="prev" href="#vignetteRestaurant" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
-                  <li><a data-slide="next" href="#vignetteRestaurant" class=""><i class="glyphicon glyphicon-chevron-right"></i></a></li>
-                </ul>
-              </nav>
-              <!-- /.control-box -->
-
-            </div><!-- /#vignetteRestaurant -->
-          </div>
-        </div>
-        <!--Fin Vignette Article Resto-->
-      </div>
-
-      <div class="col-sm-4">
-        <img src="img/smartup/1.png" alt="Post" class="img-responsive">
-      </div>
-    </div>
-  </div>
-  <!-- Fin Container Partie Resto-->
-
-  <!-- Container Partie Hotel-->
-  <div class="container-fluid">
-    <h2 class="indie-flower">H&Ocirc;TEL</h2>
-    <div class="row">
-      <div class="col-sm-8">
-        <!--Grand Article Hotel-->
-        <div class="row main-article">
-          <div class="col-sm-8 p-r-20">
-            <img src="img/hotelessai.jpg" alt=""/>
-          </div>
-          <div class="col-sm-4 p-l-20 text-white">
-            <h3 class="pacifico">H&ocirc;tel Sakamanga</h3>
-            <p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
-            <div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
-          </div>
-        </div>
-        <!--Fin Grand Article Hotel-->
-        <br>
-
-        <!--Vignette Article Hotel-->
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="carousel slide" id="vignetteHotel">
-              <div class="carousel-inner">
-                <div class="item active">
-                  <div class="thumbnails">
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- /Slide1 -->
-                <div class="item">
-                  <div class="thumbnails">
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- /Slide2 -->
-                <div class="item">
-                  <div class="thumbnails">
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="fff">
-                        <div class="thumbnail">
-                          <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
-                        </div>
-                        <div class="caption">
-                          <h4>Praesent commodo</h4>
-                          <p>Nullam Condimentum Nibh Etiam Sem</p>
-                          <a class="btn btn-mini" href="#">» Voir détails</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- /Slide3 -->
-              </div>
-
-
-              <nav>
-                <ul class="control-box pager pull-right">
-                  <li><a data-slide="prev" href="#vignetteHotel" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
-                  <li><a data-slide="next" href="#vignetteHotel" class=""><i class="glyphicon glyphicon-chevron-right"></i></a></li>
-                </ul>
-              </nav>
-              <!-- /.control-box -->
-
-            </div><!-- /#vignetteHotel -->
-          </div>
-        </div>
-        <!--Fin Vignette Article Hotel-->
-      </div>
-
-      <div class="col-sm-4">
-        <img src="img/smartup/1.png" alt="Post" class="img-responsive">
-      </div>
-    </div>
-  </div>
-  <!-- Fin Container Partie Hotel-->
 </div>
 <!--Fin Corps-->
 
