@@ -1,7 +1,6 @@
 html, body{
 	background-color: #101010;
 }
-
 /*==========================================
 LOGO
 ==========================================*/
@@ -35,6 +34,7 @@ LOGO
 .img-logo-dagonline:hover {
 	border-width: 0;
 	border-color: rgba(0, 0, 0, 0.5);
+    color: #555;
 }
 
 /*==========================================
@@ -145,7 +145,6 @@ FIN FONT
 	background: -o-linear-gradient(left,#A71726, #DF1D28, #A71726); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(left,#A71726, #DF1D28, #A71726); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(left,#A71726, #DF1D28, #A71726); /* Standard syntax */
-	background-color: transparent !important;
 }
 
 input:focus, select:focus{
@@ -191,6 +190,9 @@ input:focus, select:focus{
 .p-b-20{padding-bottom: 20px;}
 .p-l-20{padding-left: 20px;}
 .p-r-20{padding-right: 20px;}
+.shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
 
 #body{
 	background-image: url("../img/papyrus-texture.jpg");
@@ -201,10 +203,14 @@ input:focus, select:focus{
 	border-bottom: solid #DF1D28 25px;
 	padding-bottom: 5%;
 }
+/*==========================================
+MENU CUSTOMIZE
+==========================================*/
 .dropdown > a:hover{
-	background-image: url("../img/menu-current.png");
+	background-image: url("../img/arrows.svg");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center bottom;
+    background-size: 1em;
 }
 .dropdown:hover .dropdown-menu{
 	display : block;
@@ -225,9 +231,6 @@ input:focus, select:focus{
 .dropdown{
 	position: static !important;
 }
-.navbar-nav{
-	position: absolute;
-}
 .dropdown hr{
 	margin: 0;
 	margin-right: -15px;
@@ -241,6 +244,20 @@ input:focus, select:focus{
 .dropdown-menu a{
 	color: #e3e3e3!important;
 }
+.dropdown-menu img{
+    width: 75px;
+    margin: auto;
+}
+.dropdown-header:hover .dropdown-ul{
+	display : block;
+}
+.dropdown-ul{
+	-webkit-transition:all 0.2s ease-out;
+	-moz-transition:all 0.2s ease-out;
+	-ms-transition:all 0.2s ease-out;
+	-o-transition:all 0.2s ease-out;
+	transition:all 0.2s ease-out;
+}
 .more a{
 	color: #ffc93e !important;
 }
@@ -251,18 +268,64 @@ input:focus, select:focus{
 	border-color: transparent;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+/*==========================================
+FIN MENU CUSTOMIZE
+==========================================*/
+
 .affix {
 	top: 0;
 	width: 100%;
 	z-index: 9999 !important;
 }
-
 .affix + .container-fluid {
 	padding-top: 70px;
 }
+/*==========================================
+LOGO
+==========================================*/
+.navbar-brand{
+	position: relative;
+	top:-45px;
+	-webkit-transition:all 0.2s ease-out;
+	-moz-transition:all 0.2s ease-out;
+	-ms-transition:all 0.2s ease-out;
+	-o-transition:all 0.2s ease-out;
+	transition:all 0.2s ease-out;
+}
+.affix .navbar-brand {
+	top : -15px;
+	left: 15px;
+}
+.affix .navbar-brand > img{
+	width: 60px;
+}
+.navbar-brand > img {
+	-webkit-transition:all 0.5s ease-out;
+	-moz-transition:all 0.5s ease-out;
+	-ms-transition:all 0.5s ease-out;
+	-o-transition:all 0.5s ease-out;
+	transition:all 0.5s ease-out;
+	width: 125px;
+}
+.navbar-brand > img:hover{
+    cursor: pointer;
+	-webkit-transform:scale(0.9);
+	-moz-transform:scale(0.9);
+	-ms-transform:scale(0.9);
+	-o-transform:scale(0.9);
+	transform:scale(0.9);
+	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.8) !important;
+}
+.affix .navbar-brand > img:hover{
+	width: 60px;
+	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5) !important;
+}
+/*==========================================
+FIN LOGO
+==========================================*/
 .jumbotron{
 	background-color: #fff;
-	background-image: url(../img/logo.png);
+	background-image: url(../img/logo1.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	color: white;
@@ -281,33 +344,91 @@ input:focus, select:focus{
 	left: 0px;
 	z-index: 1;
 }
-.shadow{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+.jumbotron h1{
+    background-color: rgba(0,0,0,0.5);
+    background: -webkit-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* Standard syntax */
 }
+/* MENU RAPIDE	*/
 .menu-rapide{
 	position: fixed;
 	top: 50%;
-	right: -70px;
-	font-size: 25px;
+    margin-top: -175px;
+	right: -80px;
 	z-index: 99998;
+    font-size: 25px;
 	background-color: #A71726;
-	padding: 5px;
-	color: #fff;
+	padding-right: 15px;
+    padding-left: 5px;
+	color: #ffebc2;
 	border-bottom-left-radius: 50%;
 	border-top-left-radius: 50%;
 }
+.menu-rapide .btn{
+	border-radius: 50% !important;
+    font-size: 1.25em !important;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background: rgba(255, 235, 194,0.1);
+	-webkit-transition: background 0.5s, color 0.2s;
+	-moz-transition: background 0.5s, color 0.2s;
+	transition: background 0.5s, color 0.2s;
+	cursor: pointer;
+}
+.menu-rapide .btn:after {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	content: '';
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.menu-rapide .btn:after {
+	top: -7px;
+	left: -7px;
+	padding: 7px;
+	box-shadow: 0 0 0 4px #ffebc2;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-webkit-transform: scale(.8);
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transition: transform 0.2s, opacity 0.2s;
+	transform: scale(.8);
+	opacity: 0;
+}
+
 .menu-rapide:hover{
 	right:0%;
 	background-color: rgba(167,23,38,0.75);
 	transition: 0.3s;
 }
-.menu-rapide .btn{
-	background-color: transparent;
-	font-size: 1.25em !important;
+.menu-rapide .btn:hover {
+	background: rgba(255, 235, 194,1);
 }
+.menu-rapide .btn:hover .fa{
+	color: #A71726;
+}
+.menu-rapide .btn:hover:after {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+/* FIN MENU RAPIDE	*/
 
 .main-article .text-white{
 	background-color: #DA2235;
+}
+h2.indie-flower{
+    border-left: solid #A71726 3px;
+    padding-left: 10px;
 }
 /* VIGNETTE SLIDER	*/
 ul.thumbnails {
@@ -315,6 +436,7 @@ ul.thumbnails {
 }
 /* FIN VIGNETTE SLIDER	*/
 
+<<<<<<< HEAD
 /* SLIDER CARTE	*/
 
 /* FIN SLIDER CARTE	*/
@@ -528,6 +650,26 @@ ul.thumbnails {
   font-size: 13px;
 }
 
+.wmuSliderPrev, .wmuSliderNext {
+	position: absolute;
+	width: 70px;
+	height: 120px;
+	text-indent: -9999px;
+	background: url(../img/img-sprite.png)no-repeat;
+	top: 27%;
+	z-index: 2;
+	cursor: pointer;
+}
+.wmuSliderPrev {
+	background-position: -20px -21px;
+	left: 35px;
+}
+.wmuSliderNext {
+	background-position: -100px -21px;
+	right: 10px;
+	
+}
+
 
 /* FIN PETITES ANNONCES	*/
 
@@ -601,3 +743,15 @@ ul.thumbnails {
 }
 
 /* FIN GUIDE EVENEMENTIEL	*/
+
+@media screen and (max-width: 900px){
+    .navbar-nav li{
+        text-align: center;
+    }
+    .navbar-brand {
+        top: -30px;
+    }
+    .navbar-brand img{
+        width: 90px;
+    }
+}
