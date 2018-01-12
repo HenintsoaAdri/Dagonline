@@ -35,3 +35,17 @@ jQuery(document).ready(function ($) {
 
 });
 
+$('.buy').click(function(){
+  $('.bottom').addClass("clicked");
+});
+
+$('.remove').click(function(){
+  $('.bottom').removeClass("clicked");
+});
+
+$(".dropdown-header").hover(function(){
+    $('.dropdown-ul').show();
+},function(){
+    $('.dropdown-ul').hide();
+});
+
