@@ -173,7 +173,7 @@ input:focus, select:focus{
 /*==========================================
 MENU CUSTOMIZE
 ==========================================*/
-.dropdown > a:hover{
+.dropdown-toggle:hover, .dropdown:hover .dropdown-toggle{
 	background-image: url("../img/arrows.svg");
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -416,33 +416,22 @@ ul.thumbnails {
 /* FIN VIGNETTE SLIDER	*/
 
 /* PETITES ANNONCES	*/
-
-.petites-annonces{
-	text-align: center;
-	opacity: 1;
-}
-
-.btn-rechercher-annonces{
-	width: 65%;
-}
-
-.btn-deposer-annonces{
-	width: 65%;
-    border: 1px solid #31708f;
+.btn-annonces{
+    width: 65%;
     outline: none;
     text-align: center;
     font-family: "Helvetica", Arial;
+}
+
+.btn-deposer-annonces{
+    border: 1px solid #31708f;
 	background-color: #31708f;
 }
 
 .btn-voir-annonces{
-	width: 65%;
     border: 1px solid #31708f;
+    background-color: #fff;
 	color: #31708f;
-    outline: none;
-    text-align: center;
-    font-family: "Helvetica", Arial;
-	background-color: #fff;
 }
 
 .wrapper {
@@ -452,7 +441,7 @@ ul.thumbnails {
   margin: auto;
   position: relative;
   overflow: hidden;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
   box-shadow: 0;
   transform: scale(0.95);
   transition: box-shadow 0.5s, transform 0.5s;
