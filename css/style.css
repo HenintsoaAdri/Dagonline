@@ -170,6 +170,12 @@ input:focus, select:focus{
 	border-bottom: solid #DF1D28 25px;
 	padding-bottom: 5%;
 }
+#dagonline{
+  display: block;
+  height: 50px;
+  margin-top: -50px;
+  visibility: hidden;
+}
 /*==========================================
 MENU CUSTOMIZE
 ==========================================*/
@@ -242,7 +248,7 @@ FIN MENU CUSTOMIZE
 .affix {
 	top: 0;
 	width: 100%;
-	z-index: 9999 !important;
+	z-index: 9998 !important;
 }
 .affix + .container-fluid {
 	padding-top: 70px;
