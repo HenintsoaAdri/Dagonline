@@ -251,13 +251,6 @@ MENU CUSTOMIZE
 .dropdown-header:hover .dropdown-ul{
 	display : block;
 }
-.dropdown-ul{
-	-webkit-transition:all 0.2s ease-out;
-	-moz-transition:all 0.2s ease-out;
-	-ms-transition:all 0.2s ease-out;
-	-o-transition:all 0.2s ease-out;
-	transition:all 0.2s ease-out;
-}
 .more a{
 	color: #ffc93e !important;
 }
