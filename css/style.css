@@ -179,7 +179,7 @@ input:focus, select:focus{
 /*==========================================
 MENU CUSTOMIZE
 ==========================================*/
-.dropdown-toggle:hover, .dropdown:hover .dropdown-toggle{
+.dropdown:hover .dropdown-toggle{
 	background-image: url("../img/arrows.svg");
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -188,6 +188,7 @@ MENU CUSTOMIZE
 .dropdown:hover .dropdown-menu{
 	display : block;
 }
+
 .dropdown-menu{
 	background-color: #333333;
 	width: 100%;
@@ -220,9 +221,6 @@ MENU CUSTOMIZE
 .dropdown-menu img{
     width: 75px;
     margin: auto;
-}
-.dropdown-header:hover .dropdown-ul{
-	display : block;
 }
 .dropdown-ul{
 	-webkit-transition:all 0.2s ease-out;
@@ -332,7 +330,7 @@ FIN LOGO
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: url(../img/arrows.svg) 97.5% / 1em no-repeat #fff;
+    background: url(../img/arrows1.svg) 97.5% / 1em no-repeat #fff;
 }
 
 /* MENU RAPIDE	*/
