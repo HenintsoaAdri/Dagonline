@@ -411,6 +411,7 @@ FIN LOGO
 
 .main-article .text-white{
 	background-color: #DA2235;
+	height: 320px;
 }
 h2.indie-flower{
     border-left: solid #A71726 3px;
@@ -706,6 +707,7 @@ ul.thumbnails {
     }
 }
 
+<<<<<<< HEAD
 /*----------------------------
 	Styling the timeline
 -----------------------------*/
@@ -826,3 +828,12 @@ ul.thumbnails {
     color: #666;
     cursor: pointer;
 }
+=======
+#grandEvenement .carousel-control{
+	color: transparent;
+	text-shadow: none;
+}
+#grandEvenement .carousel-control:hover{
+	color: #fff;
+}
+>>>>>>> 21d25d90bc9d5b70a2fb235f8637c18e8febf261

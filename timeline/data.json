@@ -2,10 +2,10 @@
 {
     "timeline":
     {
-        "headline":"Johnny B Goode",
+        "headline":"EVENT TIMELINE",
         "type":"default",
-		"startDate":"2009,1",
-		"text":"<i><span class='c1'>Designer</span> & <span class='c2'>Developer</span></i>",
+		"startDate":"2018,2",
+		"text":"<i><span class='c1'>Retrouvez facilement tous les </span> <span class='c2'>évènements</span></i>",
 		"asset":
         {
             "media":"assets/img/notes.png",
@@ -14,7 +14,7 @@
         },
         "date": [
             {
-                "startDate":"2009,2",
+                "startDate":"2018,2,3",
                 "headline":"My first experiment in time-lapse photography",
                 "text":"Nature at its finest in this video.",
                 "asset":
@@ -25,18 +25,18 @@
                 }
             },
             {
-                "startDate":"2009,5",
+                "startDate":"2018,5,6",
                 "headline":"Redesign of my portfolio",
-                "text":"",
+                "text":"Evenement unique",
                 "asset":
                 {
-                    "media":"assets/img/shots/sidebar_s3.jpg",
+                    "media":"assets/img/eventessai.jpg",
                     "credit":"<a href='http://dribbble.com/shots/401334-Sidebar'>by Chris Brauckmuller</a>",
                     "caption":""
                 }
             },
             {
-                "startDate":"2009,7",
+                "startDate":"2018,7",
                 "headline":"Another time-lapse experiment",
                 "text":"",
                 "asset":
@@ -47,7 +47,7 @@
                 }
             },
             {
-                "startDate":"2009,10",
+                "startDate":"2018,10",
                 "headline":"Developed a Gmail Client",
                 "text":"",
                 "asset":
@@ -58,7 +58,7 @@
                 }
             },
             {
-                "startDate":"2010,3",
+                "startDate":"2018,3",
                 "headline":"Logo Design for a pet shop",
                 "text":"",
                 "asset":
@@ -69,7 +69,7 @@
                 }
             },
             {
-                "startDate":"2010,4",
+                "startDate":"2018,4",
                 "headline":"Developed an iPad newspaper application",
                 "text":"It was a challenge to create both the design and code in a week.",
                 "asset":
@@ -80,7 +80,7 @@
                 }
             },
             {
-                "startDate":"2010,8",
+                "startDate":"2018,8",
                 "headline":"Illustration for a big client.",
                 "text":"",
                 "asset":
@@ -91,7 +91,7 @@
                 }
             },
             {
-                "startDate":"2010,12",
+                "startDate":"2018,12",
                 "headline":"Advert for Volkswagen",
                 "text":"Created the website for their new advertising campaign.",
                 "asset":
