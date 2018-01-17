@@ -702,3 +702,11 @@ ul.thumbnails {
         width: 90px;
     }
 }
+
+#grandEvenement .carousel-control{
+	color: transparent;
+	text-shadow: none;
+}
+#grandEvenement .carousel-control:hover{
+	color: #fff;
+}
