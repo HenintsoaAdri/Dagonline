@@ -1,42 +1,9 @@
 html, body{
 	background-color: #101010;
 }
-/*==========================================
-LOGO
-==========================================*/
-
-.img-logo-dagonline{
-	margin-top: -47px;
-    margin-left: -14px;
-    width: 150px;
-	
-	display: inline-block; width: 100px; height: 100px;
-	border-width: 50px;
-	border-color: rgba(0,0,0,0);
-	
-	border-radius: 100%;
-	-moz-border-radius: 100%;
-	-webkit-border-radius: 100%;
-	
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	
-	-webkit-transition: 0.5s ease;
-	-moz-transition: 0.5s ease;
-	-ms-transition: 0.5s ease;
-	-o-transition: 0.5s ease;
-	transition: 0.5s ease;
-	
-	border-style: solid;
+footer{
+    color: #666666;
 }
-
-.img-logo-dagonline:hover {
-	border-width: 0;
-	border-color: rgba(0, 0, 0, 0.5);
-    color: #555;
-}
-
 /*==========================================
 PRE LOADER
 ==========================================*/
@@ -203,10 +170,16 @@ input:focus, select:focus{
 	border-bottom: solid #DF1D28 25px;
 	padding-bottom: 5%;
 }
+#dagonline{
+  display: block;
+  height: 50px;
+  margin-top: -50px;
+  visibility: hidden;
+}
 /*==========================================
 MENU CUSTOMIZE
 ==========================================*/
-.dropdown > a:hover{
+.dropdown:hover .dropdown-toggle{
 	background-image: url("../img/arrows.svg");
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -215,6 +188,7 @@ MENU CUSTOMIZE
 .dropdown:hover .dropdown-menu{
 	display : block;
 }
+
 .dropdown-menu{
 	background-color: #333333;
 	width: 100%;
@@ -248,8 +222,16 @@ MENU CUSTOMIZE
     width: 75px;
     margin: auto;
 }
+
 .dropdown-header:hover .dropdown-ul{
 	display : block;
+}
+.dropdown-ul{
+	-webkit-transition:all 0.2s ease-out;
+	-moz-transition:all 0.2s ease-out;
+	-ms-transition:all 0.2s ease-out;
+	-o-transition:all 0.2s ease-out;
+	transition:all 0.2s ease-out;
 }
 .more a{
 	color: #ffc93e !important;
@@ -268,7 +250,7 @@ FIN MENU CUSTOMIZE
 .affix {
 	top: 0;
 	width: 100%;
-	z-index: 9999 !important;
+	z-index: 9998 !important;
 }
 .affix + .container-fluid {
 	padding-top: 70px;
@@ -344,6 +326,17 @@ FIN LOGO
     background: -moz-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Firefox 3.6 to 15 */
     background: linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* Standard syntax */
 }
+.jumbotron select::-ms-expand {
+    display: none; /* remove default arrow on ie10 and ie11 */
+}
+.jumbotron select {
+    padding: 5px 35px 5px 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../img/arrows1.svg) 97.5% / 1em no-repeat #fff;
+}
+
 /* MENU RAPIDE	*/
 .menu-rapide{
 	position: fixed;
@@ -422,6 +415,7 @@ FIN LOGO
 h2.indie-flower{
     border-left: solid #A71726 3px;
     padding-left: 10px;
+	text-transform: uppercase;
 }
 /* VIGNETTE SLIDER	*/
 ul.thumbnails {
@@ -429,38 +423,23 @@ ul.thumbnails {
 }
 /* FIN VIGNETTE SLIDER	*/
 
-<<<<<<< HEAD
-/* SLIDER CARTE	*/
-
-/* FIN SLIDER CARTE	*/
-
 /* PETITES ANNONCES	*/
-
-.petites-annonces{
-	text-align: center;
-	opacity: 1;
-}
-
-.btn-rechercher-annonces{
-	width: 65%;
+.btn-annonces{
+    width: 65%;
+    outline: none;
+    text-align: center;
+    font-family: "Helvetica", Arial;
 }
 
 .btn-deposer-annonces{
-	width: 65%;
-    border: 1px solid #4183d7;
-    outline: none;
-    text-align: center;
-    font-family: "OpenSansSemiBold",sans-serif;
+    border: 1px solid #31708f;
+	background-color: #31708f;
 }
 
 .btn-voir-annonces{
-	width: 65%;
-    border: 1px solid #4183d7;
-	color: #4183d7;
-    outline: none;
-    text-align: center;
-    font-family: "OpenSansSemiBold",sans-serif;
-	background: #fff;
+    border: 1px solid #31708f;
+    background-color: #fff;
+	color: #31708f;
 }
 
 .wrapper {
@@ -470,7 +449,7 @@ ul.thumbnails {
   margin: auto;
   position: relative;
   overflow: hidden;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
   box-shadow: 0;
   transform: scale(0.95);
   transition: box-shadow 0.5s, transform 0.5s;
@@ -486,7 +465,7 @@ ul.thumbnails {
 .wrapper .container .top {
   height: 80%;
   width: 100%;
-  background: url(https://s-media-cache-ak0.pinimg.com/736x/49/80/6f/49806f3f1c7483093855ebca1b8ae2c4.jpg) no-repeat center center;
+  background: url("../img/seza.jpg") no-repeat center center;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -591,7 +570,7 @@ ul.thumbnails {
 }
 .wrapper .inside {
   z-index: 9;
-  background: #92879b;
+  background: #31708f;
   width: 140px;
   height: 140px;
   position: absolute;
@@ -631,6 +610,7 @@ ul.thumbnails {
   transform: scale(0.5);
   transform: translateY(-200%);
   transition: opacity 0.2s, transform 0.8s;
+  color: #fff;
 }
 .wrapper .inside .contents table {
   text-align: left;
@@ -654,27 +634,18 @@ ul.thumbnails {
 	cursor: pointer;
 }
 .wmuSliderPrev {
-	background-position: -20px -21px;
+	background-position: -25px -20px;
 	left: 35px;
 }
 .wmuSliderNext {
-	background-position: -100px -21px;
+	background-position: -100px -20px;
 	right: 10px;
 	
 }
 
-
 /* FIN PETITES ANNONCES	*/
 
 /* GUIDE EVENEMENTIEL	*/
-
-.btn--block {
-  background-color: white;
-  border: 1px solid #cccccc;
-  color: #696969;
-  padding: 0.5rem;
-  text-transform: lowercase;
-}
 
 .cards {
   display: flex;
@@ -701,27 +672,13 @@ ul.thumbnails {
   background-color: white;
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
   overflow: hidden;
 }
 .card:hover .card__image {
   filter: contrast(100%);
 }
-.card__content {
-  display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
-  padding: 1rem;
-}
 .card__image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
   filter: contrast(70%);
-  overflow: hidden;
   position: relative;
   transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
 }
@@ -747,4 +704,125 @@ ul.thumbnails {
     .navbar-brand img{
         width: 90px;
     }
+}
+
+/*----------------------------
+	Styling the timeline
+-----------------------------*/
+
+
+#timeline{
+	background:none;
+}
+
+.slider .slider-container-mask .slider-container{
+	background:none;
+}
+
+#timeline div.navigation{
+    background: url('../img/timeline_bg.jpg') repeat;
+    border-top:none;
+}
+
+/* Creating the 3D effect for the timeline navigation */
+
+#timeline div.navigation:before{
+	position:absolute;
+	content:'';
+	height:40px;
+	width:100%;
+	left:0;
+	top:-40px;
+	background: url('../img/timeline_bg.jpg') repeat;
+}
+
+#timeline div.navigation:after{
+	position:absolute;
+	content:'';
+	height:10px;
+	width:100%;
+	left:0;
+	top:-40px;
+	background:repeat-x;
+	
+	background-image: linear-gradient(bottom, #434446 0%, #363839 100%);
+	background-image: -o-linear-gradient(bottom, #434446 0%, #363839 100%);
+	background-image: -moz-linear-gradient(bottom, #434446 0%, #363839 100%);
+	background-image: -webkit-linear-gradient(bottom, #434446 0%, #363839 100%);
+	background-image: -ms-linear-gradient(bottom, #434446 0%, #363839 100%);
+}
+
+
+/* Adding a darker background to the timeline navigation */
+
+#timeline div.timenav-background{
+	background-color:#222 !important;
+ 	background-color:rgba(0,0,0,0.4) !important;
+ 	
+}
+
+#timeline .navigation .timenav-background .timenav-interval-background{
+	background:none;
+}
+
+#timeline .top-highlight{
+	background-color:transparent !important;
+}
+
+/* The zoom-in / zoom-out toolbar */
+
+#timeline .toolbar{
+	border:none !important;
+	background-color: #202222 !important;
+}
+
+#timeline .toolbar div{
+	border:none !important;
+}
+
+/* Styling the timeline numbers on the bottom */
+
+#timeline .navigation .timenav .time .time-interval-minor .minor{
+	margin-left:-1px;
+}
+
+#timeline .navigation .timenav .time .time-interval div{
+	color: #CCCCCC;
+}
+
+/* The vertical lines */
+
+#timeline .navigation .timenav .content .marker .line {
+	background: #242828;
+	box-shadow: 1px 0 0 rgba(255, 255, 255, 0.05);
+}
+
+#timeline .navigation .timenav .content .marker .dot {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-radius: 3px 3px 3px 3px;
+}
+
+/* The previous / next arrows & labels */
+
+.slider .nav-previous .icon {
+	background: url("timeline.png") no-repeat scroll 0 -293px transparent;
+}
+
+.slider .nav-previous,.slider .nav-next{
+	font-family:'Segoe UI',sans-serif;
+}
+
+.slider .nav-next .icon {
+	background: url("timeline.png") no-repeat scroll 72px -221px transparent;
+	width: 70px !important;
+}
+
+.slider .nav-next:hover .icon{
+	position:relative;
+	right:-5px;
+}
+
+.slider .nav-previous:hover, .slider .nav-next:hover {
+    color: #666;
+    cursor: pointer;
 }
