@@ -709,10 +709,6 @@
 </div>
 <!--Fin Slide principal-->
 
-<div class="container-fluid bg-warning text-danger pacifico shadow">
-  <div class="text-right p-r-20"><h2>&Eacute;v&egrave;nement</h2></div>
-</div>
-
 <!--Lien rapide-->
 <div class="btn-group menu-rapide text-white">
   <span class="glyphicon glyphicon-chevron-left"></span>
@@ -728,6 +724,10 @@
 
 <!--Corps-->
 <div id="body">
+  <div class="container-fluid bg-warning text-danger pacifico shadow">
+    <div class="text-right p-r-20"><h2>Restaurant</h2></div>
+  </div>
+
   <!-- Container Tab resto -->
   <div class="container-fluid">
     <div class="row">
@@ -825,17 +825,5 @@
 <script src="js/timeline-min.js"></script>
 <!--JS personnalisé-->
 <script src="js/main.js"></script>
-<script>
-  $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-    createStoryJS({
-      type:		'timeline',
-      width:		'800',
-      height:		'600',
-      source:		'data.json',
-      embed_id:	'timeline'
-    });
-  });
-</script>
 </body>
 </html>

@@ -708,11 +708,6 @@
   </div>
 </div>
 <!--Fin Slide principal-->
-
-<div class="container-fluid bg-warning text-danger pacifico shadow">
-  <div class="text-right p-r-20"><h2>&Eacute;v&egrave;nement</h2></div>
-</div>
-
 <!--Lien rapide-->
 <div class="btn-group menu-rapide text-white">
   <span class="glyphicon glyphicon-chevron-left"></span>
@@ -728,157 +723,194 @@
 
 <!--Corps-->
 <div id="body">
+
+  <div class="container-fluid bg-warning text-danger pacifico shadow">
+    <div class="text-right p-r-20"><h2>&Eacute;v&egrave;nement</h2></div>
+  </div>
   <!-- Container Calendrier && Evenement de date -->
   <div class="container-fluid p-t-20">
     <div class="row">
       <!--Calendrier-->
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <div class="calendar-container">
-
-          <header>
-
-            <div class="day">18</div>
-            <div class="month">Ao&ucirc;t</div>
-
-          </header>
-
-          <table class="calendar">
-
-            <thead>
-
-            <tr>
-
-              <td>Mon</td>
-              <td>Tue</td>
-              <td>Wed</td>
-              <td>Thu</td>
-              <td>Fri</td>
-              <td>Sat</td>
-              <td>Sun</td>
-
-            </tr>
-
-            </thead>
-
-            <tbody>
-
-            <tr>
-              <td class="prev-month">29</td>
-              <td class="prev-month">30</td>
-              <td class="prev-month">31</td>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-            </tr>
-
-            <tr>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
-              <td>8</td>
-              <td>9</td>
-              <td>10</td>
-              <td>11</td>
-            </tr>
-
-            <tr>
-              <td>12</td>
-              <td>13</td>
-              <td>14</td>
-              <td>15</td>
-              <td>16</td>
-              <td>17</td>
-              <td class="current-day">18</td>
-            </tr>
-
-            <tr>
-              <td>19</td>
-              <td>20</td>
-              <td>21</td>
-              <td>22</td>
-              <td>23</td>
-              <td>24</td>
-              <td>25</td>
-            </tr>
-
-            <tr>
-              <td>26</td>
-              <td>27</td>
-              <td>28</td>
-              <td>29</td>
-              <td>30</td>
-              <td>31</td>
-              <td class="next-month">1</td>
-            </tr>
-
-            </tbody>
-
-          </table>
-
+          <div class="calendar-header">
+            <span class="date-selected"></span>
+          </div>
+          <div id="calendar"></div>
           <div class="ring-left"></div>
           <div class="ring-right"></div>
-
         </div> <!-- end calendar-container -->
       </div>
       <!--Fin Calendrier-->
-      <div class="col-sm-8">
-        <h2 class="indie-flower">Liste des &eacute;v&egrave;nements du 18 ao&ucirc;t</h2>
-        <div class="thumbnails">
-          <div class="col-sm-3">
-            <div class="fff">
-              <div class="thumbnail">
-                <a href="#"><img src="img/360x240.png" alt=""></a>
+      <div class="col-sm-9">
+        <h2 class="indie-flower">Liste des &eacute;v&egrave;nements du <span class="date-selected"></span></h2>
+        <div class="carousel slide" id="vignetteJour">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="thumbnails">
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="caption">
-                <h4>Praesent commodo</h4>
-                <p>Nullam Condimentum Nibh Etiam Sem</p>
-                <a class="btn btn-mini" href="#">» Voir détails</a>
+            </div><!-- /Slide1 -->
+            <div class="item">
+              <div class="thumbnails">
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
+            </div><!-- /Slide2 -->
           </div>
-          <div class="col-sm-3">
-            <div class="fff">
-              <div class="thumbnail">
-                <a href="#"><img src="img/360x240.png" alt=""></a>
-              </div>
-              <div class="caption">
-                <h4>Praesent commodo</h4>
-                <p>Nullam Condimentum Nibh Etiam Sem</p>
-                <a class="btn btn-mini" href="#">» Voir détails</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="fff">
-              <div class="thumbnail">
-                <a href="#"><img src="img/360x240.png" alt=""></a>
-              </div>
-              <div class="caption">
-                <h4>Praesent commodo</h4>
-                <p>Nullam Condimentum Nibh Etiam Sem</p>
-                <a class="btn btn-mini" href="#">» Voir détails</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="fff">
-              <div class="thumbnail">
-                <a href="#"><img src="img/360x240.png" alt=""></a>
-              </div>
-              <div class="caption">
-                <h4>Praesent commodo</h4>
-                <p>Nullam Condimentum Nibh Etiam Sem</p>
-                <a class="btn btn-mini" href="#">» Voir détails</a>
-              </div>
-            </div>
-          </div>
+          <nav>
+            <ul class="control-box pager pull-right">
+              <li><a data-slide="prev" href="#vignetteJour" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
+              <li><a data-slide="next" href="#vignetteJour" class=""><i class="glyphicon glyphicon-chevron-right"></i></a></li>
+            </ul>
+          </nav>
+          <!-- /.control-box -->
         </div>
       </div>
     </div>
   </div>
   <!--Fin Container Calendrier && Evenement de date -->
-
 
   <!-- Container Partie Evenementiel-->
   <div class="container-fluid">
@@ -886,15 +918,56 @@
     <div class="row main-article">
       <div class="col-sm-8">
         <!--Grand Article-->
-        <div class="row">
-          <div class="col-sm-8 p-r-20">
-                <img src="img/eventessai.jpg" alt=""/>
+        <div id="grandEvenement" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="row">
+                <div class="col-sm-8 p-r-20">
+                      <img src="img/eventessai.jpg" alt=""/>
+                </div>
+                <div class="col-sm-4 p-l-20 text-white">
+                  <h3 class="pacifico">Just dance</h3>
+                  <p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
+                  <div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-sm-8 p-r-20">
+                  <img src="img/eventessai.jpg" alt=""/>
+                </div>
+                <div class="col-sm-4 p-l-20 text-white">
+                  <h3 class="pacifico">Just dance</h3>
+                  <p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
+                  <div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-sm-8 p-r-20">
+                  <img src="img/eventessai.jpg" alt=""/>
+                </div>
+                <div class="col-sm-4 p-l-20 text-white">
+                  <h3 class="pacifico">Just dance</h3>
+                  <p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
+                  <div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-4 p-l-20 text-white">
-            <h3 class="pacifico">Just dance</h3>
-            <p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
-            <div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
-          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#grandEvenement" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Précédent</span>
+          </a>
+          <a class="right carousel-control" href="#grandEvenement" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Suivant</span>
+          </a>
         </div>
         <!--Fin Grand Article Evenement-->
         <br>
@@ -1082,7 +1155,8 @@
       </div>
     </div>
   </div>
-  <!-- Fin Container Partie Evenement-->
+  <!-- Fin Container Partie Evenementiel-->
+
   <!-- Container Timeline -->
   <div class="container-fluid">
     <div class="row">
@@ -1177,20 +1251,22 @@
 <script src="js/jquery.toast.min.js"></script>
 <!--Animation Carte PUB-->
 <script src="js/carte-pub.js"></script>
+<!--Calendrier-->
+<script src="js/jquery-ui-datepicker.min.js"></script>
 <!--TimeLine-->
 <script src="js/timeline-min.js"></script>
 <!--JS personnalisé-->
 <script src="js/main.js"></script>
+<script src="js/calendrier-function.js"></script>
 <script>
   $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-    createStoryJS({
-      type:		'timeline',
-      width:		'800',
-      height:		'600',
-      source:		'data.json',
-      embed_id:	'timeline'
-    });
+//    createStoryJS({
+//      type:		'timeline',
+//      width:		'800',
+//      height:		'600',
+//      source:		'data.json',
+//      embed_id:	'timeline'
+//    });
   });
 </script>
 </body>

@@ -15,7 +15,9 @@ jQuery(document).ready(function ($) {
         textColor: 'white',
         stack: false,
         loaderBg:'#ffc93e'
-    })
+    });
+    $('[data-toggle="tooltip"]').tooltip();
+
     var interval;
     carteAnimate($(".carte-pub div").first());
     function carteAnimate(selector) {
