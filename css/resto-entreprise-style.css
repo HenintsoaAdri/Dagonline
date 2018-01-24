@@ -1,0 +1,145 @@
+.petit-formal-script{
+    font-family: 'Petit Formal Script', cursive;
+}
+#body{
+    padding: 0;
+    overflow: hidden;
+}
+.restaurant-row, .entreprise-row{
+    position: relative;
+}
+.restaurant-row > .tab, .restaurant-row > .tab,
+.entreprise-row > .tab, .restaurant-row > .tab{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.restaurant-row .tab-content{
+    background-color: rgba(102, 102, 102, 0.5);
+}
+.entreprise-row .tab-content{
+    background-color: rgba(102, 102, 102, 0.5);
+}
+.tab-content{
+     border: solid #ffebc2 2px;
+     position: relative;
+}
+.hidden-xs .restaurant-row .tab-content,
+.hidden-xs .entreprise-row .tab-content{
+    border-radius: 50%;
+    margin: auto;
+    height: 100vh;
+    width: 100vh;
+    margin-top: 15px;
+    box-shadow: 0px 0px 0px 10px rgba(102, 102, 102, 0.5);
+}
+.hidden-xs .restaurant-row .tab-content div.active,
+.hidden-xs .entreprise-row .tab-content div.active{
+    vertical-align: middle;
+    position: relative;
+    top : 50%;
+    transform : translateY(-50%);
+}
+.hidden-xs .entreprise-row .img img,
+.hidden-xs .restaurant-row .img img{
+    width: 99vw;
+    height: 100%;
+}
+.restaurant-row > div,
+.entreprise-row > div{
+    padding: 0;
+    height: 100%;
+}
+.restaurant-row .nav-pills > li > a:hover,
+.restaurant-row .nav-pills > li > a:active,
+.restaurant-row .nav-pills > li > a:focus,
+.restaurant-row .nav-pills > li > a:visited,
+.restaurant-row .nav-pills > li.active > a,
+.entreprise-row .nav-pills > li > a:hover,
+.entreprise-row .nav-pills > li > a:active,
+.entreprise-row .nav-pills > li > a:focus,
+.entreprise-row .nav-pills > li > a:visited,
+.entreprise-row .nav-pills > li.active > a{
+    border-radius: 0;
+    color: #ffebc2;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    background-color: rgba(174, 144, 105, 0.5);
+}
+.entreprise-row .nav-pills > li > a:before,
+.restaurant-row .nav-pills > li > a:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #ffebc2;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.restaurant-row .nav-pills > li > a,
+.entreprise-row .nav-pills > li > a{
+    color: #504636;
+    background-color: rgba(174, 144, 105, 0.5);
+    font-weight: 900;
+}
+.restaurant-row .nav-pills > li > a:hover:before,
+.restaurant-row .nav-pills > li > a:focus:before,
+.restaurant-row .nav-pills > li > a:active:before,
+.restaurant-row .nav-pills > li > a:visited:before,
+.restaurant-row .nav-pills > li.active > a:before,
+.entreprise-row .nav-pills > li > a:hover:before,
+.entreprise-row .nav-pills > li > a:focus:before,
+.entreprise-row .nav-pills > li > a:active:before,
+.entreprise-row .nav-pills > li > a:visited:before,
+.entreprise-row .nav-pills > li.active > a:before
+{
+    left: 30%;
+    right: 30%;
+}
+.restaurant-row .tab-content h3,
+.entreprise-row .tab-content h3{
+    text-transform: uppercase;
+    font-size: 6em;
+}
+.restaurant-row .tab-content h4,
+.entreprise-row .tab-content h4{
+    font-size: 3em;
+}
+.restaurant-row .tab-content p,
+.entreprise-row .tab-content p{
+    font-size: 1.5em;
+}
+.restaurant-row .nav-pills a,
+.entreprise-row .nav-pills a{
+    font-size: 1.5em;
+}
+#SlideVignette{
+    height: 200px;
+}
+.entreprise-row .item > .row > .col-xs-3 > a{
+    position: relative;
+}
+.entreprise-row .item > .row > .col-xs-3:hover .vignette-detail{
+    bottom:0;
+    left: 0;
+    background-color: #333333;
+    color: #ffebc2;
+}
+.entreprise-row .vignette-detail{
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: solid #fff;
+    border-top: solid #fff;
+}

@@ -98,10 +98,13 @@ FIN PRE LOADER
 FONT
 ==========================================*/
 .pacifico{
-	font-family: 'Pacifico', cursive !important;
+	font-family: 'Pacifico', cursive;
 }
 .indie-flower{
 	font-family: 'Indie Flower', cursive;
+}
+.oswald{
+	font-family: 'Oswald', cursive;
 }
 /*==========================================
 FIN FONT
@@ -289,17 +292,17 @@ LOGO
 	-ms-transform:scale(0.9);
 	-o-transform:scale(0.9);
 	transform:scale(0.9);
-	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.8) !important;
+	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3) !important;
 }
 .affix .navbar-brand > img:hover{
 	width: 60px;
-	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5) !important;
+	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3) !important;
 }
 /*==========================================
 FIN LOGO
 ==========================================*/
 .jumbotron{
-	background-color: #fff;
+	background-color: #101010;
 	background-image: url(../img/logo1.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -315,9 +318,10 @@ FIN LOGO
 }
 .jumbotron > .carousel{
 	position:absolute;
-	top : -50%;
-	left: 0px;
+	top : 0;
 	z-index: 1;
+	width: 100vw;
+	height: 100%;
 }
 .jumbotron h1{
     background-color: rgba(0,0,0,0.5);
@@ -336,12 +340,14 @@ FIN LOGO
     appearance: none;
     background: url(../img/arrows1.svg) 97.5% / 1em no-repeat #fff;
 }
-
+#SlidePrincipal .item img{
+	margin: auto;
+}
 /* MENU RAPIDE	*/
 .menu-rapide{
 	position: fixed;
 	top: 50%;
-    margin-top: -175px;
+	transform: translateY(-50%);
 	right: -80px;
 	z-index: 99998;
     font-size: 25px;
@@ -454,6 +460,7 @@ ul.thumbnails {
   box-shadow: 0;
   transform: scale(0.95);
   transition: box-shadow 0.5s, transform 0.5s;
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
 }
 .wrapper:hover {
   transform: scale(1);
@@ -706,134 +713,3 @@ ul.thumbnails {
         width: 90px;
     }
 }
-
-<<<<<<< HEAD
-/*----------------------------
-	Styling the timeline
------------------------------*/
-
-
-#timeline{
-	background:none;
-}
-
-.slider .slider-container-mask .slider-container{
-	background:none;
-}
-
-#timeline div.navigation{
-    background: url('../img/timeline_bg.jpg') repeat;
-    border-top:none;
-}
-
-/* Creating the 3D effect for the timeline navigation */
-
-#timeline div.navigation:before{
-	position:absolute;
-	content:'';
-	height:40px;
-	width:100%;
-	left:0;
-	top:-40px;
-	background: url('../img/timeline_bg.jpg') repeat;
-}
-
-#timeline div.navigation:after{
-	position:absolute;
-	content:'';
-	height:10px;
-	width:100%;
-	left:0;
-	top:-40px;
-	background:repeat-x;
-	
-	background-image: linear-gradient(bottom, #434446 0%, #363839 100%);
-	background-image: -o-linear-gradient(bottom, #434446 0%, #363839 100%);
-	background-image: -moz-linear-gradient(bottom, #434446 0%, #363839 100%);
-	background-image: -webkit-linear-gradient(bottom, #434446 0%, #363839 100%);
-	background-image: -ms-linear-gradient(bottom, #434446 0%, #363839 100%);
-}
-
-
-/* Adding a darker background to the timeline navigation */
-
-#timeline div.timenav-background{
-	background-color:#222 !important;
- 	background-color:rgba(0,0,0,0.4) !important;
- 	
-}
-
-#timeline .navigation .timenav-background .timenav-interval-background{
-	background:none;
-}
-
-#timeline .top-highlight{
-	background-color:transparent !important;
-}
-
-/* The zoom-in / zoom-out toolbar */
-
-#timeline .toolbar{
-	border:none !important;
-	background-color: #202222 !important;
-}
-
-#timeline .toolbar div{
-	border:none !important;
-}
-
-/* Styling the timeline numbers on the bottom */
-
-#timeline .navigation .timenav .time .time-interval-minor .minor{
-	margin-left:-1px;
-}
-
-#timeline .navigation .timenav .time .time-interval div{
-	color: #CCCCCC;
-}
-
-/* The vertical lines */
-
-#timeline .navigation .timenav .content .marker .line {
-	background: #242828;
-	box-shadow: 1px 0 0 rgba(255, 255, 255, 0.05);
-}
-
-#timeline .navigation .timenav .content .marker .dot {
-	background: none repeat scroll 0 0 #FFFFFF;
-	border-radius: 3px 3px 3px 3px;
-}
-
-/* The previous / next arrows & labels */
-
-.slider .nav-previous .icon {
-	background: url("timeline.png") no-repeat scroll 0 -293px transparent;
-}
-
-.slider .nav-previous,.slider .nav-next{
-	font-family:'Segoe UI',sans-serif;
-}
-
-.slider .nav-next .icon {
-	background: url("timeline.png") no-repeat scroll 72px -221px transparent;
-	width: 70px !important;
-}
-
-.slider .nav-next:hover .icon{
-	position:relative;
-	right:-5px;
-}
-
-.slider .nav-previous:hover, .slider .nav-next:hover {
-    color: #666;
-    cursor: pointer;
-}
-=======
-#grandEvenement .carousel-control{
-	color: transparent;
-	text-shadow: none;
-}
-#grandEvenement .carousel-control:hover{
-	color: #fff;
-}
->>>>>>> 21d25d90bc9d5b70a2fb235f8637c18e8febf261
