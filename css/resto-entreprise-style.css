@@ -274,7 +274,7 @@
     vertical-align: middle;
 }
 .modal-body{
-    padding: 0;
+    border-top:solid #DF1D28;
 }
 .modal-content{
     border-radius: 3px;
