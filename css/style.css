@@ -348,6 +348,8 @@ FIN LOGO
 	position: fixed;
 	top: 50%;
 	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
 	right: -80px;
 	z-index: 99998;
     font-size: 25px;
@@ -485,7 +487,9 @@ ul.thumbnails {
   transition: transform 0.5s;
 }
 .wrapper .container .bottom.clicked {
-  transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
 }
 .wrapper .container .bottom h1 {
   margin: 0;
@@ -525,7 +529,9 @@ ul.thumbnails {
   background: #a6cdde;
 }
 .wrapper .container .bottom .left .buy:hover i {
-  transform: translateY(5px);
+	transform: translateY(5px);
+	-webkit-transform: translateY(5px);
+	-ms-transform: translateY(5px);
   color: #00394b;
 }
 .wrapper .container .bottom .right {
@@ -565,7 +571,9 @@ ul.thumbnails {
   background: #9b2847;
 }
 .wrapper .container .bottom .right .remove:hover i {
-  transform: translateY(5px);
+	transform: translateY(5px);
+	-webkit-transform: translateY(5px);
+	-ms-transform: translateY(5px);
 }
 .wrapper .container .bottom .right .remove i {
   transition: transform 0.5s;
@@ -574,7 +582,9 @@ ul.thumbnails {
   color: white;
 }
 .wrapper .container .bottom .right:hover .remove, .wrapper .container .bottom .right:hover .done {
-  transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
 }
 .wrapper .inside {
   z-index: 9;
@@ -610,13 +620,17 @@ ul.thumbnails {
 .wrapper .inside:hover .contents {
   opacity: 1;
   transform: scale(1);
-  transform: translateY(0);
+	transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
 }
 .wrapper .inside .contents {
   padding: 5%;
   opacity: 0;
   transform: scale(0.5);
-  transform: translateY(-200%);
+	transform: translateY(-200%);
+	-webkit-transform: translateY(-200%);
+	-ms-transform: translateY(-200%);
   transition: opacity 0.2s, transform 0.8s;
   color: #fff;
 }

@@ -43,7 +43,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="#" class="navbar-brand">
+      <a href="index.html" class="navbar-brand">
         <img src="img/logo.png" class="img-responsive shadow">
       </a>
     </div>
@@ -740,7 +740,7 @@
             <li class="active petit-formal-script"><a data-toggle="pill" href="#home">Home</a></li>
             <li class="petit-formal-script"><a data-toggle="pill" href="#menu1">A propos</a></li>
             <li class="petit-formal-script"><a data-toggle="pill" href="#menu2">Objectifs</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#menu3">Localisation</a></li>
+            <li class="petit-formal-script"><a data-toggle="pill" href="#localisation">Localisation</a></li>
         </ul>
 
         <div class="tab-content text-white">
@@ -752,17 +752,17 @@
             <p>entreprise@moov.mg</p>
           </div>
           <div id="menu1" class="tab-pane fade">
-            <h4 class="indie-flower">Menu 1</h4>
+            <h4 class="indie-flower">A propos</h4>
             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
           <div id="menu2" class="tab-pane fade">
-            <h4 class="indie-flower">Menu 2</h4>
+            <h4 class="indie-flower">Objectifs</h4>
             <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
           </div>
-          <div id="menu3" class="tab-pane fade">
+          <div id="localisation" class="tab-pane fade">
             <h4 class="indie-flower">Trouvez nous ici !</h4>
-			<div id="mask">
-				<iframe width="500" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.dk/?ie=UTF8&amp;t=m&amp;ll=55.677875,11.075935&amp;spn=0.048395,0.086002&amp;z=13&amp;output=embed"></iframe>
+			<div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60381.96674064899!2d47.532478409619095!3d-18.937018220649918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2smg!4v1516881806035" width="500" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
           </div>
         </div>
@@ -783,7 +783,7 @@
             <li class="active petit-formal-script"><a data-toggle="pill" href="#home-xs">Home</a></li>
             <li class="petit-formal-script"><a data-toggle="pill" href="#menu1-xs">A propos</a></li>
             <li class="petit-formal-script"><a data-toggle="pill" href="#menu2-xs">Objectifs</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#menu3-xs">Localisation</a></li>
+            <li class="petit-formal-script"><a data-toggle="pill" href="#localisation-xs">Localisation</a></li>
           </ul>
         </div>
         <div class="col-xs-9 text-center">
@@ -803,9 +803,11 @@
               <h4 class="indie-flower">Objectifs</h4>
               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
             </div>
-            <div id="menu3-xs" class="tab-pane fade">
-              <h4 class="indie-flower">Localiisation</h4>
-              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <div id="localisation-xs" class="tab-pane fade">
+              <h4 class="indie-flower">Trouvez nous ici</h4>
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60381.96674064899!2d47.532478409619095!3d-18.937018220649918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2smg!4v1516881806035" width="500" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
             </div>
           </div>
         </div>
@@ -818,44 +820,44 @@
   <div class="container-fluid">
     <div class="row entreprise-row">
       <div class="col-sm-12">
-        <div id="SlideVignette" class="carousel slide" data-ride="carouse">
+        <div id="SlideVignette" class="carousel slide" data-ride="carousel">
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
               <div class="row text-center">
-                <div class="col-xs-3 vignette">
-                  <img src="img/entreprisepage1.jpg" alt="">
+                <div class="col-sm-3 vignette">
+                  <a href="#detailVignette1" data-toggle="modal"><img src="img/entreprisepage1.jpg" alt=""></a>
                   <div class="vignette-detail">
                     <h3>This is a title</h3>
                     <p>This is a short description.</p>
-                    <a href="#" class="info">Voir details</a>
+                    <a href="#detailVignette1" class="more" data-toggle="modal">Voir details</a>
                   </div>
                 </div>
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/entreprisepage2.jpg" alt=""></a>
+                <div class="col-sm-3 vignette">
+                  <a href="#detailVignette2" data-toggle="modal"><img src="img/entreprisepage2.jpg" alt=""></a>
                   <div class="vignette-detail">
                     <h3>This is a title</h3>
                     <p>This is a short description.</p>
-                    <a href="#" class="info">Voir details</a>
-                  </div>
-
-                </div>
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/entreprisepage3.jpg" alt=""></a>
-                  <div class="vignette-detail">
-                    <h3>This is a title</h3>
-                    <p>This is a short description.</p>
-                    <a href="#" class="info">Voir details</a>
+                    <a href="#detailVignette2" class="more" data-toggle="modal">Voir details</a>
                   </div>
                 </div>
 
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/entreprisepage4.jpg" alt=""></a>
+                <div class="col-sm-3 vignette">
+                  <a href="#detailVignette3" data-toggle="modal"><img src="img/entreprisepage3.jpg" alt=""></a>
                   <div class="vignette-detail">
                     <h3>This is a title</h3>
                     <p>This is a short description.</p>
-                    <a href="#" class="info">Voir details</a>
+                    <a href="#detailVignette3" class="more" data-toggle="modal">Voir details</a>
+                  </div>
+                </div>
+
+                <div class="col-sm-3 vignette">
+                  <a href="#detailVignette4" data-toggle="modal"><img src="img/entreprisepage4.jpg" alt=""></a>
+                  <div class="vignette-detail">
+                    <h3>This is a title</h3>
+                    <p>This is a short description.</p>
+                    <a href="#detailVignette4" class="more" data-toggle="modal">Voir details</a>
                   </div>
                 </div>
               </div>
@@ -863,16 +865,16 @@
 
             <div class="item">
               <div class="row text-center">
-                <div class="col-xs-3">
+                <div class="col-sm-3">
                   <a href="#"><img src="img/360x240.png" alt=""></a>
                 </div>
-                <div class="col-xs-3">
+                <div class="col-sm-3">
                   <a href="#"><img src="img/360x240.png" alt=""></a>
                 </div>
-                <div class="col-xs-3">
+                <div class="col-sm-3">
                   <a href="#"><img src="img/360x240.png" alt=""></a>
                 </div>
-                <div class="col-xs-3">
+                <div class="col-sm-3">
                   <a href="#"><img src="img/360x240.png" alt=""></a>
                 </div>
               </div>
@@ -889,6 +891,64 @@
             <span class="sr-only">Suivant</span>
           </a>
         </div>
+        <!-- Vignette Details Modals -->
+        <div id="detailVignette1" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <img src="img/entreprisepage1.jpg" alt="">
+                <div class="pull-right">
+                  <p>Some text in the modal.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="detailVignette2" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <img src="img/entreprisepage2.jpg" alt="">
+                <div class="pull-right">
+                  <p>In mattis vel justo et porttitor. Sed laoreet tincidunt sem, a eleifend dui. Donec malesuada eros vel urna interdum tincidunt. Aliquam massa massa, pulvinar vitae aliquam nec, efficitur pretium velit. Cras pulvinar ac est in varius. Proin a ultrices nibh. Praesent ornare varius euismod. Suspendisse viverra eget est a eleifend.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="detailVignette3" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <img src="img/entreprisepage3.jpg" alt="">
+                <div class="pull-right">
+                  <p>Some text in the modal.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="detailVignette4" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <img src="img/entreprisepage4.jpg" alt="">
+                <div class="pull-right">
+                  <p>Some text in the modal.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Vignette Details Modals -->
       </div>
     </div>
   </div>
