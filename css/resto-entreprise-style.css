@@ -128,6 +128,7 @@
     position: relative;
 }
 .entreprise-row .item > .row > .col-xs-3:hover .vignette-detail{
+	opacity:0.9;
     bottom:0;
     left: 0;
     background-color: #333333;
@@ -143,3 +144,65 @@
     border-bottom: solid #fff;
     border-top: solid #fff;
 }
+
+
+/* ENTREPRISE	*/
+
+
+.vignette-detail a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #000;
+  color: #fff;
+  font-family: Raleway, serif;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000
+}
+
+.vignette-detail a.info:hover {
+  box-shadow: 0 0 5px #000
+}
+
+.vignette-detail p {
+  font-family: Merriweather, serif;
+  font-style: italic;
+  font-size: 14px;
+  position: relative;
+  color: #fff;
+  padding: 0px 20px 0px;
+  text-align: center
+}
+
+.vignette-detail h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  font-family: Raleway, serif;
+  padding: 10px;
+  /*background: rgba(0, 0, 0, 0.8);*/
+  margin: 20px 0 0 0
+}
+
+#mask {
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    z-index: 99;
+    height: 500px;
+    width: 500px;
+    margin: -10px 0 0 -200px;
+    top: 50%;
+    left: 42%;
+}
+
+#mask iframe {
+    position: absolute;
+    border-radius: 50%;
+    top: 0; left: 0;
+    z-index: 50;
+}
+
+/* FIN ENTREPRISE	*/
