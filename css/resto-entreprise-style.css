@@ -124,22 +124,28 @@
 #SlideVignette{
     height: 200px;
 }
-.entreprise-row .item > .row > .col-xs-3 > a{
+.entreprise-row .vignette{
     position: relative;
-}
-.entreprise-row .item > .row > .col-xs-3:hover .vignette-detail{
-    bottom:0;
-    left: 0;
-    background-color: #333333;
-    color: #ffebc2;
+    padding: 0;
 }
 .entreprise-row .vignette-detail{
     position: absolute;
-    right: 0;
     left: 0;
+    top:100%;
     text-align: center;
     width: 100%;
     height: 100%;
     border-bottom: solid #fff;
     border-top: solid #fff;
+    -webkit-transition:all 0.3s ease-out;
+    -moz-transition:all 0.2s ease-out;
+    -ms-transition:all 0.2s ease-out;
+    -o-transition:all 0.2s ease-out;
+    transition:all 1s ease-out;
+    color: #ffebc2;
+    background-color: rgba(51, 51, 51, 0.7);
+}
+.entreprise-row .vignette:hover .vignette-detail{
+    top:0;
+    padding: 3em;
 }
