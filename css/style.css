@@ -253,7 +253,6 @@ FIN MENU CUSTOMIZE
 .affix {
 	top: 0;
 	width: 100%;
-	z-index: 9998 !important;
 }
 .affix + .container-fluid {
 	padding-top: 70px;
