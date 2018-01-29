@@ -2,6 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
+.resto-main .row:first-child{
+    padding-top: 0;
+}
 .resto-main > .row, .resto-main > .row > .col-sm-6, .resto-main > .row > .col-sm-12{
     padding: 0 5px;
 }
