@@ -728,6 +728,9 @@ a.btn-outline:hover{
   position: relative;
   transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
 }
+.card a{
+	width:100%;
+}
 .card__image::before {
   display: block;
   padding-top: 56.25%;
