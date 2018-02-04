@@ -186,7 +186,8 @@ input:focus, select:focus{
 /*==========================================
 MENU CUSTOMIZE
 ==========================================*/
-.dropdown:hover .dropdown-toggle{
+.navbar-inverse .navbar-nav>.open>a.dropdown-toggle,.navbar-inverse .navbar-nav>.open>a.dropdown-toggle:focus,.navbar-inverse .navbar-nav>.open>a.dropdown-toggle:hover,.dropdown:hover .dropdown-toggle{
+	background-color: transparent;
 	background-image: url("../img/arrows.svg");
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -331,7 +332,7 @@ FIN LOGO
     background: -webkit-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* Standard syntax */
+    background: linear-gradient(to left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* Standard syntax */
 }
 .jumbotron select::-ms-expand {
     display: none; /* remove default arrow on ie10 and ie11 */
@@ -343,6 +344,7 @@ FIN LOGO
     appearance: none;
     background: url(../img/arrows1.svg) 97.5% / 1em no-repeat #fff;
 }
+
 #SlidePrincipal .item img{
 	margin: auto;
 }
