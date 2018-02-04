@@ -33,16 +33,4 @@ $(document).ready(function() {
 	$("div.calendar-header").on("click",function(){
 		$.datepicker._gotoToday('#calendar');
 	});
-   /*  $(document).on('click','.ui-datepicker-next',function () {
-        $('.ui-datepicker').addClass('magictime spaceInRight');
-        setTimeout(function(){
-            $( ".ui-datepicker" ).removeClass( "magictime spaceInRight" );
-        }, 500);
-    });
-    $(document).on('click','.ui-datepicker-prev',function () {
-        $('.ui-datepicker').addClass('magictime spaceInLeft');
-        setTimeout(function(){
-            $('.ui-datepicker').removeClass('magictime spaceInLeft');
-        }, 500);
-    }); */
 });
