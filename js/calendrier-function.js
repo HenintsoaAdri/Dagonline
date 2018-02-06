@@ -23,22 +23,14 @@ $(document).ready(function() {
         selectOtherMonths: true,
         onSelect: function (dateText, inst) {
             $(".date-selected").html(dateText);
-        }
+        },
+		gotoCurrent: true
     });
     var selectedDate = $("#calendar").datepicker("getDate");
     $(".date-selected").html($.datepicker.formatDate(dateFormat, selectedDate, {
         monthNames: monthNames
     }));
-    $(document).on('click','.ui-datepicker-next',function () {
-        $('.ui-datepicker').addClass('magictime spaceInLeft');
-        setTimeout(function(){
-            $( ".ui-datepicker" ).removeClass( "magictime spaceInLeft" );
-        }, 500);
-    });
-    $(document).on('click','.ui-datepicker-prev',function () {
-        $('.ui-datepicker').addClass('magictime spaceInRight');
-        setTimeout(function(){
-            $('.ui-datepicker').removeClass('magictime spaceInRight');
-        }, 500);
-    });
+	$("div.calendar-header").on("click",function(){
+		$.datepicker._gotoToday('#calendar');
+	});
 });
