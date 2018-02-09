@@ -656,59 +656,6 @@
 <!--Fin Navigation Bar-->
 <!--Fin Header-->
 
-<!--Slide principal-->
-<div class="jumbotron text-center m-b-0">
-  <h1>Dagonline</h1>
-  <p>Trouvez et achetez ce qui vous chante sur tout Madagascar</p>
-  <form class="form-inline col-xs-offset-1 col-xs-10">
-    <div class="form-group">
-      <select class="form-control">
-        <option disabled selected>Où : Pays, Région, Département, Ville </option>
-        <option>Antananarivo</option>
-        <option>Diego-Suarez</option>
-        <option>Majunga</option>
-        <option>Tamatave</option>
-        <option>Fianarantsoa</option>
-        <option>Tuléar</option>
-      </select>
-    </div>
-    <div class="form-group input-group">
-      <span class="input-group-addon"><i class="glyphicon glyphicon-search text-info"></i></span>
-      <input type="text" class="form-control" size="30" placeholder="Rechercher...">
-    </div>
-    <button type="button" class="form-control btn text-white bg-red">Trouver</button>
-  </form>
-
-  <div id="SlidePrincipal" class="carousel slide hidden-xs" data-ride="carousel">
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="img/slideResto.jpg">
-      </div>
-
-      <div class="item">
-        <img src="img/slideResto.jpg">
-      </div>
-
-      <div class="item">
-        <img src="img/slideResto.jpg">
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#SlidePrincipal" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Pr&eacute;c&eacute;dent</span>
-    </a>
-    <a class="right carousel-control" href="#SlidePrincipal" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Suivant</span>
-    </a>
-  </div>
-</div>
-<!--Fin Slide principal-->
-
 <!--Lien rapide-->
 <div class="btn-group menu-rapide text-white">
   <span class="glyphicon glyphicon-menu-left"></span>
@@ -726,95 +673,56 @@
 <div id="body">
   <span id="dagonline"></span>
   <div class="container-fluid bg-warning text-danger pacifico shadow">
-    <div class="text-right p-r-20"><h2>Restaurant</h2></div>
+    <div class="text-right p-r-20"><h2>Entreprise</h2></div>
   </div>
-
-  <!-- Container Tab hidden-xs resto -->
-  <div class="container-fluid hidden-xs">
-    <div class="row restaurant-row">
-      <div class="col-sm-12 text-center img">
-        <img src="img/restaurantpage.jpg">
-      </div>
-      <div class="col-sm-12 text-center tab">
-        <ul class="nav nav-pills nav-justified text-white">
-          <li class="active petit-formal-script"><a data-toggle="pill" href="#home">Home</a></li>
-          <li class="petit-formal-script"><a data-toggle="pill" href="#menu1">Menu 1</a></li>
-          <li class="petit-formal-script"><a data-toggle="pill" href="#menu2">Menu 2</a></li>
-          <li class="petit-formal-script"><a data-toggle="pill" href="#menu3">Menu 3</a></li>
-        </ul>
-
-        <div class="tab-content text-white">
-          <div id="home" class="tab-pane fade in active">
-            <h3 class="oswald">FOOD COURT</h3>
-            <h4 class="indie-flower">Tana Water Front</h4>
-            <p>+261 32 00 000 00</p>
-            <p>+261 34 00 000 00</p>
-            <p>foodcourt@moov.mg</p>
-          </div>
-          <div id="menu1" class="tab-pane fade">
-            <h4 class="indie-flower">Menu 1</h4>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-          <div id="menu2" class="tab-pane fade">
-            <h4 class="indie-flower">Menu 2</h4>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-          </div>
-          <div id="menu3" class="tab-pane fade">
-            <h4 class="indie-flower">Menu 3</h4>
-            <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Fin Container Tab hidden-xs resto -->
-
-  <!-- Container Tab visible-xs resto -->
-  <div class="container-fluid visible-xs">
-    <div class="row restaurant-row">
+  <!-- Container Tab entreprise -->
+  <div class="container-fluid">
+    <div class="row entreprise-row">
       <div class="col-xs-12 text-center img">
-        <img src="img/restaurantpage.jpg">
+        <img src="img/entreprisepage.jpg">
       </div>
       <div class="tab row">
         <div class="col-xs-3 text-center">
           <ul class="nav nav-pills nav-stacked text-white">
-            <li class="active petit-formal-script"><a data-toggle="pill" href="#home-xs">Home</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#menu1-xs">Menu 1</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#menu2-xs">Menu 2</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#menu3-xs">Menu 3</a></li>
+            <li class="active petit-formal-script"><a data-toggle="pill" href="#home">Home</a></li>
+            <li class="petit-formal-script"><a data-toggle="pill" href="#menu1">A propos</a></li>
+            <li class="petit-formal-script"><a data-toggle="pill" href="#menu2">Objectifs</a></li>
+            <li class="petit-formal-script"><a data-toggle="pill" href="#localisation">Localisation</a></li>
           </ul>
         </div>
         <div class="col-xs-9 text-center">
           <div class="tab-content text-white">
-            <div id="home-xs" class="tab-pane fade in active">
-              <h3 class="oswald">FOOD COURT</h3>
-              <h4 class="indie-flower">Tana Water Front</h4>
+            <div id="home" class="tab-pane fade in active">
+              <h3 class="oswald">MON ENTREPRISE</h3>
+              <h4 class="indie-flower">Ankadimbahoaka, Route d'Androndra Antananarivo, Madagascar</h4>
               <p>+261 32 00 000 00</p>
               <p>+261 34 00 000 00</p>
-              <p>foodcourt@moov.mg</p>
+              <p>entreprise@moov.mg</p>
             </div>
-            <div id="menu1-xs" class="tab-pane fade">
-              <h4 class="indie-flower">Menu 1</h4>
+            <div id="menu1" class="tab-pane fade">
+              <h4 class="indie-flower">A propos</h4>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
-            <div id="menu2-xs" class="tab-pane fade">
-              <h4 class="indie-flower">Menu 2</h4>
+            <div id="menu2" class="tab-pane fade">
+              <h4 class="indie-flower">Objectifs</h4>
               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
             </div>
-            <div id="menu3-xs" class="tab-pane fade">
-              <h4 class="indie-flower">Menu 3</h4>
-              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <div id="localisation" class="tab-pane fade">
+              <h4 class="indie-flower">Trouvez nous ici</h4>
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60381.96674064899!2d47.532478409619095!3d-18.937018220649918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2smg!4v1516881806035" width="500" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Fin Container Tab visible-xs resto -->
+  <!-- Fin Container Tab entreprise -->
 
-  <!-- Container Slide resto -->
+  <!-- Container Slide entreprise -->
   <div class="container-fluid">
-    <div class="row restaurant-row">
+    <div class="row entreprise-row">
       <div class="col-sm-12">
         <div id="SlideVignette" class="carousel slide" data-ride="carousel">
 
@@ -822,32 +730,38 @@
           <div class="carousel-inner">
             <div class="item active">
               <div class="row text-center">
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/restaurantpage1.jpg" alt=""></a>
+                <div class="col-sm-3 vignette">
+                  <a href="#detailVignette1" data-toggle="modal"><img src="img/entreprisepage1.jpg" alt=""></a>
                   <div class="vignette-detail">
-                    <h3>Méli mélo</h3>
+                    <h3>This is a title</h3>
                     <p>This is a short description.</p>
+                    <a href="#detailVignette1" class="more" data-toggle="modal">Voir details</a>
                   </div>
                 </div>
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/restaurantpage2.jpg" alt=""></a>
+                <div class="col-sm-3 vignette">
+                  <a href="#detailVignette2" data-toggle="modal"><img src="img/entreprisepage2.jpg" alt=""></a>
                   <div class="vignette-detail">
-                    <h3>Delicious plate</h3>
+                    <h3>This is a title</h3>
                     <p>This is a short description.</p>
+                    <a href="#detailVignette2" class="more" data-toggle="modal">Voir details</a>
                   </div>
                 </div>
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/restaurantpage3.jpg" alt=""></a>
+
+                <div class="col-sm-3 vignette">
+                  <a href="#detailVignette3" data-toggle="modal"><img src="img/entreprisepage3.jpg" alt=""></a>
                   <div class="vignette-detail">
-                    <h3>Sushi lovers</h3>
+                    <h3>This is a title</h3>
                     <p>This is a short description.</p>
+                    <a href="#detailVignette3" class="more" data-toggle="modal">Voir details</a>
                   </div>
                 </div>
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/restaurantpage4.jpg" alt=""></a>
+
+                <div class="col-sm-3 vignette">
+                  <a href="#detailVignette4" data-toggle="modal"><img src="img/entreprisepage4.jpg" alt=""></a>
                   <div class="vignette-detail">
-                    <h3>Nems royals</h3>
+                    <h3>This is a title</h3>
                     <p>This is a short description.</p>
+                    <a href="#detailVignette4" class="more" data-toggle="modal">Voir details</a>
                   </div>
                 </div>
               </div>
@@ -855,16 +769,16 @@
 
             <div class="item">
               <div class="row text-center">
-                <div class="col-xs-3">
+                <div class="col-sm-3">
                   <a href="#"><img src="img/360x240.png" alt=""></a>
                 </div>
-                <div class="col-xs-3">
+                <div class="col-sm-3">
                   <a href="#"><img src="img/360x240.png" alt=""></a>
                 </div>
-                <div class="col-xs-3">
+                <div class="col-sm-3">
                   <a href="#"><img src="img/360x240.png" alt=""></a>
                 </div>
-                <div class="col-xs-3">
+                <div class="col-sm-3">
                   <a href="#"><img src="img/360x240.png" alt=""></a>
                 </div>
               </div>
@@ -881,10 +795,256 @@
             <span class="sr-only">Suivant</span>
           </a>
         </div>
+        <!-- Vignette Details Modals -->
+        <div id="detailVignette1" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="row">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="col-sm-8">
+					<div id='carousel-custom' class='carousel carousel-produit slide' data-ride='carousel'>
+                        <!-- Top part of the slider -->
+							<div class='carousel-outer'>
+								<!-- Carousel items -->
+								<div class="carousel-inner">
+									<div class="active item" data-slide-number="0">
+										<img src="img/entreprisepage1.jpg" alt="">
+									</div>
+
+									<div class="item" data-slide-number="1">
+										<img src="img/entreprisepage1.jpg" alt="">
+									</div>
+
+									<div class="item" data-slide-number="2">
+										<img src="img/entreprisepage1.jpg" alt="">
+									</div>
+
+									<div class="item" data-slide-number="3">
+										<img src="img/entreprisepage1.jpg" alt="">
+									</div>
+								<a class="left carousel-control" href="#carousel-custom" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>                                       
+								</a>
+								<a class="right carousel-control" href="#carousel-custom" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>                                       
+								</a>                                
+								</div>
+							</div>
+
+						<div class="row hidden-xs" id="slider-thumbs">
+							<!-- Bottom switcher of slider -->
+							<ol class="carousel-indicators">
+								<li class="col-sm-4 active" data-target="#carousel-custom" data-slide-to="0">
+									<a class="thumbnail" id="carousel-selector-0"><img src="img/entreprisepage1.jpg" alt=""></a>
+								</li>
+
+								<li class="col-sm-4"data-target="#carousel-custom" data-slide-to="1">
+									<a class="thumbnail" id="carousel-selector-1"><img src="img/entreprisepage1.jpg" alt=""></a>
+								</li>
+
+								<li class="col-sm-4" data-target="#carousel-custom" data-slide-to="2">
+									<a class="thumbnail" id="carousel-selector-2"><img src="img/entreprisepage1.jpg" alt=""></a>
+								</li>
+							</ol>                 
+						</div>               
+					</div>
+				</div>
+                  <div class="col-sm-4">
+					<h2>Vignette 1</h2>
+                    <p>In mattis vel justo et porttitor. Sed laoreet tincidunt sem, a eleifend dui. Donec malesuada eros vel urna interdum tincidunt. Aliquam massa massa, pulvinar vitae aliquam nec, efficitur pretium velit. Cras pulvinar ac est in varius. Proin a ultrices nibh. Praesent ornare varius euismod. Suspendisse viverra eget est a eleifend.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="detailVignette2" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="row">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="col-sm-8">
+					<div id='carousel-custom-2' class='carousel carousel-produit slide' data-ride='carousel'>
+                        <!-- Top part of the slider -->
+							<div class='carousel-outer'>
+								<!-- Carousel items -->
+								<div class="carousel-inner">
+									<div class="active item" data-slide-number="0">
+										<img src="img/entreprisepage2.jpg" alt="">
+									</div>
+
+									<div class="item" data-slide-number="1">
+										<img src="img/entreprisepage2.jpg" alt="">
+									</div>
+
+									<div class="item" data-slide-number="2">
+										<img src="img/entreprisepage2.jpg" alt="">
+									</div>
+								<a class="left carousel-control" href="#carousel-custom-2" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>                                       
+								</a>
+								<a class="right carousel-control" href="#carousel-custom-2" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>                                       
+								</a>                                
+								</div>
+							</div>
+
+						<div class="row hidden-xs" id="slider-thumbs">
+							<!-- Bottom switcher of slider -->
+							<ol class="carousel-indicators">
+								<li class="col-sm-4 active" data-target="#carousel-custom-2" data-slide-to="0">
+									<a class="thumbnail" id="carousel-selector-0"><img src="img/entreprisepage2.jpg" alt=""></a>
+								</li>
+
+								<li class="col-sm-4"data-target="#carousel-custom-2" data-slide-to="1">
+									<a class="thumbnail" id="carousel-selector-1"><img src="img/entreprisepage2.jpg" alt=""></a>
+								</li>
+
+								<li class="col-sm-4" data-target="#carousel-custom-2" data-slide-to="2">
+									<a class="thumbnail" id="carousel-selector-2"><img src="img/entreprisepage2.jpg" alt=""></a>
+								</li>
+							</ol>                 
+						</div>               
+					</div>
+				</div>
+                  <div class="col-sm-4">
+					<h2>Vignette 2</h2>
+                    <p>In mattis vel justo et porttitor. Sed laoreet tincidunt sem, a eleifend dui. Donec malesuada eros vel urna interdum tincidunt. Aliquam massa massa, pulvinar vitae aliquam nec, efficitur pretium velit. Cras pulvinar ac est in varius. Proin a ultrices nibh. Praesent ornare varius euismod. Suspendisse viverra eget est a eleifend.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="detailVignette3" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="row">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="col-sm-8">
+					<div id='carousel-custom-3' class='carousel carousel-produit slide' data-ride='carousel'>
+                        <!-- Top part of the slider -->
+							<div class='carousel-outer'>
+								<!-- Carousel items -->
+								<div class="carousel-inner">
+									<div class="active item" data-slide-number="0">
+										<img src="img/entreprisepage3.jpg" alt="">
+									</div>
+
+									<div class="item" data-slide-number="1">
+										<img src="img/entreprisepage3.jpg" alt="">
+									</div>
+
+									<div class="item" data-slide-number="2">
+										<img src="img/entreprisepage3.jpg" alt="">
+									</div>
+								<a class="left carousel-control" href="#carousel-custom-3" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>                                       
+								</a>
+								<a class="right carousel-control" href="#carousel-custom-3" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>                                       
+								</a>                                
+								</div>
+							</div>
+
+						<div class="row hidden-xs" id="slider-thumbs">
+							<!-- Bottom switcher of slider -->
+							<ol class="carousel-indicators">
+								<li class="col-sm-4 active" data-target="#carousel-custom-3" data-slide-to="0">
+									<a class="thumbnail" id="carousel-selector-0"><img src="img/entreprisepage3.jpg" alt=""></a>
+								</li>
+
+								<li class="col-sm-4"data-target="#carousel-custom-3" data-slide-to="1">
+									<a class="thumbnail" id="carousel-selector-1"><img src="img/entreprisepage3.jpg" alt=""></a>
+								</li>
+
+								<li class="col-sm-4" data-target="#carousel-custom-3" data-slide-to="2">
+									<a class="thumbnail" id="carousel-selector-2"><img src="img/entreprisepage3.jpg" alt=""></a>
+								</li>
+							</ol>                 
+						</div>               
+					</div>
+				</div>
+                  <div class="col-sm-4">
+					<h2>Vignette 3</h2>
+                    <p>In mattis vel justo et porttitor. Sed laoreet tincidunt sem, a eleifend dui. Donec malesuada eros vel urna interdum tincidunt. Aliquam massa massa, pulvinar vitae aliquam nec, efficitur pretium velit. Cras pulvinar ac est in varius. Proin a ultrices nibh. Praesent ornare varius euismod. Suspendisse viverra eget est a eleifend.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="detailVignette4" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="row">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  <div class="col-sm-8">
+					<div id='carousel-custom-4' class='carousel carousel-produit slide' data-ride='carousel'>
+                        <!-- Top part of the slider -->
+							<div class='carousel-outer'>
+								<!-- Carousel items -->
+								<div class="carousel-inner">
+									<div class="active item" data-slide-number="0">
+										<img src="img/entreprisepage4.jpg" alt="">
+									</div>
+
+									<div class="item" data-slide-number="1">
+										<img src="img/entreprisepage4.jpg" alt="">
+									</div>
+
+									<div class="item" data-slide-number="2">
+										<img src="img/entreprisepage4.jpg" alt="">
+									</div>
+								<a class="left carousel-control" href="#carousel-custom-4" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>                                       
+								</a>
+								<a class="right carousel-control" href="#carousel-custom-4" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>                                       
+								</a>                                
+								</div>
+							</div>
+
+						<div class="row hidden-xs" id="slider-thumbs">
+							<!-- Bottom switcher of slider -->
+							<ol class="carousel-indicators">
+								<li class="col-sm-4 active" data-target="#carousel-custom-4" data-slide-to="0">
+									<a class="thumbnail" id="carousel-selector-0"><img src="img/entreprisepage4.jpg" alt=""></a>
+								</li>
+
+								<li class="col-sm-4"data-target="#carousel-custom-4" data-slide-to="1">
+									<a class="thumbnail" id="carousel-selector-1"><img src="img/entreprisepage4.jpg" alt=""></a>
+								</li>
+
+								<li class="col-sm-4" data-target="#carousel-custom-4" data-slide-to="2">
+									<a class="thumbnail" id="carousel-selector-2"><img src="img/entreprisepage4.jpg" alt=""></a>
+								</li>
+							</ol>                 
+						</div>               
+					</div>
+				</div>
+                  <div class="col-sm-4">
+					<h2>Vignette 4</h2>
+                    <p>In mattis vel justo et porttitor. Sed laoreet tincidunt sem, a eleifend dui. Donec malesuada eros vel urna interdum tincidunt. Aliquam massa massa, pulvinar vitae aliquam nec, efficitur pretium velit. Cras pulvinar ac est in varius. Proin a ultrices nibh. Praesent ornare varius euismod. Suspendisse viverra eget est a eleifend.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Vignette Details Modals -->
       </div>
     </div>
   </div>
-  <!-- Fin Container Slide resto -->
+  <!-- Fin Container Slide entreprise -->
 </div>
 <!--Fin Corps-->
 
