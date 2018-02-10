@@ -9,11 +9,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <!--<link rel="stylesheet" href="css/font.css">-->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="css/font.css">
+  <!--<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">-->
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50" id="home">
+<!-- données de test -->
+<style>
+  .color-shape {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    float: left;
+  }
 
+  .color-shape.round {
+    border-radius: 35px;
+  }
+
+  .color-shape.big.round {
+    border-radius: 75px;
+  }
+
+  .color-shape.red { background: red; }
+  .color-shape.blue { background: blue; }
+  .color-shape.yellow { background: yellow; }
+
+  .color-shape.wide, .color-shape.big { width: 150px; }
+  .color-shape.tall, .color-shape.big { height: 150px; }
+</style>
+<!-- données de test -->
 <!--Préloader-->
 <div class="preloader">
   <div class="loaded">&nbsp;</div>
@@ -134,8 +158,276 @@
   <!-- Container Produits -->
   <div id="produits" class="container-fluid text-center">
     <h2>Nos Produits</h2>
-    <div class="row">
+    <ul class="nav nav-pills nav-justified">
+      <li class="active"><a data-toggle="pill" href="#produit-divers">Divers</a></li>
+      <li><a data-toggle="pill" href="#produit-electricite">Electricité</a></li>
+      <li><a data-toggle="pill" href="#produit-filtration">Filtration</a></li>
+      <li><a data-toggle="pill" href="#produit-groupe-electrogene">Groupe Electrogène</a></li>
+      <li><a data-toggle="pill" href="#produit-materiaux-de-construction">Matériaux de construction</a></li>
+      <li><a data-toggle="pill" href="#produit-pieces-detachees">Pièces détachées</a></li>
+      <li><a data-toggle="pill" href="#produit-produit-chimique">Produits chimiques</a></li>
+    </ul>
 
+    <div class="tab-content">
+      <div id="produit-divers" class="tab-pane fade in active">
+        <h3>Divers</h3>
+        <div class="filters">
+          <div class="button-group js-radio-button-group" data-filter-group="color">
+            <button class="button is-checked" data-filter="">any</button>
+            <button class="button" data-filter=".red">red</button>
+            <button class="button" data-filter=".blue">blue</button>
+            <button class="button" data-filter=".yellow">yellow</button>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="color-shape small round red"></div>
+          <div class="color-shape small round blue"></div>
+          <div class="color-shape small round yellow"></div>
+          <div class="color-shape small square red"></div>
+          <div class="color-shape small square blue"></div>
+          <div class="color-shape small square yellow"></div>
+          <div class="color-shape wide round red"></div>
+          <div class="color-shape wide round blue"></div>
+          <div class="color-shape wide round yellow"></div>
+          <div class="color-shape wide square red"></div>
+          <div class="color-shape wide square blue"></div>
+          <div class="color-shape wide square yellow"></div>
+          <div class="color-shape big round red"></div>
+          <div class="color-shape big round blue"></div>
+          <div class="color-shape big round yellow"></div>
+          <div class="color-shape big square red"></div>
+          <div class="color-shape big square blue"></div>
+          <div class="color-shape big square yellow"></div>
+          <div class="color-shape tall round red"></div>
+          <div class="color-shape tall round blue"></div>
+          <div class="color-shape tall round yellow"></div>
+          <div class="color-shape tall square red"></div>
+          <div class="color-shape tall square blue"></div>
+          <div class="color-shape tall square yellow"></div>
+        </div>
+      </div>
+      <div id="produit-electricite" class="tab-pane fade">
+        <h3>Electricité</h3>
+        <div class="filters">
+          <div class="button-group js-radio-button-group" data-filter-group="size">
+            <button class="button is-checked" data-filter="">any</button>
+            <button class="button" data-filter=".small">small</button>
+            <button class="button" data-filter=".wide">wide</button>
+            <button class="button" data-filter=".big">big</button>
+            <button class="button" data-filter=".tall">tall</button>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="color-shape small round red"></div>
+          <div class="color-shape small round blue"></div>
+          <div class="color-shape small round yellow"></div>
+          <div class="color-shape small square red"></div>
+          <div class="color-shape small square blue"></div>
+          <div class="color-shape small square yellow"></div>
+          <div class="color-shape wide round red"></div>
+          <div class="color-shape wide round blue"></div>
+          <div class="color-shape wide round yellow"></div>
+          <div class="color-shape wide square red"></div>
+          <div class="color-shape wide square blue"></div>
+          <div class="color-shape wide square yellow"></div>
+          <div class="color-shape big round red"></div>
+          <div class="color-shape big round blue"></div>
+          <div class="color-shape big round yellow"></div>
+          <div class="color-shape big square red"></div>
+          <div class="color-shape big square blue"></div>
+          <div class="color-shape big square yellow"></div>
+          <div class="color-shape tall round red"></div>
+          <div class="color-shape tall round blue"></div>
+          <div class="color-shape tall round yellow"></div>
+          <div class="color-shape tall square red"></div>
+          <div class="color-shape tall square blue"></div>
+          <div class="color-shape tall square yellow"></div>
+        </div>
+      </div>
+      <div id="produit-filtration" class="tab-pane fade">
+        <h3>Filtration</h3>
+        <div class="filters">
+          <div class="button-group js-radio-button-group" data-filter-group="shape">
+            <button class="button is-checked" data-filter="">any</button>
+            <button class="button" data-filter=".round">round</button>
+            <button class="button" data-filter=".square">square</button>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="color-shape small round red"></div>
+          <div class="color-shape small round blue"></div>
+          <div class="color-shape small round yellow"></div>
+          <div class="color-shape small square red"></div>
+          <div class="color-shape small square blue"></div>
+          <div class="color-shape small square yellow"></div>
+          <div class="color-shape wide round red"></div>
+          <div class="color-shape wide round blue"></div>
+          <div class="color-shape wide round yellow"></div>
+          <div class="color-shape wide square red"></div>
+          <div class="color-shape wide square blue"></div>
+          <div class="color-shape wide square yellow"></div>
+          <div class="color-shape big round red"></div>
+          <div class="color-shape big round blue"></div>
+          <div class="color-shape big round yellow"></div>
+          <div class="color-shape big square red"></div>
+          <div class="color-shape big square blue"></div>
+          <div class="color-shape big square yellow"></div>
+          <div class="color-shape tall round red"></div>
+          <div class="color-shape tall round blue"></div>
+          <div class="color-shape tall round yellow"></div>
+          <div class="color-shape tall square red"></div>
+          <div class="color-shape tall square blue"></div>
+          <div class="color-shape tall square yellow"></div>
+        </div>
+      </div>
+      <div id="produit-groupe-electrogene" class="tab-pane fade">
+        <h3>Groupe Electrogène</h3>
+        <div class="filters">
+          <div class="button-group js-radio-button-group" data-filter-group="color">
+            <button class="button is-checked" data-filter="">any</button>
+            <button class="button" data-filter=".red">red</button>
+            <button class="button" data-filter=".blue">blue</button>
+            <button class="button" data-filter=".yellow">yellow</button>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="color-shape small round red"></div>
+          <div class="color-shape small round blue"></div>
+          <div class="color-shape small round yellow"></div>
+          <div class="color-shape small square red"></div>
+          <div class="color-shape small square blue"></div>
+          <div class="color-shape small square yellow"></div>
+          <div class="color-shape wide round red"></div>
+          <div class="color-shape wide round blue"></div>
+          <div class="color-shape wide round yellow"></div>
+          <div class="color-shape wide square red"></div>
+          <div class="color-shape wide square blue"></div>
+          <div class="color-shape wide square yellow"></div>
+          <div class="color-shape big round red"></div>
+          <div class="color-shape big round blue"></div>
+          <div class="color-shape big round yellow"></div>
+          <div class="color-shape big square red"></div>
+          <div class="color-shape big square blue"></div>
+          <div class="color-shape big square yellow"></div>
+          <div class="color-shape tall round red"></div>
+          <div class="color-shape tall round blue"></div>
+          <div class="color-shape tall round yellow"></div>
+          <div class="color-shape tall square red"></div>
+          <div class="color-shape tall square blue"></div>
+          <div class="color-shape tall square yellow"></div>
+        </div>
+      </div>
+      <div id="produit-materiaux-de-construction" class="tab-pane fade">
+        <h3>Matériaux de construction</h3>
+        <div class="filters">
+          <div class="button-group js-radio-button-group" data-filter-group="size">
+            <button class="button is-checked" data-filter="">any</button>
+            <button class="button" data-filter=".small">small</button>
+            <button class="button" data-filter=".wide">wide</button>
+            <button class="button" data-filter=".big">big</button>
+            <button class="button" data-filter=".tall">tall</button>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="color-shape small round red"></div>
+          <div class="color-shape small round blue"></div>
+          <div class="color-shape small round yellow"></div>
+          <div class="color-shape small square red"></div>
+          <div class="color-shape small square blue"></div>
+          <div class="color-shape small square yellow"></div>
+          <div class="color-shape wide round red"></div>
+          <div class="color-shape wide round blue"></div>
+          <div class="color-shape wide round yellow"></div>
+          <div class="color-shape wide square red"></div>
+          <div class="color-shape wide square blue"></div>
+          <div class="color-shape wide square yellow"></div>
+          <div class="color-shape big round red"></div>
+          <div class="color-shape big round blue"></div>
+          <div class="color-shape big round yellow"></div>
+          <div class="color-shape big square red"></div>
+          <div class="color-shape big square blue"></div>
+          <div class="color-shape big square yellow"></div>
+          <div class="color-shape tall round red"></div>
+          <div class="color-shape tall round blue"></div>
+          <div class="color-shape tall round yellow"></div>
+          <div class="color-shape tall square red"></div>
+          <div class="color-shape tall square blue"></div>
+          <div class="color-shape tall square yellow"></div>
+        </div>
+      </div>
+      <div id="produit-pieces-detachees" class="tab-pane fade">
+        <h3>Pièces détachées</h3>
+        <div class="filters">
+          <div class="button-group js-radio-button-group" data-filter-group="shape">
+            <button class="button is-checked" data-filter="">any</button>
+            <button class="button" data-filter=".round">round</button>
+            <button class="button" data-filter=".square">square</button>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="color-shape small round red"></div>
+          <div class="color-shape small round blue"></div>
+          <div class="color-shape small round yellow"></div>
+          <div class="color-shape small square red"></div>
+          <div class="color-shape small square blue"></div>
+          <div class="color-shape small square yellow"></div>
+          <div class="color-shape wide round red"></div>
+          <div class="color-shape wide round blue"></div>
+          <div class="color-shape wide round yellow"></div>
+          <div class="color-shape wide square red"></div>
+          <div class="color-shape wide square blue"></div>
+          <div class="color-shape wide square yellow"></div>
+          <div class="color-shape big round red"></div>
+          <div class="color-shape big round blue"></div>
+          <div class="color-shape big round yellow"></div>
+          <div class="color-shape big square red"></div>
+          <div class="color-shape big square blue"></div>
+          <div class="color-shape big square yellow"></div>
+          <div class="color-shape tall round red"></div>
+          <div class="color-shape tall round blue"></div>
+          <div class="color-shape tall round yellow"></div>
+          <div class="color-shape tall square red"></div>
+          <div class="color-shape tall square blue"></div>
+          <div class="color-shape tall square yellow"></div>
+        </div>
+      </div>
+      <div id="produit-produit-chimique" class="tab-pane fade">
+        <h3>Produits chimiques</h3>
+        <div class="filters">
+          <div class="button-group js-radio-button-group" data-filter-group="color">
+            <button class="button is-checked" data-filter="">any</button>
+            <button class="button" data-filter=".red">red</button>
+            <button class="button" data-filter=".blue">blue</button>
+            <button class="button" data-filter=".yellow">yellow</button>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="color-shape small round red"></div>
+          <div class="color-shape small round blue"></div>
+          <div class="color-shape small round yellow"></div>
+          <div class="color-shape small square red"></div>
+          <div class="color-shape small square blue"></div>
+          <div class="color-shape small square yellow"></div>
+          <div class="color-shape wide round red"></div>
+          <div class="color-shape wide round blue"></div>
+          <div class="color-shape wide round yellow"></div>
+          <div class="color-shape wide square red"></div>
+          <div class="color-shape wide square blue"></div>
+          <div class="color-shape wide square yellow"></div>
+          <div class="color-shape big round red"></div>
+          <div class="color-shape big round blue"></div>
+          <div class="color-shape big round yellow"></div>
+          <div class="color-shape big square red"></div>
+          <div class="color-shape big square blue"></div>
+          <div class="color-shape big square yellow"></div>
+          <div class="color-shape tall round red"></div>
+          <div class="color-shape tall round blue"></div>
+          <div class="color-shape tall round yellow"></div>
+          <div class="color-shape tall square red"></div>
+          <div class="color-shape tall square blue"></div>
+          <div class="color-shape tall square yellow"></div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- Fin Container Produits -->
@@ -205,8 +497,50 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/fontawesome-all.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
 <!-- Custom script-->
 <script src="js/main.js"></script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
+
+<script>
+  // init Isotope
+var $grid = $('.grid').isotope({
+  itemSelector: '.color-shape'
+});
+
+// store filter for each group
+var filters = {};
+
+$('.filters').on( 'click', '.button', function() {
+  var $this = $(this);
+  // get group key
+  var $buttonGroup = $this.parents('.button-group');
+  var filterGroup = $buttonGroup.attr('data-filter-group');
+  // set filter for group
+  filters[ filterGroup ] = $this.attr('data-filter');
+  // combine filters
+  var filterValue = concatValues( filters );
+  // set filter for Isotope
+  $grid.isotope({ filter: filterValue });
+});
+
+// change is-checked class on buttons
+$('.button-group').each( function( i, buttonGroup ) {
+  var $buttonGroup = $( buttonGroup );
+  $buttonGroup.on( 'click', 'button', function() {
+    $buttonGroup.find('.is-checked').removeClass('is-checked');
+    $( this ).addClass('is-checked');
+  });
+});
+
+// flatten object by concatting values
+function concatValues( obj ) {
+  var value = '';
+  for ( var prop in obj ) {
+    value += obj[ prop ];
+  }
+  return value;
+}
+</script>
 </body>
 </html>
