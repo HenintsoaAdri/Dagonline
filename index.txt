@@ -1,0 +1,13 @@
+1- Logo coin gauche
+2- Suppression Actus
+3- Menu 9 categories
+4- Sous-menu: 
+    - Nom province
+    - Exemple de lieu
+5- Design de vignette et evenement comme le site yahoo
+6- remonter top recherche, etc
+
+https://tympanus.net/Tutorials/CSS3ImageAccordion/
+https://zurb.com/playground/css3-polaroids
+https://www.template.net/business/calendars/html-calendar-template/
+https://tutorialzine.com/2012/04/timeline-portfolio

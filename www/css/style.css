@@ -30,8 +30,6 @@ PRE LOADER
 	margin-left: -125px;
 	top: 50%;
 	margin-top: -125px;
-}
-.loaded {
 	border: 16px solid transparent;
 	border-radius: 50%;
 	border-top-color: #101010;

@@ -89,7 +89,7 @@
 .entreprise-row .nav-pills > li > a{
     border-radius: 0;
     color: #504636;
-    background-color: rgba(174, 144, 105, 0.5);
+    background-color: rgba(174, 144, 105, 0.8);
     font-weight: 900;
 }
 .restaurant-row .nav-pills > li > a:hover:before,
@@ -103,8 +103,8 @@
 .entreprise-row .nav-pills > li > a:visited:before,
 .entreprise-row .nav-pills > li.active > a:before
 {
-    left: 30%;
-    right: 30%;
+    left: 20%;
+    right: 20%;
 }
 .restaurant-row .tab-content h3,
 .entreprise-row .tab-content h3{
@@ -233,26 +233,26 @@
 /* FIN SLIDE VIGNETTE */
 
 /* LOCALISATION */
-#localisation div {
-    overflow: hidden;
-    border-radius: 50%;
-    position: relative;
-    z-index: 99;
-    height: 500px;
-    width: 500px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%);
-    -webkit-transform: translate(-50%);
-    -ms-transform: translate(-50%);
-}
+/*#localisation div {*/
+    /*overflow: hidden;*/
+    /*border-radius: 50%;*/
+    /*position: relative;*/
+    /*z-index: 99;*/
+    /*height: 500px;*/
+    /*width: 500px;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%);*/
+    /*-webkit-transform: translate(-50%);*/
+    /*-ms-transform: translate(-50%);*/
+/*}*/
 
-#localisation iframe {
-    position: absolute;
-    border-radius: 50%;
-    top: 0; left: 0;
-    z-index: 50;
-}
+/*#localisation iframe {*/
+    /*position: absolute;*/
+    /*border-radius: 50%;*/
+    /*top: 0; left: 0;*/
+    /*z-index: 50;*/
+/*}*/
 /* FIN LOCALISATION	*/
 
 /*VIGNETTE DETAIL MODALS*/

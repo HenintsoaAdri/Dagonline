@@ -11,8 +11,9 @@
   <!--Fin Toast-->
   <!-- Theme personnalisé -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/timeline.css">
   <link rel="stylesheet" href="css/font.css">
-  <link rel="stylesheet" type="text/css" href="css/resto-entreprise-style.css" />
+  <link rel="stylesheet" type="text/css" href="css/calendrier-style.css" />
 </head>
 <body>
 
@@ -682,17 +683,17 @@
   <div id="SlidePrincipal" class="carousel slide hidden-xs" data-ride="carousel">
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner">
+    <div class="carousel-inner text-center">
       <div class="item active">
-        <img src="img/slideResto.jpg">
+        <img src="img/slideEvenement.jpg">
       </div>
 
       <div class="item">
-        <img src="img/slideResto.jpg">
+        <img src="img/slideEvenement.jpg">
       </div>
 
       <div class="item">
-        <img src="img/slideResto.jpg">
+        <img src="img/slideEvenement.jpg">
       </div>
     </div>
 
@@ -708,7 +709,6 @@
   </div>
 </div>
 <!--Fin Slide principal-->
-
 <!--Lien rapide-->
 <div class="btn-group menu-rapide text-white">
   <span class="glyphicon glyphicon-menu-left"></span>
@@ -725,166 +725,671 @@
 <!--Corps-->
 <div id="body">
   <span id="dagonline"></span>
+
   <div class="container-fluid bg-warning text-danger pacifico shadow">
-    <div class="text-right p-r-20"><h2>Restaurant</h2></div>
+    <div class="text-right p-r-20"><h2>&Eacute;v&egrave;nement</h2></div>
   </div>
-
-  <!-- Container Tab hidden-xs resto -->
-  <div class="container-fluid hidden-xs">
-    <div class="row restaurant-row">
-      <div class="col-sm-12 text-center img">
-        <img src="img/restaurantpage.jpg">
+  <!-- Container Calendrier && Evenement de date -->
+  <div class="container-fluid p-t-20">
+    <div class="row">
+      <!--Calendrier-->
+      <div class="col-sm-3">
+        <div class="calendar-container">
+          <div class="calendar-header">
+            <div class="date-selected"></div>
+          </div>
+          <div id="calendar"></div>
+          <div class="ring-left"></div>
+          <div class="ring-right"></div>
+        </div> <!-- end calendar-container -->
       </div>
-      <div class="col-sm-12 text-center tab">
-        <ul class="nav nav-pills nav-justified text-white">
-          <li class="active petit-formal-script"><a data-toggle="pill" href="#home">Home</a></li>
-          <li class="petit-formal-script"><a data-toggle="pill" href="#menu1">Menu 1</a></li>
-          <li class="petit-formal-script"><a data-toggle="pill" href="#menu2">Menu 2</a></li>
-          <li class="petit-formal-script"><a data-toggle="pill" href="#menu3">Menu 3</a></li>
-        </ul>
-
-        <div class="tab-content text-white">
-          <div id="home" class="tab-pane fade in active">
-            <h3 class="oswald">FOOD COURT</h3>
-            <h4 class="indie-flower">Tana Water Front</h4>
-            <p>+261 32 00 000 00</p>
-            <p>+261 34 00 000 00</p>
-            <p>foodcourt@moov.mg</p>
-          </div>
-          <div id="menu1" class="tab-pane fade">
-            <h4 class="indie-flower">Menu 1</h4>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-          <div id="menu2" class="tab-pane fade">
-            <h4 class="indie-flower">Menu 2</h4>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-          </div>
-          <div id="menu3" class="tab-pane fade">
-            <h4 class="indie-flower">Menu 3</h4>
-            <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Fin Container Tab hidden-xs resto -->
-
-  <!-- Container Tab visible-xs resto -->
-  <div class="container-fluid visible-xs">
-    <div class="row restaurant-row">
-      <div class="col-xs-12 text-center img">
-        <img src="img/restaurantpage.jpg">
-      </div>
-      <div class="tab row">
-        <div class="col-xs-3 text-center">
-          <ul class="nav nav-pills nav-stacked text-white">
-            <li class="active petit-formal-script"><a data-toggle="pill" href="#home-xs">Home</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#menu1-xs">Menu 1</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#menu2-xs">Menu 2</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#menu3-xs">Menu 3</a></li>
-          </ul>
-        </div>
-        <div class="col-xs-9 text-center">
-          <div class="tab-content text-white">
-            <div id="home-xs" class="tab-pane fade in active">
-              <h3 class="oswald">FOOD COURT</h3>
-              <h4 class="indie-flower">Tana Water Front</h4>
-              <p>+261 32 00 000 00</p>
-              <p>+261 34 00 000 00</p>
-              <p>foodcourt@moov.mg</p>
-            </div>
-            <div id="menu1-xs" class="tab-pane fade">
-              <h4 class="indie-flower">Menu 1</h4>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div id="menu2-xs" class="tab-pane fade">
-              <h4 class="indie-flower">Menu 2</h4>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-            </div>
-            <div id="menu3-xs" class="tab-pane fade">
-              <h4 class="indie-flower">Menu 3</h4>
-              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Fin Container Tab visible-xs resto -->
-
-  <!-- Container Slide resto -->
-  <div class="container-fluid">
-    <div class="row restaurant-row">
-      <div class="col-sm-12">
-        <div id="SlideVignette" class="carousel slide" data-ride="carousel">
-
-          <!-- Wrapper for slides -->
+      <!--Fin Calendrier-->
+      <div class="col-sm-9">
+        <h2 class="indie-flower">Liste des &eacute;v&egrave;nements du <span class="date-selected"></span></h2>
+        <div class="carousel slide" id="vignetteJour">
           <div class="carousel-inner">
             <div class="item active">
-              <div class="row text-center">
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/restaurantpage1.jpg" alt=""></a>
-                  <div class="vignette-detail">
-                    <h3>Méli mélo</h3>
-                    <p>This is a short description.</p>
+              <div class="thumbnails">
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
                   </div>
                 </div>
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/restaurantpage2.jpg" alt=""></a>
-                  <div class="vignette-detail">
-                    <h3>Delicious plate</h3>
-                    <p>This is a short description.</p>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
                   </div>
                 </div>
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/restaurantpage3.jpg" alt=""></a>
-                  <div class="vignette-detail">
-                    <h3>Sushi lovers</h3>
-                    <p>This is a short description.</p>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
                   </div>
                 </div>
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/restaurantpage4.jpg" alt=""></a>
-                  <div class="vignette-detail">
-                    <h3>Nems royals</h3>
-                    <p>This is a short description.</p>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-
+            </div><!-- /Slide1 -->
             <div class="item">
-              <div class="row text-center">
-                <div class="col-xs-3">
-                  <a href="#"><img src="img/360x240.png" alt=""></a>
+              <div class="thumbnails">
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-xs-3">
-                  <a href="#"><img src="img/360x240.png" alt=""></a>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-xs-3">
-                  <a href="#"><img src="img/360x240.png" alt=""></a>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-xs-3">
-                  <a href="#"><img src="img/360x240.png" alt=""></a>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="fff">
+                    <div class="thumbnail">
+                      <a href="#"><img src="img/360x240.png" alt=""></a>
+                    </div>
+                    <div class="caption">
+                      <h4>Praesent commodo</h4>
+                      <p>Nullam Condimentum Nibh Etiam Sem</p>
+                      <a class="btn btn-mini" href="#">» Voir détails</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
+            </div><!-- /Slide2 -->
           </div>
-
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#SlideVignette" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Pr&eacute;c&eacute;dent</span>
-          </a>
-          <a class="right carousel-control" href="#SlideVignette" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Suivant</span>
-          </a>
+          <nav>
+            <ul class="control-box pager pull-right">
+              <li><a data-slide="prev" href="#vignetteJour" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
+              <li><a data-slide="next" href="#vignetteJour" class=""><i class="glyphicon glyphicon-chevron-right"></i></a></li>
+            </ul>
+          </nav>
+          <!-- /.control-box -->
         </div>
       </div>
     </div>
   </div>
-  <!-- Fin Container Slide resto -->
+  <!--Fin Container Calendrier && Evenement de date -->
+
+  <!-- Container Partie Evenement du mois-->
+  <div class="container-fluid">
+    <h2 class="indie-flower">&Eacute;V&Egrave;NEMENTS DU MOIS</h2>
+    <div class="row main-article">
+      <div class="col-sm-8">
+        <!--Grand Article Slide-->
+		<div id="eventMonth" class="carousel slide" data-ride="carousel">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active row">
+					  <div class="col-sm-8 p-r-20">
+							<img src="img/eventessai.jpg" alt=""/>
+					  </div>
+					  <div class="col-sm-4 p-l-20 text-white">
+						<h3 class="pacifico">Just dance 2</h3>
+						<p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
+						<div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+					  </div>
+				</div>
+                <div class="item row">
+					  <div class="col-sm-8 p-r-20">
+							<img src="img/eventessai.jpg" alt=""/>
+					  </div>
+					  <div class="col-sm-4 p-l-20 text-white">
+						<h3 class="pacifico">Just dance</h3>
+						<p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
+						<div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+					  </div>
+                </div>
+              </div>
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#eventMonth" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left"></span>
+			  <span class="sr-only">Pr&eacute;c&eacute;dent</span>
+			</a>
+			<a class="right carousel-control" href="#eventMonth" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right"></span>
+			  <span class="sr-only">Suivant</span>
+			</a>
+            </div>
+        <!--Fin Grand Article Slide Evenement-->
+        <br>
+
+        <!--Vignette Article Evenement-->
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="carousel slide" id="vignetteEventMonth">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="thumbnails">
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /Slide1 -->
+                <div class="item">
+                  <div class="thumbnails">
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /Slide2 -->
+                <div class="item">
+                  <div class="thumbnails">
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /Slide3 -->
+              </div>
+
+
+              <nav>
+                <ul class="control-box pager pull-right">
+                  <li><a data-slide="prev" href="#vignetteEventMonth" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
+                  <li><a data-slide="next" href="#vignetteEventMonth" class=""><i class="glyphicon glyphicon-chevron-right"></i></a></li>
+                </ul>
+              </nav>
+              <!-- /.control-box -->
+
+            </div><!-- /#vignetteEvenement -->
+        
+        <!--Fin Vignette Article Evenement Mois-->
+      </div>
+    </div>
+    </div>
+
+      <div class="col-sm-4">
+        <img src="img/smartup/1.png" alt="Post" class="img-responsive">
+      </div>
+    </div>
+  </div>
+  <!-- Fin Container Partie Evenement du mois-->
+
+  <!-- Container Partie Evenement de la semaine-->
+  <div class="container-fluid">
+    <h2 class="indie-flower">&Eacute;V&Egrave;NEMENTS DE LA SEMAINE</h2>
+    <div class="row main-article">
+      <div class="col-sm-8">
+        <!--Grand Article Slide-->
+		<div id="eventWeek" class="carousel slide" data-ride="carousel">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active row">
+					  <div class="col-sm-8 p-r-20">
+							<img src="img/eventessai.jpg" alt=""/>
+					  </div>
+					  <div class="col-sm-4 p-l-20 text-white">
+						<h3 class="pacifico">Just dance 2</h3>
+						<p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
+						<div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+					  </div>
+				</div>
+                <div class="item row">
+					  <div class="col-sm-8 p-r-20">
+							<img src="img/eventessai.jpg" alt=""/>
+					  </div>
+					  <div class="col-sm-4 p-l-20 text-white">
+						<h3 class="pacifico">Just dance</h3>
+						<p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
+						<div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+					  </div>
+                </div>
+              </div>
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#eventWeek" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left"></span>
+			  <span class="sr-only">Pr&eacute;c&eacute;dent</span>
+			</a>
+			<a class="right carousel-control" href="#eventWeek" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right"></span>
+			  <span class="sr-only">Suivant</span>
+			</a>
+            </div>
+        <!--Fin Grand Article Slide Evenement-->
+        <br>
+
+        <!--Vignette Article Evenement semaine-->
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="carousel slide" id="vignetteEventWeek">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="thumbnails">
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /Slide1 -->
+                <div class="item">
+                  <div class="thumbnails">
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /Slide2 -->
+                <div class="item">
+                  <div class="thumbnails">
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a href="#"><img src="img/360x240.png" alt=""></a>
+                        </div>
+                        <div class="caption">
+                          <h4>Praesent commodo</h4>
+                          <p>Nullam Condimentum Nibh Etiam Sem</p>
+                          <a class="btn btn-mini" href="#">» Voir détails</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /Slide3 -->
+              </div>
+
+
+              <nav>
+                <ul class="control-box pager pull-right">
+                  <li><a data-slide="prev" href="#vignetteEvenement" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
+                  <li><a data-slide="next" href="#vignetteEvenement" class=""><i class="glyphicon glyphicon-chevron-right"></i></a></li>
+                </ul>
+              </nav>
+              <!-- /.control-box -->
+
+            </div><!-- /#vignetteEvenement -->
+          </div>
+        </div>
+        <!--Fin Vignette Article Evenement-->
+      </div>
+
+      <div class="col-sm-4">
+        <img src="img/smartup/1.png" alt="Post" class="img-responsive">
+      </div>
+    </div>
+  </div>
+  <!-- Fin Container Partie Evenement de la semaine-->
+
+  <!-- Container Timeline -->
+  <div class="container-fluid">
+  <h2 class="indie-flower"> TIMELINE DES &Eacute;V&Egrave;NEMENTS</h2>
+    <div class="row">
+	<iframe src="timeline/timeline.html" height="800" width="100%"></iframe>
+    </div>
+  </div>
+  <!-- Fin Container Timeline -->
+  
+  
+  <!-- Container Polaroid -->
+  <div class="container-fluid">
+		<br>
+		<br>
+		<br>
+		<br>
+  </div>
+  <!-- Fin Container Timeline -->
+  
 </div>
 <!--Fin Corps-->
 
@@ -957,7 +1462,7 @@
       </div>
     </div>
   </div>
-  <a href="#dagonline" title="To Top">
+  <a href="#dagonline" title="Remonter">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <p>Revenir en d&eacute;but de page</p>
@@ -968,6 +1473,9 @@
 <script src="js/bootstrap.min.js"></script>
 <!--Toast-->
 <script src="js/jquery.toast.min.js"></script>
+<!--Calendrier-->
+<script src="js/jquery-ui-datepicker.min.js"></script>
+<script src="js/calendrier-function.js"></script>
 <!--JS personnalisé-->
 <script src="js/main.js"></script>
 </body>

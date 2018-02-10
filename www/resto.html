@@ -11,8 +11,8 @@
   <!--Fin Toast-->
   <!-- Theme personnalisé -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/resto-main-style.css">
   <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" type="text/css" href="css/resto-entreprise-style.css" />
 </head>
 <body>
 
@@ -656,59 +656,6 @@
 <!--Fin Navigation Bar-->
 <!--Fin Header-->
 
-<!--Slide principal-->
-<div class="jumbotron text-center m-b-0">
-  <h1>Dagonline</h1>
-  <p>Trouvez et achetez ce qui vous chante sur tout Madagascar</p>
-  <form class="form-inline col-xs-offset-1 col-xs-10">
-    <div class="form-group">
-      <select class="form-control">
-        <option disabled selected>Où : Pays, Région, Département, Ville </option>
-        <option>Antananarivo</option>
-        <option>Diego-Suarez</option>
-        <option>Majunga</option>
-        <option>Tamatave</option>
-        <option>Fianarantsoa</option>
-        <option>Tuléar</option>
-      </select>
-    </div>
-    <div class="form-group input-group">
-      <span class="input-group-addon"><i class="glyphicon glyphicon-search text-info"></i></span>
-      <input type="text" class="form-control" size="30" placeholder="Rechercher...">
-    </div>
-    <button type="button" class="form-control btn text-white bg-red">Trouver</button>
-  </form>
-
-  <div id="SlidePrincipal" class="carousel slide hidden-xs" data-ride="carousel">
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="img/slideResto.jpg">
-      </div>
-
-      <div class="item">
-        <img src="img/slideResto.jpg">
-      </div>
-
-      <div class="item">
-        <img src="img/slideResto.jpg">
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#SlidePrincipal" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Pr&eacute;c&eacute;dent</span>
-    </a>
-    <a class="right carousel-control" href="#SlidePrincipal" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Suivant</span>
-    </a>
-  </div>
-</div>
-<!--Fin Slide principal-->
-
 <!--Lien rapide-->
 <div class="btn-group menu-rapide text-white">
   <span class="glyphicon glyphicon-menu-left"></span>
@@ -728,99 +675,123 @@
   <div class="container-fluid bg-warning text-danger pacifico shadow">
     <div class="text-right p-r-20"><h2>Restaurant</h2></div>
   </div>
-  <!-- Container liste restaurant-->
-  <div class="container-fluid resto-main">
-    <div class="row">
-      <div class="col-sm-12 vignette">
-        <img src="img/resto-main-tile2.jpg" class="img-responsive">
-        <div class="vignette-detail text-white">
-          <h3>Restaurant 1</h3>
-          <a href="resto.html#dagonline" class="more">Voir le restaurant</a>
-        </div>
+
+  <!-- Container Tab resto -->
+  <div class="container-fluid hidden-xs">
+    <div class="row restaurant-row">
+      <div class="col-xs-12 text-center img">
+        <img src="img/restaurantpage.jpg">
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="row">
-          <div class="col-sm-12 vignette">
-            <img src="img/1440x450.jpg" class="img-responsive">
-            <div class="vignette-detail text-white">
-              <h3>Restaurant 2</h3>
-              <a href="resto.html" class="more">Voir le restaurant</a>
-            </div>
-          </div>
-          <div class="col-sm-12 vignette">
-            <img src="img/resto-main-tile.jpg" class="img-responsive">
-            <div class="vignette-detail text-white">
-              <h3>Restaurant 3</h3>
-              <a href="resto.html" class="more">Voir le restaurant</a>
-            </div>
-          </div>
+      <div class="tab row">
+        <div class="col-xs-3 text-center">
+          <ul class="nav nav-pills nav-stacked text-white">
+            <li class="active petit-formal-script"><a data-toggle="pill" href="#home-xs">Home</a></li>
+            <li class="petit-formal-script"><a data-toggle="pill" href="#menu1-xs">Menu 1</a></li>
+            <li class="petit-formal-script"><a data-toggle="pill" href="#menu2-xs">Menu 2</a></li>
+            <li class="petit-formal-script"><a data-toggle="pill" href="#menu3-xs">Menu 3</a></li>
+          </ul>
         </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="row">
-          <div class="col-sm-12 vignette">
-            <img src="img/restaurantpage.jpg" class="img-responsive">
-            <div class="vignette-detail text-white">
-              <h3>Restaurant 4</h3>
-              <a href="resto.html" class="more">Voir le restaurant</a>
+        <div class="col-xs-9 text-center">
+          <div class="tab-content text-white">
+            <div id="home-xs" class="tab-pane fade in active">
+              <h3 class="oswald">FOOD COURT</h3>
+              <h4 class="indie-flower">Tana Water Front</h4>
+              <p>+261 32 00 000 00</p>
+              <p>+261 34 00 000 00</p>
+              <p>foodcourt@moov.mg</p>
+            </div>
+            <div id="menu1-xs" class="tab-pane fade">
+              <h4 class="indie-flower">Menu 1</h4>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div id="menu2-xs" class="tab-pane fade">
+              <h4 class="indie-flower">Menu 2</h4>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+            <div id="menu3-xs" class="tab-pane fade">
+              <h4 class="indie-flower">Menu 3</h4>
+              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="row">
-          <div class="col-sm-12 vignette">
-            <img src="img/resto-main-tile1.jpg" class="img-responsive">
-            <div class="vignette-detail text-white">
-              <h3>Restaurant 5</h3>
-              <a href="resto.html" class="more">Voir le restaurant</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="row">
-          <div class="col-sm-6 vignette">
-            <img src="img/720x450.jpg" class="img-responsive">
-            <div class="vignette-detail text-white">
-              <h3>Restaurant 6</h3>
-              <a href="resto.html" class="more">Voir le restaurant</a>
-            </div>
-          </div>
-          <div class="col-sm-6 vignette">
-            <img src="img/720x450.jpg" class="img-responsive">
-            <div class="vignette-detail text-white">
-              <h3>Restaurant 7</h3>
-              <a href="resto.html" class="more">Voir le restaurant</a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 vignette">
-                <img src="img/1440x450.jpg" class="img-responsive">
-                <div class="vignette-detail text-white">
-                  <h3>Restaurant 8</h3>
-                  <a href="resto.html" class="more">Voir le restaurant</a>
-                </div>
-              </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12 vignette">
-        <img src="img/1440x450.jpg" class="img-responsive">
-        <div class="vignette-detail text-white">
-          <h3>Restaurant 9</h3>
-          <a href="resto.html" class="more">Voir le restaurant</a>
         </div>
       </div>
     </div>
   </div>
-  <!-- Container liste restaurant-->
+  <!-- Fin Container Tab visible-xs resto -->
+
+  <!-- Container Slide resto -->
+  <div class="container-fluid">
+    <div class="row restaurant-row">
+      <div class="col-sm-12">
+        <div id="SlideVignette" class="carousel slide" data-ride="carousel">
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="row text-center">
+                <div class="col-xs-3 vignette">
+                  <a href="#"><img src="img/restaurantpage1.jpg" alt=""></a>
+                  <div class="vignette-detail">
+                    <h3>Méli mélo</h3>
+                    <p>This is a short description.</p>
+                  </div>
+                </div>
+                <div class="col-xs-3 vignette">
+                  <a href="#"><img src="img/restaurantpage2.jpg" alt=""></a>
+                  <div class="vignette-detail">
+                    <h3>Delicious plate</h3>
+                    <p>This is a short description.</p>
+                  </div>
+                </div>
+                <div class="col-xs-3 vignette">
+                  <a href="#"><img src="img/restaurantpage3.jpg" alt=""></a>
+                  <div class="vignette-detail">
+                    <h3>Sushi lovers</h3>
+                    <p>This is a short description.</p>
+                  </div>
+                </div>
+                <div class="col-xs-3 vignette">
+                  <a href="#"><img src="img/restaurantpage4.jpg" alt=""></a>
+                  <div class="vignette-detail">
+                    <h3>Nems royals</h3>
+                    <p>This is a short description.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="row text-center">
+                <div class="col-xs-3">
+                  <a href="#"><img src="img/360x240.png" alt=""></a>
+                </div>
+                <div class="col-xs-3">
+                  <a href="#"><img src="img/360x240.png" alt=""></a>
+                </div>
+                <div class="col-xs-3">
+                  <a href="#"><img src="img/360x240.png" alt=""></a>
+                </div>
+                <div class="col-xs-3">
+                  <a href="#"><img src="img/360x240.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#SlideVignette" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Pr&eacute;c&eacute;dent</span>
+          </a>
+          <a class="right carousel-control" href="#SlideVignette" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Suivant</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Container Slide resto -->
 </div>
 <!--Fin Corps-->
 
@@ -881,9 +852,9 @@
       <br>
       <div class="row">
         <p>Espace Professionnel : Connectez-vous<br>
-          <a href="#">Propriétaires</a><br>
-          <a href="#">Business Owners</a><br>
-          Suivez nous!</p>
+        <a href="#">Propriétaires</a><br>
+        <a href="#">Business Owners</a><br>
+        Suivez nous!</p>
       </div>
       <div class="row">
         <div class="col-xs-3"><img src="img/facebook.png"></div>
@@ -893,7 +864,7 @@
       </div>
     </div>
   </div>
-  <a href="#dagonline" title="To Top">
+  <a href="#dagonline" title="Remonter">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <p>Revenir en d&eacute;but de page</p>
