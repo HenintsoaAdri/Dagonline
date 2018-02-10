@@ -323,5 +323,10 @@
 .carousel-produit .carousel-inner .item img{
 	margin: auto;
 }
+
+.sidenav {
+    position: fixed;
+}
+
 		
 /*FIN VIGNETTE DETAIL MODALS*/
