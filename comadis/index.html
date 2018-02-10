@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,59 +9,142 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font.css">
+  <!--<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">-->
 </head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" id="home">
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<!--Préloader-->
+<div class="preloader">
+  <div class="loaded">&nbsp;</div>
+</div>
+<!--Fin Préloader-->
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Comadis</a>
-    </div>
-    <div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#comadis">La Société</a></li>
-          <li><a href="#partenaires">Partenaires</a></li>
-          <li><a href="#produits">Produits</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+<div class="container-fluid text-center banniere">
+  <img src="img/Logo-Comadis.png" class="img-responsive">
+</div>
+
+
+<div class="container body">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#home"><img src="img/navbrand.png" alt="Comadis" class="img-responsive"></a>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#comadis">La Société</a></li>
+            <li><a href="#partenaires">Partenaires</a></li>
+            <li><a href="#produits">Produits</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </div>
+  </nav>
+  <!-- Container Société -->
+  <div id="comadis" class="container-fluid text-center">
+    <h2>La société</h2>
+    <p>COMADIS est une société de Négoce International basée à l’Île Maurice.
+      Dotée de plusieurs années d’expériences et ayant des partenaires de renommée internationale, elle développe son savoir-faire dans l’import-export des produits suivants :</p>
+    <div class="p-t-20 row">
+      <div class="col-sm-4">
+        <span class="fa-layers fa-fw">
+          <i class="fa fa-cogs" style="color:#5cb85c"></i>
+        </span>
+        <h3>Mécanique</h3>
+        <p>Pièces Détachées Automobiles, Pièces Détachées d’Engins TP, Filtration Sakura, Courroie, Roulement…</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="fa-layers fa-fw">
+          <i class="fa fa-bolt" style="color:#73aa32"></i>
+        </span>
+        <h3>Electricité</h3>
+        <p>Transformateurs, Groupe Electrogène, Câbles, Lampes, Accessoires Divers…</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="fa-layers fa-fw">
+          <i class="fa fa-gavel" style="color: #3b8a5a;"></i>
+        </span>
+        <h3>Quincaillerie Générale</h3>
+        <p>Matériaux de Constructions, Fer à Béton, Ciments…</p>
+      </div>
+    </div>
+    <div class="p-t-20 row">
+      <div class="col-sm-4 col-sm-offset-2">
+        <span class="fa-layers fa-fw">
+          <i class="fa fa-firstdraft" style="color: #3b8a5a"></i>
+        </span>
+        <h3>Textile</h3>
+        <p>Pelote de Laine, Tissus…</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="fa-layers fa-fw">
+          <i class="fa fa-flask" style="color:#5cb85c"></i>
+        </span>
+        <h3>Produits Chimique</h3>
+        <p>Traitement d’eau, Bicarbonate de soude, additifs…</p>
+      </div>
+    </div>
+    <p>La société COMADIS travaille et mise sur le développement croissant des pays de l’Océan indien et de l’Afrique Subsaharienne pour étendre et développer son activité. Eviter les surprises et les risques en travaillant avec nous; Importez en toute tranquillité et vendez en simplicité avec COMADIS</p>
   </div>
-</nav>
+  <!-- Fin Container Société -->
+  <!-- Container Partenaire -->
+  <div id="partenaires" class="container-fluid text-center">
+    <h2>Partenaires</h2>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
+  <!-- Fin Container Partenaire -->
+  <!-- Container Produits -->
+  <div id="produits" class="container-fluid text-center">
+    <h2>Produits</h2>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
+  <!-- Fin Container Produits -->
+</div>
+<!-- Container Contact -->
+<footer id="contact" class="container-fluid text-center">
+  <h2>Nous contacter</h2>
+  <div class="row">
+    <div class="col-sm-6">
 
-<div id="comadis" class="container-fluid">
-  <h1>Section 1</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="partenaires" class="container-fluid">
-  <h1>Section 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="produits" class="container-fluid">
-  <h1>Section 3</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="contact" class="container-fluid">
-  <h1>Section 4</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<i class="fa fa-wrench"></i>
-<i class="fa fa-fabric"></i>
+    </div>
+    <div class="col-sm-6">
+      <p>Hennessy Tower – Port Louis</p>
+      <p>Republic Of Mauritius</p>
+      <p><i class="fa fa-fw fa-envelope"></i>contact@comadisltee.com</p>
+      <p>____</p>
+      <form class="form-inline" action="/action_page.php">
+        <p>Newsletter</p>
+        <div class="form-group">
+          <input type="email" class="form-control input-sm" id="email" placeholder="Votre adresse email ici">
+        </div>
+        <button type="submit" class="btn btn-default input-sm">S'enregistrer</button>
+      </form>
+    </div>
+  </div>
+
+  <a href="#comadis" title="Remonter">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Revenir en d&eacute;but de page</p>
+  <p>&copy; Copyright <a href="http://www.dagonline.mg">Dagonline</a> 2018</p>
+</footer>
+<!-- Fin Container Contact -->
 
 <!--Fin footer-->
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/fontawesome-all.min.js"></script>
+<!-- Custom script-->
+<script src="js/main.js"></script>
 </body>
 </html>
