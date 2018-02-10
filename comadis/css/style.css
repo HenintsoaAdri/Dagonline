@@ -11,6 +11,9 @@ body {
 a{
 	color: #fff;
 }
+a:hover{
+	color: #ccc;
+}
 /*==========================================
 PRE LOADER
 ==========================================*/
@@ -35,50 +38,33 @@ PRE LOADER
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	-webkit-transform: translate(-50%,-50%);  /* Chrome, Opera 15+, Safari 3.1+ */
-	-ms-transform: translate(-50%,-50%);  /* IE 9 */
-	transform: translate(-50%,-50%);  /* Firefox 16+, IE 10+, Opera */
-	border-bottom: 8px solid #cccccc;
+	margin-left: -175px;
+	-webkit-transform: translate(0,-50%);  /* Chrome, Opera 15+, Safari 3.1+ */
+	-ms-transform: translate(0,-50%);  /* IE 9 */
+	transform: translate(0,-50%);  /* Firefox 16+, IE 10+, Opera */
+	border-bottom: 4px solid #cccccc;
 	width: 350px;
 	height: 350px;
-	-webkit-animation: load 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-	animation: load 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+	-webkit-animation: load 1s linear infinite alternate-reverse; /* Chrome, Opera 15+, Safari 5+ */
+	animation: load 1s linear infinite alternate-reverse; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
 
 @-webkit-keyframes load {
 	0%   {
-		-webkit-transform: translate(-50%,-50%) scale(0,1);  /* Chrome, Opera 15+, Safari 3.1+ */
-		-ms-transform: translate(-50%,-50%) scale(0,1);  /* IE 9 */
-		transform: translate(-50%,-50%) scale(0,1);  /* Firefox 16+, IE 10+, Opera */
+		width:0%;
 	}
-	50%{
-		-webkit-transform:  translate(-50%,-50%) scale(1,1);  /* Chrome, Opera 15+, Safari 3.1+ */
-		-ms-transform:  translate(-50%,-50%) scale(1,1);  /* IE 9 */
-		transform:  translate(-50%,-50%) scale(1,1);  /* Firefox 16+, IE 10+, Opera */
+	100%   {
+		width:350px;
 		border-bottom-color: #78ad30 ;
-	}
-	100% {
-		-webkit-transform:  translate(-50%,-50%) scale(0,1);  /* Chrome, Opera 15+, Safari 3.1+ */
-		-ms-transform:  translate(-50%,-50%) scale(0,1);  /* IE 9 */
-		transform:  translate(-50%,-50%) scale(0,1);  /* Firefox 16+, IE 10+, Opera */
 	}
 }
 @keyframes load {
 	0%   {
-		-webkit-transform:  translate(-50%,-50%) scale(0,1);  /* Chrome, Opera 15+, Safari 3.1+ */
-		-ms-transform:  translate(-50%,-50%) scale(0,1);  /* IE 9 */
-		transform:  translate(-50%,-50%) scale(0,1);  /* Firefox 16+, IE 10+, Opera */
+		width:0%;
 	}
-	50%{
-		-webkit-transform:  translate(-50%,-50%) scale(1,1);  /* Chrome, Opera 15+, Safari 3.1+ */
-		-ms-transform:  translate(-50%,-50%) scale(1,1);  /* IE 9 */
-		transform:  translate(-50%,-50%) scale(1,1);  /* Firefox 16+, IE 10+, Opera */
+	100%   {
+		width:350px;
 		border-bottom-color: #78ad30 ;
-	}
-	100% {
-		-webkit-transform:  translate(-50%,-50%) scale(0,1);  /* Chrome, Opera 15+, Safari 3.1+ */
-		-ms-transform:  translate(-50%,-50%) scale(0,1);  /* IE 9 */
-		transform:  translate(-50%,-50%) scale(0,1);  /* Firefox 16+, IE 10+, Opera */
 	}
 }
 /*==========================================
@@ -151,7 +137,7 @@ FIN FONT
 	margin-top: 5px;
 }
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
-	color: #7c7c7c;
+	color: #78ad30;
 }
 
 .affix {
@@ -193,6 +179,10 @@ FIN FONT
 	font-size: 5.5em;
 	padding: 1em;
 }
+h2{
+	font-size: 2em;
+	font-weight: 300;
+}
 h2:after{
 	display: block;
 	content: '';
@@ -206,4 +196,53 @@ h2:after{
 }
 #contact h2:after{
 	background-color: rgba(255, 255, 255, 0.5);
+}
+#home p{
+	font-weight: 300;
+	font-size: 1.1em;
+}
+.form-inline > .g-recaptcha > div{
+	margin: auto;
+}
+.btn{
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-color: #ccc;
+}
+.btn:hover{
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.3);;
+}
+
+#produits .nav-pills{
+	background-color: #b7b9b7;
+	color: #000000;
+}
+#produits .nav-pills>li.active>a, #produits .nav-pills>li.active>a:focus, #produits .nav-pills>li.active>a:hover{
+	background-color: transparent;
+}
+#produits li:after{
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 0%;
+	top: 0;
+	right: 100%;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-ms-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+	transition:all 0.5s linear;
+}
+#produits li.active:after{
+	right: 0;
+	width: 100%;
+	border-bottom: 4px solid #78ad30;
+}
+#produits .nav>li>a:focus, #produits .nav>li>a:hover{
+	background-color: transparent;
+	color: #fff;
+}
+#produits .nav>li:focus, #produits .nav>li:hover{
+	background-color: #ccc;
 }
