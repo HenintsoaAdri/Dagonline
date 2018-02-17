@@ -1,0 +1,8 @@
+1- slogan hita @menu fona refa miscroll: logo + slogan, menu ambany
+2- contenu rehetra atao mitovy @site taloha tsy anapiana tsy analana
+3- footer kely fotsiny, le news letter atao tsy anaty footer
+4- background atao anlay talou
+5- atao misy "fond" na tsaiko le logo apres mba tsy ifangaro @ilay background
+6- garder le design de "la société", JUSTE HOE apiana animation kely le icone
+7- fr/ ang en chargement de la page
+8- page delimité
