@@ -221,22 +221,21 @@ h2:after{
 #produits .nav-pills>li.active>a, #produits .nav-pills>li.active>a:focus, #produits .nav-pills>li.active>a:hover{
 	background-color: transparent;
 }
-#produits li:after{
+#produits li:before{
 	content: '';
 	position: absolute;
 	height: 100%;
-	width: 0%;
-	top: 0;
-	right: 100%;
-	-webkit-transition:all 0.5s linear;
-	-moz-transition:all 0.5s linear;
-	-ms-transition:all 0.5s linear;
-	-o-transition:all 0.5s linear;
-	transition:all 0.5s linear;
-}
-#produits li.active:after{
-	right: 0;
 	width: 100%;
+	top: 0;
+	left:0;
+	-webkit-transition:all 0.1s linear;
+	-moz-transition:all 0.1s linear;
+	-ms-transition:all 0.1s linear;
+	-o-transition:all 0.1s linear;
+	transition:all 0.1s linear;
+	border-bottom: 0px solid #78ad30;
+}
+#produits li.active:before{
 	border-bottom: 4px solid #78ad30;
 }
 #produits .nav>li>a:focus, #produits .nav>li>a:hover{

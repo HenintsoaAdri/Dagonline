@@ -1,0 +1,16 @@
+TACHES A FAIRE
+
+- page resto à améliorer
+	tabs seront en sidebar
+	rond -> caré
+- page entreprise à modifier
+	plus professionnel
+	design qui change selon les categories
+	
+- page petites annonces
+- page hotel
+- page categorie
+
+TACHES FINIES
+
+- filtre recherche (sans oublier les tags)

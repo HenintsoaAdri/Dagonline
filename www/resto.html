@@ -660,11 +660,11 @@
 <div class="btn-group menu-rapide text-white">
   <span class="glyphicon glyphicon-menu-left"></span>
   <div class="btn-group-vertical">
-    <a class="btn" title="H&ocirc;tel" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-bed"></i></a>
-    <a class="btn" title="Restaurant" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-cutlery"></i></a>
-    <a class="btn" title="Cyber" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-laptop"></i></a>
-    <a class="btn" title="Bons Plans" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-glass"></i></a>
-    <a class="btn" title="Jobs" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-briefcase"></i></a>
+    <a class="btn btn-flat" title="H&ocirc;tel" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-bed"></i></a>
+    <a class="btn btn-flat" title="Restaurant" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-cutlery"></i></a>
+    <a class="btn btn-flat" title="Cyber" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-laptop"></i></a>
+    <a class="btn btn-flat" title="Bons Plans" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-glass"></i></a>
+    <a class="btn btn-flat" title="Jobs" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-briefcase"></i></a>
   </div>
 </div>
 <!--Fin de lien rapide-->
@@ -677,40 +677,50 @@
   </div>
 
   <!-- Container Tab resto -->
-  <div class="container-fluid hidden-xs">
+  <div class="container-fluid">
     <div class="row restaurant-row">
       <div class="col-xs-12 text-center img">
         <img src="img/restaurantpage.jpg">
       </div>
       <div class="tab row">
         <div class="col-xs-3 text-center">
-          <ul class="nav nav-pills nav-stacked text-white">
-            <li class="active petit-formal-script"><a data-toggle="pill" href="#home-xs">Home</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#menu1-xs">Menu 1</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#menu2-xs">Menu 2</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#menu3-xs">Menu 3</a></li>
+          <ul class="nav nav-pills nav-stacked petit-formal-script text-white">
+            <li class="active m-t-0"><a data-toggle="pill" href="#home">Home</a></li>
+            <li class="m-t-0"><a data-toggle="pill" href="#description">Description</a></li>
+            <li class="m-t-0"><a data-toggle="pill" href="#menu">Nos Menus</a></li>
+            <li class="m-t-0"><a data-toggle="pill" href="#localisation">Localisation</a></li>
           </ul>
         </div>
-        <div class="col-xs-9 text-center">
-          <div class="tab-content text-white">
-            <div id="home-xs" class="tab-pane fade in active">
-              <h3 class="oswald">FOOD COURT</h3>
-              <h4 class="indie-flower">Tana Water Front</h4>
-              <p>+261 32 00 000 00</p>
-              <p>+261 34 00 000 00</p>
-              <p>foodcourt@moov.mg</p>
-            </div>
-            <div id="menu1-xs" class="tab-pane fade">
-              <h4 class="indie-flower">Menu 1</h4>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div id="menu2-xs" class="tab-pane fade">
-              <h4 class="indie-flower">Menu 2</h4>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-            </div>
-            <div id="menu3-xs" class="tab-pane fade">
-              <h4 class="indie-flower">Menu 3</h4>
-              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <div class="col-xs-9 text-center tab-content text-white">
+          <div id="home" class="tab-pane fade in active">
+            <h3 class="oswald">FOOD COURT</h3>
+            <h4 class="indie-flower">Tana Water Front</h4>
+            <p>+261 32 00 000 00</p>
+            <p>+261 34 00 000 00</p>
+            <p><i class="fa fa-envelope-o"></i> foodcourt@moov.mg</p>
+            <p>Lundi - Vendredi  8:30 <i class="fa fa-caret-right"></i> 18:30</p>
+            <p>Samedi  8:30 <i class="fa fa-hand-o-right"></i> 19:30</p>
+          </div>
+          <div id="description" class="tab-pane fade">
+            <h4 class="indie-flower">Description</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida mattis erat, in gravida odio. Aliquam a ante et risus fringilla convallis quis eget urna. Nulla quis nibh aliquam mi pellentesque ultrices in eu nisi. Integer in elementum metus. Fusce volutpat porttitor tellus. Fusce suscipit, purus in tempus lacinia, felis metus elementum justo, vitae lacinia tortor nulla vel lorem. Vivamus vitae semper libero, sit amet blandit massa.</p>
+            <p>Morbi vel libero sit amet nunc commodo venenatis. Praesent porta leo eget feugiat venenatis. Phasellus venenatis luctus ligula, eget condimentum sapien euismod ut. Praesent vel ornare ex. Nullam ultricies nunc a dignissim viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum porta ultrices posuere. Nullam cursus ligula bibendum dapibus tristique. Pellentesque pretium ligula a leo rutrum vehicula. Aliquam aliquet a quam vitae luctus. Nullam id dolor eu dolor porta gravida id sed eros. Suspendisse posuere est vel facilisis condimentum. Duis suscipit eget metus vel fringilla.</p>
+            <p>Sed vitae sollicitudin lacus. Vestibulum augue lectus, porttitor in elementum non, malesuada in lectus. Maecenas eget faucibus eros. Nunc in leo augue. Vestibulum eu neque ut purus scelerisque faucibus ut in metus. Nulla facilisi. Duis quis augue velit. Praesent vulputate libero purus, at sagittis odio porttitor sed. Curabitur auctor mauris elementum vestibulum tempus. Praesent finibus et nisl in pharetra. Fusce posuere placerat turpis, et volutpat massa consectetur quis. Quisque ut ante sollicitudin, rutrum arcu eget, tempor risus. Fusce id odio dictum erat mollis lacinia laoreet sodales justo.</p>
+            <p>Donec ac velit non sem lobortis varius vitae faucibus mi. Maecenas a dictum libero. Maecenas pharetra volutpat efficitur. Fusce sollicitudin, dui at ultricies ornare, elit dui commodo lorem, quis mollis leo urna et elit. Vestibulum auctor vestibulum lectus. Integer rutrum nisl eget nisi rhoncus, vitae iaculis dui tincidunt. Aenean semper volutpat nulla, id vulputate massa fermentum ac. Curabitur id libero convallis turpis dignissim malesuada. In tristique ligula ut nulla mattis consequat. Nulla a scelerisque purus, eget vehicula velit. Aliquam bibendum porta erat, et luctus est efficitur id.</p>
+            <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec eget purus blandit velit suscipit hendrerit nec nec ligula. Donec turpis erat, dignissim nec tincidunt quis, tempor id elit. Donec sodales arcu eu porttitor pharetra. Praesent quis quam et lacus scelerisque pharetra eu sit amet mauris. Praesent sapien augue, tempus id elementum vel, rutrum eget diam. Morbi non faucibus quam, non dictum ipsum. Nam at vehicula libero.</p>
+          </div>
+          <div id="menu" class="tab-pane fade">
+            <h4 class="indie-flower">Nos Menus</h4>
+            <img src="img/menu-exemple-resto.jpg" class="img-responsive">
+            <ul class="pager m-t-5 m-b-5">
+              <li><a href="#"><i class="fa fa-fw fa-chevron-left"></i></a></li>
+              <li><a href="#"><i class="fa fa-fw fa-chevron-right"></i></a></li>
+            </ul>
+          </div>
+          <div id="localisation" class="tab-pane fade">
+            <h4 class="indie-flower">Trouvez nous ici</h4>
+            <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60381.96674064899!2d47.532478409619095!3d-18.937018220649918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2smg!4v1516881806035" width="90%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -720,7 +730,7 @@
   <!-- Fin Container Tab visible-xs resto -->
 
   <!-- Container Slide resto -->
-  <div class="container-fluid">
+  <div class="container-fluid m-t-5">
     <div class="row restaurant-row">
       <div class="col-sm-12">
         <div id="SlideVignette" class="carousel slide" data-ride="carousel">
