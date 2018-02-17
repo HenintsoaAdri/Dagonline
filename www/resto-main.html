@@ -35,7 +35,7 @@
   </ul>
 </div>
 <!--Navigation Bar-->
-<nav class="m-b-0 bg-red navbar navbar-static-top text-white navbar-inverse" data-spy="affix" data-offset-top="32">
+<nav class="m-b-0 navbar navbar-static-top text-white navbar-inverse" data-spy="affix" data-offset-top="32">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -676,7 +676,7 @@
       <span class="input-group-addon"><i class="glyphicon glyphicon-search text-info"></i></span>
       <input type="text" class="form-control" size="30" placeholder="Rechercher...">
     </div>
-    <button type="button" class="form-control btn text-white bg-red">Trouver</button>
+    <button type="button" class="form-control btn bg-red text-white">Trouver</button>
   </form>
 
   <div id="SlidePrincipal" class="carousel slide hidden-xs" data-ride="carousel">
@@ -713,11 +713,11 @@
 <div class="btn-group menu-rapide text-white">
   <span class="glyphicon glyphicon-menu-left"></span>
   <div class="btn-group-vertical">
-    <a class="btn" title="H&ocirc;tel" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-bed"></i></a>
-    <a class="btn" title="Restaurant" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-cutlery"></i></a>
-    <a class="btn" title="Cyber" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-laptop"></i></a>
-    <a class="btn" title="Bons Plans" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-glass"></i></a>
-    <a class="btn" title="Jobs" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-briefcase"></i></a>
+    <a class="btn btn-flat" title="H&ocirc;tel" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-bed"></i></a>
+    <a class="btn btn-flat" title="Restaurant" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-cutlery"></i></a>
+    <a class="btn btn-flat" title="Cyber" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-laptop"></i></a>
+    <a class="btn btn-flat" title="Bons Plans" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-glass"></i></a>
+    <a class="btn btn-flat" title="Jobs" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-briefcase"></i></a>
   </div>
 </div>
 <!--Fin de lien rapide-->
@@ -728,9 +728,57 @@
   <div class="container-fluid bg-warning text-danger pacifico shadow">
     <div class="text-right p-r-20"><h2>Restaurant</h2></div>
   </div>
+  <!-- Container filtre -->
+  <div class="container-fluid filtre text-center m-t-20 m-b-20">
+    <div class="row">
+      <div class="col-sm-12">
+        <form class="container" action="#">
+          <div class="form-group row">
+            <div class="col-sm-offset-1 col-sm-3 p-l-0 p-r-5">
+              <select class="form-control filtre">
+                <option disabled selected>Affiner vos recherches</option>
+                <option value="">Tous</option>
+                <option value="etoile">Restaurant étoilé</option>
+                <option value="glacier">Glacier</option>
+                <option value="pizzeria">Pizzeria</option>
+                <option value="bar">Bar</option>
+                <option value="fastfood">Fast food</option>
+                <option value="patisserie">Patisserie</option>
+              </select>
+            </div>
+            <div class="col-sm-3 p-l-0 p-r-5">
+              <select class="form-control filtre">
+                <option disabled selected>Type de cuisine</option>
+                <option value="">Tous</option>
+                <option value="malagasy">Malagasy</option>
+                <option value="europeenne">Européenne</option>
+                <option value="indienne">Indienne</option>
+                <option value="chinoise">Chinoise</option>
+              </select>
+            </div>
+            <div class="col-sm-3 p-l-0 p-r-5">
+              <input type="text" class="form-control filtre" id="filtre-nom" placeholder="Rechercher l'établissement" name="filtre-nom">
+            </div>
+            <div class="col-sm-1 p-l-0 p-r-5">
+              <button class="btn btn-outline p-r-20 p-l-20" type="submit">Filtrer</button>
+            </div>
+          </div>
+          <div class="form-group row filtre">
+            <label class="checkbox-inline"><input type="checkbox" name="tag" value="wifi"><span class="checkbox-tag btn"><i class="fa fa-fw fa-wifi"></i> Wifi <i class="fa fa-fw fa-times-circle"></i></span></label>
+            <label class="checkbox-inline"><input type="checkbox" name="tag" value="parking"><span class="checkbox-tag btn"><i class="fa fa-fw fa-car"></i> Parking <i class="fa fa-fw fa-times-circle"></i></span></label>
+            <label class="checkbox-inline"><input type="checkbox" name="tag" value=""><span class="checkbox-tag btn">Option 3 <i class="fa fa-fw fa-times-circle"></i></span></label>
+            <label class="checkbox-inline"><input type="checkbox" name="tag" value=""><span class="checkbox-tag btn">Option 3 <i class="fa fa-fw fa-times-circle"></i></span></label>
+            <label class="checkbox-inline"><input type="checkbox" name="tag" value=""><span class="checkbox-tag btn">Option 3 <i class="fa fa-fw fa-times-circle"></i></span></label>
+            <label class="checkbox-inline"><input type="checkbox" name="tag" value=""><span class="checkbox-tag btn">Option 3 <i class="fa fa-fw fa-times-circle"></i></span></label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Container filtre -->
   <!-- Container liste restaurant-->
   <div class="container-fluid resto-main">
-    <div class="row">
+    <div class="row europeenne bar pizzeria">
       <div class="col-sm-12 vignette">
         <img src="img/resto-main-tile2.jpg" class="img-responsive">
         <div class="vignette-detail text-white">
@@ -739,82 +787,38 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="row">
-          <div class="col-sm-12 vignette">
-            <img src="img/1440x450.jpg" class="img-responsive">
-            <div class="vignette-detail text-white">
-              <h3>Restaurant 2</h3>
-              <a href="resto.html" class="more">Voir le restaurant</a>
-            </div>
-          </div>
-          <div class="col-sm-12 vignette">
-            <img src="img/resto-main-tile.jpg" class="img-responsive">
-            <div class="vignette-detail text-white">
-              <h3>Restaurant 3</h3>
-              <a href="resto.html" class="more">Voir le restaurant</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="row">
-          <div class="col-sm-12 vignette">
-            <img src="img/restaurantpage.jpg" class="img-responsive">
-            <div class="vignette-detail text-white">
-              <h3>Restaurant 4</h3>
-              <a href="resto.html" class="more">Voir le restaurant</a>
-            </div>
-          </div>
+    <div class="row malagasy europeenne etoile glacier patisserie">
+      <div class="col-sm-12 vignette">
+        <img src="img/1440x450.jpg" class="img-responsive">
+        <div class="vignette-detail text-white">
+          <h3>Restaurant 2</h3>
+          <a href="resto.html" class="more">Voir le restaurant</a>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="row">
-          <div class="col-sm-12 vignette">
-            <img src="img/resto-main-tile1.jpg" class="img-responsive">
-            <div class="vignette-detail text-white">
-              <h3>Restaurant 5</h3>
-              <a href="resto.html" class="more">Voir le restaurant</a>
-            </div>
-          </div>
+    <div class="row indienne fastfood pizzeria">
+      <div class="col-sm-12 vignette">
+        <img src="img/resto-main-tile.jpg" class="img-responsive">
+        <div class="vignette-detail text-white">
+          <h3>Restaurant 3</h3>
+          <a href="resto.html" class="more">Voir le restaurant</a>
         </div>
       </div>
-      <div class="col-sm-6">
-        <div class="row">
-          <div class="col-sm-6 vignette">
-            <img src="img/720x450.jpg" class="img-responsive">
-            <div class="vignette-detail text-white">
-              <h3>Restaurant 6</h3>
-              <a href="resto.html" class="more">Voir le restaurant</a>
-            </div>
-          </div>
-          <div class="col-sm-6 vignette">
-            <img src="img/720x450.jpg" class="img-responsive">
-            <div class="vignette-detail text-white">
-              <h3>Restaurant 7</h3>
-              <a href="resto.html" class="more">Voir le restaurant</a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 vignette">
-                <img src="img/1440x450.jpg" class="img-responsive">
-                <div class="vignette-detail text-white">
-                  <h3>Restaurant 8</h3>
-                  <a href="resto.html" class="more">Voir le restaurant</a>
-                </div>
-              </div>
+    </div>
+    <div class="row chinoise etoile">
+      <div class="col-sm-12 vignette">
+        <img src="img/1440x450.jpg" class="img-responsive">
+        <div class="vignette-detail text-white">
+          <h3>Restaurant 4</h3>
+          <a href="resto.html" class="more">Voir le restaurant</a>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12 vignette">
-        <img src="img/1440x450.jpg" class="img-responsive">
+        <img src="img/restaurantpage.jpg" class="img-responsive">
         <div class="vignette-detail text-white">
-          <h3>Restaurant 9</h3>
+          <h3>Restaurant 5</h3>
           <a href="resto.html" class="more">Voir le restaurant</a>
         </div>
       </div>
@@ -906,5 +910,6 @@
 <script src="js/jquery.toast.min.js"></script>
 <!--JS personnalisé-->
 <script src="js/main.js"></script>
+<script src="js/filterResto.js"></script>
 </body>
 </html>
