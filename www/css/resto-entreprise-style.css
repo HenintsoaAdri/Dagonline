@@ -175,7 +175,7 @@
     z-index: 9;
 }
 
-.vignette-detail a.more {
+.vignette-detail a.more{
     position: relative;
     z-index: 10;
     display: inline-block;
@@ -312,3 +312,29 @@
     transform: scale(1.01);
 }
 /* FIN NOS MENUS CUSTOM */
+
+.vignette-detail a
+{
+    display:block;
+    color: #fff;
+}
+
+.vignette-detail ul
+{
+    list-style-type: none;
+    text-align: justify !important;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover  .centered-screen{ 
+	z-index: 999;
+	display: block;
+	transform: scale(1.5); 
+}
+
+.centered-screen {
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -50%);
+}
