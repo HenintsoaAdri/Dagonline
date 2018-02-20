@@ -1,3 +1,6 @@
+#body{
+    overflow: hidden;
+}
 .resto-main, .resto-main div{
     padding: 0px;
     margin: 0px;
@@ -24,7 +27,6 @@
     position: absolute;
     top:0;
     left: 0;
-    right: 0;
     color: #ffebc2;
     background-color: rgba(51, 51, 51, 0.8);
     text-align: center;
@@ -34,7 +36,11 @@
     -moz-transition:all 0.4s ease-out;
     -ms-transition:all 0.4s ease-out;
     -o-transition:all 0.4s ease-out;
-    transition:all 0.4s ease-out;
+    transition:all 0.7s ease-out;
+}
+.vignette-detail.right{
+    right:0;
+    left:inherit;
 }
 .vignette-detail:after {
     position: absolute;
@@ -65,8 +71,6 @@
 }
 
 .vignette-detail a.more {
-    position: relative;
-    z-index: 10;
     display: inline-block;
     text-decoration: none;
     padding: 7px 14px;
@@ -85,39 +89,29 @@
     font-family: serif;
     font-style: italic;
     font-size: 14px;
-    position: relative;
     color: #fff;
-    padding: 0px 20px 0px;
-    text-align: center
+    margin: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.vignette:hover .vignette-detail p{
+    text-overflow: inherit;
+    white-space: inherit;
+    overflow: visible;
 }
 
 .vignette-detail h3 {
     text-transform: uppercase;
     color: #fff;
     text-align: center;
-    position: relative;
     font-size: 1.5em;
     font-family: "Courier New", serif;
     padding: 10px;
-    /*background: rgba(0, 0, 0, 0.8);*/
     margin: 20px 0 0 0;
     text-transform: uppercase;
-    opacity:0;
-    -webkit-transform: translate3d(0%, 50%, 0);
-    transform: translate3d(0%, 50%, 0);
-    -webkit-transition-delay: 0.3s;
-    transition-delay: 0.3s;
 }
-.vignette:hover .vignette-detail h3{
-    opacity: 1;
-    -webkit-transform: translate3d(0%, 0%, 0);
-    transform: translate3d(0%, 0%, 0);
-    -webkit-transition-delay: 0.3s;
-    transition-delay: 0.3s;
-}
-#body{
-    overflow: hidden;
-}
+/* TAG */
 .filtre .checkbox-tag{
     padding: 0.5em 2em;
     background-color: rgba(145, 197, 222, 0.2);
@@ -153,3 +147,4 @@
     margin-left: 10px;
 }
 
+/*FIN TAG*/
