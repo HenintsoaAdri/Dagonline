@@ -694,12 +694,13 @@
         <div class="col-xs-9 text-center tab-content text-white">
         <div id="home" class="tab-pane fade in active">
           <h3 class="oswald">FOOD COURT</h3>
+          <i class="fa fa-cutlery fa-4x"></i>
           <h4 class="indie-flower">Tana Water Front</h4>
           <p>+261 32 00 000 00</p>
           <p>+261 34 00 000 00</p>
           <p><i class="fa fa-envelope-o"></i> foodcourt@moov.mg</p>
           <p>Lundi - Vendredi  8:30 <i class="fa fa-caret-right"></i> 18:30</p>
-          <p>Samedi  8:30 <i class="fa fa-hand-o-right"></i> 19:30</p>
+          <p>Samedi  8:30 <i class="fa fa-caret-right"></i> 19:30</p>
         </div>
         <div id="description" class="tab-pane fade">
           <h4 class="indie-flower">Description</h4>
@@ -711,10 +712,23 @@
         </div>
         <div id="menu" class="tab-pane fade">
           <h4 class="indie-flower">Nos Menus</h4>
-          <img src="img/menu-exemple-resto.jpg" class="img-responsive">
+          <div id="menu-slide" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/menu-exemple-resto.jpg" class="img-responsive">
+              </div>
+              <div class="item">
+                <img src="img/menu-exemple-resto.jpg" class="img-responsive">
+              </div>
+              <div class="item">
+                <img src="img/menu-exemple-resto.jpg" class="img-responsive">
+              </div>
+
+            </div>
+          </div>
           <ul class="pager m-t-5 m-b-5">
-            <li><a href="#"><i class="fa fa-fw fa-chevron-left"></i></a></li>
-            <li><a href="#"><i class="fa fa-fw fa-chevron-right"></i></a></li>
+            <li><a href="#menu-slide" data-slide="prev"><i class="fa fa-fw fa-chevron-left"></i></a></li>
+            <li><a href="#menu-slide" data-slide="next"><i class="fa fa-fw fa-chevron-right"></i></a></li>
           </ul>
         </div>
         <div id="localisation" class="tab-pane fade">
@@ -847,8 +861,8 @@
       </div>
     </div>
     <div class="col-sm-3 text-justify">
-      <div class="row">
-        <form class="form-inline">
+      <div class="row ">
+        <form class="form-inline col-sm-12">
           <div class="input-group">
             <div class="input-group-btn">
               <button class="btn btn-default" type="submit">
@@ -861,10 +875,12 @@
       </div>
       <br>
       <div class="row">
-        <p>Espace Professionnel : Connectez-vous<br>
-        <a href="#">Propriétaires</a><br>
-        <a href="#">Business Owners</a><br>
-        Suivez nous!</p>
+        <div class="">
+          <p>Espace Professionnel : Connectez-vous<br>
+          <a href="#">Propriétaires</a><br>
+          <a href="#">Business Owners</a><br>
+          Suivez nous!</p>
+        </div>
       </div>
       <div class="row">
         <div class="col-xs-3"><img src="img/facebook.png"></div>
