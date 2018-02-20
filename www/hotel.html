@@ -681,7 +681,7 @@
       <div class="col-xs-12 text-center img">
         <img src="img/hotelpage.jpg">
       </div>
-      <div class="tab row">
+      <div class="col-xs-12 tab row">
         <div class="col-xs-3 text-center">
           <ul class="nav nav-pills nav-stacked text-white">
             <li class="active petit-formal-script"><a data-toggle="pill" href="#home">Home</a></li>
@@ -1129,9 +1129,16 @@
 <!--Fin footer-->
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<!--Toast-->
-<script src="js/jquery.toast.min.js"></script>
+<!--Sticky nav-pills -->
+<script src="js/sticky-kit.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".tab > .col-xs-3").stick_in_parent({offset_top:50});
+  })
+</script>
 <!--JS personnalisé-->
 <script src="js/main.js"></script>
+<!--Toast-->
+<script src="js/jquery.toast.min.js"></script>
 </body>
 </html>
