@@ -2,37 +2,33 @@
     padding: 0;
     overflow: hidden;
 }
-.restaurant-row, .entreprise-row{
+.restaurant-row, .hotel-row{
     position: relative;
 }
-.restaurant-row > .tab, .restaurant-row > .tab,
-.entreprise-row > .tab, .restaurant-row > .tab{
+.restaurant-row > .tab, .hotel-row > .tab{
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow-y: auto;
+    overflow: hidden;
 }
 .restaurant-row .tab-content,
-.entreprise-row .tab-content{
+.hotel-row .tab-content{
     background-color: rgba(0, 0, 0, 0.5);
     border-left: solid #ffebc2 2px;
     position: relative;
 }
-.restaurant-row .tab-content, .entreprise-row .tab-content{
+.restaurant-row .tab-content, .hotel-row .tab-content{
     border: solid #ffebc2 2px;
     margin: auto;
     margin-top: 10px;
-    box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.5);
     height: calc(100% - 20px);
     overflow: auto;
 }
- .entreprise-row .img img,
+ .hotel-row .img img,
  .restaurant-row .img img{
     width: 99vw;
     height: 100%;
 }
-.entreprise-row .img:after ,
+.hotel-row .img:after ,
 .restaurant-row .img:after {
     width: 100%;
     height: 100%;
@@ -43,27 +39,28 @@
     background-color: rgba(0,0,0,0.3);
 }
 .restaurant-row > div,
-.entreprise-row > div{
+.hotel-row > div{
     padding: 0;
     height: 100%;
 }
+/* FIN STICKY SIDE BAR*/
 .restaurant-row .nav-pills > li > a:hover,
 .restaurant-row .nav-pills > li > a:active,
 .restaurant-row .nav-pills > li > a:focus,
 .restaurant-row .nav-pills > li > a:visited,
 .restaurant-row .nav-pills > li.active > a,
-.entreprise-row .nav-pills > li > a:hover,
-.entreprise-row .nav-pills > li > a:active,
-.entreprise-row .nav-pills > li > a:focus,
-.entreprise-row .nav-pills > li > a:visited,
-.entreprise-row .nav-pills > li.active > a{
+.hotel-row .nav-pills > li > a:hover,
+.hotel-row .nav-pills > li > a:active,
+.hotel-row .nav-pills > li > a:focus,
+.hotel-row .nav-pills > li > a:visited,
+.hotel-row .nav-pills > li.active > a{
     color: #ffebc2;;
     -ms-transform: perspective(1px) translateZ(0);
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     background-color: rgba(0, 0, 0, 0.5);
 }
-.entreprise-row .nav-pills > li > a:before,
+.hotel-row .nav-pills > li > a:before,
 .restaurant-row .nav-pills > li > a:before{
     content: "";
     position: absolute;
@@ -80,7 +77,7 @@
     transition-timing-function: ease-out;
 }
 .restaurant-row .nav-pills > li > a,
-.entreprise-row .nav-pills > li > a{
+.hotel-row .nav-pills > li > a{
     border-radius: 0;
     font-weight: 900;
 }
@@ -89,11 +86,11 @@
 .restaurant-row .nav-pills > li > a:active:before,
 .restaurant-row .nav-pills > li > a:visited:before,
 .restaurant-row .nav-pills > li.active > a:before,
-.entreprise-row .nav-pills > li > a:hover:before,
-.entreprise-row .nav-pills > li > a:focus:before,
-.entreprise-row .nav-pills > li > a:active:before,
-.entreprise-row .nav-pills > li > a:visited:before,
-.entreprise-row .nav-pills > li.active > a:before
+.hotel-row .nav-pills > li > a:hover:before,
+.hotel-row .nav-pills > li > a:focus:before,
+.hotel-row .nav-pills > li > a:active:before,
+.hotel-row .nav-pills > li > a:visited:before,
+.hotel-row .nav-pills > li.active > a:before
 {
 	left:0;
 	right:0;
@@ -103,20 +100,20 @@
 	background-repeat:no-repeat;
 }
 .restaurant-row .tab-content h3,
-.entreprise-row .tab-content h3{
+.hotel-row .tab-content h3{
     text-transform: uppercase;
     font-size: 6em;
 }
 .restaurant-row .tab-content h4,
-.entreprise-row .tab-content h4{
+.hotel-row .tab-content h4{
     font-size: 3em;
 }
 .restaurant-row .tab-content p,
-.entreprise-row .tab-content p{
+.hotel-row .tab-content p{
     font-size: 1.5em;
 }
 .restaurant-row .nav-pills a,
-.entreprise-row .nav-pills a{
+.hotel-row .nav-pills a{
     font-size: 1.5em;
 }
 /*SLIDE VIGNETTE*/
@@ -147,7 +144,7 @@
     -o-transition:all 0.4s ease-out;
     transition:all 0.4s ease-out;
 }
-.vignette-detail:after {
+.vignette-detail:before {
     position: absolute;
     top: 50%;
     right: 20%;
@@ -163,7 +160,7 @@
     -webkit-transition-delay: 0.6s;
     transition-delay: 0.6s;
 }
-.vignette:hover .vignette-detail:after{
+.vignette:hover .vignette-detail:before{
     background: rgba(255, 255, 255, 0);
     top: 30px;
     bottom: 30px;
@@ -172,12 +169,10 @@
     opacity: 1;
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
-    z-index: 9;
 }
 
 .vignette-detail a.more{
     position: relative;
-    z-index: 10;
     display: inline-block;
     text-decoration: none;
     padding: 7px 14px;
