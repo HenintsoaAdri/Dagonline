@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+  <link rel="manifest" href="img/icon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
   <title>Dagonline - Trouvez et achetez ce qui vous chante sur tout Madagascar</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
   <!--Toast-->
   <link rel="stylesheet" href="css/jquery.toast.min.css">
   <!--Fin Toast-->
@@ -658,26 +675,28 @@
 
 <!--Slide principal-->
 <div class="jumbotron text-center m-b-0">
-  <h1>Dagonline</h1>
-  <p>Trouvez et achetez ce qui vous chante sur tout Madagascar</p>
-  <form class="form-inline col-xs-offset-1 col-xs-10">
-    <div class="form-group">
-      <select class="form-control">
-        <option disabled selected>Où : Pays, Région, Département, Ville </option>
-        <option>Antananarivo</option>
-        <option>Diego-Suarez</option>
-        <option>Majunga</option>
-        <option>Tamatave</option>
-        <option>Fianarantsoa</option>
-        <option>Tuléar</option>
-      </select>
-    </div>
-    <div class="form-group input-group">
-      <span class="input-group-addon"><i class="glyphicon glyphicon-search text-info"></i></span>
-      <input type="text" class="form-control" size="30" placeholder="Rechercher...">
-    </div>
-    <button type="button" class="form-control btn text-white bg-red">Trouver</button>
-  </form>
+  <div class="jumbotron-text">
+    <h1>Dagonline</h1>
+    <p>Trouvez et achetez ce qui vous chante sur tout Madagascar</p>
+    <form class="form-inline col-xs-offset-1 col-xs-10">
+      <div class="form-group">
+        <select class="form-control">
+          <option disabled selected>Où : Pays, Région, Département, Ville </option>
+          <option>Antananarivo</option>
+          <option>Diego-Suarez</option>
+          <option>Majunga</option>
+          <option>Tamatave</option>
+          <option>Fianarantsoa</option>
+          <option>Tuléar</option>
+        </select>
+      </div>
+      <div class="form-group input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-search text-info"></i></span>
+        <input type="text" class="form-control" size="30" placeholder="Rechercher...">
+      </div>
+      <button type="button" class="form-control btn text-white bg-red">Trouver</button>
+    </form>
+  </div>
 
   <div id="SlidePrincipal" class="carousel slide hidden-xs" data-ride="carousel">
 
@@ -823,7 +842,7 @@
           <div class="col-sm-4 p-l-20 text-white">
             <h3 class="pacifico">Just dance</h3>
             <p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
-            <div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+            <div class="more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
           </div>
         </div>
         <!--Fin Grand Article Evenement-->
@@ -1019,23 +1038,12 @@
                 <div class="item active">
                   <div class="wrapper">
                     <div class="container">
-                      <div class="top"></div>
+                      <div class="top">
+                        <img src="img/seza.jpg" class="img-responsive">
+                      </div>
                       <div class="bottom">
-                        <div class="left">
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>Ar 250000</p>
-                          </div>
-                          <div class="buy"><i class="fa fa-plus-circle"></i></div>
-                        </div>
-                        <div class="right">
-                          <div class="done"><i class="material-icons">done</i></div>
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>Added to your cart</p>
-                          </div>
-                          <div class="remove"><i class="material-icons">clear</i></div>
-                        </div>
+                        <h1 class="m-0 p-0">Chair</h1>
+                        <p class="m-0 p-0">Ar 250000</p>
                       </div>
                     </div>
                     <div class="inside">
@@ -1049,21 +1057,12 @@
                 <div class="item">
                   <div class="wrapper">
                     <div class="container">
-                      <div class="top"></div>
+                      <div class="top">
+                        <img src="img/seza.jpg" class="img-responsive">
+                      </div>
                       <div class="bottom">
-                        <div class="left">
-                          <div class="details">
-                            <h1>Seza</h1>
-                            <p>Ar 250000</p>
-                          </div>
-                          <div class="buy"><i class="fa fa-plus-circle"></i></div>
-                        </div>
-                        <div class="right">
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>Added to your cart</p>
-                          </div>
-                        </div>
+                        <h1 class="m-0 p-0">Seza</h1>
+                        <p class="m-0 p-0">Ar 250000</p>
                       </div>
                     </div>
                     <div class="inside">
@@ -1122,7 +1121,7 @@
           <div class="col-sm-4 p-l-20 text-white">
             <h3 class="pacifico">Restaurant Les Saveurs</h3>
             <p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
-            <div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+            <div class="more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
           </div>
         </div>
         <!--Fin Grand Article Resto-->
@@ -1339,7 +1338,7 @@
           <div class="col-sm-4 p-l-20 text-white">
             <h3 class="pacifico">H&ocirc;tel Sakamanga</h3>
             <p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
-            <div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+            <div class="more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
           </div>
         </div>
         <!--Fin Grand Article Hotel-->
@@ -1612,6 +1611,7 @@
 <!--Fin footer-->
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/fontawesome-all.min.js"></script>
 <!--Toast-->
 <script src="js/jquery.toast.min.js"></script>
 <!--Fin Toast-->
@@ -1619,23 +1619,5 @@
 <script src="js/carte-pub.js"></script>
 <!--Fin Animation Carte PUB-->
 <script src="js/main.js"></script>
-<script>
-  var interval;
-  carteAnimate($(".carte-pub div").first());
-  function carteAnimate(selector) {
-    interval = setInterval(function(){
-      if(selector.find("input").first().is("#carte-pub-selector-last")){
-        selector = $(".carte-pub div").first();
-      }
-      $(".carte-pub input").prop("checked",false);
-      selector.find("input").first().prop("checked",true);
-      selector = selector.find("div").first();
-    }, 3000);
-  }
-  $(".carte-pub input").on("click",function () {
-    clearInterval(interval);
-    setTimeout(carteAnimate,1000,$(this).parent());
-  });
-</script>
 </body>
 </html>
