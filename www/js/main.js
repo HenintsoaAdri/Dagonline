@@ -16,5 +16,5 @@ jQuery(document).ready(function ($) {
         stack: false,
         loaderBg:'#ffc93e'
     });
-    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip({delay:50});
 });

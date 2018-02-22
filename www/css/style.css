@@ -380,7 +380,6 @@ FIN LOGO
     background: -moz-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* Standard syntax */
 }
-
 #SlidePrincipal .item img{
 	margin: auto;
 }
@@ -446,7 +445,7 @@ FIN LOGO
 .menu-rapide .btn:hover {
 	background: rgba(255, 235, 194,1);
 }
-.menu-rapide .btn:hover .fa{
+.menu-rapide .btn:hover .fa, .menu-rapide .btn:hover svg{
 	color: #A71726;
 }
 .menu-rapide .btn:hover:after {

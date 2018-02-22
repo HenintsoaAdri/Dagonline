@@ -678,9 +678,9 @@
   <span class="glyphicon glyphicon-menu-left"></span>
   <div class="btn-group-vertical">
     <a class="btn btn-flat" title="H&ocirc;tel" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-bed"></i></a>
-    <a class="btn btn-flat" title="Restaurant" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-cutlery"></i></a>
+    <a class="btn btn-flat" title="Restaurant" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-utensils"></i></a>
     <a class="btn btn-flat" title="Cyber" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-laptop"></i></a>
-    <a class="btn btn-flat" title="Bons Plans" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-glass"></i></a>
+    <a class="btn btn-flat" title="Bons Plans" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-glass-martini"></i></a>
     <a class="btn btn-flat" title="Jobs" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-briefcase"></i></a>
   </div>
 </div>
@@ -757,17 +757,18 @@
       <li><a data-toggle="tab" data-filtre="demande" href="#annonce">Demande</a></li>
     </ul>
     <!-- FILTRES -->
-    <div class="row m-5">
+    <div class="row m-5 m-t-20 filtre">
       <div class="col-xs-3">
-        <h4>Ville</h4>
+        <h4 class="m-t-0">Ville</h4>
         <div class="checkbox">
           <label><input type="checkbox" value="">Antananarivo</label>
         </div>
       </div>
       <div class="col-xs-3">
-        <a class="pull-right text-shadow text-danger fa-3x" href="#more-filtre-automoto" data-toggle="collapse">
-          <i class="fa fa-plus" data-fa-transform="shrink-8"></i></a>
-        <h4>Auto &amp; Moto</h4>
+        <a class="text-shadow" href="#more-filtre-automoto" data-toggle="collapse">
+          <i class="pull-right text-danger fa fa-plus"></i>
+          <h4 class="m-t-0">Auto &amp; Moto</h4>
+        </a>
         <div class="checkbox">
           <label><input type="checkbox" value="">Auto</label>
         </div>
@@ -777,8 +778,7 @@
         <div class="checkbox">
           <label><input type="checkbox" value="">Caravaning</label>
         </div>
-
-        <div id="more-filtre-automoto" class="collapse m-0">
+        <div id="more-filtre-automoto" class="collapse">
           <div class="checkbox">
             <label><input type="checkbox" value="">Utilitaires</label>
           </div>
@@ -794,9 +794,9 @@
         </div>
       </div>
       <div class="col-xs-3">
-        <a class="pull-right text-shadow text-danger fa-3x" href="#demo" data-toggle="collapse">
-          <i class="fa fa-plus" data-fa-transform="shrink-8"></i></a>
-        <h4>Location</h4>
+        <a href="#more-filtre-location" data-toggle="collapse">
+          <i class="pull-right text-danger text-shadow fa fa-plus"></i>
+          <h4 class="m-t-0">Location</h4></a>
         <div class="checkbox">
           <label><input type="checkbox" value="">Auto</label>
         </div>
@@ -806,23 +806,25 @@
         <div class="checkbox">
           <label><input type="checkbox" value="">Caravaning</label>
         </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Utilitaires</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Auto</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Moto</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Caravaning</label>
+        <div id="more-filtre-location" class="collapse">
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Utilitaires</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Auto</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Moto</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Caravaning</label>
+          </div>
         </div>
       </div>
       <div class="col-xs-3">
-        <a class="pull-right text-shadow text-danger fa-3x" href="#demo" data-toggle="collapse">
-          <i class="fa fa-plus" data-fa-transform="shrink-8"></i></a>
-        <h4>Vacances</h4>
+        <a href="#more-filtre-vacances" data-toggle="collapse">
+          <i class="fa fa-plus pull-right text-shadow text-danger"></i>
+          <h4 class="m-t-0">Vacances</h4></a>
         <div class="checkbox">
           <label><input type="checkbox" value="">Auto</label>
         </div>
@@ -832,23 +834,56 @@
         <div class="checkbox">
           <label><input type="checkbox" value="">Caravaning</label>
         </div>
+        <div id="more-filtre-vacances" class="collapse">
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Utilitaires</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Auto</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Moto</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Caravaning</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row m-5 filtre">
+      <div class="col-xs-3">
+        <a href="#more-filtre-informatique" data-toggle="collapse">
+          <i class="fa fa-plus pull-right text-shadow text-danger"></i>
+          <h4 class="m-t-0">Informatique</h4></a>
+
         <div class="checkbox">
-          <label><input type="checkbox" value="">Utilitaires</label>
+          <label><input type="checkbox" value="">Auto</label>
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Auto</label>
+          <label><input type="checkbox" value="">Motos</label>
         </div>
         <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Moto</label>
+          <label><input type="checkbox" value="">Caravaning</label>
         </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Caravaning</label>
+        <div id="more-filtre-informatique" class="collapse">
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Utilitaires</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Auto</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Moto</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Caravaning</label>
+          </div>
         </div>
       </div>
       <div class="col-xs-3">
-        <a class="pull-right text-shadow text-danger fa-3x" href="#demo" data-toggle="collapse">
-          <i class="fa fa-plus" data-fa-transform="shrink-8"></i></a>
-        <h4>Informatique</h4>
+        <a href="#more-filtre-sport-hobbies" data-toggle="collapse">
+          <i class="fa fa-plus pull-right text-shadow text-danger"></i>
+          <h4 class="m-t-0">Sports &amp; Hobbies</h4></a>
         <div class="checkbox">
           <label><input type="checkbox" value="">Auto</label>
         </div>
@@ -858,23 +893,26 @@
         <div class="checkbox">
           <label><input type="checkbox" value="">Caravaning</label>
         </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Utilitaires</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Auto</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Moto</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Caravaning</label>
+        <div id="more-filtre-sport-hobbies" class="collapse">
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Utilitaires</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Auto</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Moto</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Caravaning</label>
+          </div>
         </div>
       </div>
       <div class="col-xs-3">
-        <a class="pull-right text-shadow text-danger fa-3x" href="#demo" data-toggle="collapse">
-          <i class="fa fa-plus" data-fa-transform="shrink-8"></i></a>
-        <h4>Sports &amp; Hobbies</h4>
+        <a href="#more-filtre-services" data-toggle="collapse">
+          <i class="fa fa-plus pull-right text-shadow text-danger"></i>
+          <h4 class="m-t-0">Services</h4></a>
+
         <div class="checkbox">
           <label><input type="checkbox" value="">Auto</label>
         </div>
@@ -884,23 +922,25 @@
         <div class="checkbox">
           <label><input type="checkbox" value="">Caravaning</label>
         </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Utilitaires</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Auto</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Moto</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Caravaning</label>
+        <div id="more-filtre-services" class="collapse">
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Utilitaires</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Auto</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Moto</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Caravaning</label>
+          </div>
         </div>
       </div>
       <div class="col-xs-3">
-        <a class="pull-right text-shadow text-danger fa-3x" href="#demo" data-toggle="collapse">
-          <i class="fa fa-plus" data-fa-transform="shrink-8"></i></a>
-        <h4>Services</h4>
+        <a href="#more-filtre-accessoire" data-toggle="collapse">
+          <i class="fa fa-plus pull-right text-shadow text-danger"></i>
+          <h4 class="m-t-0">Accessoires &amp; Bagagerie</h4></a>
         <div class="checkbox">
           <label><input type="checkbox" value="">Auto</label>
         </div>
@@ -910,43 +950,19 @@
         <div class="checkbox">
           <label><input type="checkbox" value="">Caravaning</label>
         </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Utilitaires</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Auto</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Moto</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Caravaning</label>
-        </div>
-      </div>
-      <div class="col-xs-3">
-        <a class="pull-right text-shadow text-danger fa-3x" href="#demo" data-toggle="collapse">
-          <i class="fa fa-plus" data-fa-transform="shrink-8"></i></a>
-        <h4>Accessoires &amp; Bagagerie</h4>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Auto</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Motos</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Caravaning</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Utilitaires</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Auto</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Moto</label>
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox" value="">Equipement Caravaning</label>
+        <div id="more-filtre-accessoire" class="collapse">
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Utilitaires</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Auto</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Moto</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Equipement Caravaning</label>
+          </div>
         </div>
       </div>
     </div>
@@ -1056,5 +1072,17 @@
 <script src="js/carte-pub.js"></script>
 <!--Fin Animation Carte PUB-->
 <script src="js/main.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".collapse").on("hide.bs.collapse", function(){
+      anchor = "a[href='#" + $(this).attr('id') + "']";
+      $(anchor + " svg.pull-right").addClass("fa-plus").removeClass("fa-minus");
+    });
+    $(".collapse").on("show.bs.collapse", function(){
+      anchor = "a[href='#" + $(this).attr('id') + "']";
+      $(anchor + " svg.pull-right").addClass("fa-minus").removeClass("fa-plus");
+    });
+  });
+</script>
 </body>
 </html>
