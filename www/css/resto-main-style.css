@@ -16,15 +16,14 @@
     padding: 0;
     cursor: pointer;
 }
-.vignette:hover .vignette-detail{
-    padding: 3em;
+.vignette-detail:hover{
+    padding: 30px 0;
     width: 100%;
 }
 .vignette-detail{
     position: absolute;
     top:0;
     left: 0;
-    right: 0;
     color: #ffebc2;
     background-color: rgba(51, 51, 51, 0.8);
     text-align: center;
@@ -34,9 +33,13 @@
     -moz-transition:all 0.4s ease-out;
     -ms-transition:all 0.4s ease-out;
     -o-transition:all 0.4s ease-out;
-    transition:all 0.4s ease-out;
+    transition:all 0.7s ease-out;
 }
-.vignette-detail:after {
+.vignette-detail.right{
+    right:0;
+    left:inherit;
+}
+.vignette-detail:before {
     position: absolute;
     top: 50%;
     right: 20%;
@@ -52,7 +55,7 @@
     -webkit-transition-delay: 0.6s;
     transition-delay: 0.6s;
 }
-.vignette:hover .vignette-detail:after{
+.vignette-detail:hover:before{
     background: rgba(255, 255, 255, 0);
     top: 30px;
     bottom: 30px;
@@ -61,12 +64,11 @@
     opacity: 1;
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
-    z-index: 9;
 }
-
-.vignette-detail a.more {
+.vignette-detail a{
     position: relative;
-    z-index: 10;
+}
+.vignette-detail a.more {
     display: inline-block;
     text-decoration: none;
     padding: 7px 14px;
@@ -78,51 +80,42 @@
 }
 
 .vignette-detail a.more:hover {
-    box-shadow: 0 0 5px #000
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .vignette-detail p {
     font-family: serif;
     font-style: italic;
     font-size: 14px;
-    position: relative;
     color: #fff;
-    padding: 0px 20px 0px;
-    text-align: center
+    margin: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.vignette-detail:hover .vignette-detail p{
+    text-overflow: inherit;
+    white-space: inherit;
+    overflow: visible;
 }
 
 .vignette-detail h3 {
     text-transform: uppercase;
     color: #fff;
     text-align: center;
-    position: relative;
     font-size: 1.5em;
-    font-family: "Courier New", serif;
+    font-family: 'Indie Flower', "Courier New", serif;
     padding: 10px;
-    /*background: rgba(0, 0, 0, 0.8);*/
     margin: 20px 0 0 0;
     text-transform: uppercase;
-    opacity:0;
-    -webkit-transform: translate3d(0%, 50%, 0);
-    transform: translate3d(0%, 50%, 0);
-    -webkit-transition-delay: 0.3s;
-    transition-delay: 0.3s;
 }
-.vignette:hover .vignette-detail h3{
-    opacity: 1;
-    -webkit-transform: translate3d(0%, 0%, 0);
-    transform: translate3d(0%, 0%, 0);
-    -webkit-transition-delay: 0.3s;
-    transition-delay: 0.3s;
-}
-#body{
-    overflow: hidden;
-}
+/* TAG */
 .filtre .checkbox-tag{
     padding: 0.5em 2em;
     background-color: rgba(145, 197, 222, 0.2);
     color: #2b6480;
     border-radius: 100px;
+    margin:5px;
 }
 .filtre .checkbox-tag .fa-times-circle{
     display: none ;
@@ -153,3 +146,4 @@
     margin-left: 10px;
 }
 
+/*FIN TAG*/

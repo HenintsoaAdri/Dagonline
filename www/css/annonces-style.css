@@ -1,0 +1,6 @@
+.annonces .filtre .collapse > .checkbox, .annonces .filtre .collapsing > .checkbox{
+	margin-top: 0px;
+}
+.annonces .filtre .collapse, .annonces .filtre .collapsing{
+	margin-top: -5px;
+}
