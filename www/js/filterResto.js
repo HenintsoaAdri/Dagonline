@@ -12,7 +12,7 @@ jQuery(document).ready(function ($) {
             var row = $(this);
             $('select.filtre').each(function () {
                 display = display && ($(this).val() == null || $(this).val() == "" || row.hasClass($(this).val()));
-            })
+            });
             display = display && $(this).find('.vignette-detail h3').text().toLowerCase().indexOf(value) > -1;
             $(this).toggle(display);
         });
