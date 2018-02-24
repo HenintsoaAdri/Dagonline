@@ -16,5 +16,8 @@ jQuery(document).ready(function ($) {
         stack: false,
         loaderBg:'#ffc93e'
     });
-    $('[data-toggle="tooltip"]').tooltip({delay:50});
+    $('[data-toggle~="tooltip"]').tooltip({delay:50});
+    try{
+        $(".sticky").stick_in_parent({offset_top:$('.navbar').height() + 10});
+    }catch (e){}
 });
