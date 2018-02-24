@@ -125,10 +125,16 @@
 #SlideVignette .carousel-control{
     width: 7.5%;
 }
+#SlideVignette .carousel-inner{
+	max-height: 240px;
+}
 .vignette{
     position: relative;
     padding: 0;
     cursor: pointer;
+	max-width: 360px;
+	max-height: 240px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
 }
 .vignette:hover .vignette-detail{
     padding: 3em;
@@ -394,6 +400,10 @@
   height: 50%;
   max-height: 50%;
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+#home-entreprise-slide .carousel-inner{
+  max-height: 300px;
+  max-width: 1440px;
 }
 .entreprise-detail-slide{
     position: relative;
