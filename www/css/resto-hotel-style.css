@@ -289,28 +289,29 @@
     list-style-type: none;
     text-align: justify !important;
 }
-
-.vignetteCategorie{ 
+/* SCROLL CATEGORIE */
+.links{ 
 	overflow:auto;
+	height: 60%;
 }
 
-.vignetteCategorie::-webkit-scrollbar-track
+.links::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	background-color: #F5F5F5;
 }
 
-.vignetteCategorie::-webkit-scrollbar
+.links::-webkit-scrollbar
 {
 	width: 6px;
 	background-color: #F5F5F5;
 }
 
-.vignetteCategorie::-webkit-scrollbar-thumb
+.links::-webkit-scrollbar-thumb
 {
-	background-color: #000000;
+	background-color: #d73444;
 }
-
+/* FIN SCROLL CATEGORIE */
 
 .vignette:hover  .image-deux{ 
 	position: absolute;
