@@ -149,6 +149,12 @@ select {
 .text-white a{
 	color: #ffebc2 !important;
 }
+.text-red{
+	color: #be1a27 !important;
+}
+.text-red a{
+	color: #be1a27 !important;
+}
 .m-auto{margin: auto !important;}
 .m-0{margin: 0 !important;}
 .m-t-0{margin-top: 0 !important;}
@@ -778,3 +784,4 @@ a.btn-outline:hover, button.btn-outline:hover, input[type='submit'].btn-outline:
         width: 90px;
     }
 }
+
