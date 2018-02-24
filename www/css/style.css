@@ -111,7 +111,7 @@ FONT
 FIN FONT
 ==========================================*/
 .bg-red{
-	background-color: #A71726;
+	background-color: #e02034;
 }
 .text-red, a.text-red{
 	color: #A71726;
@@ -498,7 +498,7 @@ a.btn-flat, button.btn-flat, input[type='submit'].btn-flat{
 	border: none;
 }
 .flat-btn{
-    width: 290px;
+	width: 100%;
 	background-color: #31708f;
 	color: #fff;
 }
@@ -530,7 +530,10 @@ a.btn-outline:hover, button.btn-outline:hover, input[type='submit'].btn-outline:
 	border-top-left-radius: 2px;
 	border-bottom-left-radius: 2px;
 }
-
+#annoncesCarousel ~ form{
+	width: 290px;
+	margin: auto;
+}
 .wrapper {
   width: 300px;
   height: 500px;
