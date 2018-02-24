@@ -1,35 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
-  <link rel="manifest" href="img/icon/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
   <title>Dagonline - Trouvez et achetez ce qui vous chante sur tout Madagascar</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <!--Toast-->
   <link rel="stylesheet" href="css/jquery.toast.min.css">
   <!--Fin Toast-->
   <!-- Theme personnalisé -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/font.css">
-  <link rel="stylesheet" type="text/css" href="css/resto-hotel-style.css" />
+  <link rel="stylesheet" type="text/css" href="css/entreprise-style.css" />
 </head>
 <body>
 
@@ -39,6 +22,18 @@
   www.dagonline.fr
 </div>
 <!--Fin Préloader-->
+<!--Lien rapide-->
+<div class="btn-group menu-rapide text-white">
+  <span class="glyphicon glyphicon-menu-left"></span>
+  <div class="btn-group-vertical">
+    <a class="btn btn-flat" title="H&ocirc;tel" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-bed"></i></a>
+    <a class="btn btn-flat" title="Restaurant" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-cutlery"></i></a>
+    <a class="btn btn-flat" title="Cyber" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-laptop"></i></a>
+    <a class="btn btn-flat" title="Bons Plans" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-glass"></i></a>
+    <a class="btn btn-flat" title="Jobs" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-briefcase"></i></a>
+  </div>
+</div>
+<!--Fin de lien rapide-->
 
 <!--Header-->
 <div class="container-fluid">
@@ -673,85 +668,413 @@
 <!--Fin Navigation Bar-->
 <!--Fin Header-->
 
-<!--Lien rapide-->
-<div class="btn-group menu-rapide text-white">
-  <span class="glyphicon glyphicon-menu-left"></span>
-  <div class="btn-group-vertical">
-    <a class="btn btn-flat" title="H&ocirc;tel" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-bed"></i></a>
-    <a class="btn btn-flat" title="Restaurant" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-utensils"></i></a>
-    <a class="btn btn-flat" title="Cyber" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-laptop"></i></a>
-    <a class="btn btn-flat" title="Bons Plans" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-glass-martini"></i></a>
-    <a class="btn btn-flat" title="Jobs" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-briefcase"></i></a>
-  </div>
-</div>
-<!--Fin de lien rapide-->
 
 <!--Corps-->
 <div id="body">
   <span id="dagonline"></span>
   <div class="container-fluid bg-warning text-danger pacifico shadow">
-    <div class="text-right p-r-20"><h2>Hotel - Hotel Hilton</h2></div>
+    <div class="text-right p-r-20"><h2>Entreprise - Dagonline</h2></div>
   </div>
-  <!-- Container Tab hotel -->
+
+  <!-- Container Tab resto -->
   <div class="container-fluid">
-    <div class="row hotel-row">
+    <div class="row restaurant-row">
       <div class="col-xs-12 text-center img">
-        <img src="img/hotelpage.jpg">
+        <img src="img/papyrus-texture.jpg">
       </div>
-      <div class="col-xs-12 tab row">
-        <div class="col-xs-3 text-center sticky">
-          <ul class="nav nav-pills nav-stacked text-white">
-            <li class="active petit-formal-script"><a data-toggle="pill" href="#home">Home</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#apropos">A propos</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#services">Nos Services</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#localisation">Localisation</a></li>
-            <li class="petit-formal-script"><a data-toggle="pill" href="#reservation">Réservation</a></li>
+      <div class="tab row col-xs-12">
+        <div class="col-xs-3 text-center">
+            <ul class="nav nav-pills nav-stacked">
+              <li class="active m-t-0"><a data-toggle="pill" href="#home">Home</a></li>
+              <li class="m-t-0"><a data-toggle="pill" href="#description">Description</a></li>
+              <li class="m-t-0"><a data-toggle="pill" href="#produits">Nos Produits</a></li>
+              <li class="m-t-0"><a data-toggle="pill" href="#localisation">Localisation</a></li>
+              <li class="m-t-0"><a data-toggle="pill" href="#reservation">Réservation</a></li>
+            </ul>
+    </div>
+        <div class="col-xs-9 text-center tab-content">
+        <div id="home" class="tab-pane fade in active">
+			<img src="img/logo1.png">
+          <h3 class="oswald">Dagonline</h3>    
+          <h4 class="indie-flower">"Slogan slogan slogan slogan"</h4>
+          <p>LOT 222 Batiment Analakely</p>
+          <p>+261 32 00 000 00</p>
+          <p>+261 34 00 000 00</p>
+          <p><i class="fa fa-envelope-o"></i> exemple@moov.mg</p>          
+		  <div id="home-entreprise-slide" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="item active entreprise-detail-slide">
+                <img src="img/image-slide-entreprise.jpg" class="img-responsive">
+				<div class="entreprise-detail text-white">
+				  <h4>NOUS RECHERCHONS LA <span>QUALITE</span></h4>
+				</div>
+              </div>
+              <div class="item entreprise-detail-slide">
+                <img src="img/image-slide-entreprise-1.jpg" class="img-responsive">
+				<div class="entreprise-detail text-white">
+				  <h4>LE ROI C'EST <span>VOUS</span>!</h4>
+				</div>
+              </div>
+              <div class="item entreprise-detail-slide">
+                <img src="img/1440x450.jpg" class="img-responsive">
+				<div class="entreprise-detail text-white">
+				  <h4>CONTACTEZ-NOUS <span>MAINTENANT</span></h4>
+				</div>
+              </div>
+
+            </div>
+          </div>
+          <ul class="pager m-t-5 m-b-5">
+            <li><a href="#home-entreprise-slide" data-slide="prev"><i class="fa fa-fw fa-chevron-left"></i></a></li>
+            <li><a href="#home-entreprise-slide" data-slide="next"><i class="fa fa-fw fa-chevron-right"></i></a></li>
           </ul>
         </div>
-        <div class="col-xs-9 text-center tab-content text-white">
-          <div id="home" class="tab-pane fade in active">
-            <h3 class="oswald">Hotel Hilton</h3>
-            <i class="fa fa-star fa-2x"></i>
-            <i class="fa fa-star fa-2x"></i>
-            <i class="fa fa-star fa-2x"></i>
-            <i class="fa fa-star fa-2x"></i>
-            <i class="fa fa-star fa-2x"></i>
-            <h4 class="indie-flower">Ankadimbahoaka, Route d'Androndra Antananarivo, Madagascar</h4>
-            <p>+261 32 00 000 00</p>
-            <p>+261 34 00 000 00</p>
-            <p>hotel@moov.mg</p>
-          </div>
-          <div id="apropos" class="tab-pane fade">
-            <h4 class="indie-flower">A propos</h4>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-          <div id="services" class="tab-pane fade">
-            <h4 class="indie-flower">Nos Services</h4>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-          </div>
-          <div id="localisation" class="tab-pane fade">
-              <h4 class="indie-flower">Trouvez nous ici</h4>
-              <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60381.96674064899!2d47.532478409619095!3d-18.937018220649918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2smg!4v1516881806035" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
-              </div>
-          </div>
-		  
-			<div id="reservation" class="tab-pane fade">
-			  <h4 class="indie-flower">Réservez maintenant!</h4>
-			  <!-- Pour module réservation -->
-			  <div>
-			  
-			  </div>
-			</div>
+        <div id="description" class="tab-pane fade">
+          <h4 class="indie-flower">Description</h4>
+		  <div class="row">
+			<iframe width="600" height="500" src="https://www.youtube.com/embed/7JFz9IlbKyM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		  </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida mattis erat, in gravida odio. Aliquam a ante et risus fringilla convallis quis eget urna. Nulla quis nibh aliquam mi pellentesque ultrices in eu nisi. Integer in elementum metus. Fusce volutpat porttitor tellus. Fusce suscipit, purus in tempus lacinia, felis metus elementum justo, vitae lacinia tortor nulla vel lorem. Vivamus vitae semper libero, sit amet blandit massa.</p>
+          <p>Morbi vel libero sit amet nunc commodo venenatis. Praesent porta leo eget feugiat venenatis. Phasellus venenatis luctus ligula, eget condimentum sapien euismod ut. Praesent vel ornare ex. Nullam ultricies nunc a dignissim viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum porta ultrices posuere. Nullam cursus ligula bibendum dapibus tristique. Pellentesque pretium ligula a leo rutrum vehicula. Aliquam aliquet a quam vitae luctus. Nullam id dolor eu dolor porta gravida id sed eros. Suspendisse posuere est vel facilisis condimentum. Duis suscipit eget metus vel fringilla.</p>
         </div>
+        <div id="produits" class="tab-pane fade">
+			<div class="container-fluid text-center">
+				<h2>Nos Produits</h2>
+				<div class="menu-produit">
+					<ul class="nav nav-pills nav-justified">
+					  <li class="active"><a data-toggle="pill" href="#produit-divers">Divers</a></li>
+					  <li><a data-toggle="pill" href="#produit-electricite">Electricité</a></li>
+					  <li><a data-toggle="pill" href="#produit-filtration">Filtration</a></li>
+					  <li><a data-toggle="pill" href="#produit-groupe-electrogene">Groupe Electrogène</a></li>
+					  <li><a data-toggle="pill" href="#produit-materiaux-de-construction">Matériaux de construction</a></li>
+					  <li><a data-toggle="pill" href="#produit-pieces-detachees">Pièces détachées</a></li>
+					</ul>
+				</div>
+
+				<div class="tab-content">
+				  <div id="produit-divers" class="tab-pane fade in active">
+					<h3>Divers</h3>
+					
+					<!-- FILTRES -->
+					<!--
+						représentation des litres apr CSS (classes):
+						par pièce = red,
+						par kg = blue,
+						par litre = yemmow,
+					-->
+					<div class="filters">
+					  <div class="button-group js-radio-button-group" data-filter-group="color">
+						<button class="button is-checked" data-filter="">Tous</button>
+						<button class="button" data-filter=".red">Par pièce</button>
+						<button class="button" data-filter=".blue">Par kg</button>
+						<button class="button" data-filter=".yellow">Par litre</button>
+					  </div>
+					</div>
+					<div class="grid">
+						<div class="row color-shape big square red product-isotope">
+							<div class="row">
+								<img src="img/prom-1.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bidon 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square blue product-isotope">
+							<div class="row">
+								<img src="img/prom-2.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Sac 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square yellow product-isotope">
+							<div class="row">
+								<img src="img/prom-3.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bouteille 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square red product-isotope">
+							<div class="row">
+								<img src="img/prom-1.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bidon 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square blue product-isotope">
+							<div class="row">
+								<img src="img/prom-2.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Sac 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square yellow product-isotope">
+							<div class="row">
+								<img src="img/prom-3.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bouteille 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square red product-isotope">
+							<div class="row">
+								<img src="img/prom-1.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bidon 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square blue product-isotope">
+							<div class="row">
+								<img src="img/prom-2.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Sac 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square yellow product-isotope">
+							<div class="row">
+								<img src="img/prom-3.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bouteille 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square red product-isotope">
+							<div class="row">
+								<img src="img/prom-1.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bidon 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square blue product-isotope">
+							<div class="row">
+								<img src="img/prom-2.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Sac 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square yellow product-isotope">
+							<div class="row">
+								<img src="img/prom-3.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bouteille 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+					</div>
+				  </div>
+				  <div id="produit-electricite" class="tab-pane fade">
+					<h3>Electricité</h3>
+					<div class="filters">
+					  <div class="button-group js-radio-button-group" data-filter-group="color">
+						<button class="button is-checked" data-filter="">Tous</button>
+						<button class="button" data-filter=".red">Par pièce</button>
+						<button class="button" data-filter=".blue">Par kg</button>
+						<button class="button" data-filter=".yellow">Par litre</button>
+					  </div>
+					</div>
+					<div class="grid">
+						<div class="row color-shape big square red product-isotope">
+							<div class="row">
+								<img src="img/prom-1.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bidon 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square blue product-isotope">
+							<div class="row">
+								<img src="img/prom-2.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Sac 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square yellow product-isotope">
+							<div class="row">
+								<img src="img/prom-3.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bouteille 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square red product-isotope">
+							<div class="row">
+								<img src="img/prom-1.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bidon 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square blue product-isotope">
+							<div class="row">
+								<img src="img/prom-2.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Sac 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square yellow product-isotope">
+							<div class="row">
+								<img src="img/prom-3.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bouteille 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square red product-isotope">
+							<div class="row">
+								<img src="img/prom-1.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bidon 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square blue product-isotope">
+							<div class="row">
+								<img src="img/prom-2.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Sac 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square yellow product-isotope">
+							<div class="row">
+								<img src="img/prom-3.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bouteille 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square red product-isotope">
+							<div class="row">
+								<img src="img/prom-1.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bidon 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square blue product-isotope">
+							<div class="row">
+								<img src="img/prom-2.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Sac 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+						<div class="row color-shape big square yellow product-isotope">
+							<div class="row">
+								<img src="img/prom-3.png">
+							</div>
+							<div class="row for-detail">
+								<h5>Bouteille 2 Fortune</h5>
+								<span class="badge badge-price">30.000 Ar</span>
+							</div>
+						</div>
+					</div>
+				  </div>
+				  <div id="produit-filtration" class="tab-pane fade">
+					<h3>Filtration</h3>
+					<div class="filters">
+					  <div class="button-group js-radio-button-group" data-filter-group="color">
+						<button class="button is-checked" data-filter="">Tous</button>
+						<button class="button" data-filter=".red">Par pièce</button>
+						<button class="button" data-filter=".blue">Par kg</button>
+						<button class="button" data-filter=".yellow">Par litre</button>
+					  </div>
+					</div>
+					<div class="grid">
+						<p>Aucun produit dans <span>Filtration</span></p>
+					</div>
+				  </div>
+				  <div id="produit-groupe-electrogene" class="tab-pane fade">
+					<h3>Groupe Electrogène</h3>
+					
+					<div class="filters">
+					  <div class="button-group js-radio-button-group" data-filter-group="color">
+						<button class="button is-checked" data-filter="">Tous</button>
+						<button class="button" data-filter=".red">Par pièce</button>
+						<button class="button" data-filter=".blue">Par kg</button>
+						<button class="button" data-filter=".yellow">Par litre</button>
+					  </div>
+					</div>
+					<div class="grid">
+						<p>Aucun produit dans <span>Groupe Electrogène</span></p>
+					</div>
+				  </div>
+				  <div id="produit-materiaux-de-construction" class="tab-pane fade">
+					<h3>Matériaux de construction</h3>
+					
+					<div class="filters">
+					  <div class="button-group js-radio-button-group" data-filter-group="color">
+						<button class="button is-checked" data-filter="">Tous</button>
+						<button class="button" data-filter=".red">Par pièce</button>
+						<button class="button" data-filter=".blue">Par kg</button>
+						<button class="button" data-filter=".yellow">Par litre</button>
+					  </div>
+					</div>
+					<div class="grid">
+						<p>Aucun produit dans <span>Matériaux de construction</span></p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <!-- Fin Container Produits -->
+        </div>
+        <div id="localisation" class="tab-pane fade">
+          <h4 class="indie-flower">Trouvez nous ici</h4>
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60381.96674064899!2d47.532478409619095!3d-18.937018220649918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2smg!4v1516881806035" width="90%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+		  <br><br>
+		  <p>Batiment Ankadibahoaka - LOT V 10 B</p>
+		  <p>Ankadibahoaka</p>
+        </div>
+		<div id="reservation" class="tab-pane fade">
+          <h4 class="indie-flower">Réservez maintenant!</h4>
+		  <!-- Pour module réservation -->
+          <div>
+		  
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   </div>
-  <!-- Fin Container Tab hotel -->
+  <!-- Fin Container Tab visible-xs resto -->
 
-  <!-- Container Slide hotel -->
+  <!-- Container Slide resto -->
   <div class="container-fluid m-t-5">
-    <div class="row hotel-row">
+    <div class="row restaurant-row">
       <div class="col-sm-12">
         <div id="SlideVignette" class="carousel slide" data-ride="carousel">
 
@@ -759,38 +1082,32 @@
           <div class="carousel-inner">
             <div class="item active">
               <div class="row text-center">
-                <div class="col-sm-3 vignette">
-                  <a href="#detailVignette1" data-toggle="modal"><img src="img/hotelpage1.jpg" alt=""></a>
+                <div class="col-xs-3 vignette">
+                  <a href="#"><img src="img/produit-1.jpg" alt=""></a>
                   <div class="vignette-detail">
-                    <h3>Chambres tout confort</h3>
-                    <p>This is a short description.</p>
-                    <a href="#detailVignette1" class="more" data-toggle="modal">Voir details</a>
+                    <h2>Bidon Fortune</h2>
+                    <p><span class="price-not">40.000 Ar</span> <span class="price badge">30.000 Ar</span></p>
                   </div>
                 </div>
-                <div class="col-sm-3 vignette">
-                  <a href="#detailVignette2" data-toggle="modal"><img src="img/hotelpage2.jpg" alt=""></a>
+                <div class="col-xs-3 vignette">
+                  <a href="#"><img src="img/produit-2.jpg" alt=""></a>
                   <div class="vignette-detail">
-                    <h3>Bar Lounge reposant</h3>
-                    <p>This is a short description.</p>
-                    <a href="#detailVignette2" class="more" data-toggle="modal">Voir details</a>
+                    <h2>Sac Fortune</h2>
+                    <p><span class="price-not">40.000 Ar</span> <span class="price badge">30.000 Ar</span></p>
                   </div>
                 </div>
-
-                <div class="col-sm-3 vignette">
-                  <a href="#detailVignette3" data-toggle="modal"><img src="img/hotelpage3.jpg" alt=""></a>
+                <div class="col-xs-3 vignette">
+                  <a href="#"><img src="img/produit-3.jpg" alt=""></a>
                   <div class="vignette-detail">
-                    <h3>Balnéothérapie relaxante</h3>
-                    <p>This is a short description.</p>
-                    <a href="#detailVignette3" class="more" data-toggle="modal">Voir details</a>
+                    <h2>Bouteille Fortune</h2>
+                    <p><span class="price-not">40.000 Ar</span> <span class="price badge">30.000 Ar</span></p>
                   </div>
                 </div>
-
-                <div class="col-sm-3 vignette">
-                  <a href="#detailVignette4" data-toggle="modal"><img src="img/hotelpage4.jpg" alt=""></a>
+                <div class="col-xs-3 vignette">
+                  <a href="#"><img src="img/produit-1.jpg" alt=""></a>
                   <div class="vignette-detail">
-                    <h3>Salle de spa et de massage</h3>
-                    <p>This is a short description.</p>
-                    <a href="#detailVignette4" class="more" data-toggle="modal">Voir details</a>
+                    <h2>Sac 2 Fortune</h2>
+                    <p><span class="price-not">40.000 Ar</span> <span class="price badge">30.000 Ar</span></p>
                   </div>
                 </div>
               </div>
@@ -798,16 +1115,16 @@
 
             <div class="item">
               <div class="row text-center">
-                <div class="col-sm-3">
+                <div class="col-xs-3">
                   <a href="#"><img src="img/360x240.png" alt=""></a>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-3">
                   <a href="#"><img src="img/360x240.png" alt=""></a>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-3">
                   <a href="#"><img src="img/360x240.png" alt=""></a>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-3">
                   <a href="#"><img src="img/360x240.png" alt=""></a>
                 </div>
               </div>
@@ -824,256 +1141,10 @@
             <span class="sr-only">Suivant</span>
           </a>
         </div>
-        <!-- Vignette Details Modals -->
-        <div id="detailVignette1" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-body">
-                <div class="row">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <div class="col-sm-8">
-					<div id='carousel-custom' class='carousel carousel-produit slide' data-ride='carousel'>
-                        <!-- Top part of the slider -->
-							<div class='carousel-outer'>
-								<!-- Carousel items -->
-								<div class="carousel-inner">
-									<div class="active item" data-slide-number="0">
-										<img src="img/hotelpage1.jpg" alt="">
-									</div>
-
-									<div class="item" data-slide-number="1">
-										<img src="img/hotelpage1.jpg" alt="">
-									</div>
-
-									<div class="item" data-slide-number="2">
-										<img src="img/hotelpage1.jpg" alt="">
-									</div>
-
-									<div class="item" data-slide-number="3">
-										<img src="img/hotelpage1.jpg" alt="">
-									</div>
-								<a class="left carousel-control" href="#carousel-custom" role="button" data-slide="prev">
-									<span class="glyphicon glyphicon-chevron-left"></span>                                       
-								</a>
-								<a class="right carousel-control" href="#carousel-custom" role="button" data-slide="next">
-									<span class="glyphicon glyphicon-chevron-right"></span>                                       
-								</a>                                
-								</div>
-							</div>
-
-						<div class="row hidden-xs m-0">
-							<!-- Bottom switcher of slider -->
-							<ol class="carousel-indicators">
-								<li class="col-sm-4 p-5 active" data-target="#carousel-custom" data-slide-to="0">
-									<a class="thumbnail"><img src="img/hotelpage1.jpg" alt=""></a>
-								</li>
-
-								<li class="col-sm-4 p-5"data-target="#carousel-custom" data-slide-to="1">
-									<a class="thumbnail"><img src="img/hotelpage1.jpg" alt=""></a>
-								</li>
-
-								<li class="col-sm-4 p-5" data-target="#carousel-custom" data-slide-to="2">
-									<a class="thumbnail"><img src="img/hotelpage1.jpg" alt=""></a>
-								</li>
-							</ol>                 
-						</div>               
-					</div>
-				</div>
-                  <div class="col-sm-4">
-					<h2>Vignette 1</h2>
-                    <p>In mattis vel justo et porttitor. Sed laoreet tincidunt sem, a eleifend dui. Donec malesuada eros vel urna interdum tincidunt. Aliquam massa massa, pulvinar vitae aliquam nec, efficitur pretium velit. Cras pulvinar ac est in varius. Proin a ultrices nibh. Praesent ornare varius euismod. Suspendisse viverra eget est a eleifend.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="detailVignette2" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-body">
-                <div class="row">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <div class="col-sm-8">
-					<div id='carousel-custom-2' class='carousel carousel-produit slide' data-ride='carousel'>
-                        <!-- Top part of the slider -->
-							<div class='carousel-outer'>
-								<!-- Carousel items -->
-								<div class="carousel-inner">
-									<div class="active item" data-slide-number="0">
-										<img src="img/hotelpage2.jpg" alt="">
-									</div>
-
-									<div class="item" data-slide-number="1">
-										<img src="img/hotelpage2.jpg" alt="">
-									</div>
-
-									<div class="item" data-slide-number="2">
-										<img src="img/hotelpage2.jpg" alt="">
-									</div>
-								<a class="left carousel-control" href="#carousel-custom-2" role="button" data-slide="prev">
-									<span class="glyphicon glyphicon-chevron-left"></span>                                       
-								</a>
-								<a class="right carousel-control" href="#carousel-custom-2" role="button" data-slide="next">
-									<span class="glyphicon glyphicon-chevron-right"></span>                                       
-								</a>                                
-								</div>
-							</div>
-
-						<div class="row hidden-xs m-0">
-							<!-- Bottom switcher of slider -->
-							<ol class="carousel-indicators">
-								<li class="col-sm-4 p-5 active" data-target="#carousel-custom-2" data-slide-to="0">
-									<a class="thumbnail"><img src="img/hotelpage2.jpg" alt=""></a>
-								</li>
-
-								<li class="col-sm-4 p-5"data-target="#carousel-custom-2" data-slide-to="1">
-									<a class="thumbnail"><img src="img/hotelpage2.jpg" alt=""></a>
-								</li>
-
-								<li class="col-sm-4 p-5" data-target="#carousel-custom-2" data-slide-to="2">
-									<a class="thumbnail"><img src="img/hotelpage2.jpg" alt=""></a>
-								</li>
-							</ol>                 
-						</div>               
-					</div>
-				</div>
-                  <div class="col-sm-4">
-					<h2>Vignette 2</h2>
-                    <p>In mattis vel justo et porttitor. Sed laoreet tincidunt sem, a eleifend dui. Donec malesuada eros vel urna interdum tincidunt. Aliquam massa massa, pulvinar vitae aliquam nec, efficitur pretium velit. Cras pulvinar ac est in varius. Proin a ultrices nibh. Praesent ornare varius euismod. Suspendisse viverra eget est a eleifend.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="detailVignette3" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-body">
-                <div class="row">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <div class="col-sm-8">
-					<div id='carousel-custom-3' class='carousel carousel-produit slide' data-ride='carousel'>
-                        <!-- Top part of the slider -->
-							<div class='carousel-outer'>
-								<!-- Carousel items -->
-								<div class="carousel-inner">
-									<div class="active item" data-slide-number="0">
-										<img src="img/hotelpage3.jpg" alt="">
-									</div>
-
-									<div class="item" data-slide-number="1">
-										<img src="img/hotelpage3.jpg" alt="">
-									</div>
-
-									<div class="item" data-slide-number="2">
-										<img src="img/hotelpage3.jpg" alt="">
-									</div>
-								<a class="left carousel-control" href="#carousel-custom-3" role="button" data-slide="prev">
-									<span class="glyphicon glyphicon-chevron-left"></span>                                       
-								</a>
-								<a class="right carousel-control" href="#carousel-custom-3" role="button" data-slide="next">
-									<span class="glyphicon glyphicon-chevron-right"></span>                                       
-								</a>                                
-								</div>
-							</div>
-
-						<div class="row hidden-xs m-0">
-							<!-- Bottom switcher of slider -->
-							<ol class="carousel-indicators">
-								<li class="col-sm-4 p-5 active" data-target="#carousel-custom-3" data-slide-to="0">
-									<a class="thumbnail"><img src="img/hotelpage3.jpg" alt=""></a>
-								</li>
-
-								<li class="col-sm-4 p-5"data-target="#carousel-custom-3" data-slide-to="1">
-									<a class="thumbnail"><img src="img/hotelpage3.jpg" alt=""></a>
-								</li>
-
-								<li class="col-sm-4 p-5" data-target="#carousel-custom-3" data-slide-to="2">
-									<a class="thumbnail"><img src="img/hotelpage3.jpg" alt=""></a>
-								</li>
-							</ol>                 
-						</div>               
-					</div>
-				</div>
-                  <div class="col-sm-4">
-					<h2>Vignette 3</h2>
-                    <p>In mattis vel justo et porttitor. Sed laoreet tincidunt sem, a eleifend dui. Donec malesuada eros vel urna interdum tincidunt. Aliquam massa massa, pulvinar vitae aliquam nec, efficitur pretium velit. Cras pulvinar ac est in varius. Proin a ultrices nibh. Praesent ornare varius euismod. Suspendisse viverra eget est a eleifend.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="detailVignette4" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-body">
-                <div class="row">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-				  <div class="col-sm-8">
-					<div id='carousel-custom-4' class='carousel carousel-produit slide' data-ride='carousel'>
-                        <!-- Top part of the slider -->
-							<div class='carousel-outer'>
-								<!-- Carousel items -->
-								<div class="carousel-inner">
-									<div class="active item" data-slide-number="0">
-										<img src="img/hotelpage4.jpg" alt="">
-									</div>
-
-									<div class="item" data-slide-number="1">
-										<img src="img/hotelpage4.jpg" alt="">
-									</div>
-
-									<div class="item" data-slide-number="2">
-										<img src="img/hotelpage4.jpg" alt="">
-									</div>
-								<a class="left carousel-control" href="#carousel-custom-4" role="button" data-slide="prev">
-									<span class="glyphicon glyphicon-chevron-left"></span>                                       
-								</a>
-								<a class="right carousel-control" href="#carousel-custom-4" role="button" data-slide="next">
-									<span class="glyphicon glyphicon-chevron-right"></span>                                       
-								</a>                                
-								</div>
-							</div>
-
-						<div class="row hidden-xs m-0">
-							<!-- Bottom switcher of slider -->
-							<ol class="carousel-indicators">
-								<li class="col-sm-4 p-5 active" data-target="#carousel-custom-4" data-slide-to="0">
-									<a class="thumbnail" id="carousel-selector-0"><img src="img/hotelpage4.jpg" alt=""></a>
-								</li>
-
-								<li class="col-sm-4 p-5" data-target="#carousel-custom-4" data-slide-to="1">
-									<a class="thumbnail"><img src="img/hotelpage4.jpg" alt=""></a>
-								</li>
-
-								<li class="col-sm-4 p-5" data-target="#carousel-custom-4" data-slide-to="2">
-									<a class="thumbnail"><img src="img/hotelpage4.jpg" alt=""></a>
-								</li>
-							</ol>                 
-						</div>               
-					</div>
-				</div>
-                  <div class="col-sm-4">
-					<h2>Vignette 4</h2>
-                    <p>In mattis vel justo et porttitor. Sed laoreet tincidunt sem, a eleifend dui. Donec malesuada eros vel urna interdum tincidunt. Aliquam massa massa, pulvinar vitae aliquam nec, efficitur pretium velit. Cras pulvinar ac est in varius. Proin a ultrices nibh. Praesent ornare varius euismod. Suspendisse viverra eget est a eleifend.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Fin Vignette Details Modals -->
       </div>
     </div>
   </div>
-  <!-- Fin Container Slide hotel -->
+  <!-- Fin Container Slide resto -->
 </div>
 <!--Fin Corps-->
 
@@ -1082,7 +1153,7 @@
   <div class="row">
     <div class="col-sm-4 text-justify">
       <p>Qu'est ce que Dagonline</p>
-      <p>www.dagonline.fr est une plateforme qui permet à tout utilisateur de trouver des produits et des services auprès des professionnels partenaires. Dagonline c'est bien plus qu'un simple annuairecar chaque hotel tient sa page et est libre du contenu proposé. Dagonline c'est aussi toutes les dates et évènements à venir ainsi que les petites annonces pour les particuliers.</p>
+      <p>www.dagonline.fr est une plateforme qui permet à tout utilisateur de trouver des produits et des services auprès des professionnels partenaires. Dagonline c'est bien plus qu'un simple annuairecar chaque entreprise tient sa page et est libre du contenu proposé. Dagonline c'est aussi toutes les dates et évènements à venir ainsi que les petites annonces pour les particuliers.</p>
       <p>Notre objectif</p>
       <p>Optimiser la rencontre des offres de services et produits commerciaux existants à Madagascar.</p>
     </div>
@@ -1133,11 +1204,11 @@
       </div>
       <br>
       <div class="row">
-        <div class="col-sm-12">
+        <div class="">
           <p>Espace Professionnel : Connectez-vous<br>
-            <a href="#">Propriétaires</a><br>
-            <a href="#">Business Owners</a><br>
-            Suivez nous!</p>
+          <a href="#">Propriétaires</a><br>
+          <a href="#">Business Owners</a><br>
+          Suivez nous!</p>
         </div>
       </div>
       <div class="row">
@@ -1157,12 +1228,57 @@
 <!--Fin footer-->
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/fontawesome-all.min.js"></script>
-<!--Sticky nav-pills -->
-<script src="js/sticky-kit.min.js"></script>
-<!--JS personnalisé-->
-<script src="js/main.js"></script>
 <!--Toast-->
 <script src="js/jquery.toast.min.js"></script>
+<!--Sticky nav-pills -->
+<script src="js/sticky-kit.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".tab > .col-xs-3").stick_in_parent({offset_top:50});
+  })
+</script>
+<!--JS personnalisé-->
+<script src="js/main.js"></script>
+<script>
+  // init Isotope
+var $grid = $('.grid').isotope({
+  itemSelector: '.color-shape'
+});
+
+// store filter for each group
+var filters = {};
+
+$('.filters').on( 'click', '.button', function() {
+  var $this = $(this);
+  // get group key
+  var $buttonGroup = $this.parents('.button-group');
+  var filterGroup = $buttonGroup.attr('data-filter-group');
+  // set filter for group
+  filters[ filterGroup ] = $this.attr('data-filter');
+  // combine filters
+  var filterValue = concatValues( filters );
+  // set filter for Isotope
+  $grid.isotope({ filter: filterValue });
+});
+
+// change is-checked class on buttons
+$('.button-group').each( function( i, buttonGroup ) {
+  var $buttonGroup = $( buttonGroup );
+  $buttonGroup.on( 'click', 'button', function() {
+    $buttonGroup.find('.is-checked').removeClass('is-checked');
+    $( this ).addClass('is-checked');
+  });
+});
+
+// flatten object by concatting values
+function concatValues( obj ) {
+  var value = '';
+  for ( var prop in obj ) {
+    value += obj[ prop ];
+  }
+  return value;
+}
+</script>
 </body>
 </html>

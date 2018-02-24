@@ -1,5 +1,6 @@
 #body{
     padding: 0;
+    overflow: hidden;
 }
 .restaurant-row, .hotel-row{
     position: relative;
@@ -10,15 +11,13 @@
 }
 .restaurant-row .tab-content,
 .hotel-row .tab-content{
-    background-color: rgba(0, 0, 0, 0.5);
-    border-left: solid #ffebc2 2px;
+    background-color: rgba(251, 251, 251, 1);
     position: relative;
 }
 .restaurant-row .tab-content, .hotel-row .tab-content{
-    border: solid #ffebc2 2px;
     margin: auto;
     margin-top: 10px;
-    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 0px 15px rgba(251, 251, 251, 1);
     height: calc(100% - 20px);
     overflow: auto;
 }
@@ -35,18 +34,17 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0,0.1);
 }
 .restaurant-row > div,
 .hotel-row > div{
     padding: 0;
     height: 100%;
 }
-
-.restaurant-row .nav-pills > li > a,
-.hotel-row .nav-pills > li > a{
-    border-radius: 0;
-    font-weight: 900;
+/* FIN STICKY SIDE BAR*/
+.restaurant-row .nav-pills > li > a{
+    background-color: rgba(154, 154, 154, 0.7);
+	color:#fff;
 }
 .restaurant-row .nav-pills > li > a:hover,
 .restaurant-row .nav-pills > li > a:active,
@@ -58,11 +56,11 @@
 .hotel-row .nav-pills > li > a:focus,
 .hotel-row .nav-pills > li > a:visited,
 .hotel-row .nav-pills > li.active > a{
-    color: #ffebc2;;
+    color: #be1a27;
     -ms-transform: perspective(1px) translateZ(0);
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(251, 251, 251, 0.5)
 }
 .hotel-row .nav-pills > li > a:before,
 .restaurant-row .nav-pills > li > a:before{
@@ -73,13 +71,17 @@
     right: 50%;
     bottom: 0;
     height: 100%;
-    opacity: 0;
     -webkit-transition-property: left, right;
     transition-property: left, right;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
+}
+.restaurant-row .nav-pills > li > a,
+.hotel-row .nav-pills > li > a{
+    border-radius: 0;
+    font-weight: 900;
 }
 .restaurant-row .nav-pills > li > a:hover:before,
 .restaurant-row .nav-pills > li > a:focus:before,
@@ -92,10 +94,12 @@
 .hotel-row .nav-pills > li > a:visited:before,
 .hotel-row .nav-pills > li.active > a:before
 {
+    font-family: 'Indie Flower', cursive;
+	background-color:  rgba(251, 251, 251, 1);
+	color: #fff !important;
 	left:0;
 	right:0;
 	background-image:url("../img/arrows-right.svg");
-    opacity: 1;
     background-size: 1em;
 	background-position:90%;
 	background-repeat:no-repeat;
@@ -172,12 +176,9 @@
     transition-delay: 0s;
 }
 
-.vignette-detail a{
-    position: relative;
-}
 .vignette-detail a.more{
-    display: inline-block;
     position: relative;
+    display: inline-block;
     text-decoration: none;
     padding: 7px 14px;
     background: rgba(0, 0, 0, 0.75);
@@ -204,6 +205,7 @@
 .vignette-detail h3 {
   text-transform: uppercase;
   color: #fff;
+  text-align: center;
   position: relative;
   font-size: 1.5em;
   font-family: "Courier New", serif;
@@ -325,27 +327,15 @@
     text-align: justify !important;
 }
 
-.vignetteCategorie{ 
-	overflow:auto;
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { 
+	z-index: 99999;
+	width: 50%;
+	height: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
-
-.vignetteCategorie::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #F5F5F5;
-}
-
-.vignetteCategorie::-webkit-scrollbar
-{
-	width: 6px;
-	background-color: #F5F5F5;
-}
-
-.vignetteCategorie::-webkit-scrollbar-thumb
-{
-	background-color: #000000;
-}
-
 
 .vignette:hover  .image-deux{ 
 	position: absolute;
@@ -396,3 +386,95 @@
   width:0;
   background:#d73444;
 }
+
+/* SLIDE HOME */
+
+#home-entreprise-slide{
+  width: 100%;
+  height: 50%;
+  max-height: 50%;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.entreprise-detail-slide{
+    position: relative;
+    padding: 0;
+}
+.entreprise-detail{
+    position: absolute;
+    top:0;
+	left: 75%;
+    background-color: rgba(51, 51, 51, 0.5);
+    width: 30%;
+    height: 100%;
+	word-wrap: break-word;    
+	padding: 7em 5em 0 0;
+    min-height: 375px;
+}
+.entreprise-detail h4{
+	font-size: 2em !important;
+	text-align: left !important;
+    font-weight: 300 !important;
+	text-transform: uppercase;    
+	font-family: 'Ubuntu', sans-serif !important;
+}
+.entreprise-detail span{
+    color: #84c639 !important;
+}
+.price-not{
+	color: #a2a2a2 !important;
+    text-decoration: line-through;
+	font-size: 1.2em !important;
+}.price{
+    font-weight: 900 !important;
+	font-size: 1.3em !important;
+}
+
+.menu-produit{
+    background-color: rgba(51, 51, 51, 0.3);	 
+	margin: auto;
+}
+.restaurant-row .menu-produit .nav-pills > li > a{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+#produits .nav-pills > li > a:hover:before,
+#produits .nav-pills > li > a:focus:before,
+#produits .nav-pills > li > a:active:before,
+#produits .nav-pills > li > a:visited:before,
+#produits .nav-pills > li.active > a:before
+{
+	background-image: none !important;
+	color: #84c639 !important;
+	height: auto;
+}
+.product-isotope .for-detail{
+    background-color: #84c639;	 
+	margin: auto;
+	margin-top: 5px;
+    color: #fff;
+}
+.badge-price{
+    background-color: #fff;	 
+    color: #84c639 !important;	
+}
+
+/* ISOTOPE */
+
+.color-shape {
+width: 70px;
+height: 200px;
+margin: 5px;
+float: left;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+text-align: center;
+}
+
+.color-shape.round {
+border-radius: 35px;
+}
+
+.color-shape.big.round {
+border-radius: 75px;
+}
+
+.color-shape.wide, .color-shape.big { width: 200px; }
+.color-shape.tall, .color-shape.big { height: 200px; }
