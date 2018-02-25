@@ -767,7 +767,7 @@
             <div class="col-sm-12">
               <form class="form-horizontal" action="/action_page.php">
                 <div class="form-group">
-                  <label class="control-label col-sm-3" for="type-annonce">Type d'annonce<span class="text-red">*</span> :</label>
+                  <label class="control-label col-sm-3" for="type-annonce">Type d'annonce <span class="text-red notification">*</span> :</label>
                   <div class="col-sm-9">
                     <select id="type-annonce">
                       <option selected disabled>- Type d'annonce -</option>
@@ -777,7 +777,7 @@
                   </div>
                 </div>
                 <div class="form-group">
-                  <label class="control-label col-sm-3" for="categorie">Catégorie<span class="text-red">*</span> :</label>
+                  <label class="control-label col-sm-3" for="categorie">Catégorie <span class="text-red notification">*</span> :</label>
                   <div class="col-sm-9">
                     <select id="categorie">
                       <option selected disabled>- Catégorie -</option>
@@ -845,35 +845,40 @@
                   </div>
                 </div>
                 <div class="form-group">
-                  <label class="control-label col-sm-3" for="titre">Titre<span class="text-red">*</span> :</label>
+                  <label class="control-label col-sm-3" for="titre">Titre <span class="text-red notification">*</span> :</label>
                   <div class="col-sm-9">
                     <input type="text" class="form-control" id="titre">
                   </div>
                 </div>
                 <div class="form-group">
                   <label class="control-label col-sm-3" for="prix">Prix :</label>
-                  <div class="col-sm-3 input-grou">
-                    <span class="input-group-addon">Text</span>
-                    <input type="text" class="form-control" id="prix">
+                  <div class="col-sm-3">
+					<div class="input-group">
+						<input type="text" class="form-control" id="prix">
+						<span class="input-group-addon">Ar</span>
+					</div>
                   </div>
+                  <span class="help-block">(Mettre 0 si gratuit)</span>
                 </div>
                 <div class="form-group">
-                  <label class="control-label col-sm-3" for="description">Description<span class="text-red">*</span> :</label>
+                  <label class="control-label col-sm-3" for="description">Description <span class="text-red notification">*</span> :</label>
                   <div class="col-sm-9">
                     <textarea class="form-control" id="description"></textarea>
                   </div>
                 </div>
                 <div class="form-group">
                   <label class="control-label col-sm-3" for="photo">Photo :</label>
-                  <div class="col-sm-9">
+                  <div class="col-sm-7">
                     <input type="file" class="form-control" id="photo"/>
                   </div>
+                  <span class="help-block"> (4 mb max)</span>
                 </div>
                 <div class="form-group">
                   <label class="control-label col-sm-3" for="nom">Nom :</label>
                   <div class="col-sm-9">
                     <input type="text" class="form-control" id="nom"/>
                   </div>
+                  <span class="help-block col-sm-offset-3 col-sm-9">(facultatif) Votre nom apparaitra dans l'annonce.</span>
                 </div>
                 <div class="form-group">
                   <label class="control-label col-sm-3" for="ville">Ville :</label>
@@ -882,15 +887,17 @@
                       <option>Antananarivo</option>
                     </select>
                   </div>
+                  <span class="help-block col-sm-offset-3 col-sm-9">(facultatif) permettra aux internautes de vous localiser.</span>
                 </div>
                 <div class="form-group">
                   <label class="control-label col-sm-3" for="tel">Téléphone :</label>
                   <div class="col-sm-9">
                     <input type="tel" class="form-control" id="tel"/>
                   </div>
+                  <span class="help-block col-sm-offset-3 col-sm-9">(facultatif) Contact rapide pour les internautes.</span>
                 </div>
                 <div class="form-group">
-                  <label class="control-label col-sm-3" for="email">Email<span class="text-red">*</span> :</label>
+                  <label class="control-label col-sm-3" for="email">Email <span class="text-red notification">*</span> :</label>
                   <div class="col-sm-9">
                     <input type="email" class="form-control" id="email"/>
                   </div>
@@ -1301,9 +1308,9 @@
               <img src="img/seza.jpg" class="media-object">
             </div>
             <div class="media-body">
-              <h4 class="media-heading">Offre</h4>
-              <p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p>Ar 30 000</p>
+              <h4 class="media-heading">Chaise</h4>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p class="prix">Ar 30 000</p>
               <a href="#">Voir l'annonce</a>
             </div>
           </div>
@@ -1312,9 +1319,9 @@
               <img src="img/seza.jpg" class="media-object">
             </div>
             <div class="media-body">
-              <h4 class="media-heading">Demande</h4>
-              <p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p>Ar 30 000</p>
+              <h4 class="media-heading">Chaise</h4>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p class="prix">Ar 30 000</p>
               <a href="#">Voir l'annonce</a>
             </div>
           </div>
@@ -1323,9 +1330,9 @@
               <img src="img/seza.jpg" class="media-object">
             </div>
             <div class="media-body">
-              <h4 class="media-heading">Offre</h4>
-              <p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p>Ar 30 000</p>
+              <h4 class="media-heading">Chaise</h4>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p class="prix">Ar 30 000</p>
               <a href="#">Voir l'annonce</a>
             </div>
           </div>
@@ -1334,9 +1341,9 @@
               <img src="img/seza.jpg" class="media-object">
             </div>
             <div class="media-body">
-              <h4 class="media-heading">Demande</h4>
-              <p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p>Ar 30 000</p>
+              <h4 class="media-heading">Chaise</h4>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p class="prix">Ar 30 000</p>
               <a href="#">Voir l'annonce</a>
             </div>
           </div>
@@ -1345,9 +1352,9 @@
               <img src="img/seza.jpg" class="media-object">
             </div>
             <div class="media-body">
-              <h4 class="media-heading">Offre</h4>
-              <p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p>Ar 30 000</p>
+              <h4 class="media-heading">Chaise</h4>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p class="prix">Ar 30 000</p>
               <a href="#">Voir l'annonce</a>
             </div>
           </div>
@@ -1450,7 +1457,7 @@
 <!--Sticky nav-pills -->
 <script src="js/sticky-kit.min.js"></script>
 <!--Fin Animation Carte PUB-->
-<script src="js/main.js"></script>
 <script src="js/petitesAnnonces.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
