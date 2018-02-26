@@ -29,10 +29,10 @@
     text-align: center;
     width: 25%;
     height: 100%;
-    -webkit-transition:all 0.4s ease-out;
-    -moz-transition:all 0.4s ease-out;
-    -ms-transition:all 0.4s ease-out;
-    -o-transition:all 0.4s ease-out;
+    -webkit-transition:all 0.7s ease-out;
+    -moz-transition:all 0.7s ease-out;
+    -ms-transition:all 0.7s ease-out;
+    -o-transition:all 0.7s ease-out;
     transition:all 0.7s ease-out;
 }
 .vignette-detail.right{

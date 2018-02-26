@@ -227,41 +227,6 @@
 /* FIN SLIDE VIGNETTE */
 
 /*VIGNETTE DETAIL MODALS*/
-.modal {
-    text-align: center;
-    padding: 0!important;
-}
-.modal:before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-.modal-dialog {
-    display: inline-block;
-    text-align: left;
-    vertical-align: middle;
-}
-.modal-body{
-    border-top:solid #DF1D28;
-}
-.modal-content{
-    border-radius: 3px;
-}
-.modal-body img{
-   border-top-left-radius: 3px;
-   border-bottom-left-radius: 3px;
-}
-.modal div.pull-right{
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 3px;
-}
-.modal .close{
-    margin-right: 15px;
-    color: #DF1D28;
-    opacity: 0.7;
-}
 
 .carousel-produit{
 	margin: 20px auto;

@@ -748,22 +748,175 @@
   <div class="container-fluid bg-warning text-danger pacifico shadow">
 	<div class="text-right"><h2>Petites Annonces</h2></div>
   </div>
-<!-- FAB depos annonce-->
-  <a title="Déposer une annonce" class="btn fab-button sticky" data-toggle="tooltip modal" href="#deposAnnonce">
-    <span class="fa-layers fa-fw fa-2x">
-      <i class="fa fa-plus" data-fa-transform="shrink-12 up-5 left-10"></i>
-      <i class="fa fa-edit" data-fa-transform="shrink-4 down-2"></i>
+<!-- FAB & modal depos annonce-->
+  <a title="Déposer une annonce" class="btn fab-button" data-toggle="tooltip">
+    <span data-toggle="modal" data-target="#deposAnnonce">
+      <span class="fa-layers fa-fw fa-2x">
+        <i class="fa fa-plus" data-fa-transform="shrink-12 up-5 left-10"></i>
+        <i class="fa fa-edit" data-fa-transform="shrink-4 down-2"></i>
+      </span>
     </span>
   </a>
-<!-- Fin FAB depos annonce-->
+  <div id="deposAnnonce" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <div class="col-sm-12">
+              <form class="form-horizontal" action="/action_page.php">
+                <div class="form-group">
+                  <label class="control-label col-sm-3" for="type-annonce">Type d'annonce<span class="text-red">*</span> :</label>
+                  <div class="col-sm-9">
+                    <select id="type-annonce">
+                      <option selected disabled>- Type d'annonce -</option>
+                      <option>Offre</option>
+                      <option>Demande</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-3" for="categorie">Catégorie<span class="text-red">*</span> :</label>
+                  <div class="col-sm-9">
+                    <select id="categorie">
+                      <option selected disabled>- Catégorie -</option>
+                      <optgroup label='Autos & Motos'></optgroup>
+                      <option value='62'>Auto</option>
+                      <option value='63'>Motos</option>
+                      <option value='64'>Caravaning</option>
+                      <option value='65'>Utilitaires</option>
+                      <option value='66'>Equipement Auto</option>
+                      <option value='67'>Equipement Moto</option>
+                      <option value='68'>Equipement Caravaning</option>
+                      <optgroup label=' Location'></optgroup>
+                      <option value='70'>Locations</option>
+                      <option value='71'>Colocations</option>
+                      <option value='72'>Bureaux & Commerces</option>
+                      <optgroup label='Vacances'></optgroup>
+                      <option value='74'>Locations & Gîtes</option>
+                      <option value='75'>Chambres d'hôtes</option>
+                      <option value='76'>Campings</option>
+                      <option value='77'>Hôtels</option>
+                      <option value='78'>Hébergements insolites</option>
+                      <optgroup label='Informatique'></optgroup>
+                      <option value='80'>Consoles & Jeux vidéo</option>
+                      <option value='81'>Image & Son</option>
+                      <option value='82'>Téléphonie</option>
+                      <option value='83'>LOISIRS</option>
+                      <option value='84'>DVD / Films</option>
+                      <option value='85'>CD / Musique</option>
+                      <option value='86'>Livres</option>
+                      <option value='87'>Animaux</option>
+                      <option value='88'>Vélos</option>
+                      <optgroup label='Sports & Hobbies'></optgroup>
+                      <option value='90'>Instruments de musique</option>
+                      <option value='91'>Collection</option>
+                      <option value='92'>Jeux & Jouets</option>
+                      <option value='93'>Vins & Gastronomie</option>
+                      <option value='94'>Matériel Agricole</option>
+                      <option value='95'>Transport - Manutention</option>
+                      <option value='96'>BTP - Chantier Gros-oeuvre</option>
+                      <option value='97'>Outillage - Matériaux 2nd-oeuvre</option>
+                      <option value='98'>Fournitures de Bureau</option>
+                      <option value='99'>Commerces & Marchés</option>
+                      <option value='100'>Matériel Médical</option>
+                      <optgroup label='Services'></optgroup>
+                      <option value='102'>Prestations de services</option>
+                      <option value='103'>Billetterie</option>
+                      <option value='104'>Evénements</option>
+                      <option value='105'>Cours particuliers</option>
+                      <option value='106'>Covoiturage</option>
+                      <option value='107'>Ameublement</option>
+                      <option value='108'>Electroménager</option>
+                      <option value='109'>Arts de la table</option>
+                      <option value='110'>Décoration</option>
+                      <option value='111'>Linge de maison</option>
+                      <option value='112'>Bricolage</option>
+                      <option value='113'>Jardinage</option>
+                      <optgroup label='Accessoires & Bagagerie'></optgroup>
+                      <option value='115'>Vêtements</option>
+                      <option value='116'>Chaussures</option>
+                      <option value='117'>Montres & Bijoux</option>
+                      <option value='118'>Equipement bébé</option>
+                      <option value='119'>Vêtements bébé</option>
+                      <option value='120'>Autres</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-3" for="titre">Titre<span class="text-red">*</span> :</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="titre">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-3" for="prix">Prix :</label>
+                  <div class="col-sm-3 input-grou">
+                    <span class="input-group-addon">Text</span>
+                    <input type="text" class="form-control" id="prix">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-3" for="description">Description<span class="text-red">*</span> :</label>
+                  <div class="col-sm-9">
+                    <textarea class="form-control" id="description"></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-3" for="photo">Photo :</label>
+                  <div class="col-sm-9">
+                    <input type="file" class="form-control" id="photo"/>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-3" for="nom">Nom :</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="nom"/>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-3" for="ville">Ville :</label>
+                  <div class="col-sm-9">
+                    <select class="form-control" id="ville">
+                      <option>Antananarivo</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-3" for="tel">Téléphone :</label>
+                  <div class="col-sm-9">
+                    <input type="tel" class="form-control" id="tel"/>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-3" for="email">Email<span class="text-red">*</span> :</label>
+                  <div class="col-sm-9">
+                    <input type="email" class="form-control" id="email"/>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-3 col-sm-9">
+                    <button type="submit" class="btn btn-outline">Envoyer</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Fin FAB & modal depos annonce-->
+
   <!-- Container Petites Annonces -->
   <div class="annonces container-fluid m-t-5">
     <div class="row">
       <div class="col-sm-9 col-sm-offset-3 sticky">
         <ul class="nav nav-pills nav-justified">
-          <li class="active"><a data-toggle="tab" data-filtre="tous" href="#annonce">Toutes les annonces</a></li>
-          <li><a data-toggle="tab" data-filtre="offre" href="#annonce">Offre</a></li>
-          <li><a data-toggle="tab" data-filtre="demande" href="#annonce">Demande</a></li>
+          <li class="active"><a data-filtre="annonce">Toutes les annonces</a></li>
+          <li><a data-filtre="offre">Offre</a></li>
+          <li><a data-filtre="demande">Demande</a></li>
         </ul>
       </div>
     </div>
@@ -1140,65 +1293,67 @@
         <!-- FILTRES -->
       </div>
       <div class="col-sm-9">
-        <!--TAB CONTENT-->
-        <div class="tab-content m-t-20 p-5">
-          <div id="annonce" class="tab-pane fade in active">
+        <!--LISTE DES ANNONCES-->
+        <div id="annonce" class="row m-t-20 p-5">
 
-            <div class="offre media">
-              <div class="media-left media-middle">
-                <img src="img/seza.jpg" class="media-object">
-              </div>
-              <div class="media-body">
-                <h4 class="media-heading">Offre</h4>
-                <p>Lorem ipsum...</p>
-              </div>
+          <div class="col-sm-12 annonce offre media">
+            <div class="media-left media-top">
+              <img src="img/seza.jpg" class="media-object">
             </div>
-            <div class="demande media">
-              <div class="media-left media-middle">
-                <img src="img/seza.jpg" class="media-object">
-              </div>
-              <div class="media-body">
-                <h4 class="media-heading">Demande</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
+            <div class="media-body">
+              <h4 class="media-heading">Offre</h4>
+              <p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Ar 30 000</p>
+              <a href="#">Voir l'annonce</a>
             </div>
-            <div class="demande media">
-              <div class="media-left media-middle">
-                <img src="img/seza.jpg" class="media-object">
-              </div>
-              <div class="media-body">
-                <h4 class="media-heading">Demande</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-            <div class="offre media">
-              <div class="media-left media-middle">
-                <img src="img/seza.jpg" class="media-object">
-              </div>
-              <div class="media-body">
-                <h4 class="media-heading">Offre</h4>
-                <p>Lorem ipsum...</p>
-              </div>
-            </div>
-            <div class="demande media">
-              <div class="media-left media-middle">
-                <img src="img/seza.jpg" class="media-object">
-              </div>
-              <div class="media-body">
-                <h4 class="media-heading">Demande</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-
           </div>
+          <div class="col-sm-12 annonce demande media">
+            <div class="media-left media-top">
+              <img src="img/seza.jpg" class="media-object">
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Demande</h4>
+              <p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Ar 30 000</p>
+              <a href="#">Voir l'annonce</a>
+            </div>
+          </div>
+          <div class="col-sm-12 annonce offre media">
+            <div class="media-left media-top">
+              <img src="img/seza.jpg" class="media-object">
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Offre</h4>
+              <p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Ar 30 000</p>
+              <a href="#">Voir l'annonce</a>
+            </div>
+          </div>
+          <div class="col-sm-12 annonce demande media">
+            <div class="media-left media-top">
+              <img src="img/seza.jpg" class="media-object">
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Demande</h4>
+              <p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Ar 30 000</p>
+              <a href="#">Voir l'annonce</a>
+            </div>
+          </div>
+          <div class="col-sm-12 annonce offre media">
+            <div class="media-left media-top">
+              <img src="img/seza.jpg" class="media-object">
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Offre</h4>
+              <p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Ar 30 000</p>
+              <a href="#">Voir l'annonce</a>
+            </div>
+          </div>
+
         </div>
-        <!--FIN TAB CONTENT-->
+        <!--FIN LISTE DES ANNONCES-->
       </div>
     </div>
   </div>
@@ -1296,27 +1451,6 @@
 <script src="js/sticky-kit.min.js"></script>
 <!--Fin Animation Carte PUB-->
 <script src="js/main.js"></script>
-<script>
-  $(document).ready(function(){
-    $('.toggle-filtre').on("click", function () {
-      if($(this).html() == 'Tout réduire'){
-        $(this).html('Tout développer');
-        $('.filtre .collapse').collapse("hide");
-      }else{
-        $(this).html('Tout réduire');
-        $('.filtre .collapse').collapse("show");
-      }
-    })
-    $("[id^='more-filtre']").on("hide.bs.collapse", function(){
-      anchor = "a[href='#" + $(this).attr('id') + "']";
-      $(anchor + " svg.pull-right").addClass("fa-plus").removeClass("fa-minus");
-    });
-    $("[id^='more-filtre']").on("show.bs.collapse", function(){
-      anchor = "a[href='#" + $(this).attr('id') + "']";
-      $(anchor + " svg.pull-right").addClass("fa-minus").removeClass("fa-plus");
-    });
-    $('.filtre .collapse').collapse("show");
-  });
-</script>
+<script src="js/petitesAnnonces.js"></script>
 </body>
 </html>

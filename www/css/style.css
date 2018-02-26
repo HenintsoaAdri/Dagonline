@@ -111,10 +111,7 @@ FONT
 FIN FONT
 ==========================================*/
 .bg-red{
-	background-color: #e02034;
-}
-.text-red, a.text-red{
-	color: #A71726;
+	background-color: #A71726;
 }
 
 input:focus, select:focus{
@@ -171,10 +168,7 @@ select {
 .text-white, a.text-white, .text-white a{
 	color: #ffebc2 !important;
 }
-.text-red{
-	color: #be1a27 !important;
-}
-.text-red a{
+.text-red, a.text-red{
 	color: #be1a27 !important;
 }
 .m-auto{margin: auto !important;}
@@ -749,3 +743,39 @@ a.btn-outline:hover, button.btn-outline:hover, input[type='submit'].btn-outline:
     }
 }
 
+/* MODAL STYLE */
+.modal {
+	text-align: center;
+	padding: 0!important;
+}
+.modal:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.modal-dialog {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+}
+.modal-body{
+	border-top:solid #DF1D28;
+}
+.modal-content{
+	border-radius: 3px;
+}
+.modal-body img{
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.modal div.pull-right{
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 3px;
+}
+.modal .close{
+	margin-right: 15px;
+	color: #DF1D28;
+	opacity: 0.7;
+}
