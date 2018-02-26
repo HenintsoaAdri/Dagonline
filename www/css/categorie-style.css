@@ -1,0 +1,33 @@
+.vignette div:first-child{
+	padding: 0;
+}
+.vignette .bg-img-2{
+	position : absolute;
+	top:0;
+	left: 0;
+	opacity:0;
+	width: 100%;
+	margin: auto;
+}
+.vignette:hover .bg-img-2,.vignette:focus .bg-img-2, .vignette a[aria-expanded='true'] .bg-img-2{
+	opacity:1;
+}
+.vignette div:first-child > a{
+	display: block;
+}
+.vignette div:first-child > a[aria-expanded='true']{
+	height: -moz-calc(100% + 300px);
+	height: -webkit-calc(100% + 300px);
+	height: calc(100% + 300px);
+}
+.vignette-detail{
+	position: absolute;
+	background: #ddd;
+	left: 0;
+	top: calc(100% + 20px);
+	width: 100%;
+	height: 300px;
+	margin-top: 10px;
+	text-align: left;
+	overflow: hidden;
+}

@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    console.log($(window).height() - $(".fab-button").outerHeight());
     $(".fab-button").stick_in_parent({offset_top:$(window).height() - $(".fab-button").outerHeight() - 10});
     $('.toggle-filtre').on("click", function () {
         if($(this).html() == 'Tout réduire'){

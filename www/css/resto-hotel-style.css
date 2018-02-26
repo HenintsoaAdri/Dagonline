@@ -313,11 +313,8 @@
 }
 /* FIN SCROLL CATEGORIE */
 
-.vignette:hover  .image-deux{ 
-	position: absolute;
-	top: 0;
-	left: 0;
-    opacity: 1;
+.vignette:hover  .image-deux{
+	opacity: 1;
 }
 
 .vignette:hover  .image-un{ 
