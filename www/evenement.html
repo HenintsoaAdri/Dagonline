@@ -948,7 +948,7 @@
 					  <div class="col-sm-4 p-l-20 text-white">
 						<h3 class="pacifico">Just dance 2</h3>
 						<p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
-						<div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+						<div class="btn more"><a href="#detailEvent" data-toggle="modal"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
 					  </div>
 				</div>
                 <div class="item row">
@@ -958,7 +958,7 @@
 					  <div class="col-sm-4 p-l-20 text-white">
 						<h3 class="pacifico">Just dance</h3>
 						<p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
-						<div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+						<div class="btn more"><a href="#detailEvent" data-toggle="modal"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
 					  </div>
                 </div>
               </div>
@@ -1177,7 +1177,7 @@
 					  <div class="col-sm-4 p-l-20 text-white">
 						<h3 class="pacifico">Just dance 2</h3>
 						<p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
-						<div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+						<div class="btn more"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
 					  </div>
 				</div>
                 <div class="item row">
@@ -1187,7 +1187,7 @@
 					  <div class="col-sm-4 p-l-20 text-white">
 						<h3 class="pacifico">Just dance</h3>
 						<p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae arcu vitae, ultricies laoreet leo. Nunc gravida vitae nunc id aliquet. Maecenas et purus at enim venenatis auctor a in risus. Suspendisse gravida id dolor vel vehicula. Praesent quis luctus arcu. Integer ornare nisl a fringilla condimentum. Duis tristique ut eros sit amet mollis.</p>
-						<div class="btn more pull-right"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+						<div class="btn more"><a href="shop.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
 					  </div>
                 </div>
               </div>
@@ -1389,8 +1389,93 @@
   </div>
   <!-- Fin Container Partie Evenement de la semaine-->
   
+  <!-- Exemple Détail evenement (pop-up) -->
+  <div id="detailEvent" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+		  <div class="modal-body">
+			<div class="row">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				<div id='carousel-custom' class='carousel carousel-produit slide' data-ride='carousel'>
+					<!-- Top part of the slider -->
+						<div class='carousel-outer'>
+							<!-- Carousel items -->
+							<div class="carousel-inner">
+								<div class="active item" data-slide-number="0">
+									<img src="img/eventessai.jpg" alt="">
+								</div>
+
+								<div class="item" data-slide-number="1">
+									<img src="img/eventessai.jpg" alt="">
+								</div>
+
+								<div class="item" data-slide-number="2">
+									<img src="img/eventessai.jpg" alt="">
+								</div>
+
+								<div class="item" data-slide-number="3">
+									<img src="img/eventessai.jpg" alt="">
+								</div>
+							<a class="left carousel-control" href="#carousel-custom" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>                                       
+							</a>
+							<a class="right carousel-control" href="#carousel-custom" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>                                       
+							</a>                                
+							</div>
+						</div>
+
+					<div class="row hidden-xs m-0">
+						<!-- Bottom switcher of slider -->
+						<ol class="carousel-indicators">
+							<li class="col-sm-4 p-5 active" data-target="#carousel-custom" data-slide-to="0">
+								<a class="thumbnail"><img src="img/eventessai.jpg" alt=""></a>
+							</li>
+
+							<li class="col-sm-4 p-5"data-target="#carousel-custom" data-slide-to="1">
+								<a class="thumbnail"><img src="img/eventessai.jpg" alt=""></a>
+							</li>
+
+							<li class="col-sm-4 p-5" data-target="#carousel-custom" data-slide-to="2">
+								<a class="thumbnail"><img src="img/eventessai.jpg" alt=""></a>
+							</li>
+						</ol>                 
+					</div>               
+				</div>
+				<h2 class="text-center title-event pacifico">Just Dance</h2> 
+				  <p class="text-muted">Evenement organis&eacute; par <i class="big">MadaVision</i></p>
+				  <p><i class="fa fa-envelope"></i> madavison@moov.mg</p>
+				  <p><i class="fa fa-calendar"></i> Vendredi 25 Janvier 2018  8:30</p>
+				  <p>+261 32 00 000 00</p>
+				  <p>+261 34 00 000 00</p>
+				  <hr>
+				<p>In mattis vel justo et porttitor. Sed laoreet tincidunt sem, a eleifend dui. Donec malesuada eros vel urna interdum tincidunt. Aliquam massa massa, pulvinar vitae aliquam nec, efficitur pretium velit. Cras pulvinar ac est in varius. Proin a ultrices nibh. Praesent ornare varius euismod. Suspendisse viverra eget est a eleifend.</p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  <!-- Fin Exemple Détail evenement (pop-up) -->
+  
   <!-- Container Polaroid -->
   <div class="container-fluid">
+    <h2 class="indie-flower">VOUS POURRIEZ &Eacute;GALEMENT RECHERCHER</h2>
+	<br><br>
+		<div class="polaroid-images">
+			<a href="#" title="Bur Hotel"><img src="img/burhotel.png" alt="Post" class="img-responsive"></a>
+			<a href="#" title="Hilton Hotel"><img src="img/entreprisepage.jpg" alt="Post" class="img-responsive"></a>
+			<a href="#" title="Magasin Deemar"><img src="img/deemar.png" alt="Post" class="img-responsive"></a>
+			<a href="#" title="Hotel luxe Piscine"><img src="img/hotelpage3.jpg" alt="Post" class="img-responsive"></a>
+			<a href="#" title="Evenement de Couleur"><img src="img/eventessai.jpg" alt="Post" class="img-responsive"></a>
+			<a href="#" title="Waza Moto"><img src="img/wazamoto.png" alt="Post" class="img-responsive"></a>
+			<a href="#" title="Quin CQ Shop"><img src="img/quincgi.png" alt="Post" class="img-responsive"></a>
+			<a href="#" title="Dzama"><img src="img/produit-3.jpg" alt="Post" class="img-responsive"></a>
+			<a href="#" title="Restaurant Le Passe"><img src="img/resto-main-tile1.jpg" alt="Post" class="img-responsive"></a>
+			<a href="#" title="Vente de Smartphone"><img src="img/image-slide-entreprise-1.jpg" alt="Post" class="img-responsive"></a>
+			<a href="#" title="Nouveaux Produits chez Score!"><img src="img/image-slide-entreprise-3.jpg" alt="Post" class="img-responsive"></a>
+			<a href="#" title="Menu Hotel bistrot"><img src="img/menu-exemple-resto.jpg" alt="Post" class="img-responsive"></a>
+		</div>
   </div>
   <!-- Fin Container Timeline -->
   
