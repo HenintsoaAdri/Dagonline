@@ -835,5 +835,13 @@
 <script src="js/jquery.toast.min.js"></script>
 <!--JS personnalisé-->
 <script src="js/main.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".vignette .collapse").on("show.bs.collapse", function(){
+      prev = $(this).prev('div');
+      prev.height(prev.height()+$(this).height());
+    });
+  });
+</script>
 </body>
 </html>
