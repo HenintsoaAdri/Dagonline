@@ -1,0 +1,20 @@
+PRODUITS:
+- detail en popup
+
+ENTREPRISES:
+- menu sidebar à modifier: ajout d'icone et avec une animation lors d'un "hover"
+
+CYBER:
+- Comme dans catégorie et restaurant
+- Détails en popup
+
+CATEGORIE
+- nouveau design (Grid Expanding)
+
+RESTAU MAIN
+- Les détails seront tous à gauche
+- filtre à compléter 
+- icone montrant le nom lors d'un hover
+
+NB
+hover: quand la souris passe dessus.

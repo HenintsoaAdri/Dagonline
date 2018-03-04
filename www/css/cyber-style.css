@@ -1,0 +1,189 @@
+.resto-main, .resto-main div{
+    padding: 0px;
+    margin: 0px;
+}
+.resto-main .row:first-child{
+    padding-top: 0;
+}
+.resto-main > .row, .resto-main > .row > .col-sm-6, .resto-main > .row > .col-sm-12{
+    padding: 0 5px;
+}
+.resto-main > .row{
+    padding: 5px;
+}
+.vignette{
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+	min-height: 300px;
+}
+.vignette-detail:hover{
+    padding: 30px 0;
+    width: 100%;
+}
+.vignette-detail{
+    position: absolute;
+    top:0;
+    left: 0;
+    color: #ffebc2;
+    background-color: rgba(51, 51, 51, 0.8);
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    -webkit-transition:all 0.7s ease-out;
+    -moz-transition:all 0.7s ease-out;
+    -ms-transition:all 0.7s ease-out;
+    -o-transition:all 0.7s ease-out;
+    transition:all 0.7s ease-out;
+}
+.vignette-detail.right{
+    right:0;
+    left:inherit;
+}
+.vignette-detail:before {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    bottom: 50%;
+    left: 20%;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    content: '';
+    opacity: 0;
+    background-color: #ffffff;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+.vignette-detail:hover:before{
+    background: rgba(255, 255, 255, 0);
+    top: 30px;
+    bottom: 30px;
+    left: 15%;
+    right: 15%;
+    opacity: 1;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.vignette-detail a{
+    position: relative;
+}
+.vignette-detail a.more {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    font-family: serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+}
+
+.vignette-detail a.more:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.vignette-detail p {
+    font-family: serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #fff;
+    margin: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.vignette-detail:hover .vignette-detail p{
+    text-overflow: inherit;
+    white-space: inherit;
+    overflow: visible;
+}
+
+.vignette-detail h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Indie Flower', "Courier New", serif;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
+}
+/* TAG */
+.filtre .checkbox-tag{
+    padding: 0.5em 2em;
+    background-color: rgba(145, 197, 222, 0.2);
+    color: #2b6480;
+    border-radius: 100px;
+    margin:5px;
+}
+.filtre .checkbox-tag .fa-times-circle{
+    display: none ;
+}
+.filtre input[type='checkbox']:disabled ~ .checkbox-tag{
+    box-shadow: none;
+    color: rgba(43, 100, 128, 0.5);
+}
+.filtre .checkbox-tag:hover{
+    background-color: rgba(91, 123, 139, 0.2);
+    color: #2b6480;
+}
+.filtre input[type='checkbox']:disabled ~ .checkbox-tag:hover{
+    background-color: rgba(145, 197, 222, 0.2);
+    box-shadow: none;
+    color: rgba(43, 100, 128, 0.5);
+}
+.filtre input[type='checkbox']{
+    opacity: 0;
+}
+.filtre input[type='checkbox']:checked ~ .checkbox-tag{
+    opacity: 1;
+    background-color: #31708f;
+    color: #fff;
+}
+.filtre input[type='checkbox']:checked ~ .checkbox-tag .fa-times-circle{
+    display: inline;
+    margin-left: 10px;
+}
+
+/*FIN TAG*/
+
+/*VIGNETTE DETAIL MODALS*/
+
+.carousel-produit{
+	margin: 20px auto;
+	width: 100%;    
+	margin: 12px !important;
+    max-width: 370px;
+}
+.carousel-produit .carousel-indicators {
+	margin: 10px 0 0;
+	overflow: auto;
+	position: static;
+	width: 100%;
+}
+.carousel-produit .carousel-indicators li {
+	background-color: transparent;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	display: inline-block;
+	height: auto;
+	margin: 0 !important;
+	width: 33%;
+}
+.carousel-produit .carousel-indicators li img {
+	display: block;
+}
+.carousel-produit .carousel-outer {
+	position: relative;
+}
+
+.carousel-produit .carousel-inner .item img{
+	margin: auto;
+}
+.carousel-produit .carousel-indicators li.active a{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+		
+/*FIN VIGNETTE DETAIL MODALS*/

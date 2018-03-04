@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+  <link rel="manifest" href="img/icon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
   <title>Dagonline - Trouvez et achetez ce qui vous chante sur tout Madagascar</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,8 +28,8 @@
   <!--Fin Toast-->
   <!-- Theme personnalisé -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cyber-style.css">
   <link rel="stylesheet" href="css/font.css">
-  <link rel="stylesheet" type="text/css" href="css/entreprise-style.css" />
 </head>
 <body>
 
@@ -21,18 +39,6 @@
   www.dagonline.fr
 </div>
 <!--Fin Préloader-->
-<!--Lien rapide-->
-<div class="btn-group menu-rapide text-white">
-  <span class="glyphicon glyphicon-menu-left"></span>
-  <div class="btn-group-vertical">
-    <a class="btn btn-flat" title="H&ocirc;tel" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-bed"></i></a>
-    <a class="btn btn-flat" title="Restaurant" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-utensils"></i></a>
-    <a class="btn btn-flat" title="Cyber" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-laptop"></i></a>
-    <a class="btn btn-flat" title="Bons Plans" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-glass-martini"></i></a>
-    <a class="btn btn-flat" title="Jobs" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-briefcase"></i></a>
-  </div>
-</div>
-<!--Fin de lien rapide-->
 
 <!--Header-->
 <div class="container-fluid">
@@ -46,7 +52,7 @@
   </ul>
 </div>
 <!--Navigation Bar-->
-<nav class="m-b-0 bg-red navbar navbar-static-top text-white navbar-inverse" data-spy="affix" data-offset-top="32">
+<nav class="m-b-0 navbar navbar-static-top text-white navbar-inverse" data-spy="affix" data-offset-top="32">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -667,494 +673,162 @@
 <!--Fin Navigation Bar-->
 <!--Fin Header-->
 
+<!--Slide principal-->
+<div class="jumbotron text-center m-b-0">
+  <div class="jumbotron-text">
+    <h1>Dagonline</h1>
+    <p>Trouvez et achetez ce qui vous chante sur tout Madagascar</p>
+    <form class="form-inline col-xs-offset-1 col-xs-10">
+      <div class="form-group">
+        <select class="form-control">
+          <option disabled selected>Où : Pays, Région, Département, Ville </option>
+          <option>Antananarivo</option>
+          <option>Diego-Suarez</option>
+          <option>Majunga</option>
+          <option>Tamatave</option>
+          <option>Fianarantsoa</option>
+          <option>Tuléar</option>
+        </select>
+      </div>
+      <div class="form-group input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-search text-info"></i></span>
+        <input type="text" class="form-control" size="30" placeholder="Rechercher...">
+      </div>
+      <button type="button" class="form-control btn text-white bg-red">Trouver</button>
+    </form>
+  </div>
+
+  <div id="SlidePrincipal" class="carousel slide hidden-xs" data-ride="carousel">
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/slideIndex.jpg" class="img-responsive">
+      </div>
+
+      <div class="item">
+        <img src="img/slideIndex.jpg" class="img-responsive">
+      </div>
+
+      <div class="item">
+        <img src="img/slideIndex.jpg" class="img-responsive">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#SlidePrincipal" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Pr&eacute;c&eacute;dent</span>
+    </a>
+    <a class="right carousel-control" href="#SlidePrincipal" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Suivant</span>
+    </a>
+  </div>
+</div>
+<!--Fin Slide principal-->
+
+<!--Lien rapide-->
+<div class="btn-group menu-rapide text-white">
+  <span class="glyphicon glyphicon-menu-left"></span>
+  <div class="btn-group-vertical">
+    <a class="btn btn-flat" title="H&ocirc;tel" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-bed"></i></a>
+    <a class="btn btn-flat" title="Restaurant" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-utensils"></i></a>
+    <a class="btn btn-flat" title="Cyber" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-laptop"></i></a>
+    <a class="btn btn-flat" title="Bons Plans" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-glass-martini"></i></a>
+    <a class="btn btn-flat" title="Jobs" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-briefcase"></i></a>
+  </div>
+</div>
+<!--Fin de lien rapide-->
 
 <!--Corps-->
 <div id="body">
   <span id="dagonline"></span>
   <div class="container-fluid bg-warning text-danger pacifico shadow">
-    <div class="text-right p-r-20"><h2>Entreprise - Dagonline</h2></div>
+    <div class="text-right p-r-20"><h2>Cyber</h2></div>
   </div>
-
-  <!-- Container Tab resto -->
-  <div class="container-fluid">
-    <div class="row entreprise-row">
-      <div class="col-xs-12 text-center img">
-        <img src="img/papyrus-texture.jpg">
-      </div>
-      <div class="tab row col-xs-12">
-        <div class="col-xs-3 text-center sticky">
-            <ul class="nav nav-pills nav-stacked">
-              <li class="active m-t-0"><a data-toggle="pill" href="#home">Home</a></li>
-              <li class="m-t-0"><a data-toggle="pill" href="#description">Description</a></li>
-              <li class="m-t-0"><a data-toggle="pill" href="#produits">Nos Produits</a></li>
-              <li class="m-t-0"><a data-toggle="pill" href="#localisation">Localisation</a></li>
-              <li class="m-t-0"><a data-toggle="pill" href="#reservation">Réservation</a></li>
-            </ul>
-    </div>
-        <div class="col-xs-9 text-center tab-content">
-        <div id="home" class="tab-pane fade in active">
-			<img src="img/logo1.png">
-          <h3 class="oswald">Dagonline</h3>
-          <h4 class="indie-flower">"Slogan de l'entreprise"</h4>
-          <p><i class="fa fa-fw fa-facebook-square"></i> Dagonline</p>
-          <p><i class="fa fa-fw fa-globe"></i> www.dagonline.fr</p>
-          <p><span>+261 32 00 000 00</span> - <span>+261 34 00 000 00</span></p>
-          <p><i class="fa fa-envelope-o"></i> exemple@moov.mg</p>          
-		  <div id="home-entreprise-slide" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="item active entreprise-detail-slide">
-                <img src="img/image-slide-entreprise.jpg" class="img-responsive">
-				<div class="entreprise-detail text-white">
-				  <h4>NOUS RECHERCHONS LA <span>QUALITE</span></h4>
-				</div>
-              </div>
-              <div class="item entreprise-detail-slide">
-                <img src="img/image-slide-entreprise-1.jpg" class="img-responsive">
-				<div class="entreprise-detail text-white">
-				  <h4>LE ROI C'EST <span>VOUS</span>!</h4>
-				</div>
-              </div>
-              <div class="item entreprise-detail-slide">
-                <img src="img/entreprisepage.jpg" class="img-responsive">
-				<div class="entreprise-detail text-white">
-				  <h4>CONTACTEZ-NOUS <span>MAINTENANT</span></h4>
-				</div>
-              </div>
-
-            </div>
-          </div>
-          <ul class="pager m-t-5 m-b-5">
-            <li><a href="#home-entreprise-slide" data-slide="prev"><i class="fa fa-fw fa-chevron-left"></i></a></li>
-            <li><a href="#home-entreprise-slide" data-slide="next"><i class="fa fa-fw fa-chevron-right"></i></a></li>
-          </ul>
-        </div>
-        <div id="description" class="tab-pane fade">
-          <h4 class="indie-flower">Description</h4>
-		  <div class="row">
-			<iframe width="600" height="500" src="https://www.youtube.com/embed/7JFz9IlbKyM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-		  </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida mattis erat, in gravida odio. Aliquam a ante et risus fringilla convallis quis eget urna. Nulla quis nibh aliquam mi pellentesque ultrices in eu nisi. Integer in elementum metus. Fusce volutpat porttitor tellus. Fusce suscipit, purus in tempus lacinia, felis metus elementum justo, vitae lacinia tortor nulla vel lorem. Vivamus vitae semper libero, sit amet blandit massa.</p>
-          <p>Morbi vel libero sit amet nunc commodo venenatis. Praesent porta leo eget feugiat venenatis. Phasellus venenatis luctus ligula, eget condimentum sapien euismod ut. Praesent vel ornare ex. Nullam ultricies nunc a dignissim viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum porta ultrices posuere. Nullam cursus ligula bibendum dapibus tristique. Pellentesque pretium ligula a leo rutrum vehicula. Aliquam aliquet a quam vitae luctus. Nullam id dolor eu dolor porta gravida id sed eros. Suspendisse posuere est vel facilisis condimentum. Duis suscipit eget metus vel fringilla.</p>
-        </div>
-        <div id="produits" class="tab-pane fade">
-			<div class="container-fluid text-center">
-				<h2>Nos Produits</h2>
-				<div class="menu-produit">
-					<ul class="nav nav-pills nav-justified">
-					  <li class="active"><a data-toggle="pill" href="#produit-divers">Divers</a></li>
-					  <li><a data-toggle="pill" href="#produit-electricite">Electricité</a></li>
-					  <li><a data-toggle="pill" href="#produit-filtration">Filtration</a></li>
-					  <li><a data-toggle="pill" href="#produit-groupe-electrogene">Groupe Electrogène</a></li>
-					  <li><a data-toggle="pill" href="#produit-materiaux-de-construction">Matériaux de construction</a></li>
-					  <li><a data-toggle="pill" href="#produit-pieces-detachees">Pièces détachées</a></li>
-					</ul>
-				</div>
-
-				<div class="tab-content">
-				  <div id="produit-divers" class="tab-pane fade in active">
-					<h2>Divers</h2>
-					
-					<!-- FILTRES -->
-					<!--
-						représentation des litres apr CSS (classes):
-						par pièce = red,
-						par kg = blue,
-						par litre = yemmow,
-					-->
-					<div class="filters">
-					  <div class="button-group js-radio-button-group" data-filter-group="color">
-						<button class="button is-checked" data-filter="">Tous</button>
-						<button class="button" data-filter=".red">Par pièce</button>
-						<button class="button" data-filter=".blue">Par kg</button>
-						<button class="button" data-filter=".yellow">Par litre</button>
-					  </div>
-					</div>
-					<div class="grid">
-						<div class="row color-shape big square red product-isotope">
-							<div class="row">
-								<img src="img/prom-1.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bidon 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square blue product-isotope">
-							<div class="row">
-								<img src="img/prom-2.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Sac 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square yellow product-isotope">
-							<div class="row">
-								<img src="img/prom-3.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bouteille 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square red product-isotope">
-							<div class="row">
-								<img src="img/prom-1.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bidon 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square blue product-isotope">
-							<div class="row">
-								<img src="img/prom-2.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Sac 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square yellow product-isotope">
-							<div class="row">
-								<img src="img/prom-3.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bouteille 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square red product-isotope">
-							<div class="row">
-								<img src="img/prom-1.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bidon 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square blue product-isotope">
-							<div class="row">
-								<img src="img/prom-2.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Sac 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square yellow product-isotope">
-							<div class="row">
-								<img src="img/prom-3.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bouteille 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square red product-isotope">
-							<div class="row">
-								<img src="img/prom-1.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bidon 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square blue product-isotope">
-							<div class="row">
-								<img src="img/prom-2.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Sac 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square yellow product-isotope">
-							<div class="row">
-								<img src="img/prom-3.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bouteille 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-					</div>
-				  </div>
-				  <div id="produit-electricite" class="tab-pane fade">
-					<h2>Electricité</h2>
-					<div class="filters">
-					  <div class="button-group js-radio-button-group" data-filter-group="color">
-						<button class="button is-checked" data-filter="">Tous</button>
-						<button class="button" data-filter=".red">Par pièce</button>
-						<button class="button" data-filter=".blue">Par kg</button>
-						<button class="button" data-filter=".yellow">Par litre</button>
-					  </div>
-					</div>
-					<div class="grid">
-						<div class="row color-shape big square red product-isotope">
-							<div class="row">
-								<img src="img/prom-1.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bidon 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square blue product-isotope">
-							<div class="row">
-								<img src="img/prom-2.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Sac 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square yellow product-isotope">
-							<div class="row">
-								<img src="img/prom-3.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bouteille 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square red product-isotope">
-							<div class="row">
-								<img src="img/prom-1.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bidon 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square blue product-isotope">
-							<div class="row">
-								<img src="img/prom-2.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Sac 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square yellow product-isotope">
-							<div class="row">
-								<img src="img/prom-3.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bouteille 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square red product-isotope">
-							<div class="row">
-								<img src="img/prom-1.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bidon 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square blue product-isotope">
-							<div class="row">
-								<img src="img/prom-2.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Sac 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square yellow product-isotope">
-							<div class="row">
-								<img src="img/prom-3.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bouteille 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square red product-isotope">
-							<div class="row">
-								<img src="img/prom-1.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bidon 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square blue product-isotope">
-							<div class="row">
-								<img src="img/prom-2.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Sac 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-						<div class="row color-shape big square yellow product-isotope">
-							<div class="row">
-								<img src="img/prom-3.png">
-							</div>
-							<div class="row for-detail">
-								<h5>Bouteille 2 Fortune</h5>
-								<span class="badge badge-price">30.000 Ar</span>
-							</div>
-						</div>
-					</div>
-				  </div>
-				  <div id="produit-filtration" class="tab-pane fade">
-					<h2>Filtration</h2>
-					<div class="filters">
-					  <div class="button-group js-radio-button-group" data-filter-group="color">
-						<button class="button is-checked" data-filter="">Tous</button>
-						<button class="button" data-filter=".red">Par pièce</button>
-						<button class="button" data-filter=".blue">Par kg</button>
-						<button class="button" data-filter=".yellow">Par litre</button>
-					  </div>
-					</div>
-					<div class="grid">
-						<p>Aucun produit dans <span>Filtration</span></p>
-					</div>
-				  </div>
-				  <div id="produit-groupe-electrogene" class="tab-pane fade">
-					<h2>Groupe Electrogène</h2>
-					
-					<div class="filters">
-					  <div class="button-group js-radio-button-group" data-filter-group="color">
-						<button class="button is-checked" data-filter="">Tous</button>
-						<button class="button" data-filter=".red">Par pièce</button>
-						<button class="button" data-filter=".blue">Par kg</button>
-						<button class="button" data-filter=".yellow">Par litre</button>
-					  </div>
-					</div>
-					<div class="grid">
-						<p>Aucun produit dans <span>Groupe Electrogène</span></p>
-					</div>
-				  </div>
-				  <div id="produit-materiaux-de-construction" class="tab-pane fade">
-					<h2>Matériaux de construction</h2>
-					
-					<div class="filters">
-					  <div class="button-group js-radio-button-group" data-filter-group="color">
-						<button class="button is-checked" data-filter="">Tous</button>
-						<button class="button" data-filter=".red">Par pièce</button>
-						<button class="button" data-filter=".blue">Par kg</button>
-						<button class="button" data-filter=".yellow">Par litre</button>
-					  </div>
-					</div>
-					<div class="grid">
-						<p>Aucun produit dans <span>Matériaux de construction</span></p>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			  <!-- Fin Container Produits -->
-        </div>
-        <div id="localisation" class="tab-pane fade">
-          <h4 class="indie-flower">Trouvez nous ici</h4>
-          <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60381.96674064899!2d47.532478409619095!3d-18.937018220649918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2smg!4v1516881806035" width="90%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-		  <br><br>
-		  <p>Batiment Ankadibahoaka - LOT V 10 B</p>
-		  <p>Ankadibahoaka</p>
-        </div>
-		<div id="reservation" class="tab-pane fade">
-          <h4 class="indie-flower">Réservez maintenant!</h4>
-		  <!-- Pour module réservation -->
-          <div>
-		  
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-  </div>
-  <!-- Fin Container Tab visible-xs resto -->
-
-  <!-- Container Slide resto -->
-  <div class="container-fluid m-t-5">
-    <div class="row restaurant-row">
+  <!-- Container filtre -->
+  <div class="container-fluid filtre text-center m-t-20 m-b-20">
+    <div class="row">
       <div class="col-sm-12">
-        <div id="SlideVignette" class="carousel slide" data-ride="carousel">
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <div class="row text-center">
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/produit-1.jpg" alt=""></a>
-                  <div class="vignette-detail">
-                    <h2>Bidon Fortune</h2>
-                    <p><span class="price-not">40.000 Ar</span> <span class="price badge">30.000 Ar</span></p>
-                    <a href="#detailVignette1" class="more" data-toggle="modal">Voir details</a>
-                  </div>
-                </div>
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/produit-2.jpg" alt=""></a>
-                  <div class="vignette-detail">
-                    <h2>Sac Fortune</h2>
-                    <p><span class="price-not">40.000 Ar</span> <span class="price badge">30.000 Ar</span></p>
-                    <a href="#detailVignette1" class="more" data-toggle="modal">Voir details</a>
-                  </div>
-                </div>
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/produit-3.jpg" alt=""></a>
-                  <div class="vignette-detail">
-                    <h2>Bouteille Fortune</h2>
-                    <p><span class="price-not">40.000 Ar</span> <span class="price badge">30.000 Ar</span></p>
-                    <a href="#detailVignette1" class="more" data-toggle="modal">Voir details</a>
-                  </div>
-                </div>
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/produit-1.jpg" alt=""></a>
-                  <div class="vignette-detail">
-                    <h2>Sac 2 Fortune</h2>
-                    <p><span class="price-not">40.000 Ar</span> <span class="price badge">30.000 Ar</span></p>
-                    <a href="#detailVignette1" class="more" data-toggle="modal">Voir details</a>
-                  </div>
-                </div>
-              </div>
+        <form class="container" action="#">
+          <div class="form-group row">
+            <div class="col-sm-offset-3 col-sm-3 p-l-0 p-r-5">
+              <select class="form-control filtre">
+                <option disabled selected>Affiner vos recherches</option>
+                <option value="">Tous</option>
+                <option value="quartier">Par nom</option>
+                <option value="quartier">Par quartier</option>
+              </select>
             </div>
-
-            <div class="item">
-              <div class="row text-center">
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/produit-1.jpg" alt=""></a>
-                  <div class="vignette-detail">
-                    <h2>Bidon Fortune</h2>
-                    <p><span class="price-not">40.000 Ar</span> <span class="price badge">30.000 Ar</span></p>
-                    <a href="#detailVignette1" class="more" data-toggle="modal">Voir details</a>
-                  </div>
-                </div>
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/produit-2.jpg" alt=""></a>
-                  <div class="vignette-detail">
-                    <h2>Sac Fortune</h2>
-                    <p><span class="price-not">40.000 Ar</span> <span class="price badge">30.000 Ar</span></p>
-                    <a href="#detailVignette1" class="more" data-toggle="modal">Voir details</a>
-                  </div>
-                </div>
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/produit-3.jpg" alt=""></a>
-                  <div class="vignette-detail">
-                    <h2>Bouteille Fortune</h2>
-                    <p><span class="price-not">40.000 Ar</span> <span class="price badge">30.000 Ar</span></p>
-                    <a href="#detailVignette1" class="more" data-toggle="modal">Voir details</a>
-                  </div>
-                </div>
-                <div class="col-xs-3 vignette">
-                  <a href="#"><img src="img/produit-1.jpg" alt=""></a>
-                  <div class="vignette-detail">
-                    <h2>Sac 2 Fortune</h2>
-                    <p><span class="price-not">40.000 Ar</span> <span class="price badge">30.000 Ar</span></p>
-                    <a href="#detailVignette1" class="more" data-toggle="modal">Voir details</a>
-                  </div>
-                </div>
-              </div>
+            <div class="col-sm-3 p-l-0 p-r-5">
+              <input type="text" class="form-control filtre" id="filtre-nom" placeholder="Rechercher l'établissement" name="filtre-nom">
+            </div>
+            <div class="col-sm-1 p-l-0 p-r-5">
+              <button class="btn btn-outline p-r-20 p-l-20" type="submit">Filtrer</button>
             </div>
           </div>
-		  
-		  	<!-- DETAIL MODAL (POPUP) -->
+          <div class="form-group row filtre">
+            <label class="checkbox-inline"><input type="checkbox" name="tag" value="wifi"><span class="checkbox-tag btn"><i class="fa fa-fw fa-wifi"></i> Wifi <i class="fa fa-fw fa-times-circle"></i></span></label>
+            <label class="checkbox-inline"><input type="checkbox" name="tag" value="parking"><span class="checkbox-tag btn"><i class="fa fa-fw fa-car"></i> Parking <i class="fa fa-fw fa-times-circle"></i></span></label>
+            <label class="checkbox-inline"><input type="checkbox" name="tag" value=""><span class="checkbox-tag btn">Impression <i class="fa fa-fw fa-times-circle"></i></span></label>
+            <label class="checkbox-inline"><input type="checkbox" name="tag" value=""><span class="checkbox-tag btn">Restauration <i class="fa fa-fw fa-times-circle"></i></span></label>
+            <label class="checkbox-inline"><input type="checkbox" name="tag" value=""><span class="checkbox-tag btn">Haut débit <i class="fa fa-fw fa-times-circle"></i></span></label>
+            <label class="checkbox-inline"><input type="checkbox" name="tag" value=""><span class="checkbox-tag btn">Option 3 <i class="fa fa-fw fa-times-circle"></i></span></label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Container filtre -->
+  <!-- Container liste restaurant-->
+  <div class="container-fluid resto-main">
+    <div class="row europeenne bar pizzeria">
+      <div class="col-sm-6 vignette">
+        <img src="img/cyber-cafe.jpg" class="img-responsive">
+        <div class="vignette-detail text-white">
+          <h3>Cyber 1</h3>
+          <a href="#detailVignette1" class="more" data-toggle="modal">Voir le cyber</a>
+          <p>Voici une description brève</p>
+          <p>Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?</p>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-car fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-wifi fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-coffee fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-leaf fa-2x"></i>
+          </span>
+        </div>
+      </div>
+      <div class="col-sm-6 vignette">
+        <img src="img/cyber-cafe.jpg" class="img-responsive">
+        <div class="vignette-detail text-white">
+          <h3>Cyber 2</h3>
+          <a href="#detailVignette1" class="more" data-toggle="modal">Voir le cyber</a>
+          <p>Voici une description brève</p>
+          <p>Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?</p>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-car fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-wifi fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-coffee fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-leaf fa-2x"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+	
+	<!-- DETAIL MODAL (POPUP) -->
 	<div id="detailVignette1" class="modal fade" role="dialog">
           <div class="modal-dialog">
             <!-- Modal content-->
@@ -1169,19 +843,19 @@
 								<!-- Carousel items -->
 								<div class="carousel-inner">
 									<div class="active item" data-slide-number="0">
-										<img src="img/produit-1.jpg" alt="">
+										<img src="img/cyber-cafe.jpg" alt="">
 									</div>
 
 									<div class="item" data-slide-number="1">
-										<img src="img/produit-1.jpg" alt="">
+										<img src="img/cyber-cafe.jpg" alt="">
 									</div>
 
 									<div class="item" data-slide-number="2">
-										<img src="img/produit-1.jpg" alt="">
+										<img src="img/cyber-cafe.jpg" alt="">
 									</div>
 
 									<div class="item" data-slide-number="3">
-										<img src="img/produit-1.jpg" alt="">
+										<img src="img/cyber-cafe.jpg" alt="">
 									</div>
 								<a class="left carousel-control" href="#carousel-custom" role="button" data-slide="prev">
 									<span class="glyphicon glyphicon-chevron-left"></span>                                       
@@ -1196,15 +870,15 @@
 							<!-- Bottom switcher of slider -->
 							<ol class="carousel-indicators">
 								<li class="col-sm-4 p-5 active" data-target="#carousel-custom" data-slide-to="0">
-									<a class="thumbnail"><img src="img/produit-1.jpg" alt=""></a>
+									<a class="thumbnail"><img src="img/cyber-cafe.jpg" alt=""></a>
 								</li>
 
 								<li class="col-sm-4 p-5"data-target="#carousel-custom" data-slide-to="1">
-									<a class="thumbnail"><img src="img/produit-1.jpg" alt=""></a>
+									<a class="thumbnail"><img src="img/cyber-cafe.jpg" alt=""></a>
 								</li>
 
 								<li class="col-sm-4 p-5" data-target="#carousel-custom" data-slide-to="2">
-									<a class="thumbnail"><img src="img/produit-1.jpg" alt=""></a>
+									<a class="thumbnail"><img src="img/cyber-cafe.jpg" alt=""></a>
 								</li>
 							</ol>                 
 						</div>               
@@ -1219,21 +893,96 @@
             </div>
           </div>
         </div>
-
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#SlideVignette" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Pr&eacute;c&eacute;dent</span>
-          </a>
-          <a class="right carousel-control" href="#SlideVignette" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Suivant</span>
-          </a>
+	
+    <div class="row europeenne bar pizzeria">
+      <div class="col-sm-6 vignette">
+        <img src="img/cyber-cafe.jpg" class="img-responsive">
+        <div class="vignette-detail text-white">
+          <h3>Cyber 1</h3>
+          <a href="#detailVignette1" class="more" data-toggle="modal">Voir le cyber</a>
+          <p>Voici une description brève</p>
+          <p>Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?</p>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-car fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-wifi fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-coffee fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-leaf fa-2x"></i>
+          </span>
+        </div>
+      </div>
+      <div class="col-sm-6 vignette">
+        <img src="img/cyber-cafe.jpg" class="img-responsive">
+        <div class="vignette-detail text-white">
+          <h3>Cyber 2</h3>
+          <a href="#detailVignette1" class="more" data-toggle="modal">Voir le cyber</a>
+          <p>Voici une description brève</p>
+          <p>Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?</p>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-car fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-wifi fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-coffee fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-leaf fa-2x"></i>
+          </span>
+        </div>
+      </div>
+    </div><div class="row europeenne bar pizzeria">
+      <div class="col-sm-6 vignette">
+        <img src="img/cyber-cafe.jpg" class="img-responsive">
+        <div class="vignette-detail text-white">
+          <h3>Cyber 1</h3>
+          <a href="#detailVignette1" class="more" data-toggle="modal">Voir le cyber</a>
+          <p>Voici une description brève</p>
+          <p>Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?</p>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-car fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-wifi fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-coffee fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-leaf fa-2x"></i>
+          </span>
+        </div>
+      </div>
+      <div class="col-sm-6 vignette">
+        <img src="img/cyber-cafe.jpg" class="img-responsive">
+        <div class="vignette-detail text-white">
+          <h3>Cyber 2</h3>
+          <a href="#detailVignette1" class="more" data-toggle="modal">Voir le cyber</a>
+          <p>Voici une description brève</p>
+          <p>Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?</p>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-car fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-wifi fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-coffee fa-2x"></i>
+          </span>
+          <span class="circle shadow bg-red">
+            <i class="fa fa-fw fa-inverse fa-leaf fa-2x"></i>
+          </span>
         </div>
       </div>
     </div>
   </div>
-  <!-- Fin Container Slide resto -->
+  <!-- Container liste restaurant-->
 </div>
 <!--Fin Corps-->
 
@@ -1293,11 +1042,11 @@
       </div>
       <br>
       <div class="row">
-        <div class="">
+        <div class="col-sm-12">
           <p>Espace Professionnel : Connectez-vous<br>
-          <a href="#">Propriétaires</a><br>
-          <a href="#">Business Owners</a><br>
-          Suivez nous!</p>
+            <a href="#">Propriétaires</a><br>
+            <a href="#">Business Owners</a><br>
+            Suivez nous!</p>
         </div>
       </div>
       <div class="row">
@@ -1317,53 +1066,12 @@
 <!--Fin footer-->
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/fontawesome-all.min.js"></script>
 <!--Toast-->
 <script src="js/jquery.toast.min.js"></script>
-<!--Sticky nav-pills -->
-<script src="js/sticky-kit.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
+<!--Font awesome 5-->
+<script src="js/fontawesome-all.min.js"></script>
 <!--JS personnalisé-->
 <script src="js/main.js"></script>
-<script>
-  // init Isotope
-var $grid = $('.grid').isotope({
-  itemSelector: '.color-shape'
-});
-
-// store filter for each group
-var filters = {};
-
-$('.filters').on( 'click', '.button', function() {
-  var $this = $(this);
-  // get group key
-  var $buttonGroup = $this.parents('.button-group');
-  var filterGroup = $buttonGroup.attr('data-filter-group');
-  // set filter for group
-  filters[ filterGroup ] = $this.attr('data-filter');
-  // combine filters
-  var filterValue = concatValues( filters );
-  // set filter for Isotope
-  $grid.isotope({ filter: filterValue });
-});
-
-// change is-checked class on buttons
-$('.button-group').each( function( i, buttonGroup ) {
-  var $buttonGroup = $( buttonGroup );
-  $buttonGroup.on( 'click', 'button', function() {
-    $buttonGroup.find('.is-checked').removeClass('is-checked');
-    $( this ).addClass('is-checked');
-  });
-});
-
-// flatten object by concatting values
-function concatValues( obj ) {
-  var value = '';
-  for ( var prop in obj ) {
-    value += obj[ prop ];
-  }
-  return value;
-}
-</script>
+<script src="js/filterResto.js"></script>
 </body>
 </html>
