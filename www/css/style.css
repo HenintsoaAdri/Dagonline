@@ -946,7 +946,10 @@ a.btn-outline:hover, button.btn-outline:hover, input[type='submit'].btn-outline:
 .vignette-detail a.more:hover {
 	box-shadow: 0 0 5px #000
 }
-
+.vignette-detail.right{
+	right:0;
+	left:inherit;
+}
 .vignette-detail p {
 	font-family: serif;
 	font-style: italic;
