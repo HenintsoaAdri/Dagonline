@@ -1466,5 +1466,13 @@
 <!--Fin Animation Carte PUB-->
 <script src="js/petitesAnnonces.js"></script>
 <script src="js/main.js"></script>
+<script>
+$(document).ready(function() {
+  if(window.location.href.indexOf('#deposAnnonce') != -1) {
+    $('#deposAnnonce').modal('show');
+  }
+});
+</script>
+
 </body>
 </html>

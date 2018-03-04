@@ -557,16 +557,16 @@ a.btn-outline:hover, button.btn-outline:hover, input[type='submit'].btn-outline:
   height: 100%;
 }
 .wrapper .container .top {
-  height: 80%;
+  height: 75%;
   width: 100%;
-	padding-top: 5% ;
+  padding-top: 0% ;
 }
 .wrapper .container .bottom {
   width: 100%;
-  height: 20%;
+  height: 25%;
   transition: transform 0.5s;
-	padding: 5%;
-	text-align: left;
+  padding: 5%;
+  text-align: left;
   background: #f4f4f4;
 }
 
