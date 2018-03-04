@@ -202,7 +202,7 @@ select {
 .p-l-20{padding-left: 20px !important;}
 .p-r-20{padding-right: 20px !important;}
 .shadow{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
 }
 .text-shadow{
 	text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.19) !important;
@@ -295,7 +295,7 @@ MENU CUSTOMIZE
 	background: -o-linear-gradient(left,#A71726, #DF1D28, #A71726); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(left,#A71726, #DF1D28, #A71726); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(left,#A71726, #DF1D28, #A71726); /* Standard syntax */
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 2px 5px rgba(0,0,0,.26);
 }
 /*==========================================
 FIN MENU CUSTOMIZE
@@ -867,3 +867,113 @@ a.btn-outline:hover, button.btn-outline:hover, input[type='submit'].btn-outline:
 	left:-75%;
 	top: -10%;
 }
+
+/*SLIDE VIGNETTE*/
+.slidevignette .carousel-control{
+	width: 7.5%;
+}
+.slidevignette .carousel-inner{
+	max-height: 240px;
+}
+.vignette{
+	position: relative;
+	padding: 0;
+	cursor: pointer;
+}
+.slidevignette .vignette{
+	max-width: 360px;
+	max-height: 240px;
+}
+.vignette:hover .vignette-detail{
+	padding: 3em;
+	opacity: 1;
+}
+.vignette-detail{
+	position: absolute;
+	top:0;
+	opacity: 0;
+	color: #ffebc2;
+	background-color: rgba(51, 51, 51, 0.7);
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	-webkit-transition:all 0.4s ease-out;
+	-moz-transition:all 0.4s ease-out;
+	-ms-transition:all 0.4s ease-out;
+	-o-transition:all 0.4s ease-out;
+	transition:all 0.4s ease-out;
+}
+.vignette-detail:before {
+	position: absolute;
+	top: 50%;
+	right: 20%;
+	bottom: 50%;
+	left: 20%;
+	border-top: 1px solid rgba(255, 255, 255, 0.8);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+	content: '';
+	opacity: 0;
+	background-color: #ffffff;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-transition-delay: 0.6s;
+	transition-delay: 0.6s;
+}
+.vignette:hover .vignette-detail:before{
+	background: rgba(255, 255, 255, 0);
+	top: 30px;
+	bottom: 30px;
+	left: 15%;
+	right: 15%;
+	opacity: 1;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+.vignette-detail > *{
+	position: relative;
+}
+.vignette-detail a.more{
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 14px;
+	background: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	font-family: serif;
+	text-transform: uppercase;
+	box-shadow: 0 0 1px #000;
+}
+
+.vignette-detail a.more:hover {
+	box-shadow: 0 0 5px #000
+}
+
+.vignette-detail p {
+	font-family: serif;
+	font-style: italic;
+	font-size: 14px;
+	color: #fff;
+	padding: 0 20px 0;
+	text-align: center
+}
+
+.vignette-detail h3 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: "Courier New", serif;
+	padding: 10px;
+	margin: 20px 0 0 0;
+	opacity:0;
+	-webkit-transform: translate3d(0%, 50%, 0);
+	transform: translate3d(0%, 50%, 0);
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+.vignette:hover .vignette-detail h3{
+	opacity: 1;
+	-webkit-transform: translate3d(0%, 0%, 0);
+	transform: translate3d(0%, 0%, 0);
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+/* FIN SLIDE VIGNETTE */

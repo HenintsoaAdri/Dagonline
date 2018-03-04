@@ -5,8 +5,9 @@
 	background-color: rgba(255,255,255,0.8);
 	border-radius: 2px;
 }
+/* Custom checkbox filtre*/
 .annonces .filtre .collapse > .checkbox, .annonces .filtre .collapsing > .checkbox{
-	margin-top: 0px;
+	margin-top: 0;
 }
 .annonces a[data-toggle='collapse']{
 	color : #A71726;
@@ -15,8 +16,7 @@
 	opacity : 0;
 }
 .annonces .checkbox label{
-	margin-left: 1em;
-	margin-bottom: 0.5em;
+	margin-left: 0.5em;
 }
 .annonces .checkbox-custom{
 	position: absolute;
@@ -46,6 +46,13 @@
 }
 .annonces .checkbox:hover input:checked ~ .checkbox-custom{
 	background-color: transparent;
+}
+/* Fin custom checkbox filtre*/
+.annonces .tab{
+	z-index: 1;
+}
+.annonces .tab.is_stuck ul li a{
+	background-color: rgba(255, 255, 255, .9) !important;
 }
 .annonces .nav>li>a{
 	color: #555;
@@ -99,6 +106,7 @@
 	background-color: #e02034;
 }
 
+/*Element annonce */
 .annonces .media-object{
 	width: 10em;
 }
@@ -154,7 +162,8 @@
 	background: rgba(0, 0, 0, 0.75);
 	content: 'Demande';
 }
-
+/*Fin element annonce */
+/*Bouton déposer annonce */
 .fab-button{
 	border-radius: 50% !important;
 	display: inline-block;
@@ -180,6 +189,7 @@
 	-moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.8) !important;
 	box-shadow: 0px 2px 2px rgba(0,0,0,0.8) !important;
 }
+/* Annonces détails*/
 .annonces .annonce a.link-ruban,.annonces .annonce .img-zoom a{
 	background-color: transparent;
 	border: none;
@@ -223,7 +233,7 @@
 	bottom: -10px;content: "";
 	position: absolute;
 }
-	.annonces .annonce .img-zoom a:after {
+.annonces .annonce .img-zoom a:after {
 	position:absolute;
 	content: '';
 	top:40%;
@@ -241,6 +251,10 @@
 .annonces .annonce .img-zoom a:hover:after{
 	opacity: 1;
 }
+@keyframes zoom {
+	from {transform:scale(0)}
+	to {transform:scale(1)}
+}
 .annonces .annonce .img-zoom .modal-content {
 	margin: auto;
 	display: block;
@@ -254,10 +268,6 @@
 	-moz-box-shadow: none;
 	box-shadow: none;
  }
-@keyframes zoom {
-	from {transform:scale(0)}
-	to {transform:scale(1)}
-}
 .annonces .annonce .img-zoom .close {
 	position: absolute;
 	top: 15px;
@@ -274,3 +284,4 @@
 	text-decoration: none;
 	cursor: pointer;
 }
+/* Fin Annonces détails*/

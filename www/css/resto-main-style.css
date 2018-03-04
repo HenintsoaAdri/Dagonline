@@ -1,4 +1,4 @@
-.resto-main, .resto-main div{
+.resto-main, .resto-main > div{
     padding: 0px;
     margin: 0px;
 }
@@ -6,29 +6,19 @@
     padding-top: 0;
 }
 .resto-main > .row, .resto-main > .row > .col-sm-6, .resto-main > .row > .col-sm-12{
-    padding: 0 5px;
+    padding: 0 0.25em;
 }
 .resto-main > .row{
-    padding: 5px;
+    padding: 0.25em;
 }
-.vignette{
-    position: relative;
-    padding: 0;
-    cursor: pointer;
-}
+
 .vignette-detail:hover{
-    padding: 30px 0;
+    padding: 1em 0;
     width: 100%;
 }
 .vignette-detail{
-    position: absolute;
-    top:0;
-    left: 0;
-    color: #ffebc2;
-    background-color: rgba(51, 51, 51, 0.8);
-    text-align: center;
+    opacity: 1;
     width: 25%;
-    height: 100%;
     -webkit-transition:all 0.7s ease-out;
     -moz-transition:all 0.7s ease-out;
     -ms-transition:all 0.7s ease-out;
@@ -39,75 +29,58 @@
     right:0;
     left:inherit;
 }
-.vignette-detail:before {
-    position: absolute;
-    top: 50%;
-    right: 20%;
-    bottom: 50%;
-    left: 20%;
-    border-top: 1px solid rgba(255, 255, 255, 0.8);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
-    content: '';
-    opacity: 0;
-    background-color: #ffffff;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-    -webkit-transition-delay: 0.6s;
-    transition-delay: 0.6s;
-}
-.vignette-detail:hover:before{
-    background: rgba(255, 255, 255, 0);
-    top: 30px;
-    bottom: 30px;
-    left: 15%;
-    right: 15%;
-    opacity: 1;
-    -webkit-transition-delay: 0s;
-    transition-delay: 0s;
-}
-.vignette-detail a{
-    position: relative;
-}
-.vignette-detail a.more {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    background: rgba(0, 0, 0, 0.75);
-    color: #fff;
-    font-family: serif;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px #000;
-}
-
-.vignette-detail a.more:hover {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
-}
 
 .vignette-detail p {
-    font-family: serif;
-    font-style: italic;
-    font-size: 14px;
-    color: #fff;
-    margin: 10px;
+    margin: 0.5em;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.vignette-detail:hover .vignette-detail p{
+.vignette-detail:hover p{
     text-overflow: inherit;
     white-space: inherit;
     overflow: visible;
 }
 
 .vignette-detail h3 {
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    font-size: 1.5em;
     font-family: 'Indie Flower', "Courier New", serif;
-    padding: 10px;
-    margin: 20px 0 0 0;
-    text-transform: uppercase;
+}
+@media only screen and (max-width: 1000px) {
+    .vignette:hover .vignette-detail{
+        padding: 1em;
+        opacity: 1;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .vignette-detail{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .vignette:hover .vignette-detail:before {
+        top: 1em;
+        bottom: 1em;
+    }
+    .vignette-detail{
+        padding: 0.5em;
+    }
+    .vignette-detail h3{
+        margin: 0;
+        padding: 0 !important;
+        padding-top: 0.5em !important;
+        font-size: 1em;
+    }
+    .vignette-detail a.more{
+        padding: 0.5em 1em !important;
+    }
+    .vignette-detail a, .vignette-detail p{
+        margin: 0;
+        font-size: .5em;
+    }
+    .vignette-detail .icon-service{
+        margin: 0;
+        font-size: .25em;
+    }
 }
 /* TAG */
 .filtre .checkbox-tag{
@@ -115,7 +88,7 @@
     background-color: rgba(145, 197, 222, 0.2);
     color: #2b6480;
     border-radius: 100px;
-    margin:5px;
+    margin:0.25em;
 }
 .filtre .checkbox-tag .fa-times-circle{
     display: none ;
@@ -143,7 +116,7 @@
 }
 .filtre input[type='checkbox']:checked ~ .checkbox-tag .fa-times-circle{
     display: inline;
-    margin-left: 10px;
+    margin-left: 0.5em;
 }
 
 /*FIN TAG*/
