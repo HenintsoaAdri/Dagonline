@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="82707021-2394-498b-aa1e-3b1d5e15d61d" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/360x240.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/evenementessai.jpg" />
@@ -40,12 +39,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evenement.html" afterPath="$PROJECT_DIR$/evenement.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-=======
-    <list default="true" id="82707021-2394-498b-aa1e-3b1d5e15d61d" name="Default" comment="Calendar + evenement du jour slider">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/calendrier-style.css" afterPath="$PROJECT_DIR$/css/calendrier-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
->>>>>>> 21d25d90bc9d5b70a2fb235f8637c18e8febf261
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />

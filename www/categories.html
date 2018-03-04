@@ -29,7 +29,7 @@
   <!-- Theme personnalisé -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/font.css">
-  <link rel="stylesheet" type="text/css" href="css/categorie-style.css" />
+  <link rel="stylesheet" type="text/css" href="css/categories-style.css" />
 </head>
 <body>
 
@@ -695,56 +695,172 @@
   <!-- Container Tab -->
   <div class="categorie container-fluid m-t-5 m-b-5">
     <div class="row">
-      <div class="vignette">
-        <div class="col-sm-4 text-center">
-          <a href="#restaurant" data-toggle="collapse">
-            <img src="img/720x450.jpg" alt="" class="img-responsive bg-img-1">
-            <img src="img/720x450-2.jpg" alt="" class="img-responsive bg-img-2">
-          </a>
-        </div>
-        <div id="restaurant" class="col-sm-12 vignette-detail m-20 collapse">
-          <ul class="list-unstyled">
-            <li><a href="#">Bar</a></li>
-            <li><a href="#">Fast-food</a></li>
-            <li><a href="#">Pizzeria</a></li>
-            <li><a href="#">Snack</a></li>
-            <li><a href="#">Traiteur</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="vignette">
-        <div class="col-sm-4 text-center">
-          <a href="#boutique" data-toggle="collapse">
-            <img src="img/720x450.jpg" alt="" class="img-responsive bg-img-1">
-            <img src="img/720x450-2.jpg" alt="" class="img-responsive bg-img-2">
-          </a>
-        </div>
-        <div id="boutique" class="col-sm-12 vignette-detail collapse">
-          <ul class="list-unstyled">
-            <li><a href="#">Bar</a></li>
-            <li><a href="#">Fast-food</a></li>
-            <li><a href="#">Pizzeria</a></li>
-            <li><a href="#">Snack</a></li>
-            <li><a href="#">Traiteur</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="vignette">
-        <div class="col-sm-4 text-center">
-          <a href="#hotel" data-toggle="collapse">
-            <img src="img/720x450.jpg" alt="" class="img-responsive bg-img-1">
-            <img src="img/720x450-2.jpg" alt="" class="img-responsive bg-img-2">
-          </a>
-        </div>
-        <div id="hotel" class="col-sm-12 vignette-detail collapse">
-          <ul class="list-unstyled">
-            <li><a href="#">Bar</a></li>
-            <li><a href="#">Fast-food</a></li>
-            <li><a href="#">Pizzeria</a></li>
-            <li><a href="#">Snack</a></li>
-            <li><a href="#">Traiteur</a></li>
-          </ul>
-        </div>
+      <div class="col-sm-12">
+        <ul class="list-inline text-center" id="categorie">
+          <li class="categorie-panel panel" data-target="#restaurant" data-toggle="collapse" data-parent="#categorie">
+            <div class="categorie-background">
+              <img src="img/440x240-restaurant.jpg" alt="" class="img-responsive bg-img-1">
+              <img src="img/440x240-restaurant-2.jpg" alt="" class="img-responsive bg-img-2">
+              <h3 class="indie-flower">Restaurant</h3>
+            </div>
+            <div id="restaurant" class="col-sm-12 categorie-detail m-20 collapse">
+              <h3 class="indie-flower">Restaurant</h3>
+              <ul class="list-unstyled">
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Bar</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Fast-food</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Pizzeria</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Snack</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Traiteur</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Bar</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Fast-food</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Pizzeria</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Snack</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Traiteur</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Bar</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Fast-food</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Pizzeria</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Snack</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Traiteur</li></a>
+              </ul>
+            </div>
+            <div id="boutique" class="col-sm-12 categorie-detail m-20 collapse">
+              <h3 class="indie-flower">Boutique</h3>
+              <ul class="list-unstyled">
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Bar</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Fast-food</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Pizzeria</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Snack</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Traiteur</li></a>
+              </ul>
+            </div>
+            <div id="hotel" class="col-sm-12 categorie-detail m-20 collapse">
+              <h3 class="indie-flower">Hotel</h3>
+              <ul class="list-unstyled">
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Bar</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Fast-food</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Pizzeria</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Snack</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Traiteur</li></a>
+              </ul>
+            </div>
+          </li>
+          <li class="categorie-panel panel" data-target="#hotel" data-toggle="collapse" data-parent="#categorie">
+            <div class="categorie-background">
+              <img src="img/440x240.jpg" alt="" class="img-responsive bg-img-1">
+              <img src="img/440x240-2.jpg" alt="" class="img-responsive bg-img-2">
+              <h3 class="indie-flower">Hotel</h3>
+            </div>
+          </li>
+          <li class="categorie-panel panel" data-target="#boutique" data-toggle="collapse" data-parent="#categorie">
+            <div class="categorie-background">
+              <img src="img/440x240-boutique.jpg" alt="" class="img-responsive bg-img-1">
+              <img src="img/440x240-boutique-2.jpg" alt="" class="img-responsive bg-img-2">
+              <h3 class="indie-flower">Boutique</h3>
+            </div>
+          </li>
+          <li class="categorie-panel panel" data-target="#boutique1" data-toggle="collapse" data-parent="#categorie">
+            <div class="categorie-background">
+              <img src="img/440x240-boutique.jpg" alt="" class="img-responsive bg-img-1">
+              <img src="img/440x240-boutique-2.jpg" alt="" class="img-responsive bg-img-2">
+              <h3 class="indie-flower">Boutique</h3>
+            </div>
+            <div id="restaurant1" class="col-sm-12 categorie-detail m-20 collapse">
+              <h3 class="indie-flower">Restaurant</h3>
+              <ul class="list-unstyled">
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Bar</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Fast-food</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Pizzeria</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Snack</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Traiteur</li></a>
+              </ul>
+            </div>
+            <div id="boutique1" class="col-sm-12 categorie-detail m-20 collapse">
+              <h3 class="indie-flower">Boutique</h3>
+              <ul class="list-unstyled">
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Bar</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Fast-food</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Pizzeria</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Snack</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Traiteur</li></a>
+              </ul>
+            </div>
+            <div id="travaux" class="col-sm-12 categorie-detail m-20 collapse">
+              <h3 class="indie-flower">Travaux</h3>
+              <ul class="list-unstyled">
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Bar</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Fast-food</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Pizzeria</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Snack</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Traiteur</li></a>
+              </ul>
+            </div>
+          </li>
+          <li class="categorie-panel panel" data-target="#travaux" data-toggle="collapse" data-parent="#categorie">
+            <div class="categorie-background">
+              <img src="img/440x240-travaux.jpg" alt="" class="img-responsive bg-img-1">
+              <img src="img/440x240-travaux-2.jpg" alt="" class="img-responsive bg-img-2">
+              <h3 class="indie-flower">Travaux</h3>
+            </div>
+          </li>
+          <li class="categorie-panel panel" data-target="#restaurant1" data-toggle="collapse" data-parent="#categorie">
+            <div class="categorie-background">
+              <img src="img/440x240-restaurant.jpg" alt="" class="img-responsive bg-img-1">
+              <img src="img/440x240-restaurant-2.jpg" alt="" class="img-responsive bg-img-2">
+              <h3 class="indie-flower">Restaurant</h3>
+            </div>
+          </li>
+          <li class="categorie-panel panel" data-target="#restaurant2" data-toggle="collapse" data-parent="#categorie">
+            <div class="categorie-background">
+              <img src="img/440x240-restaurant.jpg" alt="" class="img-responsive bg-img-1">
+              <img src="img/440x240-restaurant-2.jpg" alt="" class="img-responsive bg-img-2">
+              <h3 class="indie-flower">Restaurant</h3>
+            </div>
+            <div id="restaurant2" class="col-sm-12 categorie-detail m-20 collapse">
+              <h3 class="indie-flower">Restaurant</h3>
+              <ul class="list-unstyled">
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Bar</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Fast-food</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Pizzeria</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Snack</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Traiteur</li></a>
+              </ul>
+            </div>
+            <div id="boutique2" class="col-sm-12 categorie-detail m-20 collapse">
+              <h3 class="indie-flower">Boutique</h3>
+              <ul class="list-unstyled">
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Bar</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Fast-food</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Pizzeria</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Snack</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Traiteur</li></a>
+              </ul>
+            </div>
+            <div id="hotel2" class="col-sm-12 categorie-detail m-20 collapse">
+              <h3 class="indie-flower">Hotel</h3>
+              <ul class="list-unstyled">
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Bar</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Fast-food</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Pizzeria</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Snack</li></a>
+                <a href="#"><li> <i class="fa fa-fw fa-chevron-right pull-right"></i>Traiteur</li></a>
+              </ul>
+            </div>
+          </li>
+          <li class="categorie-panel panel" data-target="#hotel2" data-toggle="collapse" data-parent="#categorie">
+            <div class="categorie-background">
+              <img src="img/440x240.jpg" alt="" class="img-responsive bg-img-1">
+              <img src="img/440x240-2.jpg" alt="" class="img-responsive bg-img-2">
+              <h3 class="indie-flower">Hotel</h3>
+            </div>
+          </li>
+          <li class="categorie-panel panel" data-target="#boutique2" data-toggle="collapse" data-parent="#categorie">
+            <div class="categorie-background">
+              <img src="img/440x240-boutique.jpg" alt="" class="img-responsive bg-img-1">
+              <img src="img/440x240-boutique-2.jpg" alt="" class="img-responsive bg-img-2">
+              <h3 class="indie-flower">Boutique</h3>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -836,12 +952,12 @@
 <!--JS personnalisé-->
 <script src="js/main.js"></script>
 <script>
-  $(document).ready(function(){
-    $(".vignette .collapse").on("show.bs.collapse", function(){
-      prev = $(this).prev('div');
-      prev.height(prev.height()+$(this).height());
-    });
-  });
+//  $(document).ready(function(){
+//    $(".categorie-panel .collapse").on("show.bs.collapse", function(){
+//      prev = $(this).prev('div');
+//      prev.height(prev.height()+$(this).height());
+//    });
+//  });
 </script>
 </body>
 </html>
