@@ -7,7 +7,7 @@
 jQuery(document).ready(function ($) {
     $(".filtre").on("change keyup", function() {
         var value = $("#filtre-nom").val().toLowerCase();
-        $(".resto-main .row").each(function() {
+        $(".liste .item-filtre").each(function() {
             var display = true;
             var row = $(this);
             $('select.filtre').each(function () {

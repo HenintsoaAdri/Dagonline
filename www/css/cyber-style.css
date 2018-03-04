@@ -6,7 +6,7 @@
     padding-top: 0;
 }
 .cyber > .row, .cyber > .row > .col-sm-6, .cyber > .row > .col-sm-12{
-    padding: 0 0.25em;
+    padding: 0.25em;
 }
 .cyber > .row{
     padding: 0.25em;
@@ -14,17 +14,19 @@
 
 .vignette-detail:hover{
     padding: 1em 0;
-    width: 100%;
+    width: calc(100% - 0.5em);
 }
-/*.vignette-detail{*/
-    /*opacity: 1;*/
-    /*width: 25%;*/
-    /*-webkit-transition:all 0.7s ease-out;*/
-    /*-moz-transition:all 0.7s ease-out;*/
-    /*-ms-transition:all 0.7s ease-out;*/
-    /*-o-transition:all 0.7s ease-out;*/
-    /*transition:all 0.7s ease-out;*/
-/*}*/
+.vignette-detail{
+    opacity: 1;
+    width: 40%;
+    margin-top: 0.25em;
+    height: calc(100% - 0.5em);
+    -webkit-transition:all 0.7s ease-out;
+    -moz-transition:all 0.7s ease-out;
+    -ms-transition:all 0.7s ease-out;
+    -o-transition:all 0.7s ease-out;
+    transition:all 0.7s ease-out;
+}
 
 .vignette-detail p {
     margin: 0.5em;

@@ -112,54 +112,6 @@
 	color: #be1a27;
 }
 
-/*VIGNETTE DETAIL MODALS*/
-.carousel-produit{
-	margin: 20px auto;
-	width: 100%;
-}
-.carousel-produit .carousel-indicators {
-	margin: 10px 0 0;
-	overflow: auto;
-	position: static;
-	width: 100%;
-}
-.carousel-produit .carousel-indicators li {
-	background-color: transparent;
-	-webkit-border-radius: 0;
-	border-radius: 0;
-	display: inline-block;
-	height: auto;
-	margin: 0 !important;
-	width: 33%;
-}
-.carousel-produit .carousel-indicators li img {
-	display: block;
-}
-.carousel-produit .carousel-outer {
-	position: relative;
-}
-
-.carousel-produit .carousel-inner .item img{
-	margin: auto;
-}
-.carousel-produit .carousel-indicators li.active a{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-		
-/*FIN VIGNETTE DETAIL MODALS*/
-
-/* NOS MENUS CUSTOM */
-.pager li a{
-    border: none;
-    border-radius: 2px;
-		background-color: transparent;
-}
-.pager li a:focus{
-    box-shadow: 0 1px 0px 0 rgba(0,0,0,0.2);
-    transform: scale(1.01);
-}
-/* FIN NOS MENUS CUSTOM */
-
 /* SLIDE HOME */
 
 #home-entreprise-slide{
@@ -230,24 +182,6 @@
 .badge-price{
 	background-color: #fff;
 	color: #31708f;
-}
-.zoom:after {
-	position:absolute;
-	content: '';
-	top:40%;
-	left: 40%;
-	background-image: url("../img/magnifier.svg");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	width: 15%;
-	height: 15%;
-	opacity: 0;
-}
-a:hover .zoom > *{
-	opacity: 0.25;
-}
-a:hover .zoom:after{
-	opacity: 1;
 }
 /* ISOTOPE */
 

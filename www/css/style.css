@@ -207,7 +207,15 @@ select {
 .text-shadow{
 	text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.19) !important;
 }
-
+.pager li a{
+	border: none;
+	border-radius: 2px;
+	background-color: transparent;
+}
+.pager li a:focus{
+	box-shadow: 0 1px 0px 0 rgba(0,0,0,0.2);
+	transform: scale(1.01);
+}
 #body{
 	background-color: #f7e8cb;
 	background-image: url("../img/papyrus-texture.jpg");
@@ -868,6 +876,24 @@ a.btn-outline:hover, button.btn-outline:hover, input[type='submit'].btn-outline:
 	top: -10%;
 }
 
+.zoom:after {
+	position:absolute;
+	content: '';
+	top:40%;
+	left: 40%;
+	background-image: url("../img/magnifier.svg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 15%;
+	height: 15%;
+	opacity: 0;
+}
+a:hover .zoom > *, a.zoom:hover > *{
+	opacity: 0.25;
+}
+a:hover .zoom:after, a.zoom:hover:after{
+	opacity: 1;
+}
 /*SLIDE VIGNETTE*/
 .slidevignette .carousel-control{
 	width: 7.5%;
@@ -958,7 +984,10 @@ a.btn-outline:hover, button.btn-outline:hover, input[type='submit'].btn-outline:
 	padding: 0 20px 0;
 	text-align: center
 }
-
+.vignette-detail ul{
+	list-style-type: none;
+	text-align: justify !important;
+}
 .vignette-detail h3 {
 	text-transform: uppercase;
 	text-align: center;
@@ -980,3 +1009,40 @@ a.btn-outline:hover, button.btn-outline:hover, input[type='submit'].btn-outline:
 	transition-delay: 0.3s;
 }
 /* FIN SLIDE VIGNETTE */
+
+/* CAROUSEL IMAGE INDICATOR*/
+
+.carousel-produit{
+	margin: 20px auto;
+	width: 100%;
+}
+.carousel-produit .carousel-indicators {
+	margin: 10px 0 0;
+	overflow: auto;
+	position: static;
+	width: 100%;
+}
+.carousel-produit .carousel-indicators li {
+	background-color: transparent;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	display: inline-block;
+	height: auto;
+	margin: 0 !important;
+	width: 33%;
+}
+.carousel-produit .carousel-indicators li img {
+	display: block;
+}
+.carousel-produit .carousel-outer {
+	position: relative;
+}
+
+.carousel-produit .carousel-inner .item img{
+	margin: auto;
+}
+.carousel-produit .carousel-indicators li.active a{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* FIN CAROUSEL IMAGE INDICATOR*/
