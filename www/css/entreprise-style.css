@@ -23,10 +23,12 @@
     margin: 0;
 	font-size: .75em;
 }
+.entreprise-row > div {
+	padding: 0;
+}
 .entreprise-row .tab {
 	display: flex;
 	overflow: hidden;
-	padding: 0;
 }
 .entreprise-row .tab > .nav-content, .entreprise-row .tab > .nav-content ul.nav{
 	min-width: 65px;
