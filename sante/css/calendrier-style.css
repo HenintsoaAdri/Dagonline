@@ -1,0 +1,214 @@
+.calendar-container {
+    position: relative;
+}
+.calendar-container table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 1em;
+}
+
+.calendar-header {
+    border-radius: 1em 1em 0 0;
+    background: #af1826;
+    color: #fff;
+    padding: 2em 2em;
+	cursor: pointer;
+}
+.calendar-header:hover {
+    background: #bb1826;
+}
+
+.calendar-container .day {
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 1em;
+}
+.calendar-container .month {
+    font-size: 2em;
+    line-height: 1em;
+    text-transform: lowercase;
+    display: block;
+}
+.ui-datepicker-header{
+    background-color: #fff;
+    text-align: center;
+    padding: 1.5em 0.1em 0.1em 0.1em;
+    font-weight: bold;
+}
+.ui-datepicker-prev,
+.ui-datepicker-next {
+    position: absolute;
+    cursor: pointer;
+    text-decoration: none;
+}
+.ui-datepicker-prev:hover,
+.ui-datepicker-next:hover {
+    text-decoration: none;
+}
+
+.ui-datepicker-prev {
+    left: 5px;
+}
+
+.ui-datepicker-next {
+    right: 5px;
+}
+
+.ui-datepicker-prev span,
+.ui-datepicker-next span{
+    display: block;
+    width: 1em;
+    background-repeat: no-repeat;
+    background-image: url(../img/arrows1.svg);
+    background-position: top;
+    background-size: 0.75em;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.ui-datepicker-prev span {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+}
+
+.ui-datepicker-next span {
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg);
+}
+
+
+.ui-datepicker-calendar, #calendar {
+    background: #fff;
+    border-radius: 0 0 1em 1em;
+    -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
+    color: #555;
+    display: inline-block;
+	width:100%;
+}
+
+.ui-datepicker-calendar thead{
+    color: #e66b6b;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.ui-datepicker-calendar thead th{
+    padding: .5em 0.9em;
+    text-align: center;
+}
+.ui-datepicker-calendar td {
+    padding: .5em 0.9em;
+    text-align: center;
+}
+
+.ui-datepicker-calendar tbody td:hover {
+    background: #cacaca;
+    color: #fff;
+}
+.ui-datepicker-calendar tbody td:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ui-datepicker-current-day{
+    border: solid 2px #A71726;
+}
+.ui-datepicker-current-day a {
+    color: #e66b6b;
+}
+
+.ui-datepicker-other-month a{
+    color: #cacaca;
+}
+
+.ring-left,
+.ring-right {
+    position: absolute;
+    top: 120px;
+}
+
+.ring-left { left: 2em; }
+.ring-right { right: 2em; }
+
+.ring-left:before,
+.ring-left:after,
+.ring-right:before,
+.ring-right:after {
+    background: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, .3), 0 -1px 1px rgba(0, 0, 0, .2);
+    box-shadow: 0 3px 1px rgba(0, 0, 0, .3), 0 -1px 1px rgba(0, 0, 0, .2);
+    content: "";
+    display: inline-block;
+    margin: 8px;
+    height: 25px;
+    width: 8px;
+}
+.magictime {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.perspectiveDown {
+  animation-name: perspectiveDown;
+}
+@keyframes perspectiveDown {
+  0% {
+    transform-origin: 0 0;
+    transform: perspective(800px) rotateX(0deg);
+	opacity : 1;
+  }
+
+  100% {
+    transform-origin: 0 0;
+    transform: perspective(800px) rotateX(-180deg);
+	opacity : 0;
+  }
+}
+.perspectiveDownReturn {
+  animation-name: perspectiveDownReturn;
+}
+@keyframes perspectiveDownReturn {
+  0% {
+    transform-origin: 0 0;
+    transform: perspective(800px) rotateX(-180deg);
+  }
+
+  100% {
+    transform-origin: 0 0;
+    transform: perspective(800px) rotateX(0deg);
+  }
+}
+.perspectiveUp {
+  animation-name: perspectiveUp;
+}
+@keyframes perspectiveUp {
+  0% {
+    transform-origin: 100% 0;
+    transform: perspective(800px) rotateX(0deg);
+	opacity : 1;
+  }
+
+  100% {
+    transform-origin: 100% 0;
+    transform: perspective(800px) rotateX(180deg);
+	opacity : 0;
+  }
+}
+.perspectiveUpReturn {
+  animation-name: perspectiveUpReturn;
+}
+@keyframes perspectiveUpReturn {
+  0% {
+    transform-origin: 100% 0;
+    transform: perspective(800px) rotateX(180deg);
+  }
+
+  100% {
+    transform-origin: 100% 0;
+    transform: perspective(800px) rotateX(0deg);
+  }
+}
