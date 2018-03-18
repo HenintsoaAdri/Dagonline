@@ -27,7 +27,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../sante/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="1003">
               <caret line="326" column="14" selection-start-line="326" selection-start-column="14" selection-end-line="326" selection-end-column="14" />
               <folding />
             </state>
@@ -345,12 +345,12 @@
       <workItem from="1521201609444" duration="1669000" />
       <workItem from="1521203812161" duration="3439000" />
       <workItem from="1521220675332" duration="2916000" />
-      <workItem from="1521287505672" duration="17639000" />
+      <workItem from="1521287505672" duration="18238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226241000" />
+    <option name="totallyTimeSpent" value="226840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -731,7 +731,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../sante/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="1003">
           <caret line="326" column="14" selection-start-line="326" selection-start-column="14" selection-end-line="326" selection-end-column="14" />
           <folding />
         </state>
