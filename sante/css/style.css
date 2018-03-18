@@ -239,7 +239,7 @@ MENU CUSTOMIZE
 	background-image: url("../img/arrows.svg");
 	background-repeat: no-repeat;
 	background-position: center bottom;
-    background-size: 1em;
+	background-size: 1em;
 }
 .dropdown:hover .dropdown-menu{
 	display : block;
@@ -324,6 +324,7 @@ LOGO
 .navbar-brand{
 	position: relative;
 	top:-45px;
+	z-index: 999;
 	-webkit-transition:all 0.2s ease-out;
 	-moz-transition:all 0.2s ease-out;
 	-ms-transition:all 0.2s ease-out;
