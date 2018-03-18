@@ -1,13 +1,13 @@
-1- Logo coin gauche
-2- Suppression Actus
-3- Menu 9 categories
-4- Sous-menu: 
-    - Nom province
-    - Exemple de lieu
-5- Design de vignette et evenement comme le site yahoo
-6- remonter top recherche, etc
+.jumbotron-text{
+    background-color: rgba(0,0,0,0.5);
+    background: -webkit-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* Standard syntax */
+		width: 80%;
+		margin: auto;
+}
 
-https://tympanus.net/Tutorials/CSS3ImageAccordion/
-https://zurb.com/playground/css3-polaroids
-https://www.template.net/business/calendars/html-calendar-template/
-https://tutorialzine.com/2012/04/timeline-portfolio
+lien police
+lien bootstrap
+lien fontawesome
