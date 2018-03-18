@@ -108,7 +108,7 @@ FONT
 /*==========================================
 FIN FONT
 ==========================================*/
-.bg-red{
+.bg-green{
 	background-color: #1DA76E;
 }
 
@@ -166,7 +166,7 @@ select {
 .text-white, a.text-white, .text-white a{
 	color: #ffebc2 !important;
 }
-.text-red, a.text-red{
+.text-green, a.text-green{
 	color: #1BBE81 !important;
 }
 .m-auto{margin: auto !important;}

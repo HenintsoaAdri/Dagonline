@@ -2,218 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82707021-2394-498b-aa1e-3b1d5e15d61d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/IndieFlower.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/Oswald-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/Oswald-ExtraLight.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/Oswald-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/Oswald-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/Oswald-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/Oswald-SemiBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/Pacifico-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/PetitFormalScript-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/fonts.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/1440x450.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/360x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/440x240-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/440x240-boutique-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/440x240-boutique.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/440x240-restaurant-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/440x240-restaurant.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/440x240-travaux-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/440x240-travaux.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/440x240.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/720x450.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Auto-Moto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Boutique.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Cyber.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Electromenager.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Hotel-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Loisirs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Restaurants &amp; Hotels.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Sans titre 10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Sans titre 14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Sans titre 15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Sans titre 23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Sans titre 25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Sans titre 6 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Sans titre 8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Sans titre 9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Sport.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Technologie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Travaux-fileToUpload-1489053044.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Travaux.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/burhotel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/cyber-cafe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/dagonline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/deemar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/entreprisepage.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/eventessai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/google-plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/hotelessai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/hotelpage.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/hotelpage1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/hotelpage2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/hotelpage3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/hotelpage4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-192x192.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-36x36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-48x48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-114x114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-120x120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-152x152.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-180x180.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-57x57.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-76x76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/favicon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/ms-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/ms-icon-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/ms-icon-310x310.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/ms-icon-70x70.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/image-slide-entreprise-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/image-slide-entreprise-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/image-slide-entreprise.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/img-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/instagram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/logo1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/logo2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/manou-pub.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/menu-exemple-resto.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/mvola.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/papyrus-texture.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/produit-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/produit-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/produit-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/prom-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/prom-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/prom-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/prom-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/Antananarivo - Copie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/Antananarivo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/Antsiranana - Copie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/Antsiranana.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/Fianarantsoa - Copie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/Fianarantsoa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/Mahajanga - Copie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/Mahajanga.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/Toamasina - Copie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/Toamasina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/Tulear - Copie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/Tulear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/original/Antananarivo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/original/Antsiranana.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/original/Fianarantsoa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/original/Mahajanga.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/original/Toamasina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/original/Tulear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/quincgi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/restaurantessai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/restaurantpage.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/restaurantpage1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/restaurantpage2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/restaurantpage3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/restaurantpage4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/resto-main-tile.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/resto-main-tile1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/resto-main-tile2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/seza.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/slideEntreprise.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/slideEvenement.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/slideIndex.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/slideResto.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/smartup/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/smartup/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/smartup/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/smartup/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/speed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/veto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/wazamoto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/zebunet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/.idea/dictionaries/RASOAMANARIVO.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/.idea/www.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/categorie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/categories.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/annonces-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/calendrier-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/carte-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/categorie-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/categories-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/cyber-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/entreprise-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/font.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/jquery.toast.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/resto-hotel-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/resto-main-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/cyber.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/entreprise.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/evenement.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/hotel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/Madagascar_map.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/arrows-right.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/arrows.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/arrows1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/browserconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/magnifier.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/original/Blason_ville_Antananarive.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/original/MadagascarProvinces001.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/province/original/Madagascar_-_Antananarivo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/calendrier-function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/carte-pub.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/fontawesome-all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/isotope.pkgd.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/jquery-ui-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/jquery-ui-datepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/jquery.toast.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/petitesAnnonces.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/sticky-kit.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/petitesAnnonces-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/petitesAnnonces.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/resto-main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/resto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../index.txt" afterPath="$PROJECT_DIR$/../index.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/eadd6d4d1ef40ba71fb4327f96071d9a.ico.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../www.rar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/pharmacie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/android-icon-144x144.png" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-144x144.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/android-icon-192x192.png" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-192x192.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/android-icon-36x36.png" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-36x36.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/android-icon-48x48.png" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-48x48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/android-icon-72x72.png" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-72x72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/android-icon-96x96.png" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-96x96.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-114x114.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-114x114.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-120x120.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-120x120.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-144x144.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-144x144.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-152x152.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-152x152.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-180x180.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-180x180.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-57x57.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-57x57.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-60x60.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-60x60.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-72x72.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-72x72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-76x76.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-76x76.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-precomposed.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-precomposed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/favicon-16x16.png" afterPath="$PROJECT_DIR$/../sante/img/icon/favicon-16x16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/favicon-32x32.png" afterPath="$PROJECT_DIR$/../sante/img/icon/favicon-32x32.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/favicon-96x96.png" afterPath="$PROJECT_DIR$/../sante/img/icon/favicon-96x96.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/favicon.ico" afterPath="$PROJECT_DIR$/../sante/img/icon/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/ms-icon-144x144.png" afterPath="$PROJECT_DIR$/../sante/img/icon/ms-icon-144x144.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/ms-icon-150x150.png" afterPath="$PROJECT_DIR$/../sante/img/icon/ms-icon-150x150.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/ms-icon-310x310.png" afterPath="$PROJECT_DIR$/../sante/img/icon/ms-icon-310x310.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/ms-icon-70x70.png" afterPath="$PROJECT_DIR$/../sante/img/icon/ms-icon-70x70.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/logo.png" afterPath="$PROJECT_DIR$/../sante/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/logo1.png" afterPath="$PROJECT_DIR$/../sante/img/logo1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/slideIndex.jpg" afterPath="$PROJECT_DIR$/../sante/img/slideIndex.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../sante/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/style.css" afterPath="$PROJECT_DIR$/../sante/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/index.html" afterPath="$PROJECT_DIR$/../sante/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/js/main.js" afterPath="$PROJECT_DIR$/../sante/js/main.js" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -233,58 +56,7 @@
     <favorites_list name="www" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../sante/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="292" column="19" selection-start-line="292" selection-start-column="19" selection-end-line="292" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../sante/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2434">
-              <caret line="280" column="42" selection-start-line="280" selection-start-column="42" selection-end-line="280" selection-end-column="42" />
-              <folding>
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#1;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#2;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#13558#13563#0" expanded="true" />
-                <element signature="e#13749#13754#0" expanded="true" />
-                <element signature="e#13873#13878#0" expanded="true" />
-                <element signature="e#14084#14089#0" expanded="true" />
-                <element signature="n#li#3;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#4;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#5;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#6;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#16389#16394#0" expanded="true" />
-                <element signature="e#16531#16536#0" expanded="true" />
-                <element signature="n#li#7;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#8;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#9;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#17917#17922#0" expanded="true" />
-                <element signature="e#18058#18063#0" expanded="true" />
-                <element signature="n#li#10;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#18264#18269#0" expanded="true" />
-                <element signature="n#li#11;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#12;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#13;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#4;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#5;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1521401225259" expanded="false" signature="3425:5449" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -327,8 +99,8 @@
         <option value="$PROJECT_DIR$/css/entreprise-style.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/../index.txt" />
-        <option value="$PROJECT_DIR$/../sante/css/style.css" />
         <option value="$PROJECT_DIR$/../sante/index.html" />
+        <option value="$PROJECT_DIR$/../sante/css/style.css" />
       </list>
     </option>
   </component>
@@ -435,6 +207,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet DagoOnline" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sante" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icon" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -562,12 +356,12 @@
       <workItem from="1521201609444" duration="1669000" />
       <workItem from="1521203812161" duration="3439000" />
       <workItem from="1521220675332" duration="2916000" />
-      <workItem from="1521287505672" duration="13647000" />
+      <workItem from="1521287505672" duration="14867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222249000" />
+    <option name="totallyTimeSpent" value="223469000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,9 +374,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25567323" sideWeight="0.4902439" order="0" side_tool="false" content_ui="tabs" x="521" y="58" width="323" height="611" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28366113" sideWeight="0.4902439" order="0" side_tool="false" content_ui="tabs" x="521" y="58" width="323" height="611" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -640,34 +434,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="84" selection-start-line="79" selection-start-column="84" selection-end-line="79" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/jquery.toast.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -917,48 +683,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../sante/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="292" column="19" selection-start-line="292" selection-start-column="19" selection-end-line="292" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/img/logo1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/img/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/img/slideIndex.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../sante/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2434">
-          <caret line="280" column="42" selection-start-line="280" selection-start-column="42" selection-end-line="280" selection-end-column="42" />
+        <state relative-caret-position="176">
+          <caret line="579" column="32" selection-start-line="579" selection-start-column="30" selection-end-line="579" selection-end-column="32" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#13558#13563#0" expanded="true" />
-            <element signature="e#13749#13754#0" expanded="true" />
-            <element signature="e#13873#13878#0" expanded="true" />
-            <element signature="e#14084#14089#0" expanded="true" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#5;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#6;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#16389#16394#0" expanded="true" />
-            <element signature="e#16531#16536#0" expanded="true" />
-            <element signature="n#li#7;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#8;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#9;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#17917#17922#0" expanded="true" />
-            <element signature="e#18058#18063#0" expanded="true" />
-            <element signature="n#li#10;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#18264#18269#0" expanded="true" />
-            <element signature="n#li#11;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#12;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#13;n#ul#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2394#2402#0" expanded="true" />
+            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#13706#13711#0" expanded="true" />
+            <element signature="e#13897#13902#0" expanded="true" />
+            <element signature="e#14021#14026#0" expanded="true" />
+            <element signature="e#14232#14237#0" expanded="true" />
+            <element signature="e#16537#16542#0" expanded="true" />
+            <element signature="e#16679#16684#0" expanded="true" />
+            <element signature="e#18065#18070#0" expanded="true" />
+            <element signature="e#18206#18211#0" expanded="true" />
+            <element signature="e#18412#18417#0" expanded="true" />
             <element signature="n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#4;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#5;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1521401225259" expanded="false" signature="3425:5449" ph="..." />
+            <element signature="e#23828#23836#0" expanded="true" />
+            <element signature="e#23837#23845#0" expanded="true" />
+            <element signature="e#25194#25202#0" expanded="true" />
+            <element signature="e#25207#25215#0" expanded="true" />
+            <element signature="e#25401#25409#0" expanded="true" />
+            <element signature="e#25410#25418#0" expanded="true" />
+            <element signature="e#47285#47293#0" expanded="true" />
+            <element signature="e#47294#47302#0" expanded="true" />
+            <element signature="e#48034#48041#0" expanded="true" />
+            <element signature="e#48317#48324#0" expanded="true" />
+            <element signature="e#60272#60280#0" expanded="true" />
+            <element signature="e#60301#60307#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/img/icon/favicon-16x16.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
