@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82707021-2394-498b-aa1e-3b1d5e15d61d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/icon/eadd6d4d1ef40ba71fb4327f96071d9a.ico.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../www.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/pharmacie.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/android-icon-144x144.png" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-144x144.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/android-icon-192x192.png" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-192x192.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/android-icon-36x36.png" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-36x36.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/android-icon-48x48.png" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-48x48.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/android-icon-72x72.png" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-72x72.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/android-icon-96x96.png" afterPath="$PROJECT_DIR$/../sante/img/icon/android-icon-96x96.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-114x114.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-114x114.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-120x120.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-120x120.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-144x144.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-144x144.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-152x152.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-152x152.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-180x180.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-180x180.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-57x57.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-57x57.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-60x60.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-60x60.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-72x72.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-72x72.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-76x76.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-76x76.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon-precomposed.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon-precomposed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/apple-icon.png" afterPath="$PROJECT_DIR$/../sante/img/icon/apple-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/favicon-16x16.png" afterPath="$PROJECT_DIR$/../sante/img/icon/favicon-16x16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/favicon-32x32.png" afterPath="$PROJECT_DIR$/../sante/img/icon/favicon-32x32.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/favicon-96x96.png" afterPath="$PROJECT_DIR$/../sante/img/icon/favicon-96x96.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/favicon.ico" afterPath="$PROJECT_DIR$/../sante/img/icon/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/ms-icon-144x144.png" afterPath="$PROJECT_DIR$/../sante/img/icon/ms-icon-144x144.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/ms-icon-150x150.png" afterPath="$PROJECT_DIR$/../sante/img/icon/ms-icon-150x150.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/ms-icon-310x310.png" afterPath="$PROJECT_DIR$/../sante/img/icon/ms-icon-310x310.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/icon/ms-icon-70x70.png" afterPath="$PROJECT_DIR$/../sante/img/icon/ms-icon-70x70.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/logo.png" afterPath="$PROJECT_DIR$/../sante/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/logo1.png" afterPath="$PROJECT_DIR$/../sante/img/logo1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/img/slideIndex.jpg" afterPath="$PROJECT_DIR$/../sante/img/slideIndex.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../sante/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/style.css" afterPath="$PROJECT_DIR$/../sante/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/index.html" afterPath="$PROJECT_DIR$/../sante/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/js/main.js" afterPath="$PROJECT_DIR$/../sante/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +23,18 @@
     <favorites_list name="www" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../sante/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,6 +79,7 @@
         <option value="$PROJECT_DIR$/../index.txt" />
         <option value="$PROJECT_DIR$/../sante/index.html" />
         <option value="$PROJECT_DIR$/../sante/css/style.css" />
+        <option value="$PROJECT_DIR$/../sante/js/main.js" />
       </list>
     </option>
   </component>
@@ -206,29 +185,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projet DagoOnline" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sante" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icon" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,12 +313,12 @@
       <workItem from="1521201609444" duration="1669000" />
       <workItem from="1521203812161" duration="3439000" />
       <workItem from="1521220675332" duration="2916000" />
-      <workItem from="1521287505672" duration="14867000" />
+      <workItem from="1521287505672" duration="15521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223469000" />
+    <option name="totallyTimeSpent" value="224123000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,9 +331,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28366113" sideWeight="0.4902439" order="0" side_tool="false" content_ui="tabs" x="521" y="58" width="323" height="611" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28366113" sideWeight="0.4902439" order="0" side_tool="false" content_ui="tabs" x="521" y="58" width="323" height="611" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -658,13 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../sante/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../index.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -745,6 +695,14 @@
     <entry file="file://$PROJECT_DIR$/../sante/img/icon/favicon-16x16.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

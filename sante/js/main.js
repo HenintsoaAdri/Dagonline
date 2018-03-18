@@ -20,7 +20,6 @@ jQuery(document).ready(function ($) {
     try{
         $(".sticky").stick_in_parent({offset_top:$('.navbar').height() + 10});
     }catch (e){}
-<<<<<<< HEAD
     $(document).on({
         mouseenter: function(){
             $(this).trigger("click");
@@ -29,6 +28,4 @@ jQuery(document).ready(function ($) {
             $(this).trigger("click");
         }
     },'select');
-=======
->>>>>>> 6d0cfdb9713b12cf71158677779ec1951dc148f4
 });
