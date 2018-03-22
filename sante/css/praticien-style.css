@@ -117,6 +117,7 @@
 	-webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) ;
 	-moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) ;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	overflow: visible;
 }
 .annonces .annonce a{
 	display: inline-block;
@@ -154,14 +155,6 @@
 	-webkit-transform: rotate(-45deg);
 	box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
 }
-.annonce.offre:before{
-	background: rgba(221, 29, 40, 0.75);
-	content: 'Offre';
-}
-.annonce.demande:before{
-	background: rgba(0, 0, 0, 0.75);
-	content: 'Demande';
-}
 /*Fin element annonce */
 /*Bouton déposer annonce */
 .fab-button{
@@ -195,42 +188,61 @@
 	border: none;
 	box-shadow: none;
 	padding-right: 50px;
-	color: #31708f;
+	color: #fff;
 	text-decoration: underline;
+	position: absolute;
 }
 .annonces .annonce span.ruban{
-	width: 20px;
-	height: 30px;
-	background: #31708f;
-	top: -15px;
-	left: 10px;
-	position: relative;
+	color: #ffffff;
+	text-align: center;
+	font-size: 2em;
+	width: 40px;
+	height: 50px;
+	background: #1fd28d;
+	top: -5px;
+	left: 25px;
+	position: absolute;
 	-webkit-transition: all .1s;
 	-moz-transition: all .1s;
 	-ms-transition: all .1s;
 	-o-transition: all .1s;
 	transition: all .1s;
+	padding: 5px 0;
 }
-.annonces .annonce a.link-ruban:hover span.ruban{
-	height: 35px;
+.annonces .annonce span.ruban.etablissement{
+	background-color: #ffffff;
+	color: #1fd28d;
+}
+.annonces .annonce span.ruban:hover{
+	height: 55px;
 }
 .annonces .annonce span.ruban:before{
 	content: "";
 	position: absolute;
 	height: 0;
 	width: 0;
-	border-bottom: 5px solid #31708f;
+	border-bottom: 5px solid #158e60;
 	border-right: 5px solid transparent;
 	right: -5px;
+	top:0;
+}
+.annonces .annonce span.ruban.etablissement:before{
+	border-bottom-color: #8c8c8c;
 }
 .annonces .annonce span.ruban:after{
 	height: 0;
 	width: 0;
-	border-left: 10px solid #31708f;
-	border-right: 10px solid #31708f;
+	border-left: 20px solid #1fd28d;
+	border-right: 20px solid #1fd28d;
 	border-bottom: 10px solid transparent;
-	bottom: -10px;content: "";
+	bottom: -10px;
+	left:0;
+	content: "";
 	position: absolute;
+}
+.annonces .annonce span.ruban.etablissement:after{
+	border-left-color: #ffffff;
+	border-right-color: #ffffff;
 }
 @keyframes zoom {
 	from {transform:scale(0)}
