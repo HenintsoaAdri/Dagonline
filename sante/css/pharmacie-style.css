@@ -210,7 +210,7 @@
 .blog-card .description a:after {
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
-  content: "\f061";
+  content: ">>";
   font-family: FontAwesome;
   margin-left: -10px;
   opacity: 0;
@@ -261,7 +261,8 @@
   }
   .blog-card .description {
     float: left;
-    width: 60%;
+    width: 70%;
+    height: 100%;
     z-index: 0;
   }
   .blog-card .description:before {
