@@ -19,7 +19,7 @@
   <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
-  <title>Dagonline - Trouvez et achetez ce qui vous chante sur tout Madagascar</title>
+  <title>Dagonline - Trouvez et achetez ce qui vous soigne sur tout Madagascar</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -29,6 +29,8 @@
   <!-- Theme personnalisé -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/praticien-style.css">
 </head>
 <body>
@@ -39,6 +41,19 @@
   www.dagonline.fr
 </div>
 <!--Fin Préloader-->
+
+<!--Lien rapide-->
+<div class="btn-group menu-rapide text-white">
+  <span class="glyphicon glyphicon-menu-left"></span>
+  <div class="btn-group-vertical">
+    <a href="maladie.html" class="btn btn-flat" title="Maladie" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-syringe"></i></a>
+    <a href="medicament.html" class="btn btn-flat" title="Médicament" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-pills"></i></a>
+    <a href="praticien.html" class="btn btn-flat" title="Praticien" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-user-md"></i></a>
+    <a href="parapharmacie.html" class="btn btn-flat" title="Parapharmacie" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-first-aid"></i></a>
+    <a href="etablissement.html" class="btn btn-flat" title="Etablissement" data-toggle="tooltip" data-placement="bottom"><i class="far fa-hospital"></i></a>
+  </div>
+</div>
+<!--Fin de lien rapide-->
 
 <!--Header-->
 <div class="container-fluid">
@@ -72,67 +87,67 @@
           <div class="dropdown-menu">
             <ul class="dropdown-ul">
               <li>
-                <a>Maladies bucco-dentaires</a>
+                <a href="#">Maladies bucco-dentaires</a>
               </li>
               <li>
-                <a>Maladies chroniques</a>
+                <a href="#">Maladies chroniques</a>
               </li>
               <li>
-                <a>Maladies de l’appareil circulatoire</a>
+                <a href="#">Maladies de l’appareil circulatoire</a>
               </li>
               <li>
-                <a>Maladies de l’appareil digestif</a>
+                <a href="#">Maladies de l’appareil digestif</a>
               </li>
               <li>
-                <a>Maladies de l’appareil respiratoire (ORL)</a>
+                <a href="#">Maladies de l’appareil respiratoire (ORL)</a>
               </li>
               <li>
-                <a>Maladies de l’œil</a>
+                <a href="#">Maladies de l’œil</a>
               </li>
               <li>
-                <a>Maladies de peau</a>
+                <a href="#">Maladies de peau</a>
               </li>
               <li>
-                <a>Maladies des reins et appareil urinaire</a>
+                <a href="#">Maladies des reins et appareil urinaire</a>
               </li>
               <li>
-                <a>Maladies du système immunitaire</a>
+                <a href="#">Maladies du système immunitaire</a>
               </li>
               <li>
-                <a>Maladies endocriniennes-métaboliques</a>
+                <a href="#">Maladies endocriniennes-métaboliques</a>
               </li>
               <li>
-                <a>Maladies génétiques</a>
+                <a href="#">Maladies génétiques</a>
               </li>
               <li>
-                <a>Maladies gynécologiques</a>
+                <a href="#">Maladies gynécologiques</a>
               </li>
               <li>
-                <a>Maladies infantiles</a>
+                <a href="#">Maladies infantiles</a>
               </li>
               <li>
-                <a>Maladies infectieuses</a>
+                <a href="#">Maladies infectieuses</a>
               </li>
               <li>
-                <a>Maladies mentales</a>
+                <a href="#">Maladies mentales</a>
               </li>
               <li>
-                <a>Maladies neurologiques</a>
+                <a href="#">Maladies neurologiques</a>
               </li>
               <li>
-                <a>Troubles des os et des articulations</a>
+                <a href="#">Troubles des os et des articulations</a>
               </li>
               <li>
-                <a>Cancers</a>
+                <a href="#">Cancers</a>
               </li>
               <li>
-                <a>Maladies éruptives </a>
+                <a href="#">Maladies éruptives </a>
               </li>
               <li>
-                <a>Maladies transmissibles durant la grossesse</a>
+                <a href="#">Maladies transmissibles durant la grossesse</a>
               </li>
               <li>
-                <a>Troubles et maladies liés à la grossesse</a>
+                <a href="#">Troubles et maladies liés à la grossesse</a>
               </li>
             </ul>
           </div>
@@ -510,7 +525,7 @@
     <form class="form-inline col-xs-offset-1 col-xs-10">
       <div class="form-group">
         <select class="form-control">
-          <option disabled selected>Où : Pays, Région, Département, Ville </option>
+          <option disabled selected> Où : Région, Ville </option>
           <option>Antananarivo</option>
           <option>Diego-Suarez</option>
           <option>Majunga</option>
@@ -520,8 +535,7 @@
         </select>
       </div>
       <div class="form-group input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-search text-info"></i></span>
-        <input type="text" class="form-control" size="30" placeholder="Rechercher...">
+        <input type="text" class="form-control" size="30" value="Medecin généraliste" placeholder="Rechercher...">
       </div>
       <button type="button" class="form-control btn text-white bg-green">Trouver</button>
     </form>
@@ -532,15 +546,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="img/slideIndex.jpg" class="img-responsive">
+        <img src="img/slideDocteur.jpg" class="img-responsive">
       </div>
 
       <div class="item">
-        <img src="img/slideIndex.jpg" class="img-responsive">
+        <img src="img/slideDocteur.jpg" class="img-responsive">
       </div>
 
       <div class="item">
-        <img src="img/slideIndex.jpg" class="img-responsive">
+        <img src="img/slideDocteur.jpg" class="img-responsive">
       </div>
     </div>
 
@@ -557,279 +571,445 @@
 </div>
 <!--Fin Slide principal-->
 
-<!--Lien rapide-->
-<div class="btn-group menu-rapide text-white">
-  <span class="glyphicon glyphicon-menu-left"></span>
-  <div class="btn-group-vertical">
-    <a href="maladie.html" class="btn btn-flat" title="Maladie" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-syringe"></i></a>
-    <a href="medicament.html" class="btn btn-flat" title="Médicament" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-pills"></i></a>
-    <a href="praticien.html" class="btn btn-flat" title="Praticien" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-user-md"></i></a>
-    <a href="parapharmacie.html" class="btn btn-flat" title="Parapharmacie" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-first-aid"></i></a>
-    <a href="etablissement.html" class="btn btn-flat" title="Etablissement" data-toggle="tooltip" data-placement="bottom"><i class="far fa-hospital"></i></a>
-  </div>
-</div>
-<!--Fin de lien rapide-->
-
 
 <!--Corps-->
 <div id="body">
   <span id="dagonline"></span>
   <div class="container-fluid bg-warning text-danger pacifico shadow">
-	<div class="text-right p-r-20"><h2>Praticiens</h2></div>
+	<div class="text-right p-r-20"><h2>Praticien</h2></div>
   </div>
-<!-- FAB & modal depos annonce-->
-  <a title="Déposer une annonce" class="btn fab-button" data-toggle="tooltip">
-    <span data-toggle="modal" data-target="#deposAnnonce">
-      <span class="fa-layers fa-fw fa-2x">
-        <i class="fa fa-plus" data-fa-transform="shrink-12 up-5 left-10"></i>
-        <i class="fa fa-edit" data-fa-transform="shrink-4 down-2"></i>
-      </span>
-    </span>
-  </a>
-  <div id="deposAnnonce" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-body">
-          <div class="row">
-            <div class="col-sm-12">
-              <form class="form-horizontal" action="/action_page.php">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h3 class="m-b-20">Déposer une annonce</h3>
-                <div class="form-group">
-                  <label class="control-label col-sm-3" for="type-annonce">Type d'annonce <span class="text-red notification">*</span> :</label>
-                  <div class="col-sm-9">
-                    <select id="type-annonce">
-                      <option selected disabled>- Type d'annonce -</option>
-                      <option>Offre</option>
-                      <option>Demande</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-sm-3" for="categorie">Catégorie <span class="text-red notification">*</span> :</label>
-                  <div class="col-sm-9">
-                    <select id="categorie">
-                      <option selected disabled>- Catégorie -</option>
-                      <optgroup label='Autos & Motos'></optgroup>
-                      <option value='62'>Auto</option>
-                      <option value='63'>Motos</option>
-                      <option value='64'>Caravaning</option>
-                      <option value='65'>Utilitaires</option>
-                      <option value='66'>Equipement Auto</option>
-                      <option value='67'>Equipement Moto</option>
-                      <option value='68'>Equipement Caravaning</option>
-                      <optgroup label=' Location'></optgroup>
-                      <option value='70'>Locations</option>
-                      <option value='71'>Colocations</option>
-                      <option value='72'>Bureaux & Commerces</option>
-                      <optgroup label='Vacances'></optgroup>
-                      <option value='74'>Locations & Gîtes</option>
-                      <option value='75'>Chambres d'hôtes</option>
-                      <option value='76'>Campings</option>
-                      <option value='77'>Hôtels</option>
-                      <option value='78'>Hébergements insolites</option>
-                      <optgroup label='Informatique'></optgroup>
-                      <option value='80'>Consoles & Jeux vidéo</option>
-                      <option value='81'>Image & Son</option>
-                      <option value='82'>Téléphonie</option>
-                      <option value='83'>LOISIRS</option>
-                      <option value='84'>DVD / Films</option>
-                      <option value='85'>CD / Musique</option>
-                      <option value='86'>Livres</option>
-                      <option value='87'>Animaux</option>
-                      <option value='88'>Vélos</option>
-                      <optgroup label='Sports & Hobbies'></optgroup>
-                      <option value='90'>Instruments de musique</option>
-                      <option value='91'>Collection</option>
-                      <option value='92'>Jeux & Jouets</option>
-                      <option value='93'>Vins & Gastronomie</option>
-                      <option value='94'>Matériel Agricole</option>
-                      <option value='95'>Transport - Manutention</option>
-                      <option value='96'>BTP - Chantier Gros-oeuvre</option>
-                      <option value='97'>Outillage - Matériaux 2nd-oeuvre</option>
-                      <option value='98'>Fournitures de Bureau</option>
-                      <option value='99'>Commerces & Marchés</option>
-                      <option value='100'>Matériel Médical</option>
-                      <optgroup label='Services'></optgroup>
-                      <option value='102'>Prestations de services</option>
-                      <option value='103'>Billetterie</option>
-                      <option value='104'>Evénements</option>
-                      <option value='105'>Cours particuliers</option>
-                      <option value='106'>Covoiturage</option>
-                      <option value='107'>Ameublement</option>
-                      <option value='108'>Electroménager</option>
-                      <option value='109'>Arts de la table</option>
-                      <option value='110'>Décoration</option>
-                      <option value='111'>Linge de maison</option>
-                      <option value='112'>Bricolage</option>
-                      <option value='113'>Jardinage</option>
-                      <optgroup label='Accessoires & Bagagerie'></optgroup>
-                      <option value='115'>Vêtements</option>
-                      <option value='116'>Chaussures</option>
-                      <option value='117'>Montres & Bijoux</option>
-                      <option value='118'>Equipement bébé</option>
-                      <option value='119'>Vêtements bébé</option>
-                      <option value='120'>Autres</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-sm-3" for="titre">Titre <span class="text-red notification">*</span> :</label>
-                  <div class="col-sm-9">
-                    <input type="text" class="form-control" id="titre">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-sm-3" for="prix">Prix :</label>
-                  <div class="col-sm-3">
-					<div class="input-group">
-						<input type="text" class="form-control" id="prix">
-						<span class="input-group-addon">Ar</span>
-					</div>
-                  </div>
-                  <span class="help-block">(Mettre 0 si gratuit)</span>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-sm-3" for="description">Description <span class="text-red notification">*</span> :</label>
-                  <div class="col-sm-9">
-                    <textarea class="form-control" id="description"></textarea>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-sm-3" for="photo">Photo :</label>
-                  <div class="col-sm-7">
-                    <input type="file" class="form-control" id="photo"/>
-                  </div>
-                  <span class="help-block"> (4 mb max)</span>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-sm-3" for="nom">Nom :</label>
-                  <div class="col-sm-9">
-                    <input type="text" class="form-control" id="nom"/>
-                  </div>
-                  <span class="help-block col-sm-offset-3 col-sm-9">(facultatif) Votre nom apparaitra dans l'annonce.</span>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-sm-3" for="ville">Ville :</label>
-                  <div class="col-sm-9">
-                    <select class="form-control" id="ville">
-                      <option>Antananarivo</option>
-                    </select>
-                  </div>
-                  <span class="help-block col-sm-offset-3 col-sm-9">(facultatif) permettra aux internautes de vous localiser.</span>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-sm-3" for="tel">Téléphone :</label>
-                  <div class="col-sm-9">
-                    <input type="tel" class="form-control" id="tel"/>
-                  </div>
-                  <span class="help-block col-sm-offset-3 col-sm-9">(facultatif) Contact rapide pour les internautes.</span>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-sm-3" for="email">Email <span class="text-red notification">*</span> :</label>
-                  <div class="col-sm-9">
-                    <input type="email" class="form-control" id="email"/>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="col-sm-offset-3 col-sm-9">
-                    <button type="submit" class="btn btn-outline">Envoyer</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- Fin FAB & modal depos annonce-->
-
-  <!-- Container Petites Annonces -->
-  <div class="annonces container-fluid m-t-5">
+  <!-- Container Plus Recherchés -->
+  <div class="container-fluid m-t-5 m-b-20 most-viewed">
     <div class="row">
-      <div class="col-sm-9">
+      <div class="col-sm-12">
+        <h3 class="text-center text-uppercase title oswald">Les plus recherchés</h3>
         <!--LISTE DES ANNONCES-->
-        <div id="annonce" class="row m-t-20 p-5">
-
-          <div class="col-sm-12 annonce offre media">
-            <span class="ruban pull-left etablissement">
-              <i class="far fa-hospital"></i>
-            </span>
-            <div class="media-left media-top">
-              <img src="img/seza.jpg" class="media-object">
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">Chaise</h4>
-              <p class="small text-muted">25 février 2018, 15:05:01</p>
-              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p class="prix">Ar 30 000</p>
-              <a href="petitesAnnonces-detail.html">Voir l'annonce</a>
-            </div>
-          </div>
-          <div class="col-sm-12 annonce demande media">
+        <div class="owl-carousel owl-theme row m-t-20  p-l-20 p-5">
+          <div class="col-sm-12 praticien media">
               <span class="ruban pull-left">
                 <i class="fa fa-user-md"></i>
               </span>
-            <div class="media-left media-top">
-              <img src="img/seza.jpg" class="media-object">
+            <div class="media-top">
+              <img src="img/most-viewed-3.jpg" class="media-object">
             </div>
             <div class="media-body">
-              <h4 class="media-heading">Chaise</h4>
-              <p class="small text-muted">25 février 2018, 15:05:01</p>
-              
-              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p class="prix">Ar 30 000</p>
-              <a href="petitesAnnonces-detail.html">Voir l'annonce</a>
-            </div>
-          </div>
-          <div class="col-sm-12 annonce offre media">
-            <div class="media-left media-top">
-              <img src="img/seza.jpg" class="media-object">
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">Chaise</h4>
-              <p class="small text-muted">25 février 2018, 15:05:01</p>
-              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p class="prix">Ar 30 000</p>
-              <a href="petitesAnnonces-detail.html">Voir l'annonce</a>
-            </div>
-          </div>
-          <div class="col-sm-12 annonce demande media">
-            <div class="media-left media-top">
-              <img src="img/seza.jpg" class="media-object">
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">Chaise</h4>
-              <p class="small text-muted">25 février 2018, 15:05:01</p>
-              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p class="prix">Ar 30 000</p>
-              <a href="petitesAnnonces-detail.html">Voir l'annonce</a>
-            </div>
-          </div>
-          <div class="col-sm-12 annonce offre media">
-            <div class="media-left media-top">
-              <img src="img/seza.jpg" class="media-object">
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">Chaise</h4>
- <p class="small text-muted">25 février 2018, 15:05:01</p>
-              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p class="prix">Ar 30 000</p>
-              <a href="petitesAnnonces-detail.html">Voir l'annonce</a>
-            </div>
-          </div>
+              <h4 class="media-heading">Médecin 1</h4>
 
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="praticien-detail.html">Voir le praticien</a>
+            </div>
+          </div>
+          <div class="col-sm-12 etablissement media">
+            <span class="ruban pull-left etablissement">
+              <i class="far fa-hospital"></i>
+            </span>
+            <div class="media-top">
+              <img src="img/most-viewed-1.jpg" class="media-object">
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Hopital 1 </h4>
+              <p class="text-muted"><b>Adresse</b> : Route Nationale 1, BP 4150, Antananarivo 101
+              <br><b>Horaires</b> : Ouvert 24 h/24
+              <br><b>Téléphone</b> : 020 22 279 79</p>
+              <a href="etablissement-detail.html">Voir l'établissement</a>
+            </div>
+          </div>
+          <div class="col-sm-12 praticien media">
+              <span class="ruban pull-left">
+                <i class="fa fa-user-md"></i>
+              </span>
+            <div class="media-top">
+              <img src="img/most-viewed-4.jpg" class="media-object">
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Médecin 2</h4>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="praticien-detail.html">Voir le praticien</a>
+            </div>
+          </div>
+          <div class="col-sm-12 etablissement media">
+            <span class="ruban pull-left etablissement">
+              <i class="far fa-hospital"></i>
+            </span>
+            <div class="media-top">
+              <img src="img/360x240.png" class="media-object">
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Hopital 3</h4>
+              <p class="text-muted"><b>Adresse</b> : Route Nationale 1, BP 4150, Antananarivo 101
+                <br><b>Horaires</b> : Ouvert 24 h/24
+                <br><b>Téléphone</b> : 020 22 279 79</p>
+              <a href="praticien-detail.html">Voir l'établissement</a>
+            </div>
+          </div>
+          <div class="col-sm-12 praticien media">
+              <span class="ruban pull-left">
+                <i class="fa fa-user-md"></i>
+              </span>
+            <div class="media-top">
+              <img src="img/360x240.png" class="media-object">
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Médecin 4</h4>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="praticien-detail.html">Voir le praticien</a>
+            </div>
+          </div>
+          <div class="col-sm-12 etablissement media">
+            <span class="ruban pull-left etablissement">
+              <i class="far fa-hospital"></i>
+            </span>
+            <div class="media-top">
+              <img src="img/360x240.png" class="media-object">
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Hopital 3</h4>
+              <p class="text-muted"><b>Adresse</b> : Route Nationale 1, BP 4150, Antananarivo 101
+                <br><b>Horaires</b> : Ouvert 24 h/24
+                <br><b>Téléphone</b> : 020 22 279 79</p>
+              <a href="praticien-detail.html">Voir l'établissement</a>
+            </div>
+          </div>
+          <div class="col-sm-12 praticien media">
+              <span class="ruban pull-left">
+                <i class="fa fa-user-md"></i>
+              </span>
+            <div class="media-top">
+              <img src="img/most-viewed-5.jpg" class="media-object">
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Médecin 3</h4>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="praticien-detail.html">Voir le praticien</a>
+            </div>
+          </div>
+          <div class="col-sm-12 etablissement media">
+            <span class="ruban pull-left etablissement">
+              <i class="far fa-hospital"></i>
+            </span>
+            <div class="media-top">
+              <img src="img/most-viewed-2.jpg" class="media-object">
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Hopital 2</h4>
+              <p class="text-muted"><b>Adresse</b> : Route Nationale 1, BP 4150, Antananarivo 101
+                <br><b>Horaires</b> : Ouvert 24 h/24
+                <br><b>Téléphone</b> : 020 22 279 79</p>
+              <a href="praticien-detail.html">Voir l'établissement</a>
+            </div>
+          </div>
         </div>
         <!--FIN LISTE DES ANNONCES-->
       </div>
-      <div class="col-sm-3">
+    </div>
+  </div>
+  <!-- Fin Container Plus Recherchés -->
 
+  <div class="container-fluid formulaire">
+    <form class="form-inline" action="praticien-search.html">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group">
+            <select class="form-control">
+              <option disabled selected> Honoraires </option>
+              <option>Sans dépassements d'honoraires</option>
+              <option>Dépassements d'honoraires modérés</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select class="form-control">
+              <option disabled selected> Motif de consultation </option>
+              <option>Urgence</option>
+              <option>Certificat médical</option>
+              <option>Renouvellement de traitement</option>
+              <option>Première consultation de pédiatrie</option>
+              <option>Consultation de suivi d'homéopathie</option>
+              <option>Première consultation d'acupuncture</option>
+              <option>Consultation de suivi d'acupuncture</option>
+              <option>Consultation de médecine agréée</option>
+              <option>Suivi de grossesse</option>
+              <option>Première consultation de médecine esthétique</option>
+              <option>Consultation de suivi de médecine esthétique</option>
+              <option>Epilation laser</option>
+              <option>Echodoppler des membres supérieurs</option>
+              <option>Echodoppler TSA (tronc supra aortique)</option>
+              <option>Echodoppler de l'aorte</option>
+              <option>Echodoppler des artères rénales</option>
+              <option>Echodoppler des artères digestives</option>
+              <option>Injections (acide hyaluronique, mésothérapie ...)</option>
+              <option>Première consultation d'ostéopathie</option>
+              <option>Consultation de suivi d'ostéopathie</option>
+              <option>Consultation de suivi de psychothérapie</option>
+              <option>Première consultation de psychothérapie</option>
+              <option>Thérapie de couple</option>
+              <option>Séance de mésothérapie</option>
+              <option>Cryolipolyse</option>
+              <option>Devis esthétique</option>
+              <option>Consultation de suivi d'hypnose</option>
+              <option>Première consultation d'hypnose</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="form-group">
+            <select class="form-control">
+              <option disabled selected> Où : Région, Ville </option>
+              <option>Antananarivo</option>
+              <option>Diego-Suarez</option>
+              <option>Majunga</option>
+              <option>Tamatave</option>
+              <option>Fianarantsoa</option>
+              <option>Tuléar</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Recherche...">
+          </div>
+          <div class="form-group">
+            <select class="form-control">
+              <option disabled selected> Disponibilité </option>
+              <option>Aujourd'hui</option>
+              <option>Dans les trois prochains jours</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="form-group">
+            <label class="radio-inline"><input type="radio" name="optradio"><span>Tous</span></label>
+            <label class="radio-inline"><input type="radio" name="optradio"><span>Praticiens</span></label>
+            <label class="radio-inline"><input type="radio" name="optradio"><span>Etablissement</span></label>
+          </div>
+          <button type="submit" class="form-control btn text-white bg-green">Rechercher</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Container Resultat Recherche -->
+  <div class="container-fluid m-t-5 m-b-20 list-search">
+      <div class="row p-5">
+        <div class="col-md-8">
+          <div class="praticien media">
+            <span class="ruban pull-left">
+              <i class="fa fa-user-md"></i> Praticien
+            </span>
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/most-viewed-3.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Médecin 1</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="praticien-detail.html">Voir le praticien</a>
+                </div>
+                <div class="item-action">
+                  <a href="#horaire" class="btn fab-button" data-toggle="modal"><i class="fa fa-calendar-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="etablissement media">
+            <span class="ruban pull-left etablissement">
+              <i class="far fa-hospital"></i> &Eacute;tablissement
+            </span>
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/most-viewed-1.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Hopital 1 </h4>
+                  <p class="text-muted"><b>Adresse</b> : Route Nationale 1, BP 4150, Antananarivo 101
+                    <br><b>Horaires</b> : Ouvert 24 h/24
+                    <br><b>Téléphone</b> : 020 22 279 79</p>
+                  <a href="etablissement-detail.html">Voir l'établissement</a>
+                </div>
+                <div class="item-action">
+                  <a href="#horaire" class="btn fab-button" data-toggle="modal"><i class="fa fa-calendar-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="praticien media">
+            <span class="ruban pull-left">
+              <i class="fa fa-user-md"></i> Praticien
+            </span>
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/most-viewed-4.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Médecin 2</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="praticien-detail.html">Voir le praticien</a>
+                </div>
+                <div class="item-action">
+                  <a href="#horaire" class="btn fab-button" data-toggle="modal"><i class="fa fa-calendar-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="etablissement media">
+            <span class="ruban pull-left etablissement">
+              <i class="far fa-hospital"></i> &Eacute;tablissement
+            </span>
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/360x240.png" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Hopital 3</h4>
+                  <p class="text-muted"><b>Adresse</b> : Route Nationale 1, BP 4150, Antananarivo 101
+                    <br><b>Horaires</b> : Ouvert 24 h/24
+                    <br><b>Téléphone</b> : 020 22 279 79</p>
+                  <a href="etablissement-detail.html">Voir l'établissement</a>
+                </div>
+                <div class="item-action">
+                  <a href="#horaire" class="btn fab-button" data-toggle="modal"><i class="fa fa-calendar-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="praticien media">
+            <span class="ruban pull-left">
+              <i class="fa fa-user-md"></i> Praticien
+            </span>
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/360x240.png" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Médecin 4</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="praticien-detail.html">Voir le praticien</a>
+                </div>
+                <div class="item-action">
+                  <a href="#horaire" class="btn fab-button" data-toggle="modal"><i class="fa fa-calendar-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="etablissement media">
+            <span class="ruban pull-left etablissement">
+              <i class="far fa-hospital"></i> &Eacute;tablissement
+            </span>
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/360x240.png" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Hopital 4</h4>
+                  <p class="text-muted"><b>Adresse</b> : Route Nationale 1, BP 4150, Antananarivo 101
+                  <br><b>Horaires</b> : Ouvert 24 h/24
+                  <br><b>Téléphone</b> : 020 22 279 79</p>
+                  <a href="etablissement-detail.html">Voir l'établissement</a>
+                </div>
+                <div class="item-action">
+                  <a href="#horaire" class="btn fab-button" data-toggle="modal"><i class="fa fa-calendar-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="praticien media">
+            <span class="ruban pull-left">
+              <i class="fa fa-user-md"></i> Praticien
+            </span>
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/most-viewed-5.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Médecin 3</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="praticien-detail.html">Voir le praticien</a>
+                </div>
+                <div class="item-action">
+                  <a href="#horaire" class="btn fab-button" data-toggle="modal"><i class="fa fa-calendar-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="etablissement media">
+            <span class="ruban pull-left etablissement">
+              <i class="far fa-hospital"></i> &Eacute;tablissement
+            </span>
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/most-viewed-2.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Hopital 2</h4>
+                  <p class="text-muted"><b>Adresse</b> : Route Nationale 1, BP 4150, Antananarivo 101
+                    <br><b>Horaires</b> : Ouvert 24 h/24
+                    <br><b>Téléphone</b> : 020 22 279 79</p>
+                  <a href="etablissement-detail.html">Voir l'établissement</a>
+                </div>
+                <div class="item-action">
+                  <a href="#horaire" class="btn fab-button" data-toggle="modal"><i class="fa fa-calendar-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <ul class="pagination">
+            <li class="prev"><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">...</a></li>
+            <li class="next"><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <div class="sticky">
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60381.96674064899!2d47.532478409619095!3d-18.937018220649918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2smg!4v1516881806035"
+                    class="shadow" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Fin Container Resultat Recherche -->
+
+  <div class="container-fluid list-med">
+    <h3 class="oswald">Les spécialités</h3>
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="list-unstyled">
+          <li><a href="/dentiste">Chirurgien-dentiste <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/medecin-generaliste">Médecin généraliste <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/pediatre">Pédiatre <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/gynecologue">Gynécologue médical et obstétrique <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/ophtalmologue">Ophtalmologue <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/dermatologue">Dermatologue <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/osteopathe">Ostéopathe <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/masseur-kinesitherapeute">Masseur-kinésithérapeute <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/pedicure-podologue">Pédicure-podologue <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/sage-femme">Sage-femme <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/orl-oto-rhino-laryngologie">ORL <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/allergologue">Allergologue <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/chirurgien-urologue">Chirurgien urologue <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/rhumatologue">Rhumatologue <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/stomatologue">Stomatologue <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/endocrinologue">Endocrinologue <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/chirurgien-orthopediste">Chirurgien orthopédiste <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/dieteticien">Diététicien <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/psychologue">Psychologue <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="/neurologue">Neurologue <i class="fa fa-angle-double-right pull-right"></i></a></li>
+        </ul>
       </div>
     </div>
   </div>
-  <!-- Fin Container Petites Annonces -->
 </div>
 <!--Fin Corps-->
 
@@ -838,7 +1018,7 @@
   <div class="row">
     <div class="col-sm-4 text-justify">
       <p>Qu'est ce que Dagonline</p>
-      <p>www.dagonline.fr est une plateforme qui permet à tout utilisateur de trouver des produits et des services auprès des professionnels partenaires. Dagonline c'est bien plus qu'un simple annuairecar chaque entreprise tient sa page et est libre du contenu proposé. Dagonline c'est aussi toutes les dates et évènements à venir ainsi que les petites annonces pour les particuliers.</p>
+      <p>www.dagonline.fr est une plateforme qui permet à tout utilisateur de trouver des produits et des services auprès des professionnels partenaires. Dagonline c'est bien plus qu'un simple annuairecar chaque entreprise tient sa page et est libre du contenu proposé. Dagonline c'est aussi toutes les dates et évènements à venir ainsi que les Plus Recherchés pour les particuliers.</p>
       <p>Notre objectif</p>
       <p>Optimiser la rencontre des offres de services et produits commerciaux existants à Madagascar.</p>
     </div>
@@ -879,7 +1059,7 @@
         <form class="form-inline col-sm-12">
           <div class="input-group">
             <div class="input-group-btn">
-              <button class="btn btn-default" type="submit">
+              <button class="btn btn-default btn-flat" type="submit">
                 <i class="glyphicon glyphicon-search"></i>
               </button>
             </div>
@@ -904,7 +1084,7 @@
       </div>
     </div>
   </div>
-  <a href="#dagonline" title="Remonter">
+  <a class="text-green" href="#dagonline" title="Remonter">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <p>Revenir en d&eacute;but de page</p>
@@ -914,23 +1094,42 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/fontawesome-all.min.js"></script>
+<script src="js/sticky-kit.min.js"></script>
 <!--Toast-->
 <script src="js/jquery.toast.min.js"></script>
 <!--Fin Toast-->
-<!--Animation Carte PUB-->
-<script src="js/carte-pub.js"></script>
-<!--Sticky nav-pills -->
-<script src="js/sticky-kit.min.js"></script>
-<!--Fin Animation Carte PUB-->
-<script src="js/petitesAnnonces.js"></script>
-<script src="js/main.js"></script>
+<!--Carousel plugin-->
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
 <script>
-$(document).ready(function() {
-  if(window.location.href.indexOf('#deposAnnonce') != -1) {
-    $('#deposAnnonce').modal('show');
-  }
-});
+  $(document).ready(function(){
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+      center: true,
+      loop:true,
+      dots:true,
+      dotsEach:true,
+      items:2,
+      margin:10,
+      responsive:{
+        600:{
+          items:4
+        }
+      },
+      autoplay:true,
+      autoplayTimeout:3000,
+      autoplayHoverPause:true
+    });
+    owl.on('mousewheel', '.owl-stage', function (e) {
+      if (e.deltaY > 0) {
+        owl.trigger('next.owl');
+      } else {
+        owl.trigger('prev.owl');
+      }
+      e.preventDefault();
+    });
+  });
 </script>
-
+<script src="js/main.js"></script>
 </body>
 </html>
