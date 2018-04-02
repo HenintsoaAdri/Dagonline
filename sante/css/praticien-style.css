@@ -215,12 +215,12 @@ h3.title:after{
 }
 .list-search .media span.ruban:after{
 	left: initial;
-	right: -10px;
+	right: -5px;
 	bottom: 0;
 	border-left: 0px solid transparent;
 	border-top: 21px solid #1fd28d;
 	border-bottom: 21px solid #1fd28d;
-	border-right: 11px solid transparent;
+	border-right: 5px solid transparent;
 }
 .list-search .media span.ruban.etablissement:after{
 	border-top-color: #ffffff;

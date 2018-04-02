@@ -2,82 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82707021-2394-498b-aa1e-3b1d5e15d61d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/owl.carousel.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/owl.theme.default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/owl.theme.default.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/praticien-search.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/1440x450.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240-boutique-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240-boutique.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240-restaurant-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240-restaurant.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240-travaux-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240-travaux.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/720x450.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Auto-Moto.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Boutique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Cyber.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Electromenager.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Hotel-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Loisirs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Restaurants &amp; Hotels.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 6 (2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sport.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Technologie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Travaux-fileToUpload-1489053044.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Travaux.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/burhotel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/cyber-cafe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/entreprisepage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/hotelpage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/hotelpage1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/hotelpage2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/hotelpage3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/hotelpage4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/image-slide-entreprise-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/image-slide-entreprise-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/image-slide-entreprise.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/logo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/menu-exemple-resto.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/produit-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/produit-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/produit-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/prom-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/prom-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/prom-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/prom-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/restaurantpage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/restaurantpage1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/restaurantpage2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/restaurantpage3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/restaurantpage4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/resto-main-tile.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/resto-main-tile1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/resto-main-tile2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/slideDocteur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/slideResto.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/zebunet.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../sante/petitesAnnonces-detail.html" afterPath="$PROJECT_DIR$/../sante/praticien-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../index.txt" afterPath="$PROJECT_DIR$/../index.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/font.css" afterPath="$PROJECT_DIR$/../sante/css/font.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/etablissement.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/praticien-style.css" afterPath="$PROJECT_DIR$/../sante/css/praticien-style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/style.css" afterPath="$PROJECT_DIR$/../sante/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/index.html" afterPath="$PROJECT_DIR$/../sante/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/praticien.html" afterPath="$PROJECT_DIR$/../sante/praticien.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petitesAnnonces-detail.html" afterPath="$PROJECT_DIR$/petitesAnnonces-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petitesAnnonces.html" afterPath="$PROJECT_DIR$/petitesAnnonces.html" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,9 +53,31 @@
       <file leaf-file-name="praticien-style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../sante/css/praticien-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="384" column="25" selection-start-line="384" selection-start-column="25" selection-end-line="384" selection-end-column="25" />
+            <state relative-caret-position="357">
+              <caret line="222" column="17" selection-start-line="222" selection-start-column="17" selection-end-line="222" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="etablissement.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sante/etablissement.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="588" column="16" selection-start-line="588" selection-start-column="16" selection-end-line="588" selection-end-column="16" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#24437#24445#0" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,8 +85,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sante/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="756" column="33" selection-start-line="756" selection-start-column="33" selection-end-line="756" selection-end-column="33" />
+            <state relative-caret-position="374">
+              <caret line="437" column="137" selection-start-line="432" selection-start-column="16" selection-end-line="437" selection-end-column="137" />
               <folding />
             </state>
           </provider>
@@ -234,10 +184,11 @@
         <option value="$PROJECT_DIR$/../sante/js/jquery.mousewheel.min.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/../sante/praticien.html" />
-        <option value="$PROJECT_DIR$/../sante/css/style.css" />
         <option value="$PROJECT_DIR$/../sante/praticien-search.html" />
         <option value="$PROJECT_DIR$/../sante/praticien-detail.html" />
         <option value="$PROJECT_DIR$/../sante/etablissement-detail.html" />
+        <option value="$PROJECT_DIR$/../sante/css/style.css" />
+        <option value="$PROJECT_DIR$/../sante/etablissement.html" />
         <option value="$PROJECT_DIR$/../sante/css/praticien-style.css" />
       </list>
     </option>
@@ -326,42 +277,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sante" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projet DagoOnline" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sante" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projet DagoOnline" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sante" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -487,12 +402,12 @@
       <workItem from="1522255692306" duration="17767000" />
       <workItem from="1522309729225" duration="12757000" />
       <workItem from="1522435272699" duration="1775000" />
-      <workItem from="1522498775862" duration="16802000" />
+      <workItem from="1522498775862" duration="20869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="386104000" />
+    <option name="totallyTimeSpent" value="390171000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,7 +480,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/timeline-min.js" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -919,14 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../sante/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="756" column="33" selection-start-line="756" selection-start-column="33" selection-end-line="756" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../sante/etablissement-detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -949,10 +855,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/etablissement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="588" column="16" selection-start-line="588" selection-start-column="16" selection-end-line="588" selection-end-column="16" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#24437#24445#0" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="437" column="137" selection-start-line="432" selection-start-column="16" selection-end-line="437" selection-end-column="137" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../sante/css/praticien-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="384" column="25" selection-start-line="384" selection-start-column="25" selection-end-line="384" selection-end-column="25" />
+        <state relative-caret-position="357">
+          <caret line="222" column="17" selection-start-line="222" selection-start-column="17" selection-end-line="222" selection-end-column="17" />
           <folding />
         </state>
       </provider>

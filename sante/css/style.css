@@ -758,9 +758,7 @@ Background image Designed by macrovector / Freepik
 	background-repeat: repeat-y;
 	background-size: 100%;
 	padding: 20px 0;
-	top: -15px;
-	z-index: 3;
-	position: relative;
+	margin-bottom: 15px;
 }
 .formulaire form{
 	margin: auto;
