@@ -891,7 +891,7 @@ a.btn-outline:hover, button.btn-outline:hover, input[type='submit'].btn-outline:
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 15%;
-	height: 15%;
+	height: 25%;
 	opacity: 0;
 }
 a:hover .zoom > *, a.zoom:hover > *{
