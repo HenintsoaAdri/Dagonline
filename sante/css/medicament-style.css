@@ -382,6 +382,10 @@
 		opacity: 1;
 		color: #75D13B;
 	}
+	.page-medicament{
+		margin: auto;
+		width: 40%;
+	}
   @keyframes animatop {
 	0% {
 	  opacity: 0;

@@ -31,7 +31,7 @@
   <link rel="stylesheet" href="css/font.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/medicament-style.css">
+  <link rel="stylesheet" href="css/praticien-style.css">
 </head>
 <body>
 
@@ -522,23 +522,6 @@
   <div class="jumbotron-text">
     <h1>Dagonline</h1>
     <p>Trouvez et achetez ce qui vous soigne sur tout Madagascar</p>
-    <form class="form-inline col-xs-offset-1 col-xs-10">
-      <div class="form-group">
-        <select class="form-control">
-          <option disabled selected> Où : Région, Ville </option>
-          <option>Antananarivo</option>
-          <option>Diego-Suarez</option>
-          <option>Majunga</option>
-          <option>Tamatave</option>
-          <option>Fianarantsoa</option>
-          <option>Tuléar</option>
-        </select>
-      </div>
-      <div class="form-group input-group">
-        <input type="text" class="form-control" size="30" value="Médicaments" placeholder="Rechercher...">
-      </div>
-      <button type="button" class="form-control btn text-white bg-green">Trouver</button>
-    </form>
   </div>
 
   <div id="SlidePrincipal" class="carousel slide hidden-xs" data-ride="carousel">
@@ -576,117 +559,155 @@
 <div id="body">
   <span id="dagonline"></span>
   <div class="container-fluid bg-warning text-danger pacifico shadow">
-	<div class="text-right"><h2>M&eacute;dicaments</h2></div>
+	<div class="text-right p-r-20"><h2>&Eacute;tablissement</h2></div>
   </div>
 
-  <!-- Container Petites Annonces -->
-  <div class="annonces container-fluid m-t-5">
-    <div class="row">
-        <!--LISTE DES ANNONCES-->
-        <div id="annonce" class="row m-t-20 p-5">
+  <div class="container-fluid formulaire">
+    <form class="form-inline" action="praticien-search.html">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group">
+            <select class="form-control">
+              <option disabled selected> Où : Région, Ville </option>
+              <option>Antananarivo</option>
+              <option>Diego-Suarez</option>
+              <option>Majunga</option>
+              <option>Tamatave</option>
+              <option>Fianarantsoa</option>
+              <option>Tuléar</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Recherche...">
+          </div>
+          <div class="form-group">
+            <select class="form-control">
+              <option disabled selected> Disponibilité </option>
+              <option>Aujourd'hui</option>
+              <option>Dans les trois prochains jours</option>
+            </select>
+          </div>
+          <button type="submit" class="form-control btn text-white bg-green">Rechercher</button>
+        </div>
+      </div>
+    </form>
+  </div>
 
-          <div class="col-sm-offset-1 col-sm-10 col-sm-offset-1 p-l-20 annonce">
-            <h1 class="m-t-20 text-muted">Paracetamol</h1 >
-            <small class="text-muted">500 mg 16 Comprim&eacute;</small>
-            <hr>
-            <div class="row p-b-20">
-              <div class="col-sm-4">
-                <div class="row">
-                  <a class="zoom p-0 photo-medicament" href="#zoom" data-toggle="modal">
-                    <img src="img/paracetamol.png" class="img-responsive">
-                  </a>
+  <!-- Container Resultat Recherche -->
+  <div class="container-fluid m-t-5 m-b-20 list-search">
+      <div class="row p-5">
+        <div class="col-md-8">
+          <div class="etablissement media">
+            <span class="ruban pull-left etablissement">
+              <i class="far fa-hospital"></i> &Eacute;tablissement
+            </span>
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/most-viewed-1.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Hopital 1 </h4>
+                  <p class="text-muted"><b>Adresse</b> : Route Nationale 1, BP 4150, Antananarivo 101
+                    <br><b>Horaires</b> : Ouvert 24 h/24
+                    <br><b>Téléphone</b> : 020 22 279 79</p>
+                  <a href="etablissement-detail.html">Voir l'établissement</a>
                 </div>
-                <hr>
-                <h3 class="m-t-20 text-muted">M&eacute;dicaments similaires...</h3>
-                <hr>
-                <div class="row">
-                  <div class="content">
-                    <div class="">
-                      <div class="firstinfo">
-                          <div class="col-sm-4">
-                            <img src="img/paracetamol.png" class="img-responsive">
-                          </div>
-                        <div class="col-sm-8">
-                          <h3>Paracetamol</h3>
-                          <small>500 mg 16 Comprim&eacute;</small><br>
-                          <a href="medicament-detail.html" class="text-right">Voir d&eacute;tails</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="content">
-                    <div class="">
-                        <div class="col-sm-4">
-                          <img src="img/paracetamol.png" class="img-responsive">
-                        </div>
-                        <div class="col-sm-8">
-                          <h3>Paracetamol</h3>
-                          <small>500 mg 16 Comprim&eacute;</small><br>
-                          <a href="medicament-detail.html" class="text-right">Voir d&eacute;tails</a>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- MODAL POP UP -->
-                <div class="modal fade" id="zoom" role="dialog">
-                  <div class="modal-dialog modal-lg">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <div class="modal-content">
-                      <img src="img/paracetamol.png">
-                    </div>
-                  </div>
+                <div class="item-action">
+                  <a href="#horaire" class="btn fab-button" data-toggle="modal"><i class="fa fa-calendar-alt"></i></a>
                 </div>
               </div>
-              <div class="col-sm-8 p-l-20">
-                  <ul class="nav nav-pills nav-justified">
-                    <li class="active"><a data-toggle="pill" href="#descriptions" class="text-uppercase">Descriptions</a></li>
-                    <li><a data-toggle="pill" href="#notices">NOTICES</a></li>
-                  </ul>
-                  <div class="tab-content">
-                    <div id="descriptions" class="tab-pane fade in active">
-                        <b>
-                            Composition :
-                        </b>  
-                        <p>
-                            - Substance active (pour 1 comprimé) :
-                        </p> 
-                        <p>   
-                            Paracétamol : 500,00 mg
-                        </p>
-                        <p>    
-                            - Autres composants :
-                        </p>  
-                        <p> 
-                            Povidone, croscarmellose sodique, cellulose microcristalline, stéarate de magnésium, hypromellose, béhénate de glycérol.
-                        </p>
-                        <b>   
-                            Posologie :
-                        </b>  
-                        <p>
-                            - Cette présentation est réservée à l'adulte et à l'enfant à partir de 27 kg (environ à partir de 8 ans).
-                        </p>    
-                            - La posologie du paracétamol dépend du poids de l'enfant; les âges sont mentionnés à titre d'information.
-                        <p>   
-                            - Si vous ne connaissez pas le poids de l'enfant, il faut le peser afin de lui donner la dose la mieux adaptée.
-                        </p>
-                    </div>
-                    <div id="notices" class="tab-pane fade">
-                      <a href="#">Voir la notice (pdf)</a>
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="etablissement media">
+            <span class="ruban pull-left etablissement">
+              <i class="far fa-hospital"></i> &Eacute;tablissement
+            </span>
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/360x240.png" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Hopital 3</h4>
+                  <p class="text-muted"><b>Adresse</b> : Route Nationale 1, BP 4150, Antananarivo 101
+                    <br><b>Horaires</b> : Ouvert 24 h/24
+                    <br><b>Téléphone</b> : 020 22 279 79</p>
+                  <a href="etablissement-detail.html">Voir l'établissement</a>
+                </div>
+                <div class="item-action">
+                  <a href="#horaire" class="btn fab-button" data-toggle="modal"><i class="fa fa-calendar-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="etablissement media">
+            <span class="ruban pull-left etablissement">
+              <i class="far fa-hospital"></i> &Eacute;tablissement
+            </span>
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/360x240.png" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Hopital 4</h4>
+                  <p class="text-muted"><b>Adresse</b> : Route Nationale 1, BP 4150, Antananarivo 101
+                  <br><b>Horaires</b> : Ouvert 24 h/24
+                  <br><b>Téléphone</b> : 020 22 279 79</p>
+                  <a href="etablissement-detail.html">Voir l'établissement</a>
+                </div>
+                <div class="item-action">
+                  <a href="#horaire" class="btn fab-button" data-toggle="modal"><i class="fa fa-calendar-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="etablissement media">
+            <span class="ruban pull-left etablissement">
+              <i class="far fa-hospital"></i> &Eacute;tablissement
+            </span>
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/most-viewed-2.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Hopital 2</h4>
+                  <p class="text-muted"><b>Adresse</b> : Route Nationale 1, BP 4150, Antananarivo 101
+                    <br><b>Horaires</b> : Ouvert 24 h/24
+                    <br><b>Téléphone</b> : 020 22 279 79</p>
+                  <a href="etablissement-detail.html">Voir l'établissement</a>
+                </div>
+                <div class="item-action">
+                  <a href="#horaire" class="btn fab-button" data-toggle="modal"><i class="fa fa-calendar-alt"></i></a>
+                </div>
               </div>
             </div>
           </div>
 
+          <ul class="pagination">
+            <li class="prev"><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">...</a></li>
+            <li class="next"><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+          </ul>
         </div>
-        <!--FIN LISTE DES ANNONCES-->
+        <div class="col-md-4">
+          <div class="sticky">
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60381.96674064899!2d47.532478409619095!3d-18.937018220649918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2smg!4v1516881806035"
+                    class="shadow" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <!-- Fin Container Petites Annonces -->
+  <!-- Fin Container Resultat Recherche -->
 </div>
 <!--Fin Corps-->
 
@@ -695,7 +716,7 @@
   <div class="row">
     <div class="col-sm-4 text-justify">
       <p>Qu'est ce que Dagonline</p>
-      <p>www.dagonline.fr est une plateforme qui permet à tout utilisateur de trouver des produits et des services auprès des professionnels partenaires. Dagonline c'est bien plus qu'un simple annuairecar chaque entreprise tient sa page et est libre du contenu proposé. Dagonline c'est aussi toutes les dates et évènements à venir ainsi que les petites annonces pour les particuliers.</p>
+      <p>www.dagonline.fr est une plateforme qui permet à tout utilisateur de trouver des produits et des services auprès des professionnels partenaires. Dagonline c'est bien plus qu'un simple annuairecar chaque entreprise tient sa page et est libre du contenu proposé. Dagonline c'est aussi toutes les dates et évènements à venir ainsi que les Plus Recherchés pour les particuliers.</p>
       <p>Notre objectif</p>
       <p>Optimiser la rencontre des offres de services et produits commerciaux existants à Madagascar.</p>
     </div>
@@ -736,7 +757,7 @@
         <form class="form-inline col-sm-12">
           <div class="input-group">
             <div class="input-group-btn">
-              <button class="btn btn-default" type="submit">
+              <button class="btn btn-default btn-flat" type="submit">
                 <i class="glyphicon glyphicon-search"></i>
               </button>
             </div>
@@ -761,7 +782,7 @@
       </div>
     </div>
   </div>
-  <a href="#dagonline" title="Remonter">
+  <a class="text-green" href="#dagonline" title="Remonter">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <p>Revenir en d&eacute;but de page</p>
@@ -771,23 +792,10 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/fontawesome-all.min.js"></script>
+<script src="js/sticky-kit.min.js"></script>
 <!--Toast-->
 <script src="js/jquery.toast.min.js"></script>
 <!--Fin Toast-->
-<!--Animation Carte PUB-->
-<script src="js/carte-pub.js"></script>
-<!--Sticky nav-pills -->
-<script src="js/sticky-kit.min.js"></script>
-<!--Fin Animation Carte PUB-->
-<script src="js/petitesAnnonces.js"></script>
 <script src="js/main.js"></script>
-<script>
-$(document).ready(function() {
-  if(window.location.href.indexOf('#deposAnnonce') != -1) {
-    $('#deposAnnonce').modal('show');
-  }
-});
-</script>
-
 </body>
 </html>

@@ -2,82 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82707021-2394-498b-aa1e-3b1d5e15d61d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/owl.carousel.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/owl.theme.default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/owl.theme.default.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/praticien-search.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/1440x450.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240-boutique-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240-boutique.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240-restaurant-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240-restaurant.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240-travaux-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240-travaux.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/440x240.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/720x450.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Auto-Moto.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Boutique.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Cyber.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Electromenager.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Hotel-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Loisirs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Restaurants &amp; Hotels.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 6 (2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sans titre 9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Sport.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Technologie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Travaux-fileToUpload-1489053044.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/Travaux.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/burhotel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/cyber-cafe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/entreprisepage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/hotelpage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/hotelpage1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/hotelpage2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/hotelpage3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/hotelpage4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/image-slide-entreprise-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/image-slide-entreprise-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/image-slide-entreprise.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/logo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/menu-exemple-resto.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/produit-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/produit-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/produit-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/prom-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/prom-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/prom-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/prom-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/restaurantpage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/restaurantpage1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/restaurantpage2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/restaurantpage3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/restaurantpage4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/resto-main-tile.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/resto-main-tile1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/resto-main-tile2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/slideDocteur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/slideResto.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sante/img/zebunet.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../sante/petitesAnnonces-detail.html" afterPath="$PROJECT_DIR$/../sante/praticien-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../index.txt" afterPath="$PROJECT_DIR$/../index.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/font.css" afterPath="$PROJECT_DIR$/../sante/css/font.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/praticien-style.css" afterPath="$PROJECT_DIR$/../sante/css/praticien-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/article.html" afterPath="$PROJECT_DIR$/../sante/article.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/article-style.css" afterPath="$PROJECT_DIR$/../sante/css/article-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/detail-article-style.css" afterPath="$PROJECT_DIR$/../sante/css/detail-article-style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/style.css" afterPath="$PROJECT_DIR$/../sante/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/index.html" afterPath="$PROJECT_DIR$/../sante/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/praticien.html" afterPath="$PROJECT_DIR$/../sante/praticien.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petitesAnnonces-detail.html" afterPath="$PROJECT_DIR$/petitesAnnonces-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petitesAnnonces.html" afterPath="$PROJECT_DIR$/petitesAnnonces.html" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,36 +27,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="etablissement-detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../sante/etablissement-detail.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sante/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="631" column="33" selection-start-line="631" selection-start-column="33" selection-end-line="631" selection-end-column="33" />
+            <state relative-caret-position="204">
+              <caret line="972" column="41" selection-start-line="972" selection-start-column="41" selection-end-line="973" selection-end-column="69" />
               <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="praticien-style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../sante/css/praticien-style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="384" column="25" selection-start-line="384" selection-start-column="25" selection-end-line="384" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -135,53 +52,77 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sante/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="756" column="33" selection-start-line="756" selection-start-column="33" selection-end-line="756" selection-end-column="33" />
+            <state relative-caret-position="472">
+              <caret line="847" column="21" selection-start-line="847" selection-start-column="15" selection-end-line="847" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="praticien-detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../sante/praticien-detail.html">
+      <file leaf-file-name="article-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sante/css/article-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="596" column="40" selection-start-line="596" selection-start-column="40" selection-end-line="599" selection-end-column="22" />
+            <state relative-caret-position="438">
+              <caret line="338" column="1" selection-start-line="338" selection-start-column="1" selection-end-line="338" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail-article-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sante/css/detail-article-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="362" column="12" selection-start-line="362" selection-start-column="12" selection-end-line="362" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sante/article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="1375" column="56" selection-start-line="1375" selection-start-column="56" selection-end-line="1375" selection-end-column="56" />
               <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#13653#13658#0" expanded="true" />
-                <element signature="e#13844#13849#0" expanded="true" />
-                <element signature="e#13968#13973#0" expanded="true" />
-                <element signature="e#14179#14184#0" expanded="true" />
-                <element signature="e#16484#16489#0" expanded="true" />
-                <element signature="e#16626#16631#0" expanded="true" />
-                <element signature="e#18012#18017#0" expanded="true" />
-                <element signature="e#18153#18158#0" expanded="true" />
-                <element signature="e#18359#18364#0" expanded="true" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="praticien-search.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../sante/praticien-search.html">
+      <file leaf-file-name="calendrier-function.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../sante/js/calendrier-function.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="911" column="16" selection-start-line="911" selection-start-column="16" selection-end-line="911" selection-end-column="16" />
+            <state relative-caret-position="442">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="34" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="evenement.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sante/evenement.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="1566" column="17" selection-start-line="1566" selection-start-column="17" selection-end-line="1567" selection-end-column="54" />
+              <folding>
+                <element signature="n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -225,7 +166,6 @@
         <option value="$PROJECT_DIR$/entreprise.html" />
         <option value="$PROJECT_DIR$/css/entreprise-style.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/../sante/index.html" />
         <option value="$PROJECT_DIR$/petitesAnnonces.html" />
         <option value="$PROJECT_DIR$/petitesAnnonces-detail.html" />
         <option value="$PROJECT_DIR$/../index.txt" />
@@ -234,11 +174,16 @@
         <option value="$PROJECT_DIR$/../sante/js/jquery.mousewheel.min.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/../sante/praticien.html" />
-        <option value="$PROJECT_DIR$/../sante/css/style.css" />
         <option value="$PROJECT_DIR$/../sante/praticien-search.html" />
         <option value="$PROJECT_DIR$/../sante/praticien-detail.html" />
         <option value="$PROJECT_DIR$/../sante/etablissement-detail.html" />
+        <option value="$PROJECT_DIR$/../sante/etablissement.html" />
         <option value="$PROJECT_DIR$/../sante/css/praticien-style.css" />
+        <option value="$PROJECT_DIR$/../sante/index.html" />
+        <option value="$PROJECT_DIR$/../sante/css/style.css" />
+        <option value="$PROJECT_DIR$/../sante/css/article-style.css" />
+        <option value="$PROJECT_DIR$/../sante/css/detail-article-style.css" />
+        <option value="$PROJECT_DIR$/../sante/article.html" />
       </list>
     </option>
   </component>
@@ -296,7 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -343,31 +287,14 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projet DagoOnline" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sante" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -487,12 +414,14 @@
       <workItem from="1522255692306" duration="17767000" />
       <workItem from="1522309729225" duration="12757000" />
       <workItem from="1522435272699" duration="1775000" />
-      <workItem from="1522498775862" duration="16802000" />
+      <workItem from="1522498775862" duration="20954000" />
+      <workItem from="1522752887541" duration="8532000" />
+      <workItem from="1522782634535" duration="8172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="386104000" />
+    <option name="totallyTimeSpent" value="406960000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,7 +436,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26928896" sideWeight="0.4902439" order="0" side_tool="false" content_ui="tabs" x="521" y="58" width="323" height="611" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27231467" sideWeight="0.4902439" order="0" side_tool="false" content_ui="tabs" x="521" y="58" width="323" height="611" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -565,42 +494,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/timeline-min.js" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evenement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/resto-main-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="121" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/resto-hotel-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/cyber-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -696,13 +589,6 @@
     <entry file="file://$PROJECT_DIR$/../sante/img/icon/favicon-16x16.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sante/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="567" column="135" selection-start-line="567" selection-start-column="135" selection-end-line="567" selection-end-column="135" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petitesAnnonces-detail.html">
@@ -822,7 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,9 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="54" column="114" selection-start-line="54" selection-start-column="94" selection-end-line="54" selection-end-column="114" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-459">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,93 +746,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../sante/img/Seamless-background-of-medical-items/3691.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sante/img/Seamless-background-of-medical-items/License free.txt">
+    <entry file="file://$PROJECT_DIR$/../sante/img/Seamless-background-of-medical-items/3691.jpg" />
+    <entry file="file://$PROJECT_DIR$/../sante/img/Seamless-background-of-medical-items/License free.txt" />
+    <entry file="file://$PROJECT_DIR$/../sante/etablissement-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="66" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="66" />
-          <folding />
+        <state relative-caret-position="1632">
+          <caret line="631" column="33" selection-start-line="631" selection-start-column="33" selection-end-line="631" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../sante/praticien-search.html">
+    <entry file="file://$PROJECT_DIR$/../sante/css/praticien-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="911" column="16" selection-start-line="911" selection-start-column="16" selection-end-line="911" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="34">
+          <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/etablissement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="588" column="16" selection-start-line="588" selection-start-column="16" selection-end-line="588" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../sante/praticien-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="1377">
           <caret line="596" column="40" selection-start-line="596" selection-start-column="40" selection-end-line="599" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/praticien-search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15487">
+          <caret line="911" column="16" selection-start-line="911" selection-start-column="16" selection-end-line="911" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="972" column="41" selection-start-line="972" selection-start-column="41" selection-end-line="973" selection-end-column="69" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#13653#13658#0" expanded="true" />
-            <element signature="e#13844#13849#0" expanded="true" />
-            <element signature="e#13968#13973#0" expanded="true" />
-            <element signature="e#14179#14184#0" expanded="true" />
-            <element signature="e#16484#16489#0" expanded="true" />
-            <element signature="e#16626#16631#0" expanded="true" />
-            <element signature="e#18012#18017#0" expanded="true" />
-            <element signature="e#18153#18158#0" expanded="true" />
-            <element signature="e#18359#18364#0" expanded="true" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../sante/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="756" column="33" selection-start-line="756" selection-start-column="33" selection-end-line="756" selection-end-column="33" />
+        <state relative-caret-position="472">
+          <caret line="847" column="21" selection-start-line="847" selection-start-column="15" selection-end-line="847" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../sante/etablissement-detail.html">
+    <entry file="file://$PROJECT_DIR$/../sante/css/detail-article-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="631" column="33" selection-start-line="631" selection-start-column="33" selection-end-line="631" selection-end-column="33" />
+        <state relative-caret-position="428">
+          <caret line="362" column="12" selection-start-line="362" selection-start-column="12" selection-end-line="362" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/evenement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="1566" column="17" selection-start-line="1566" selection-start-column="17" selection-end-line="1567" selection-end-column="54" />
           <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../sante/css/praticien-style.css">
+    <entry file="file://$PROJECT_DIR$/../sante/css/article-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="384" column="25" selection-start-line="384" selection-start-column="25" selection-end-line="384" selection-end-column="25" />
+        <state relative-caret-position="438">
+          <caret line="338" column="1" selection-start-line="338" selection-start-column="1" selection-end-line="338" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="1375" column="56" selection-start-line="1375" selection-start-column="56" selection-end-line="1375" selection-end-column="56" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/js/calendrier-function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="34" selection-end-column="7" />
           <folding />
         </state>
       </provider>
