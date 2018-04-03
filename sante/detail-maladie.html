@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+  <link rel="manifest" href="img/icon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Dagonline - Trouvez et achetez ce qui vous chante sur tout Madagascar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--Toast-->
+  <link rel="stylesheet" href="css/jquery.toast.min.css">
+  <!--Fin Toast-->
+  <!-- Theme personnalisé -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" type="text/css" href="css/detail-maladie-style.css" />
+</head>
+
+<body>
+
+  <!--Préloader-->
+  <div class="preloader text-center">
+    <div class="loaded">&nbsp;</div>
+    www.dagonline.fr
+  </div>
+  <!--Fin Préloader-->
+
+  <!--Header-->
+  <div class="container-fluid">
+    <ul class="list-inline text-right pull-right m-t-5 m-b-5 small">
+      <li>
+        <a href="#">Top-Recherche</a>
+      </li>
+      <li>
+        <a href="#">R&eacute;cent</a>
+      </li>
+      <li>
+        <a href="#">Favoris</a>
+      </li>
+      <li>
+        <a href="#">6325 Visiteurs</a>
+      </li>
+      <button type="button" class="btn btn-primary btn-xs">S'inscrire</button>
+      <button type="button" class="btn btn-link btn-xs">
+        <span class="glyphicon glyphicon-user"></span> Se connecter</button>
+    </ul>
+  </div>
+  <!--Navigation Bar-->
+  <nav class="m-b-0 navbar navbar-static-top text-white navbar-inverse" data-spy="affix" data-offset-top="32">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" class="img-responsive shadow">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Maladies
+            </a>
+            <div class="dropdown-menu">
+              <ul class="dropdown-ul">
+                <li>
+                  <a>Maladies bucco-dentaires</a>
+                </li>
+                <li>
+                  <a>Maladies chroniques</a>
+                </li>
+                <li>
+                  <a>Maladies de l’appareil circulatoire</a>
+                </li>
+                <li>
+                  <a>Maladies de l’appareil digestif</a>
+                </li>
+                <li>
+                  <a>Maladies de l’appareil respiratoire (ORL)</a>
+                </li>
+                <li>
+                  <a>Maladies de l’œil</a>
+                </li>
+                <li>
+                  <a>Maladies de peau</a>
+                </li>
+                <li>
+                  <a>Maladies des reins et appareil urinaire</a>
+                </li>
+                <li>
+                  <a>Maladies du système immunitaire</a>
+                </li>
+                <li>
+                  <a>Maladies endocriniennes-métaboliques</a>
+                </li>
+                <li>
+                  <a>Maladies génétiques</a>
+                </li>
+                <li>
+                  <a>Maladies gynécologiques</a>
+                </li>
+                <li>
+                  <a>Maladies infantiles</a>
+                </li>
+                <li>
+                  <a>Maladies infectieuses</a>
+                </li>
+                <li>
+                  <a>Maladies mentales</a>
+                </li>
+                <li>
+                  <a>Maladies neurologiques</a>
+                </li>
+                <li>
+                  <a>Troubles des os et des articulations</a>
+                </li>
+                <li>
+                  <a>Cancers</a>
+                </li>
+                <li>
+                  <a>Maladies éruptives </a>
+                </li>
+                <li>
+                  <a>Maladies transmissibles durant la grossesse</a>
+                </li>
+                <li>
+                  <a>Troubles et maladies liés à la grossesse</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Médicaments
+            </a>
+            <div class="dropdown-menu row">
+              <ul class="dropdown-ul">
+                <li>
+                  <a class="title" href="#">Douleurs - fièvre</a>
+                  <ul>
+                    <li>
+                      <a href="#">Paracétamol</a>
+                    </li>
+                    <li>
+                      <a href="#">Aspirine</a>
+                    </li>
+                    <li>
+                      <a href="#">Ibuprofène</a>
+                    </li>
+                    <li>
+                      <a href="#">Migraines</a>
+                    </li>
+                    <li>
+                      <a href="#">Anti-inflammatoires</a>
+                    </li>
+                    <li>
+                      <a href="#">Douleurs Musculaires</a>
+                    </li>
+                    <li>
+                      <a href="#">Douleurs Articulaires</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Rhume - toux - gorge</a>
+                  <ul>
+                    <li>
+                      <a href="#">Rhume - Etat grippaux</a>
+                    </li>
+                    <li>
+                      <a href="#">Maux de gorge</a>
+                    </li>
+                    <li>
+                      <a href="#">Toux sèche</a>
+                    </li>
+                    <li>
+                      <a href="#">Toux grasse</a>
+                    </li>
+                    <li>
+                      <a href="#">Allergies - Sinusite</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Médecine naturelle</a>
+                  <ul>
+                    <li>
+                      <a href="#">Homéopathie</a>
+                    </li>
+                    <li>
+                      <a href="#">Oligothérapie</a>
+                    </li>
+                    <li>
+                      <a href="#">Phytothérapie</a>
+                    </li>
+                    <li>
+                      <a href="#">Huiles essentielles</a>
+                    </li>
+                    <li>
+                      <a href="#">Infusions</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Bébé</a>
+                  <ul>
+                    <li>
+                      <a href="#">Affections ORL</a>
+                    </li>
+                    <li>
+                      <a href="#">Douleurs dentaires</a>
+                    </li>
+                    <li>
+                      <a href="#">Eczéma - Irritations</a>
+                    </li>
+                    <li>
+                      <a href="#">Érythème fessier</a>
+                    </li>
+                    <li>
+                      <a href="#">Fièvre</a>
+                    </li>
+                    <li>
+                      <a href="#">Troubles digestifs</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Détente - sommeil</a>
+                  <ul>
+                    <li>
+                      <a href="#">Stress - Dépression</a>
+                    </li>
+                    <li>
+                      <a href="#">Troubles du sommeil</a>
+                    </li>
+                    <li>
+                      <a href="#">Anti-ronflement</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Digestion</a>
+                  <ul>
+                    <li>
+                      <a href="#">Ballonnements</a>
+                    </li>
+                    <li>
+                      <a href="#">Constipation</a>
+                    </li>
+                    <li>
+                      <a href="#">Diarrhée</a>
+                    </li>
+                    <li>
+                      <a href="#">Digestion difficile</a>
+                    </li>
+                    <li>
+                      <a href="#">Maux d'estomac</a>
+                    </li>
+                    <li>
+                      <a href="#">Maux de ventre</a>
+                    </li>
+                    <li>
+                      <a href="#">Nausées - Vomissements</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Sevrage tabagique</a>
+                  <ul>
+                    <li>
+                      <a href="#">Comprimés à sucer</a>
+                    </li>
+                    <li>
+                      <a href="#">Gommes à mâcher</a>
+                    </li>
+                    <li>
+                      <a href="#">Patchs - Dispositifs transdermiques</a>
+                    </li>
+                    <li>
+                      <a href="#">Sprays - Inhaleurs</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Coeur cholesterol</a>
+                  <ul>
+                    <li>
+                      <a href="#">Cholestérol</a>
+                    </li>
+                    <li>
+                      <a href="#">Hypertension</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Infections cutanées</a>
+                  <ul>
+                    <li>
+                      <a href="#">Boutons de fièvre - Herpès</a>
+                    </li>
+                    <li>
+                      <a href="#">Mycoses</a>
+                    </li>
+                    <li>
+                      <a href="#">Verrues</a>
+                    </li>
+                    <li>
+                      <a href="#">Irritations cutanées - Acné</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Maux de bouche</a>
+                  <ul>
+                    <li>
+                      <a href="#">Aphtes</a>
+                    </li>
+                    <li>
+                      <a href="#">Bains de bouche</a>
+                    </li>
+                    <li>
+                      <a href="#">Inflammation des gencives</a>
+                    </li>
+                    <li>
+                      <a href="#">Prévention des caries</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Féminité</a>
+                  <ul>
+                    <li>
+                      <a href="#">Contraception</a>
+                    </li>
+                    <li>
+                      <a href="#">Grossesse</a>
+                    </li>
+                    <li>
+                      <a href="#">Ménopause</a>
+                    </li>
+                    <li>
+                      <a href="#">Mycoses</a>
+                    </li>
+                    <li>
+                      <a href="#">Sexualité</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Ophtalmologie</a>
+                  <ul>
+                    <li>
+                      <a href="#">Allergies</a>
+                    </li>
+                    <li>
+                      <a href="#">Entretien des lentilles</a>
+                    </li>
+                    <li>
+                      <a href="#">Infection de l'oeil</a>
+                    </li>
+                    <li>
+                      <a href="#">Irritation des yeux - Conjonctivite</a>
+                    </li>
+                    <li>
+                      <a href="#">Troubles de la vue</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Tonus/vitamines</a>
+                  <ul>
+                    <li>
+                      <a href="#">Forme - Energie</a>
+                    </li>
+                    <li>
+                      <a href="#">Défenses immunitaires</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Premiers soins</a>
+                  <ul>
+                    <li>
+                      <a href="#">Affections de l'oreille</a>
+                    </li>
+                    <li>
+                      <a href="#">Œdèmes </a>
+                    </li>
+                    <li>
+                      <a href="#">Cicatrisation - Désinfection</a>
+                    </li>
+                    <li>
+                      <a href="#">Coups - Bleus - Brûlures </a>
+                    </li>
+                    <li>
+                      <a href="#">Pansements</a>
+                    </li>
+                    <li>
+                      <a href="#">Voyage - Antimoustiques</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Circulation veineuse</a>
+                  <ul>
+                    <li>
+                      <a href="#">Hémorroïdes</a>
+                    </li>
+                    <li>
+                      <a href="#">Jambes lourdes</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Parapharmacie
+            </a>
+            <div class="dropdown-menu row">
+              <ul class="dropdown-ul">
+                <li>
+                  <a class="title" href="#">Beauté</a>
+                  <ul>
+                    <li>
+                      <a href="#">Anti-âge Antirides Anti-taches </a>
+                    </li>
+                    <li>
+                      <a href="#">Acné</a>
+                    </li>
+                    <li>
+                      <a href="#">Antirougeurs</a>
+                    </li>
+                    <li>
+                      <a href="#">Contour des Yeux</a>
+                    </li>
+                    <li>
+                      <a href="#">Démaquillants Nettoyants </a>
+                    </li>
+                    <li>
+                      <a href="#">Maquillage Eaux de beauté </a>
+                    </li>
+                    <li>
+                      <a href="#">Masque révélateur d'éclat</a>
+                    </li>
+                    <li>
+                      <a href="#">Soins hydratants</a>
+                    </li>
+                    <li>
+                      <a href="#">Soins lèvres</a>
+                    </li>
+                    <li>
+                      <a href="#">Parfum</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Minceur</a>
+                  <ul>
+                    <li>
+                      <a href="#">Bruleurs de graisse </a>
+                    </li>
+                    <li>
+                      <a href="#">Coupe faim </a>
+                    </li>
+                    <li>
+                      <a href="#">Cremes anti-cellulite </a>
+                    </li>
+                    <li>
+                      <a href="#">Destockeur Anti-cellulite </a>
+                    </li>
+                    <li>
+                      <a href="#">Draineurs </a>
+                    </li>
+                    <li>
+                      <a href="#">Régimes hyperprotéinés</a>
+                    </li>
+                    <li>
+                      <a href="#"> Ventre plat </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Cheveux</a>
+                  <ul>
+                    <li>
+                      <a href="#">Brosses &amp; accessoires </a>
+                    </li>
+                    <li>
+                      <a href="#">Cheveux gras </a>
+                    </li>
+                    <li>
+                      <a href="#">Cheveux normaux</a>
+                    </li>
+                    <li>
+                      <a href="#">Cheveux secs &amp; rebelles </a>
+                    </li>
+                    <li>
+                      <a href="#">Coiffants</a>
+                    </li>
+                    <li>
+                      <a href="#">Colorations &amp; Entretien</a>
+                    </li>
+                    <li>
+                      <a href="#">Compléments Alimentaires</a>
+                    </li>
+                    <li>
+                      <a href="#">Soins antipelliculaires </a>
+                    </li>
+                    <li>
+                      <a href="#">Soins antichute &amp; Fortifiants </a>
+                    </li>
+                    <li>
+                      <a href="#">Traitements anti-poux </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Solaire</a>
+                  <ul>
+                    <li>
+                      <a href="#">Autobronzants </a>
+                    </li>
+                    <li>
+                      <a href="#">Capsules solaires </a>
+                    </li>
+                    <li>
+                      <a href="#">Eaux Thermales</a>
+                    </li>
+                    <li>
+                      <a href="#">Solaires Adultes</a>
+                    </li>
+                    <li>
+                      <a href="#">Solaires Cheveux</a>
+                    </li>
+                    <li>
+                      <a href="#">Solaires Enfants</a>
+                    </li>
+                    <li>
+                      <a href="">Solaires Minceur</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Diététique</a>
+                  <ul>
+                    <li>
+                      <a href="#">Anti-âge Antioxydant Yeux </a>
+                    </li>
+                    <li>
+                      <a href="#">Circulation Jambes lourdes</a>
+                    </li>
+                    <li>
+                      <a href="#">Confort urinaire Prostate </a>
+                    </li>
+                    <li>
+                      <a href="#">Voies respiratoires </a>
+                    </li>
+                    <li>
+                      <a href="#">Constipation digestion transit </a>
+                    </li>
+                    <li>
+                      <a href="#">Forme Energie Immunité </a>
+                    </li>
+                    <li>
+                      <a href="#">Stress Sommeil Mémoire </a>
+                    </li>
+                    <li>
+                      <a href="#">Ménopause</a>
+                    </li>
+                    <li>
+                      <a href="#">Rhumatismes </a>
+                    </li>
+                    <li>
+                      <a href="#">Coeur Cholestérol </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Maman</a>
+                  <ul>
+                    <li>
+                      <a href="#">Allaitement</a>
+                    </li>
+                    <li>
+                      <a href="#">Compléments Alimentaires</a>
+                    </li>
+                    <li>
+                      <a href="#">Soins anti-vergetures </a>
+                    </li>
+                    <li>
+                      <a href="#">Tests de Grossesse </a>
+                    </li>
+                    <li>
+                      <a href="#">Soins jeunes mamans</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Bébé</a>
+                  <ul>
+                    <li>
+                      <a href="#">Accessoires</a>
+                    </li>
+                    <li>
+                      <a href="#">Alimentation</a>
+                    </li>
+                    <li>
+                      <a href="#">Biberons tétines sucettes </a>
+                    </li>
+                    <li>
+                      <a href="#">Change de bébé </a>
+                    </li>
+                    <li>
+                      <a href="#">Coffrets &amp; Parfums </a>
+                    </li>
+                    <li>
+                      <a href="#">Hygiène nez dents oreilles </a>
+                    </li>
+                    <li>
+                      <a href="#">Soins visage &amp; corps </a>
+                    </li>
+                    <li>
+                      <a href="#">Toilette de bébé </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Premiers soins</a>
+                  <ul>
+                    <li>
+                      <a href="#">Incontinence</a>
+                    </li>
+                    <li>
+                      <a href="#">Infusion</a>
+                    </li>
+                    <li>
+                      <a href="#">Matériel Médical</a>
+                    </li>
+                    <li>
+                      <a href="#">Nez - Gorge - Oreilles</a>
+                    </li>
+                    <li>
+                      <a href="#">Premiers Soins</a>
+                    </li>
+                    <li>
+                      <a href="#">Voyage Anti Moustique</a>
+                    </li>
+                    <li>
+                      <a href="#">Huiles Essentielles</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Homme</a>
+                  <ul>
+                    <li>
+                      <a href="#">Bain Douche homme </a>
+                    </li>
+                    <li>
+                      <a href="#">Deodorants homme </a>
+                    </li>
+                    <li>
+                      <a href="#">Libido</a>
+                    </li>
+                    <li>
+                      <a href="#">Minceur Homme</a>
+                    </li>
+                    <li>
+                      <a href="#">Rasage Après-rasage </a>
+                    </li>
+                    <li>
+                      <a href="#">Soins du corps homme</a>
+                    </li>
+                    <li>
+                      <a href="#">Soins du visage homme </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Sport</a>
+                  <ul>
+                    <li>
+                      <a href="#">Acides aminés &amp; proteines </a>
+                    </li>
+                    <li>
+                      <a href="#">Complements alimentaires </a>
+                    </li>
+                    <li>
+                      <a href="#">Soins avant &amp; après l'effort </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Hygiène</a>
+                  <ul>
+                    <li>
+                      <a href="#">Bain &amp; Douche </a>
+                    </li>
+                    <li>
+                      <a href="#">Deodorants </a>
+                    </li>
+                    <li>
+                      <a href="#">Antiseptiques Antibacteriens</a>
+                    </li>
+                    <li>
+                      <a href="#">Entretien des lentilles </a>
+                    </li>
+                    <li>
+                      <a href="#">Epilation </a>
+                    </li>
+                    <li>
+                      <a href="#">Mains Pieds Podologie </a>
+                    </li>
+                    <li>
+                      <a href="#">Nez Oreilles</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Dentaire</a>
+                  <ul>
+                    <li>
+                      <a href="#">Appareils électriques </a>
+                    </li>
+                    <li>
+                      <a href="#">Bains de bouche</a>
+                    </li>
+                    <li>
+                      <a href="#">Brosses à dents</a>
+                    </li>
+                    <li>
+                      <a href="#">Dentifrices gel gingival </a>
+                    </li>
+                    <li>
+                      <a href="#">Fils dentaire brossettes </a>
+                    </li>
+                    <li>
+                      <a href="#">Haleine fraîche </a>
+                    </li>
+                    <li>
+                      <a href="#">Produits appareils dentaires</a>
+                    </li>
+                    <li>
+                      <a href="#">Soins blanchissants</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Intime</a>
+                  <ul>
+                    <li>
+                      <a href="#">Hygiène intime </a>
+                    </li>
+                    <li>
+                      <a href="#">Préservatifs Lubrifiants </a>
+                    </li>
+                    <li>
+                      <a href="#">Sexualité</a>
+                    </li>
+                    <li>
+                      <a href="#">Tampons Serviette</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="title" href="#">Vétérinaire</a>
+                  <ul>
+                    <li>
+                      <a href="#">Antipuces - Antitiques - Vermifuges</a>
+                    </li>
+                    <li>
+                      <a href="#">Complements alimentaires </a>
+                    </li>
+                    <li>
+                      <a href="#">Toilettage - Shampooings</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Praticien
+            </a>
+            <div class="dropdown-menu">
+              <ul class="dropdown-ul">
+                <li>
+                  <a href="/dentiste">Chirurgien-dentiste</a>
+                </li>
+                <li>
+                  <a href="/medecin-generaliste">Médecin généraliste</a>
+                </li>
+                <li>
+                  <a href="/pediatre">Pédiatre</a>
+                </li>
+                <li>
+                  <a href="/gynecologue">Gynécologue médical et obstétrique</a>
+                </li>
+                <li>
+                  <a href="/ophtalmologue">Ophtalmologue</a>
+                </li>
+                <li>
+                  <a href="/dermatologue">Dermatologue</a>
+                </li>
+                <li>
+                  <a href="/osteopathe">Ostéopathe</a>
+                </li>
+                <li>
+                  <a href="/masseur-kinesitherapeute">Masseur-kinésithérapeute</a>
+                </li>
+                <li>
+                  <a href="/pedicure-podologue">Pédicure-podologue</a>
+                </li>
+                <li>
+                  <a href="/sage-femme">Sage-femme</a>
+                </li>
+                <li>
+                  <a href="/orl-oto-rhino-laryngologie">ORL</a>
+                </li>
+                <li>
+                  <a href="/allergologue">Allergologue</a>
+                </li>
+                <li>
+                  <a href="/chirurgien-urologue">Chirurgien urologue</a>
+                </li>
+                <li>
+                  <a href="/rhumatologue">Rhumatologue</a>
+                </li>
+                <li>
+                  <a href="/stomatologue">Stomatologue</a>
+                </li>
+                <li>
+                  <a href="/endocrinologue">Endocrinologue</a>
+                </li>
+                <li>
+                  <a href="/chirurgien-orthopediste">Chirurgien orthopédiste</a>
+                </li>
+                <li>
+                  <a href="/dieteticien">Diététicien</a>
+                </li>
+                <li>
+                  <a href="/psychologue">Psychologue</a>
+                </li>
+                <li>
+                  <a href="/neurologue">Neurologue</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">Etablissement</a>
+          </li>
+          <li class="dropdown">
+            <a href="#">Article</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Fin Navigation Bar-->
+  <!--Fin Header-->
+
+  <!--Slide principal-->
+  <div class="jumbotron text-center m-b-0">
+    <div class="jumbotron-text">
+      <h1>Dagonline</h1>
+      <p>Trouvez et achetez ce qui vous soigne sur tout Madagascar</p>
+      <form class="form-inline col-xs-offset-1 col-xs-10">
+        <div class="form-group">
+          <select class="form-control">
+            <option disabled selected>Où : Pays, Région, Département, Ville </option>
+            <option>Antananarivo</option>
+            <option>Diego-Suarez</option>
+            <option>Majunga</option>
+            <option>Tamatave</option>
+            <option>Fianarantsoa</option>
+            <option>Tuléar</option>
+          </select>
+        </div>
+        <div class="form-group input-group">
+          <span class="input-group-addon">
+            <i class="glyphicon glyphicon-search text-info"></i>
+          </span>
+          <input type="text" class="form-control" size="30" placeholder="Rechercher...">
+        </div>
+        <button type="button" class="form-control btn text-white bg-green">Trouver</button>
+      </form>
+    </div>
+
+    <div id="SlidePrincipal" class="carousel slide hidden-xs" data-ride="carousel">
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/slideIndex.jpg" class="img-responsive">
+        </div>
+
+        <div class="item">
+          <img src="img/slideIndex.jpg" class="img-responsive">
+        </div>
+
+        <div class="item">
+          <img src="img/slideIndex.jpg" class="img-responsive">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#SlidePrincipal" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Pr&eacute;c&eacute;dent</span>
+      </a>
+      <a class="right carousel-control" href="#SlidePrincipal" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Suivant</span>
+      </a>
+    </div>
+  </div>
+  <!--Fin Slide principal-->
+
+  <!--Lien rapide-->
+  <div class="btn-group menu-rapide text-white">
+    <span class="glyphicon glyphicon-menu-left"></span>
+    <div class="btn-group-vertical">
+      <a href="maladie.html" class="btn btn-flat" title="Maladie" data-toggle="tooltip" data-placement="bottom">
+        <i class="fa fa-syringe"></i>
+      </a>
+      <a href="medicament.html" class="btn btn-flat" title="Médicament" data-toggle="tooltip" data-placement="bottom">
+        <i class="fa fa-pills"></i>
+      </a>
+      <a href="praticien.html" class="btn btn-flat" title="Praticien" data-toggle="tooltip" data-placement="bottom">
+        <i class="fa fa-user-md"></i>
+      </a>
+      <a href="parapharmacie.html" class="btn btn-flat" title="Parapharmacie" data-toggle="tooltip" data-placement="bottom">
+        <i class="fa fa-first-aid"></i>
+      </a>
+      <a href="etablissement.html" class="btn btn-flat" title="Etablissement" data-toggle="tooltip" data-placement="bottom">
+        <i class="far fa-hospital"></i>
+      </a>
+    </div>
+  </div>
+  <!--Fin de lien rapide-->
+
+  <!--Corps-->
+  <div id="body">
+    <span id="dagonline"></span>
+    <div class="container-fluid bg-warning text-danger pacifico shadow">
+      <div class="text-center">
+        <h2>Votre santé &agrave; port&eacute;e de clic</h2>
+      </div>
+    </div>
+    <!-- Container Partie Detail Maladie-->
+    <div class="container">
+      <!-- BreadCrumbs -->
+      <p class="breadcrumbs">
+        <a href="#">Dagonline</a>
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <a href="#">Maladies</a>
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <a href="#">Diabètes</a>
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <a href="#" class="actuel">Diabète: qu'est ce que c'est ?</a>
+      </p>
+      <!-- Fin BreadCrumbs -->
+      <div class="row">
+        <div class="col-sm-8">
+          <article>
+            <div class="article-body">
+              <h1>Le diabète: qu'est ce que c'est ?</h1>
+              <div class="article-image">
+                <div class="image-maladie">
+                  <img src="img/maladie/diabete.jpg">
+                </div>
+                <div class="contenu-article-right">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore
+                    <strong>magna aliqua</strong>. Ut enim ad minim veniam, quis
+                    <strong> exercitation ullamco </strong> laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+              </div>
+              <div class="contenu-article">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                  commodo consequat. Duis aute
+                  <strong> irure dolor in reprehenderit </strong> in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                  anim id est laborum</p>
+              </div>
+
+              <h3>Causes</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.
+                <strong>Ut enim ad minim veniam</strong>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+              </p>
+              <ul class="listes">
+                <li>
+                  <p>
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Lorem ipsum dolor</p>
+                </li>
+                <li>
+                  <p>
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> consectetur adipiscing elit</p>
+                </li>
+                <li>
+                  <p>
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Lorem ipsum dolor</p>
+                </li>
+                <li>
+                  <p>
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> consectetur adipiscing elit</p>
+                </li>
+                <li>
+                  <p>
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Lorem ipsum dolor</p>
+                </li>
+                <li>
+                  <p>
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> consectetur adipiscing elit</p>
+                </li>
+              </ul>
+              <blockquote>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <strong>Ut enim ad minim veniam</strong>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat
+              </blockquote>
+              <h3>Complications possibles</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <h3>Attention à la maladie coeliaque</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <div id="pagination">
+                <div class="pagination-right">
+                  <a href="#">
+                    <span>Page suivante</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-sm-4">
+          <div class="article-sidebar article-sommaire">
+            <h3>Sommaire</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-play" aria-hidden="true"></span> Diabète: qu'est ce que c'est ?</a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-play" aria-hidden="true"></span> Symptôme</a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-play" aria-hidden="true"></span> Les facteurs de risques</a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-play" aria-hidden="true"></span> Traitement médicaux</a>
+              </li>
+            </ul>
+          </div>
+          <div class="article-sidebar autre-article">
+            <div class="titre-sidebar">
+              <h3>A voir aussi !</h3>
+            </div>
+            <div class="autre-articles">
+              <ul class="liste-autre-articles">
+                <li>
+                  <div class="image-article">
+                    <a class="image-article-contenu">
+                      <img width="390" height="220" src="img/maladie/article-maladie-1.jpg" alt>
+                    </a>
+                  </div>
+                  <div class="titre">
+                    <h3>
+                      <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    </h3>
+                  </div>
+                </li>
+                <li>
+                  <div class="image-article">
+                    <a class="image-article-contenu">
+                      <img width="390" height="220" src="img/maladie/article-maladie-2.jpg" alt>
+                    </a>
+                  </div>
+                  <div class="titre">
+                    <h3>
+                      <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    </h3>
+                  </div>
+                </li>
+                <li>
+                  <div class="image-article">
+                    <a class="image-article-contenu">
+                      <img width="390" height="220" src="img/maladie/article-maladie-4.jpg" alt>
+                    </a>
+                  </div>
+                  <div class="titre">
+                    <h3>
+                      <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    </h3>
+                  </div>
+                </li>
+                <li>
+                  <div class="image-article">
+                    <a class="image-article-contenu">
+                      <img width="390" height="220" src="img/maladie/article-maladie-3.jpg" alt>
+                    </a>
+                  </div>
+                  <div class="titre">
+                    <h3>
+                      <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    </h3>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Container Partie Detail Maladie-->
+  </div>
+  <!--Fin Corps-->
+
+  <!--Footer-->
+  <footer class="container text-center m-t-5">
+    <div class="row">
+      <div class="col-sm-4 text-justify">
+        <p>Qu'est ce que Dagonline</p>
+        <p>www.dagonline.fr est une plateforme qui permet à tout utilisateur de trouver des produits et des services auprès
+          des professionnels partenaires. Dagonline c'est bien plus qu'un simple annuairecar chaque entreprise tient sa page
+          et est libre du contenu proposé. Dagonline c'est aussi toutes les dates et évènements à venir ainsi que les petites
+          annonces pour les particuliers.</p>
+        <p>Notre objectif</p>
+        <p>Optimiser la rencontre des offres de services et produits commerciaux existants à Madagascar.</p>
+      </div>
+      <div class="col-sm-5 row">
+        <div class="col-xs-6">
+          <img src="img/mvola.jpg" class="img-responsive img-rounded">
+        </div>
+        <div class="col-xs-6">
+          <div id="SmartUpCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/smartup/1.png" title="SMART UP" alt="SMART UP" class="img-responsive">
+              </div>
+
+              <div class="item">
+                <img src="img/smartup/3.png" title="SMART UP" alt="SMART UP" class="img-responsive">
+              </div>
+
+              <div class="item">
+                <img src="img/smartup/2.png" title="SMART UP" alt="SMART UP" class="img-responsive">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#SmartUpCarousel" data-slide="prev">
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#SmartUpCarousel" data-slide="next">
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 text-justify">
+        <div class="row ">
+          <form class="form-inline col-sm-12">
+            <div class="input-group">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+              <input type="text" class="form-control" placeholder="Recherche">
+            </div>
+          </form>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Espace Professionnel : Connectez-vous
+              <br>
+              <a href="#">Propriétaires</a>
+              <br>
+              <a href="#">Business Owners</a>
+              <br> Suivez nous!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-3">
+            <img src="img/facebook.png">
+          </div>
+          <div class="col-xs-3">
+            <img src="img/instagram.png">
+          </div>
+          <div class="col-xs-3">
+            <img src="img/google-plus.png">
+          </div>
+          <div class="col-xs-3">
+            <img src="img/twitter.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#dagonline" title="Remonter">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Revenir en d&eacute;but de page</p>
+    <p>&copy; Dagonline 2018</p>
+  </footer>
+  <!--Fin footer-->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/fontawesome-all.min.js"></script>
+  <!--Toast-->
+  <script src="js/jquery.toast.min.js"></script>
+  <!--Fin Toast-->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

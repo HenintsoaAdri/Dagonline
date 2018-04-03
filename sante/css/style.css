@@ -836,3 +836,33 @@ Background image Designed by macrovector / Freepik
 }
 
 /* FIN CAROUSEL IMAGE INDICATOR*/
+
+/* breadcrumbs */
+
+.breadcrumbs {
+    margin-top: 47px;
+    margin-bottom: 17px;
+    margin-left: 0;
+    border: none;
+    background: none;
+    display: block;
+    padding: 0.5625rem 0.875rem 0.5625rem;
+    overflow: hidden;
+    list-style: none;
+}
+
+.breadcrumbs a {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #54667a;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.breadcrumbs .actuel {
+    font-weight: bold;
+}
+
+/* fin breadcrumbs */
