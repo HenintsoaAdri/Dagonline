@@ -1,0 +1,374 @@
+#body {
+    background-color: #d1e8b8b0;
+    background-image: none;
+}
+
+.article-body{
+    background-color: #FFF;
+}
+
+.article-image {
+    overflow: hidden;
+    display: block;
+}
+
+.article-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.article-image:hover > img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.article-image > img {
+    transition: all 0.3s;
+}
+
+.article-description {
+    margin-top: 20px;
+}
+
+.article-categorie {
+    padding: 3px 7px 3px 10px;
+    line-height: 25px;
+    font-weight: 400;
+    background: #00834e;
+}
+
+.article-categorie > a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.article-categorie:hover {
+    background: #1ec684;
+}
+
+.article-date {
+    line-height: 25px;
+    font-weight: 400;
+    margin-left: 13px;
+    font-size: 12px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #bfbfbf;
+}
+
+.titre-article {
+    margin-top: 30px;
+    color: #001936;
+}
+
+h2, h6 {
+    clear: both;
+    word-wrap: break-word;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.contenu {
+    margin: 34px 0 0;
+}
+
+.contenu p {
+    font-size: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-bottom: 1.5em;
+}
+
+.contenu p:first-of-type {
+    color: #001936;
+    border-bottom: 1px dotted #bababa;
+    padding-bottom: 20px;
+}
+
+.contenu > p:first-child::first-letter {
+    float: left;
+    font-size: 86px;
+    line-height: 75px;
+    text-align: left;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.contenus-article {
+    padding: 0px 12px 12px 12px;
+}
+
+.auteur-description {
+    border: 1px solid #ebebeb;
+    display: flex;
+    margin: 36px 0;
+    border-radius: 5px;
+    background-color: #e81e1a;
+}
+
+.auteur-description .avatar {
+    width: 20%;
+    float: left;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+}
+
+.text-center {
+    text-align: center;
+}
+
+.auteur-description .avatar img {
+    border-radius: 150px;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.auteur-description .description {
+    padding: 10px 15px 0px 0px;
+    width: 75%;
+    float: left;
+    align-items: stretch;
+    color: #FFF;
+}
+
+.description h6 {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.description h6 a {
+    color: #FFF;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.description h6 a:hover {
+    color: #ffffffba;
+}
+
+.description p {
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.related-post {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.related-post-title > h3 {
+    margin-top: 20px;
+    padding: 2px 0;
+    font-weight: 700;
+    font-size: 24px;
+    border-left: 5px solid #1da76e;
+    position: relative;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.related-post-title > h3 > span {
+    padding-left: 18px;
+    z-index: 1;
+    position: relative;
+    padding-right: 18px;
+    color: #134a34;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.article-sidebar {
+    margin: 0 0 30px;
+    padding: 0 10px 10px 10px;
+    background: #FFF;
+}
+
+.article-sidebar h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #134a34;
+    padding: 18px 0px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+    position: relative;
+}
+
+.article-sidebar > ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: #001936;
+}
+
+/* Categorie */
+
+.categorie-sidebar > ul > li {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #e1e1e1;
+}
+
+.categorie-sidebar > ul > li a {
+    color: #134a34;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.categorie-sidebar > ul > li a:hover {
+    color: #19a06a;
+}
+
+.categorie-sidebar > ul > li > span {
+    float: right;
+    color: #1da76e;
+    font-size: 15px;
+}
+
+.categorie-sidebar > ul > li:last-of-type {
+    border-bottom: none;
+}
+
+/* Fin Categorie */
+
+/* Tags */
+
+.list-tags li {
+    display: inline-block;
+    margin: 0 9px 9px 0;
+}
+
+.list-tags > li {
+    border-bottom: none;
+}
+
+.list-tags a {
+    display: block;
+    padding: 0 9px;
+    font-size: 14px;
+    line-height: 31px;
+    background-color:  #ddedcc;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #417357;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+.list-tags a:hover {
+    background-color: #00834e;
+    color: #FFF;
+}
+
+/* FIN Tags */
+
+/* Search */
+.recherche-sidebar {
+    background-color: #72caa6;
+    padding-bottom: 26px;
+}
+
+.recherche-sidebar h3 {
+    color: #FFF;
+    font-weight: 700;
+}
+
+.search-field {
+    display: inline-block;
+    height: 42px;
+    padding: 0 16px;
+    margin: 0;
+    border: none;
+    background-color: #19a06a;
+    box-shadow: none;
+    color: #FFF;
+    vertical-align: middle;
+}
+
+::placeholder {
+    color: #FFF;
+    font-weight: 400;
+}
+
+.search-btn {
+    display: inline-block;
+    width: 60px;
+    height: 42px;
+    background-color: #fff;
+    border: none;
+    font-size: 15px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #30c388;
+    vertical-align: middle;
+    text-align: center;
+    transition: all 0.4s;
+    padding-left: 0px;
+}
+
+.search-btn:hover {
+    background-color: #ffffffb8;
+}
+/* FIN Search */
+
+/* CALENDAR */
+.calendar-sidebar {
+    background-color: #00834e;
+}
+
+.calendar {
+    text-align: center;
+    padding: 12px 0px;
+    color: #FFF;
+}
+.calendar h2 {
+    font-size: 2em;
+    line-height: 1.25em;
+    margin: .25em 0;
+}
+
+.calendar-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: auto;
+}
+
+.calendar thead {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.calendar td {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    display: inline-block;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+}
+
+.calendar .prev-month, .calendar .next-month {
+    color: #a8b0b1d4;
+}
+
+.current-day {
+    background: #FFF;
+    color: #000000;
+}
