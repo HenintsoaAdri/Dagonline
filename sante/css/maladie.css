@@ -1,179 +1,67 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
-body {
-  background: #dce1df;
-  color: #4f585e;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-rendering: optimizeLegibility;
-}
-a.btn {
-  background: #0096a0;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
-          box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
-  color: #ffffff;
+.maladie-name {
   display: inline-block;
-  padding: 6px 30px 8px;
-  position: relative;
-  text-decoration: none;
-  -webkit-transition: all 0.1s 0s ease-out;
-  transition: all 0.1s 0s ease-out;
-}
-.no-touch a.btn:hover {
-  background: #00a2ad;
-  -webkit-box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
-          box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-  -webkit-transition: all 0.25s 0s ease-out;
-  transition: all 0.25s 0s ease-out;
-}
-.no-touch a.btn:active,
-a.btn:active {
-  background: #008a93;
-  -webkit-box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
-          box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
-  -webkit-transform: translate3d(0, 1px, 0);
-          transform: translate3d(0, 1px, 0);
-  -webkit-transition: all 0.025s 0s ease-out;
-  transition: all 0.025s 0s ease-out;
-}
-div.cards {
-  margin: 80px auto;
-  max-width: 960px;
-  text-align: center;
-}
-div.card {
-  background: #ffffff;
-  display: inline-block;
-  margin: 8px;
-  max-width: 300px;
-  -webkit-perspective: 1000;
-          perspective: 1000;
-  position: relative;
-  text-align: left;
-  -webkit-transition: all 0.3s 0s ease-in;
-  transition: all 0.3s 0s ease-in;
-  z-index: 1;
-}
-div.card img {
-  max-width: 300px;
-}
-div.card div.card-title {
-  background: #ffffff;
-  padding: 6px 15px 10px;
-  position: relative;
-  z-index: 0;
-}
-div.card div.card-title a.toggle-info {
-  border-radius: 32px;
-  height: 32px;
-  padding: 0;
-  position: absolute;
-  right: 15px;
-  top: 10px;
-  width: 32px;
-}
-div.card div.card-title a.toggle-info span {
-  background: #ffffff;
-  display: block;
-  height: 2px;
-  position: absolute;
-  top: 16px;
-  -webkit-transition: all 0.15s 0s ease-out;
-  transition: all 0.15s 0s ease-out;
-  width: 12px;
-}
-div.card div.card-title a.toggle-info span.left {
-  right: 14px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-div.card div.card-title a.toggle-info span.right {
-  left: 14px;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-}
-div.card div.card-title h2 {
-  font-size: 24px;
+  padding: 16px 33px 15px;
+  background-color: #1da76e;
+  color: #fff;
   font-weight: 700;
-  letter-spacing: -0.05em;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 0px;
 }
-div.card div.card-title h2 small {
-  display: block;
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: -0.025em;
+
+.maladie {
+  margin-bottom: 40px;
 }
-div.card div.card-description {
-  padding: 0 15px 10px;
-  position: relative;
-  font-size: 14px;
+
+.maladie h5 {
+  font-size: 15px;
 }
-div.card div.card-actions {
-  -webkit-box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
-          box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
-  padding: 10px 15px 20px;
-  text-align: center;
+
+.maladie-description {
+  background-color: #fff;
+  border-left: 3px solid #1da76e;
 }
-div.card div.card-flap {
-  background: #d9d9d9;
-  position: absolute;
+
+.maladie-image {
+  margin-bottom: 38px;
+}
+
+.maladie-image img {
   width: 100%;
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  -webkit-transform: rotateX(-90deg);
-          transform: rotateX(-90deg);
+  max-height: 255px;
+  height: auto;
+  line-height: 255px;
+  vertical-align: middle;
 }
-div.card div.flap1 {
-  -webkit-transition: all 0.3s 0.3s ease-out;
-  transition: all 0.3s 0.3s ease-out;
-  z-index: -1;
+
+.maladie-body {
+  overflow: hidden;
+  padding: 0 26px 26px;
 }
-div.card div.flap2 {
-  -webkit-transition: all 0.3s 0s ease-out;
-  transition: all 0.3s 0s ease-out;
-  z-index: -2;
+
+.maladie-body h6 {
+  float: left;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  color: #076b42;
+  font-size: 15px;
+  line-height: 1.86;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-div.cards.showing div.card {
-  cursor: pointer;
-  opacity: 0.6;
-  -webkit-transform: scale(0.88);
-          transform: scale(0.88);
+
+.maladie-body p {
+  clear: both;
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
 }
-.no-touch div.cards.showing div.card:hover {
-  opacity: 0.94;
-  -webkit-transform: scale(0.92);
-          transform: scale(0.92);
+
+.maladie-body a {
+  color: #6f6c6c;
+  text-decoration: none;
 }
-div.card.show {
-  opacity: 1 !important;
-  -webkit-transform: scale(1) !important;
-          transform: scale(1) !important;
-}
-div.card.show div.card-title a.toggle-info {
-  background: #ff6666 !important;
-}
-div.card.show div.card-title a.toggle-info span {
-  top: 15px;
-}
-div.card.show div.card-title a.toggle-info span.left {
-  right: 10px;
-}
-div.card.show div.card-title a.toggle-info span.right {
-  left: 10px;
-}
-div.card.show div.card-flap {
-  background: #ffffff;
-  -webkit-transform: rotateX(0deg);
-          transform: rotateX(0deg);
-}
-div.card.show div.flap1 {
-  -webkit-transition: all 0.3s 0s ease-out;
-  transition: all 0.3s 0s ease-out;
-}
-div.card.show div.flap2 {
-  -webkit-transition: all 0.3s 0.2s ease-out;
-  transition: all 0.3s 0.2s ease-out;
+
+.maladie-body a:hover{
+  color: #000;
 }
