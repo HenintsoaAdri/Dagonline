@@ -734,7 +734,7 @@ a.btn-outline:hover, button.btn-outline:hover, input[type='submit'].btn-outline:
 .zoom:after {
 	position:absolute;
 	content: '';
-	top:40%;
+	top:20%;
 	left: 40%;
 	background-image: url("../img/magnifier.svg");
 	background-size: 100%;
@@ -806,16 +806,18 @@ Background image Designed by macrovector / Freepik
 	width: 80%;
 	position: relative;
 	background-color: #1eab71;
+	border-radius: 4px;
 }
-.remede .remede-text{
+.remede .remede-text *{
 	color: #fff;
 	padding: 20px;
 	position: relative;
 	z-index: 2;
 }
-.remede .remede-bubble:before{
+.remede .remede-text:before{
 	content:' ';
 	background-color: #1eab71;
+	border-radius: 4px;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -823,6 +825,18 @@ Background image Designed by macrovector / Freepik
 	height: 100%;
 	z-index: 1;
 	transform: skew(5deg,-5deg);
+}
+.remede .remede-bubble:before{
+	content:' ';
+	background-color: #1eab71;
+	border-radius: 4px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 90%;
+	height: 90%;
+	z-index: 1;
+	transform: skew(-5deg,-5deg);
 }
 .remede .remede-text:after{
 	content: ' ';
@@ -875,3 +889,33 @@ Background image Designed by macrovector / Freepik
 /*}*/
 
 /*!* FIN CAROUSEL IMAGE INDICATOR*!*/
+
+/* breadcrumbs */
+
+.breadcrumbs {
+    margin-top: 47px;
+    margin-bottom: 17px;
+    margin-left: 0;
+    border: none;
+    background: none;
+    display: block;
+    padding: 0.5625rem 0.875rem 0.5625rem;
+    overflow: hidden;
+    list-style: none;
+}
+
+.breadcrumbs a {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #54667a;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.breadcrumbs .actuel {
+    font-weight: bold;
+}
+
+/* fin breadcrumbs */
