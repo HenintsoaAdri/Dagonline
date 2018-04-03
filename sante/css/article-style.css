@@ -241,7 +241,7 @@
     float: left;
 }
 
-.col-md-4, col-md-12, .col-sm-6, .col-xs-12 {
+.col-md-4, .col-md-12, .col-sm-6, .col-xs-12 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -336,13 +336,4 @@
 
 .calendar h2 {
     font-size: 1.5em;
-}
-
-.search-field {
-    height: 42px;
-    padding: 0 6px;
-}
-
-.search-btn {
-    width: 45px;
 }

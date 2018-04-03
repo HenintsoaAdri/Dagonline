@@ -340,7 +340,7 @@ MENU CUSTOMIZE
 	color: #0b6a49 !important;
 }
 .more a{
-	color: #ffc93e !important;
+	color: #0b6a49 !important;
 }
 .navbar-collapse{
 	position: relative;
@@ -803,54 +803,58 @@ Background image Designed by macrovector / Freepik
 	flex-wrap: wrap;
 }
 .remede .remede-bubble{
-	width: 80%;
+	width: 85%;
 	position: relative;
 	background-color: #1eab71;
 	border-radius: 4px;
 }
-.remede .remede-text *{
+.remede .remede-text{
 	color: #fff;
 	padding: 20px;
+}
+.remede .remede-text > *{
 	position: relative;
 	z-index: 2;
 }
-.remede .remede-text:before{
-	content:' ';
-	background-color: #1eab71;
-	border-radius: 4px;
+.remede .remede-text h2{
 	position: absolute;
-	top: 0;
+	top:-1.5em;
 	right: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transform: skew(5deg,-5deg);
+	border-left: none;
+	color: #000000;
+	-webkit-transform: rotateZ(2deg);
+	-moz-transform: rotateZ(2deg);
+	-ms-transform: rotateZ(2deg);
+	-o-transform: rotateZ(2deg);
+	transform: rotateZ(2deg);
 }
 .remede .remede-bubble:before{
 	content:' ';
 	background-color: #1eab71;
 	border-radius: 4px;
 	position: absolute;
-	top: 0;
+	top: 15px;
 	right: 0;
-	width: 90%;
-	height: 90%;
+	width: 100%;
+	height: 100%;
 	z-index: 1;
-	transform: skew(-5deg,-5deg);
+	transform: skew(0deg,-2deg);
 }
 .remede .remede-text:after{
 	content: ' ';
-	width: 25px;
+	width: 15px;
 	height: 25px;
 	transform: skew(-50deg);
 	background: #1eab71;
 	position: absolute;
-	top: 60px;
+	top: 125px;
 	right: 0px;
 	z-index: 1;
 }
 .remede .remede-zebu{
-	width: 20%;
+	position: absolute;
+	z-index: 2;
+	right: 0;
 }
 /*FIN REMEDE GRAND MERE*/
 /*!* CAROUSEL IMAGE INDICATOR*!*/

@@ -2,36 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82707021-2394-498b-aa1e-3b1d5e15d61d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/article-une.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/article/article-bonheur.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/article/article-chocolat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/article/article-sport.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/article/article-tension.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/article/article-tension.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/avatar-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/maladie/article-maladie-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/maladie/article-maladie-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/maladie/article-maladie-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/maladie/article-maladie-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/maladie/diabete.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/article.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/article-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/detail-article-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/detail-maladie-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/maladie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/detail-article.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/detail-maladie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/js/carte.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/maladie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/parapharmacie.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/medicament-style.css" afterPath="$PROJECT_DIR$/../sante/css/medicament-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/pharmacie-style.css" afterPath="$PROJECT_DIR$/../sante/css/pharmacie-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/article.html" afterPath="$PROJECT_DIR$/../sante/article.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/article-style.css" afterPath="$PROJECT_DIR$/../sante/css/article-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/detail-article-style.css" afterPath="$PROJECT_DIR$/../sante/css/detail-article-style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/style.css" afterPath="$PROJECT_DIR$/../sante/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/index.html" afterPath="$PROJECT_DIR$/../sante/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/medicament-detail.html" afterPath="$PROJECT_DIR$/../sante/medicament-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/medicament.html" afterPath="$PROJECT_DIR$/../sante/medicament.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/pharmacie.html" afterPath="$PROJECT_DIR$/../sante/pharmacie.html" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sante/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="982" column="22" selection-start-line="982" selection-start-column="22" selection-end-line="982" selection-end-column="22" />
+            <state relative-caret-position="204">
+              <caret line="972" column="41" selection-start-line="972" selection-start-column="41" selection-end-line="973" selection-end-column="69" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -74,12 +49,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sante/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="838" column="19" selection-start-line="838" selection-start-column="19" selection-end-line="838" selection-end-column="19" />
+            <state relative-caret-position="472">
+              <caret line="847" column="21" selection-start-line="847" selection-start-column="15" selection-end-line="847" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sante/css/article-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="338" column="1" selection-start-line="338" selection-start-column="1" selection-end-line="338" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail-article-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sante/css/detail-article-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="362" column="12" selection-start-line="362" selection-start-column="12" selection-end-line="362" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sante/article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="1375" column="56" selection-start-line="1375" selection-start-column="56" selection-end-line="1375" selection-end-column="56" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calendrier-function.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../sante/js/calendrier-function.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="34" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="evenement.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sante/evenement.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="1566" column="17" selection-start-line="1566" selection-start-column="17" selection-end-line="1567" selection-end-column="54" />
+              <folding>
+                <element signature="n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,6 +181,9 @@
         <option value="$PROJECT_DIR$/../sante/css/praticien-style.css" />
         <option value="$PROJECT_DIR$/../sante/index.html" />
         <option value="$PROJECT_DIR$/../sante/css/style.css" />
+        <option value="$PROJECT_DIR$/../sante/css/article-style.css" />
+        <option value="$PROJECT_DIR$/../sante/css/detail-article-style.css" />
+        <option value="$PROJECT_DIR$/../sante/article.html" />
       </list>
     </option>
   </component>
@@ -241,7 +287,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,12 +416,12 @@
       <workItem from="1522435272699" duration="1775000" />
       <workItem from="1522498775862" duration="20954000" />
       <workItem from="1522752887541" duration="8532000" />
-      <workItem from="1522782634535" duration="1677000" />
+      <workItem from="1522782634535" duration="8172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="400465000" />
+    <option name="totallyTimeSpent" value="406960000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,41 +494,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evenement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/resto-main-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="121" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/resto-hotel-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/cyber-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -774,8 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../sante/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="982" column="22" selection-start-line="982" selection-start-column="22" selection-end-line="982" selection-end-column="22" />
+        <state relative-caret-position="204">
+          <caret line="972" column="41" selection-start-line="972" selection-start-column="41" selection-end-line="973" selection-end-column="69" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -794,8 +805,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../sante/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="838" column="19" selection-start-line="838" selection-start-column="19" selection-end-line="838" selection-end-column="19" />
+        <state relative-caret-position="472">
+          <caret line="847" column="21" selection-start-line="847" selection-start-column="15" selection-end-line="847" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/css/detail-article-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="362" column="12" selection-start-line="362" selection-start-column="12" selection-end-line="362" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/evenement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="1566" column="17" selection-start-line="1566" selection-start-column="17" selection-end-line="1567" selection-end-column="54" />
+          <folding>
+            <element signature="n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/css/article-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="338" column="1" selection-start-line="338" selection-start-column="1" selection-end-line="338" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="1375" column="56" selection-start-line="1375" selection-start-column="56" selection-end-line="1375" selection-end-column="56" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/js/calendrier-function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="34" selection-end-column="7" />
           <folding />
         </state>
       </provider>
