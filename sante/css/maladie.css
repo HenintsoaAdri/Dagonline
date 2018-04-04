@@ -65,3 +65,8 @@
 .maladie-body a:hover{
   color: #000;
 }
+
+.page-maladie {
+  margin: auto;
+  width: 30%;
+}
