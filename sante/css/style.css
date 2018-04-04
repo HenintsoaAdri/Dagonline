@@ -340,7 +340,7 @@ MENU CUSTOMIZE
 	color: #0b6a49 !important;
 }
 .more a{
-	color: #0b6a49 !important;
+	color: #bdffe8 !important;
 }
 .navbar-collapse{
 	position: relative;
@@ -899,9 +899,7 @@ Background image Designed by macrovector / Freepik
 }
 
 .container-une > ul > li .article-categorie {
-	padding: 3px 7px 3px 10px;
-	line-height: 25px;
-	font-weight: 400;
+	padding: 3px 10px;
 	background: #00834e;
 }
 
@@ -916,22 +914,12 @@ Background image Designed by macrovector / Freepik
 }
 
 .container-une > ul > li .article-date{
-	line-height: 25px;
-	font-weight: 400;
-	margin-left: 13px;
-	font-size: 14px;
-	font-family: "Nunito Sans", sans-serif;
+	margin-left: 1em;
+	font-family: sans-serif;
 }
 
 .container-une > ul > li h6 {
-	font-size: 18px;
-	line-height: 25px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-.une-categorie img {
-	width: 100%;
-	height: auto
+	font-size: 1.3em;
 }
 
 .une-categorie:hover > a > img {
@@ -942,12 +930,6 @@ Background image Designed by macrovector / Freepik
 .une-categorie > a > img {
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	width: 100%;
-	max-width: 100%;
-	vertical-align: middle;
-	border: 0;
 }
 
 .article-description > h3 > a{
@@ -983,27 +965,20 @@ Background image Designed by macrovector / Freepik
 }
 /* Style article par categorie */
 .titre-categorie {
-	padding: 2px 0;
-	font-weight: 700;
-	font-family: "Nunito Sans", sans-serif;
-	font-size: 24px;
 	border-left: 5px solid #1da76e;
 	position: relative;
 	text-transform: uppercase;
-	margin-bottom: 25px;
-	margin-top: 65px;
-	margin-left: 14px;
+	margin: 65px 0 25px 14px;
 }
 
 .titre-categorie > span {
-	padding-left: 18px;
+	padding-left: 1em;
 	background-color: #FFF;
 	z-index: 1;
-	font-family: "Nunito Sans", sans-serif;
+	font-family: sans-serif;
 	position: relative;
-	padding-right: 18px;
+	padding-right: 1em;
 	color: #134a34;
-	font-size: 24px;
 	font-weight: 900;
 }
 
@@ -1014,7 +989,7 @@ Background image Designed by macrovector / Freepik
 	border-bottom: 1px dotted #212020;
 	position: absolute;
 	display: block;
-	top: 12px;
+	top: .5em;
 	right: 0;
 }
 
