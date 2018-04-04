@@ -340,7 +340,10 @@ MENU CUSTOMIZE
 	color: #0b6a49 !important;
 }
 .more a{
-	color: #bdffe8 !important;
+	color: #0b6a49 !important;
+}
+.more-div.more a{
+	color: #1fd28d !important;
 }
 .navbar-collapse{
 	position: relative;
@@ -806,10 +809,6 @@ Background image Designed by macrovector / Freepik
 	margin-top: 30px;
 }
 
-.breadcrumbs {
-	margin-top: 0px;
-}
-
 .container-une > ul {
 	padding: 0;
 	margin-bottom: 0px !important;
@@ -898,22 +897,22 @@ Background image Designed by macrovector / Freepik
 	text-decoration: none;
 }
 
-.container-une > ul > li .article-categorie {
+.article-categorie, .categorie-article {
 	padding: 3px 10px;
 	background: #00834e;
 }
 
-.container-une > ul > li .article-categorie a {
-	font-size: 13px;
-	font-family: "Nunito Sans", sans-serif;
-	cursor: pointer;
+.article-categorie a, .categorie-article a {
+	color: #FFF;
+	font-size: 1em;
+	text-decoration: none;
 }
 
-.container-une > ul > li .article-categorie:hover {
+.article-categorie:hover {
 	background: #1ec684;
 }
 
-.container-une > ul > li .article-date{
+.article-date{
 	margin-left: 1em;
 	font-family: sans-serif;
 }
@@ -922,9 +921,12 @@ Background image Designed by macrovector / Freepik
 	font-size: 1.3em;
 }
 
+.une-categorie{
+	overflow: hidden;
+}
 .une-categorie:hover > a > img {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1) rotateZ(2deg);
+	transform: scale(1.1) rotateZ(2deg);
 }
 
 .une-categorie > a > img {
@@ -968,7 +970,7 @@ Background image Designed by macrovector / Freepik
 	border-left: 5px solid #1da76e;
 	position: relative;
 	text-transform: uppercase;
-	margin: 65px 0 25px 14px;
+	margin: 35px 0 25px 14px;
 }
 
 .titre-categorie > span {
@@ -1021,9 +1023,6 @@ Background image Designed by macrovector / Freepik
 }
 
 .article-image {
-	width: 100%;
-	display: block;
-	max-height: 225px;
 	margin-bottom: 30px;
 	overflow: hidden;
 }
@@ -1046,10 +1045,7 @@ Background image Designed by macrovector / Freepik
 }
 
 .titre-article > h4 > a{
-	font-size: 22px;
-	line-height: 24px;
-	clear: both;
-	word-wrap: break-word;
+	font-size: 1.25em;
 	color: #134a34;
 	font-weight: 700;
 	text-decoration: none;
@@ -1059,58 +1055,117 @@ Background image Designed by macrovector / Freepik
 	color: #00834e;
 }
 
-.categorie-article {
-	padding: 3px 7px 3px 10px;
-	line-height: 25px;
-	font-weight: 400;
-	background: #00834e;
-}
-
-.categorie-article:hover {
-	background: #1ec684;
-}
-
-.categorie-article a {
-	color: #FFF;
-	font-size: 13px;
-	text-decoration: none;
-}
-
 .date-article {
-	line-height: 25px;
-	font-weight: 400;
-	margin-left: 13px;
-	font-size: 12px;
+	margin-left: .85em;
+	font-size: .85em;
 	color: #bfbfbf;
 }
 
 .contenu-article {
-	font-weight: 400;
-	line-height: 20px;
 	color: #8c9597;
 	margin-top: 10px;
 }
 
 /*FIN SECTION ARTICLES*/
+/*MALADIE*/
+.maladie-name {
+	display: inline-block;
+	padding: 16px 33px 15px;
+	background-color: #1da76e;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+
+.maladie {
+	margin-bottom: 20px;
+}
+
+.maladie h5 {
+	font-size: 15px;
+}
+
+.maladie-description {
+	background-color: #fff;
+	border-left: 3px solid #1da76e;
+}
+
+.maladie-image {
+	margin-bottom: 38px;
+}
+
+.maladie-image img {
+	width: 100%;
+	max-height: 255px;
+	height: auto;
+	line-height: 255px;
+	vertical-align: middle;
+}
+
+.maladie-body {
+	overflow: hidden;
+	padding: 0 26px 26px;
+}
+
+.maladie-body h6 {
+	float: left;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	color: #076b42;
+	font-size: 15px;
+	line-height: 1.86;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.maladie-body p {
+	clear: both;
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.6;
+	margin-bottom: 1.25rem;
+}
+
+.maladie-body a {
+	color: #6f6c6c;
+	text-decoration: none;
+}
+
+.maladie-body a:hover{
+	color: #000;
+}
+
+.page-maladie {
+	margin: auto;
+	width: 30%;
+}
+/*FIN MALADIE*/
 /*REMEDE GRAND MERE*/
 .remede{
 	display: flex;
 	flex-wrap: wrap;
+	margin: 20px 0;
 }
 .remede .remede-bubble{
 	width: 85%;
 	position: relative;
-	background-color: #1eab71;
+	background-color: #4a5b54;
 	border-radius: 4px;
-	box-shadow: 8px 10px 0px 0px #c4b99b;
+	box-shadow: 8px 10px 0px 0px #7edcb6;
 }
 .remede .remede-text{
 	color: #fff;
-	padding: 20px;
+	padding: 2.5em 5em;
+	line-height: 2em;
+	text-align: justify;
 }
 .remede .remede-text > *{
 	position: relative;
 	z-index: 2;
+}
+.remede .remede-text strong{
+	font-size: 1.5em;
 }
 .remede .remede-text h2{
 	position: absolute;
@@ -1118,31 +1173,40 @@ Background image Designed by macrovector / Freepik
 	right: 0;
 	border-left: none;
 	color: #000000;
-	-webkit-transform: rotateZ(2deg);
-	-moz-transform: rotateZ(2deg);
-	-ms-transform: rotateZ(2deg);
-	-o-transform: rotateZ(2deg);
-	transform: rotateZ(2deg);
+	-webkit-transform: rotateZ(-1deg);
+	-moz-transform: rotateZ(-1deg);
+	-ms-transform: rotateZ(-1deg);
+	-o-transform: rotateZ(-1deg);
+	transform: rotateZ(-1deg);
+}
+.remede .remede-text:before{
+	content: open-quote;
+	position: absolute;
+	z-index: 2;
+	font-size: 10em;
+	top: .5em;
+	left: .1em;
+	color: rgba(255, 255, 255, 0.50);
 }
 .remede .remede-bubble:before{
 	content:' ';
-	background-color: #1eab71;
+	background-color: #4a5b54;
 	border-radius: 4px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	position: absolute;
-	top: 15px;
+	top: 30px;
 	right: 0;
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	transform: skew(0deg,-2deg);
+	transform: skew(0deg,5deg);
 }
-.remede .remede-text:after{
+.remede .remede-bubble:after{
 	content: ' ';
 	width: 15px;
 	height: 25px;
 	transform: skew(-50deg);
-	background: #1eab71;
+	background: #4a5b54;
 	position: absolute;
 	top: 125px;
 	right: 0px;
@@ -1158,15 +1222,7 @@ Background image Designed by macrovector / Freepik
 /* breadcrumbs */
 
 .breadcrumbs {
-    margin-top: 47px;
-    margin-bottom: 17px;
-    margin-left: 0;
-    border: none;
-    background: none;
-    display: block;
     padding: 0.5625rem 0.875rem 0.5625rem;
-    overflow: hidden;
-    list-style: none;
 }
 
 .breadcrumbs a {
