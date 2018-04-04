@@ -358,9 +358,6 @@
 	font-style: initial;
 	transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 	opacity: 0;
-	white-space: nowrap; 
-	overflow: hidden;
-	text-overflow: ellipsis; 
 	}
 	.profileinfo a{
 		color: #75D13B;

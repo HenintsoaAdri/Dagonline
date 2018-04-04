@@ -840,12 +840,7 @@ Background image Designed by macrovector / Freepik
 /* breadcrumbs */
 
 .breadcrumbs {
-    margin-top: 47px;
-    margin-bottom: 17px;
-    margin-left: 0;
-    border: none;
-    background: none;
-    display: block;
+    margin-top: 10%;
     padding: 0.5625rem 0.875rem 0.5625rem;
     overflow: hidden;
     list-style: none;

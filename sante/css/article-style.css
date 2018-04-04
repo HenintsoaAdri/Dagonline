@@ -11,67 +11,18 @@
     margin-top: 30px;
 }
 
-.breadcrumbs {
-    margin-top: 0px;
-}
-
-.container-une > ul {
-    padding: 0;
-    margin-bottom: 0px !important;
-    list-style-type: none;
-    display: inline-block;
-    width: 100%;
-    margin: 0 0 10px;
-    overflow: hidden;
-}
-
-@media (min-width: 768px) {
-    .container-une > ul > li#image-une-0 {
-        width: 68%;
-        height: 480px;
-        background-size: cover;
-    }
-}
-
-@media (min-width: 768px) {
-    .container-une > ul > li#image-une-1 {
-        width: 32%;
-        height: 240px;
-        background-size: cover;
-    }
-}
-
-@media (min-width: 990px) {
-    .container-une > ul > li {
-        background-size: 100%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container-une > ul > li {
-        width: 25%;
-    }
-}
-
-@media (min-width: 768px) {
-    .container-une > ul > li {
-        width: 50%;
-        height: 178px;
-    }
-}
-
-.container-une > ul > li {
+.container-une {
     margin-bottom: 0px !important;
     width: 100%;
-    height: 360px;
-    display: inline-block;
-    float: left;
+    height: 100%;
+    display: flex;
     position: relative;
     background-position: 50% 50%;
     background-size: cover;
+    overflow: hidden;
 }
 
-.container-une > ul > li .article-info {
+.container-une .article-info {
     position: absolute;
     bottom: 25px;
     left: 35px;
@@ -83,19 +34,18 @@
     font-size: 14px;
 }
 
-.container-une > ul > li .image-une-info {
+.container-une .image-une-info {
     bottom: 70px;
 }
 
-.container-une > ul > li h1 {
+.container-une h1 {
     color: #FFF;
     font-size: 33px;
     line-height: 37px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: auto;
 }
 
-.container-une > ul > li .article-info a {
+.container-une .article-info a {
     color: #FFF;
     font-weight: 400;
     line-height: 26px;
@@ -103,32 +53,21 @@
     text-decoration: none;
 }  
 
-.container-une > ul > li .article-categorie {
-    padding: 3px 7px 3px 10px;
-    line-height: 25px;
-    font-weight: 400;
-    background: #00834e;
-}
-
-.container-une > ul > li .article-categorie a {
+.container-une .article-categorie a {
     font-size: 13px;
     font-family: "Nunito Sans", sans-serif;
     cursor: pointer;
 }
 
-.container-une > ul > li .article-categorie:hover {
+.container-une .article-categorie:hover {
     background: #1ec684;
 }
 
-.container-une > ul > li .article-date{
-    line-height: 25px;
-    font-weight: 400;
-    margin-left: 13px;
+.container-une .article-date{
     font-size: 14px;
-    font-family: "Nunito Sans", sans-serif;
 }
 
-.container-une > ul > li h6 {
+.container-une h6 {
     font-size: 18px;
     line-height: 25px;
     margin-top: 10px;
@@ -138,10 +77,48 @@
 .article-info h6 a {
     font-weight: 700;
     bottom: -2px;
-    position: relative;
 }
 
+.container-une div{
+    padding: 0;
+}
+.container-une > div:last-child{
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.container-une > div:last-child > .row{
+    height: 50%;
+}
+.container-une > div:last-child > .row div{
+    height: 100%;
+}
+.container-une a{
+    text-decoration: none;
+    color: white
+}
 
+.container-une .image{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.container-une .image-small{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.container-une img{
+    min-width: 100%;
+    height: 100%;
+    transition: all 0.1s;
+}
+
+.container-une img:hover{
+    -webkit-transform: rotateZ(2deg) scale(1.1);
+    transform: rotateZ(2deg) scale(1.1);
+}
 /* Style article par categorie */
 .titre-categorie {
     padding: 2px 0;
@@ -322,6 +299,8 @@
     line-height: 20px;
     color: #8c9597;
     margin-top: 10px;
+    height: 40px;
+    overflow: hidden;
 }
 
 .calendar td {
