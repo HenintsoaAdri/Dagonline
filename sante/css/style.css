@@ -1038,6 +1038,7 @@ Background image Designed by macrovector / Freepik
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	width: 100%;
+	height: 100%;
 }
 
 .contenus {
@@ -1067,80 +1068,7 @@ Background image Designed by macrovector / Freepik
 }
 
 /*FIN SECTION ARTICLES*/
-/*MALADIE*/
-.maladie-name {
-	display: inline-block;
-	padding: 16px 33px 15px;
-	background-color: #1da76e;
-	color: #fff;
-	font-weight: 700;
-	margin-bottom: 0px;
-}
 
-.maladie {
-	margin-bottom: 20px;
-}
-
-.maladie h5 {
-	font-size: 15px;
-}
-
-.maladie-description {
-	background-color: #fff;
-	border-left: 3px solid #1da76e;
-}
-
-.maladie-image {
-	margin-bottom: 38px;
-}
-
-.maladie-image img {
-	width: 100%;
-	max-height: 255px;
-	height: auto;
-	line-height: 255px;
-	vertical-align: middle;
-}
-
-.maladie-body {
-	overflow: hidden;
-	padding: 0 26px 26px;
-}
-
-.maladie-body h6 {
-	float: left;
-	margin-bottom: 30px;
-	margin-top: 0px;
-	color: #076b42;
-	font-size: 15px;
-	line-height: 1.86;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-
-.maladie-body p {
-	clear: both;
-	font-family: inherit;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 1.6;
-	margin-bottom: 1.25rem;
-}
-
-.maladie-body a {
-	color: #6f6c6c;
-	text-decoration: none;
-}
-
-.maladie-body a:hover{
-	color: #000;
-}
-
-.page-maladie {
-	margin: auto;
-	width: 30%;
-}
-/*FIN MALADIE*/
 /*REMEDE GRAND MERE*/
 .remede{
 	display: flex;
@@ -1239,5 +1167,3 @@ Background image Designed by macrovector / Freepik
 .breadcrumbs .actuel {
     font-weight: bold;
 }
-
-/* fin breadcrumbs */

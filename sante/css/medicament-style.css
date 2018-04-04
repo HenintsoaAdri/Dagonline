@@ -309,6 +309,10 @@
 	.card:hover .profileinfo p.bio,	.card:hover .profileinfo a{
 		opacity: 1;
 	  }
+	.profileinfo p.bio{
+		height: 40px;
+		overflow: hidden;
+	}
 	.card:hover .profileinfo{
 		z-index: 100;
   	}
