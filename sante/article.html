@@ -30,7 +30,6 @@
   <!-- Theme personnalisé -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/font.css">
-  <link rel="stylesheet" type="text/css" href="css/detail-article-style.css" />
   <link rel="stylesheet" type="text/css" href="css/article-style.css" />
 </head>
 
@@ -1022,6 +1021,7 @@
                     </div>
                   </div>
 
+            <div class="row article-une-categorie">
               <h3 class="titre-categorie">
                 <span> Actus </span>
               </h3>
@@ -1041,6 +1041,14 @@
                 </div>
                 <a href="article-detail.html">Lire la suite</a>
               </div>
+              <div class="col-sm-4 p-1-20 article-description">
+                <h3>
+                  <a>Les causes de l'hypertension</a>
+                </h3>
+                <p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae
+                  ...</p>
+              </div>
+            </div>
 
               <div class="row article-row">
                 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -1068,18 +1076,10 @@
                       <a href="article-detail.html" class="pull-right">Lire la suite</a>
                     </div>
                   </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                  <div class="liste-article">
-                    <div class="article-image">
-                      <a href="#">
-                        <img width="550" height="360" src="img/360x240.png">
-                      </a>
-                    </div>
+                  <div>
                     <div class="titre-article">
                       <h4>
-                        <a href="#">Lorem ipsum patapouf bla bla car</a>
+                        <a href="#">Lorem ipsum</a>
                       </h4>
                     </div>
                     <span class="categorie-article">
@@ -1088,11 +1088,13 @@
                     <span class="date-article">25 Mars 2018</span>
                     <div class="contenu-article">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat
                     </div>
                     <a href="article-detail.html" class="pull-right">Lire la suite</a>
                   </div>
                 </div>
+              </div>
 
                 <div class="col-md-4 col-sm-6 col-xs-12">
                   <div class="liste-article">
@@ -1118,15 +1120,17 @@
                   </div>
                 </div>
               </div>
+            </div>
 
+
+            <div class="row article-une-categorie">
               <h3 class="titre-categorie">
                 <span> Psycho </span>
               </h3>
-
-              <div class="row article-une-categorie">
-                <div class="col-sm-8 p-r-20 une-categorie">
+              <div class="col-sm-8 p-r-20">
+                <div class="une-categorie">
                   <a href="#">
-                    <img src="img/article/article-bonheur.jpg" alt>
+                    <img src="img/article/article-bonheur.jpg" class="img-responsive">
                   </a>
                 </div>
                 <div class="col-sm-4 p-1-20 article-description">
@@ -1140,6 +1144,16 @@
                 </div>
                 <a href="article-detail.html">Lire la suite</a>
               </div>
+              <div class="col-sm-4 p-1-20 article-description">
+                <h3>
+                  <a href="#">
+                    Construire son bonheur au quotidien
+                  </a>
+                </h3>
+                <p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae
+                  arcu vitae, ultricies laoreet leo.</p>
+              </div>
+            </div>
 
               <div class="row article-row">
                 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -1167,18 +1181,10 @@
                       <a href="article-detail.html" class="pull-right">Lire la suite</a>
                     </div>
                   </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                  <div class="liste-article">
-                    <div class="article-image">
-                      <a href="#">
-                        <img width="550" height="360" src="img/360x240.png">
-                      </a>
-                    </div>
+                  <div>
                     <div class="titre-article">
                       <h4>
-                        <a href="#">Lorem ipsum patapouf bla bla car</a>
+                        <a href="#">Lorem ipsum</a>
                       </h4>
                     </div>
                     <span class="categorie-article">
@@ -1187,11 +1193,13 @@
                     <span class="date-article">25 Mars 2018</span>
                     <div class="contenu-article">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat
                     </div>
                     <a href="article-detail.html" class="pull-right">Lire la suite</a>
                   </div>
                 </div>
+              </div>
 
                 <div class="col-md-4 col-sm-6 col-xs-12">
                   <div class="liste-article">
@@ -1352,8 +1360,6 @@
     </div>
   </div>
 
-
-
   <!--Fin Corps-->
 
   <!--Footer-->
@@ -1453,6 +1459,8 @@
   <!--Toast-->
   <script src="js/jquery.toast.min.js"></script>
   <!--Fin Toast-->
+  <script src="js/jquery-ui-datepicker.min.js"></script>
+  <script src="js/calendrier-function.js"></script>
   <script src="js/main.js"></script>
 </body>
 

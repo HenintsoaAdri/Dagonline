@@ -340,7 +340,10 @@ MENU CUSTOMIZE
 	color: #0b6a49 !important;
 }
 .more a{
-	color: #ffc93e !important;
+	color: #0b6a49 !important;
+}
+.more-div.more a{
+	color: #1fd28d !important;
 }
 .navbar-collapse{
 	position: relative;
@@ -758,9 +761,7 @@ Background image Designed by macrovector / Freepik
 	background-repeat: repeat-y;
 	background-size: 100%;
 	padding: 20px 0;
-	top: -15px;
-	z-index: 3;
-	position: relative;
+	margin-bottom: 15px;
 }
 .formulaire form{
 	margin: auto;
@@ -799,51 +800,430 @@ Background image Designed by macrovector / Freepik
 	color: #FFFFFF;
 }
 /*FIN FORMULAIRE RECHERCHE*/
-
-/* CAROUSEL IMAGE INDICATOR*/
-
-.carousel-produit{
-	margin: 20px auto;
-	width: 100%;
+/*SECTION ARTICLES*/
+.article-body {
+	background-color: #FFF;
 }
-.carousel-produit .carousel-indicators {
-	margin: 10px 0 0;
-	overflow: auto;
-	position: static;
-	width: 100%;
+
+.article-contenu {
+	margin-top: 30px;
 }
-.carousel-produit .carousel-indicators li {
-	background-color: transparent;
-	-webkit-border-radius: 0;
-	border-radius: 0;
+
+.container-une > ul {
+	padding: 0;
+	margin-bottom: 0px !important;
+	list-style-type: none;
 	display: inline-block;
-	height: auto;
-	margin: 0 !important;
-	width: 33%;
+	width: 100%;
+	margin: 0 0 10px;
+	overflow: hidden;
 }
-.carousel-produit .carousel-indicators li img {
+
+@media (min-width: 768px) {
+	.container-une > ul > li#image-une-0 {
+		width: 68%;
+		height: 480px;
+		background-size: cover;
+	}
+}
+
+@media (min-width: 768px) {
+	.container-une > ul > li#image-une-1 {
+		width: 32%;
+		height: 240px;
+		background-size: cover;
+	}
+}
+
+@media (min-width: 990px) {
+	.container-une > ul > li {
+		background-size: 100%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container-une > ul > li {
+		width: 25%;
+	}
+}
+
+@media (min-width: 768px) {
+	.container-une > ul > li {
+		width: 50%;
+		height: 178px;
+	}
+}
+
+.container-une > ul > li {
+	margin-bottom: 0px !important;
+	width: 100%;
+	height: 360px;
+	display: inline-block;
+	float: left;
+	position: relative;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.container-une > ul > li .article-info {
+	position: absolute;
+	bottom: 25px;
+	left: 35px;
+	right: 35px;
+	max-height: 95px;
+	z-index: 1;
+	color: #FFF;
+	font-family: 'Droid Serif';
+	font-size: 14px;
+}
+
+.container-une > ul > li .image-une-info {
+	bottom: 70px;
+}
+
+.container-une > ul > li h1 {
+	color: #FFF;
+	font-size: 33px;
+	line-height: 37px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.container-une > ul > li .article-info a {
+	color: #FFF;
+	font-weight: 400;
+	line-height: 26px;
+	font-family: "Nunito Sans", sans-serif;
+	text-decoration: none;
+}
+
+.article-categorie, .categorie-article {
+	padding: 3px 10px;
+	background: #00834e;
+}
+
+.article-categorie a, .categorie-article a {
+	color: #FFF;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.article-categorie:hover {
+	background: #1ec684;
+}
+
+.article-date{
+	margin-left: 1em;
+	font-family: sans-serif;
+}
+
+.container-une > ul > li h6 {
+	font-size: 1.3em;
+}
+
+.une-categorie{
+	overflow: hidden;
+}
+.une-categorie:hover > a > img {
+	-webkit-transform: scale(1.1) rotateZ(2deg);
+	transform: scale(1.1) rotateZ(2deg);
+}
+
+.une-categorie > a > img {
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.article-description > h3 > a{
+	margin-top: 0px;
+	color: #134a34;
+	font-weight: 700;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.article-description > h3 > a:hover{
+	color: #00834e;
+}
+
+.article-une-categorie {
+	margin-bottom: 30px;
+}
+
+.sous-image-une {
+	margin-top: 20px;
+}
+
+.sous-article-date {
+	line-height: 25px;
+	font-weight: 400;
+	margin-left: 13px;
+	font-size: 12px;
+	font-family: "Nunito Sans", sans-serif;
+}
+
+.article-row{
+	margin-bottom: 30px;
+}
+/* Style article par categorie */
+.titre-categorie {
+	border-left: 5px solid #1da76e;
+	position: relative;
+	text-transform: uppercase;
+	margin: 35px 0 25px 14px;
+}
+
+.titre-categorie > span {
+	padding-left: 1em;
+	background-color: #FFF;
+	z-index: 1;
+	font-family: sans-serif;
+	position: relative;
+	padding-right: 1em;
+	color: #134a34;
+	font-weight: 900;
+}
+
+.titre-categorie:after {
+	content: '';
+	width: 100%;
+	height: 0px;
+	border-bottom: 1px dotted #212020;
+	position: absolute;
 	display: block;
+	top: .5em;
+	right: 0;
 }
-.carousel-produit .carousel-outer {
+
+.article-info h6 a {
+	font-weight: 700;
+	bottom: -2px;
 	position: relative;
 }
 
-.carousel-produit .carousel-inner .item img{
-	margin: auto;
-}
-.carousel-produit .carousel-indicators li.active a{
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
 }
 
-/* FIN CAROUSEL IMAGE INDICATOR*/
+.col-md-4 {
+	float: left;
+}
+
+.col-md-4, .col-md-12, .col-sm-6, .col-xs-12 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.liste-article {
+	padding-bottom: 30px;
+	background: #FFF;
+}
+
+.article-image {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.article-image:hover > a > img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.article-image > a > img {
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	width: 100%;
+}
+
+.contenus {
+	padding: 0px 14px;
+}
+
+.titre-article > h4 > a{
+	font-size: 1.25em;
+	color: #134a34;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.titre-article > h4 > a:hover {
+	color: #00834e;
+}
+
+.date-article {
+	margin-left: .85em;
+	font-size: .85em;
+	color: #bfbfbf;
+}
+
+.contenu-article {
+	color: #8c9597;
+	margin-top: 10px;
+}
+
+/*FIN SECTION ARTICLES*/
+/*MALADIE*/
+.maladie-name {
+	display: inline-block;
+	padding: 16px 33px 15px;
+	background-color: #1da76e;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+
+.maladie {
+	margin-bottom: 20px;
+}
+
+.maladie h5 {
+	font-size: 15px;
+}
+
+.maladie-description {
+	background-color: #fff;
+	border-left: 3px solid #1da76e;
+}
+
+.maladie-image {
+	margin-bottom: 38px;
+}
+
+.maladie-image img {
+	width: 100%;
+	max-height: 255px;
+	height: auto;
+	line-height: 255px;
+	vertical-align: middle;
+}
+
+.maladie-body {
+	overflow: hidden;
+	padding: 0 26px 26px;
+}
+
+.maladie-body h6 {
+	float: left;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	color: #076b42;
+	font-size: 15px;
+	line-height: 1.86;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.maladie-body p {
+	clear: both;
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.6;
+	margin-bottom: 1.25rem;
+}
+
+.maladie-body a {
+	color: #6f6c6c;
+	text-decoration: none;
+}
+
+.maladie-body a:hover{
+	color: #000;
+}
+
+.page-maladie {
+	margin: auto;
+	width: 30%;
+}
+/*FIN MALADIE*/
+/*REMEDE GRAND MERE*/
+.remede{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px 0;
+}
+.remede .remede-bubble{
+	width: 85%;
+	position: relative;
+	background-color: #4a5b54;
+	border-radius: 4px;
+	box-shadow: 8px 10px 0px 0px #7edcb6;
+}
+.remede .remede-text{
+	color: #fff;
+	padding: 2.5em 5em;
+	line-height: 2em;
+	text-align: justify;
+}
+.remede .remede-text > *{
+	position: relative;
+	z-index: 2;
+}
+.remede .remede-text strong{
+	font-size: 1.5em;
+}
+.remede .remede-text h2{
+	position: absolute;
+	top:-1.5em;
+	right: 0;
+	border-left: none;
+	color: #000000;
+	-webkit-transform: rotateZ(-1deg);
+	-moz-transform: rotateZ(-1deg);
+	-ms-transform: rotateZ(-1deg);
+	-o-transform: rotateZ(-1deg);
+	transform: rotateZ(-1deg);
+}
+.remede .remede-text:before{
+	content: open-quote;
+	position: absolute;
+	z-index: 2;
+	font-size: 10em;
+	top: .5em;
+	left: .1em;
+	color: rgba(255, 255, 255, 0.50);
+}
+.remede .remede-bubble:before{
+	content:' ';
+	background-color: #4a5b54;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 30px;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform: skew(0deg,5deg);
+}
+.remede .remede-bubble:after{
+	content: ' ';
+	width: 15px;
+	height: 25px;
+	transform: skew(-50deg);
+	background: #4a5b54;
+	position: absolute;
+	top: 125px;
+	right: 0px;
+	z-index: 1;
+}
+.remede .remede-zebu{
+	position: absolute;
+	z-index: 2;
+	right: 0;
+}
+/*FIN REMEDE GRAND MERE*/
 
 /* breadcrumbs */
 
 .breadcrumbs {
     margin-top: 10%;
     padding: 0.5625rem 0.875rem 0.5625rem;
-    overflow: hidden;
-    list-style: none;
 }
 
 .breadcrumbs a {
