@@ -733,17 +733,20 @@ a.btn-outline:hover, button.btn-outline:hover, input[type='submit'].btn-outline:
 	left:-75%;
 	top: -10%;
 }
-
+.zoom{
+	position:relative;
+}
 .zoom:after {
 	position:absolute;
 	content: '';
-	top:20%;
-	left: 40%;
-	background-image: url("../img/magnifier.svg");
-	background-size: 100%;
+	top: 0;
+	left: 0;
+	background-image: url(../img/magnifier.svg);
+	background-size: 10%;
+	background-position: center;
 	background-repeat: no-repeat;
-	width: 15%;
-	height: 25%;
+	width: 100%;
+	height: 100%;
 	opacity: 0;
 }
 a:hover .zoom > *, a.zoom:hover > *{
@@ -752,6 +755,19 @@ a:hover .zoom > *, a.zoom:hover > *{
 a:hover .zoom:after, a.zoom:hover:after{
 	opacity: 1;
 }
+.modal-zoom .modal-content {
+	 margin: auto;
+	 display: block;
+	 width: 100%;
+	 max-width: 700px;
+	 animation-name: zoom;
+	 animation-duration: 0.6s;
+	 background-color: transparent;
+	 border: none;
+	 -webkit-box-shadow: none;
+	 -moz-box-shadow: none;
+	 box-shadow: none;
+ }
 
 /*FORMULAIRE RECHERCHE
 Background image Designed by macrovector / Freepik
@@ -1040,10 +1056,6 @@ Background image Designed by macrovector / Freepik
 	width: 100%;
 }
 
-.contenus {
-	padding: 0px 14px;
-}
-
 .titre-article > h4 > a{
 	font-size: 1.25em;
 	color: #134a34;
@@ -1065,8 +1077,8 @@ Background image Designed by macrovector / Freepik
 	color: #8c9597;
 	margin-top: 10px;
 }
-
 /*FIN SECTION ARTICLES*/
+
 /*MALADIE*/
 .maladie-name {
 	display: inline-block;
@@ -1240,3 +1252,39 @@ Background image Designed by macrovector / Freepik
 }
 
 /* fin breadcrumbs */
+/* Pharmacie de garde */
+.pharmacie{
+	position: relative;
+	overflow:visible;
+	border: solid transparent;
+}
+.pharmacie:before{
+	content: '';
+	height: 100%;
+	width: 100%;
+	background-color: #1fd28d;
+	border-radius: 4px;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	-webkit-transform: skew(2deg);
+	-moz-transform: skew(2deg);
+	-ms-transform: skew(2deg);
+	-o-transform: skew(2deg);
+	transform: skew(2deg);
+}
+.pharmacie .card{
+	position:relative;
+}
+.pharmacie .icon{
+	position: absolute;
+	width: 25%;
+	top: -35px;
+	left: -50px;
+	-webkit-transform: rotateZ(-10deg);
+	-moz-transform: rotateZ(-10deg);
+	-ms-transform: rotateZ(-10deg);
+	-o-transform: rotateZ(-10deg);
+	transform: rotateZ(-10deg);
+}
+/* Fin Pharmacie de garde */
