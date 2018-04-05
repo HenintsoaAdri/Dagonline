@@ -31,7 +31,7 @@
   <link rel="stylesheet" href="css/font.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/medicament-style.css">
+  <link rel="stylesheet" href="css/maladie-style.css">
 </head>
 <body>
 
@@ -522,23 +522,6 @@
   <div class="jumbotron-text">
     <h1>Dagonline</h1>
     <p>Trouvez et achetez ce qui vous soigne sur tout Madagascar</p>
-    <form class="form-inline col-xs-offset-1 col-xs-10">
-      <div class="form-group">
-        <select class="form-control">
-          <option disabled selected> Où : Région, Ville </option>
-          <option>Antananarivo</option>
-          <option>Diego-Suarez</option>
-          <option>Majunga</option>
-          <option>Tamatave</option>
-          <option>Fianarantsoa</option>
-          <option>Tuléar</option>
-        </select>
-      </div>
-      <div class="form-group input-group">
-        <input type="text" class="form-control" size="30" value="Médicaments" placeholder="Rechercher...">
-      </div>
-      <button type="button" class="form-control btn text-white bg-green">Trouver</button>
-    </form>
   </div>
 
   <div id="SlidePrincipal" class="carousel slide hidden-xs" data-ride="carousel">
@@ -582,115 +565,245 @@
           <p class="breadcrumbs">
             <a href="index.html">Dagonline</a>
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <a href="#" class="actuel">M&eacute;dicaments</a>
+            <a href="#" class="actuel">Maladie</a>
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <a href="#" class="actuel">Exemple m&eacute;dicament</a>
+            <a href="#" class="actuel">Exemple Maladie Bucco-Dentaire</a>
           </p>
         </div>
         <!-- Fin BreadCrumbs -->
         
         <div class="pull-right">  
-          <h2>M&eacute;dicaments</h2>
+          <h2>Maladie</h2>
         </div>
-    </div>
+      </div>
   </div>
-  <!-- Container Petites Annonces -->
-  <div class="annonces container-fluid m-t-5">
-    <div class="row">
-        <!--LISTE DES ANNONCES-->
-        <div id="annonce" class="row m-t-20 p-5">
 
-          <div class="col-sm-offset-1 col-sm-10 col-sm-offset-1 p-l-20 annonce">
-            <h1 class="m-t-20 text-muted">Paracetamol</h1 >
-            <small class="text-muted">500 mg 16 Comprim&eacute;</small>
-            <hr>
-            <div class="row p-b-20">
-              <div class="col-sm-4">
-                <div class="row">
-                    <img src="img/paracetamol.png" class="img-responsive">
-                </div>
-                <hr>
-                <h3 class="m-t-20 text-muted">M&eacute;dicaments similaires...</h3>
-                <hr>
-                <div class="row">
-                  <div class="content">
-                    <div class="">
-                      <div class="firstinfo">
-                          <div class="col-sm-4">
-                            <img src="img/paracetamol.png" class="img-responsive">
-                          </div>
-                        <div class="col-sm-8">
-                          <h3>Paracetamol</h3>
-                          <small>500 mg 16 Comprim&eacute;</small><br>
-                          <a href="medicament-detail.html" class="text-right">Voir d&eacute;tails</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="content">
-                    <div class="">
-                        <div class="col-sm-4">
-                          <img src="img/paracetamol.png" class="img-responsive">
-                        </div>
-                        <div class="col-sm-8">
-                          <h3>Paracetamol</h3>
-                          <small>500 mg 16 Comprim&eacute;</small><br>
-                          <a href="medicament-detail.html" class="text-right">Voir d&eacute;tails</a>
-                        </div>
-                    </div>
-                  </div>
-                </div>
+  <div class="container-fluid formulaire">
+    <form class="form-inline" action="#">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group search-div">
+            <input type="text" class="form-control search-bar" placeholder="Recherche...">
+            <button type="submit" class="btn text-white bg-green">Rechercher</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
 
+  <!-- Container Resultat Recherche -->
+  <div class="container-fluid m-t-5 m-b-20 list-search">
+      <div class="row p-5">
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie/diabete.jpg" class="media-object">
               </div>
-              <div class="col-sm-8 p-l-20">
-                  <ul class="nav nav-pills nav-justified">
-                    <li class="active"><a data-toggle="pill" href="#descriptions" class="text-uppercase">Descriptions</a></li>
-                    <li><a data-toggle="pill" href="#notices">NOTICES</a></li>
-                  </ul>
-                  <div class="tab-content">
-                    <div id="descriptions" class="tab-pane fade in active">
-                        <b>
-                            Composition :
-                        </b>  
-                        <p>
-                            - Substance active (pour 1 comprimé) :
-                        </p> 
-                        <p>   
-                            Paracétamol : 500,00 mg
-                        </p>
-                        <p>    
-                            - Autres composants :
-                        </p>  
-                        <p> 
-                            Povidone, croscarmellose sodique, cellulose microcristalline, stéarate de magnésium, hypromellose, béhénate de glycérol.
-                        </p>
-                        <b>   
-                            Posologie :
-                        </b>  
-                        <p>
-                            - Cette présentation est réservée à l'adulte et à l'enfant à partir de 27 kg (environ à partir de 8 ans).
-                        </p>    
-                            - La posologie du paracétamol dépend du poids de l'enfant; les âges sont mentionnés à titre d'information.
-                        <p>   
-                            - Si vous ne connaissez pas le poids de l'enfant, il faut le peser afin de lui donner la dose la mieux adaptée.
-                        </p>
-                    </div>
-                    <div id="notices" class="tab-pane fade">
-                      <a href="#">Voir la notice (pdf)</a>
-                    </div>
-                  </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Le diabète: qu'est ce que c'est ?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
               </div>
             </div>
           </div>
-
         </div>
-        <!--FIN LISTE DES ANNONCES-->
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie/diabete.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Le diabète: qu'est ce que c'est ?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie/diabete.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Le diabète: qu'est ce que c'est ?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie/diabete.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Le diabète: qu'est ce que c'est ?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie/diabete.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Le diabète: qu'est ce que c'est ?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie-1.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Maux de tête. Qu'est ce que c'est?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie-1.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Maux de tête. Qu'est ce que c'est?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie-1.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Maux de tête. Qu'est ce que c'est?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie-1.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Maux de tête. Qu'est ce que c'est?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie-1.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Maux de tête. Qu'est ce que c'est?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie-1.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Maux de tête. Qu'est ce que c'est?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="row">
+          <ul class="pagination">
+            <li class="prev"><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">...</a></li>
+            <li class="next"><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+          </ul>
+        </div>
+    </div>
+  <!-- Fin Container Resultat Recherche -->
+
+  <div class="container-fluid list-med">
+    <h3 class="oswald">Les maladies et problèmes</h3>
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="list-unstyled">
+          <li><a href="#">Maladies bucco-dentaires <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="#">Cancer <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="#">Maladies mentales <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="#">Maladies infectieuses <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="#">Maladies g&eacute;n&eacute;tiques <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="#">Maladies infantiles <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="#">Maladies neurologiques <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="#">Maladie de peau <i class="fa fa-angle-double-right pull-right"></i></a></li>
+        </ul>
+      </div>
     </div>
   </div>
-  <!-- Fin Container Petites Annonces -->
 </div>
 <!--Fin Corps-->
 
@@ -699,7 +812,7 @@
   <div class="row">
     <div class="col-sm-4 text-justify">
       <p>Qu'est ce que Dagonline</p>
-      <p>www.dagonline.fr est une plateforme qui permet à tout utilisateur de trouver des produits et des services auprès des professionnels partenaires. Dagonline c'est bien plus qu'un simple annuairecar chaque entreprise tient sa page et est libre du contenu proposé. Dagonline c'est aussi toutes les dates et évènements à venir ainsi que les petites annonces pour les particuliers.</p>
+      <p>www.dagonline.fr est une plateforme qui permet à tout utilisateur de trouver des produits et des services auprès des professionnels partenaires. Dagonline c'est bien plus qu'un simple annuairecar chaque entreprise tient sa page et est libre du contenu proposé. Dagonline c'est aussi toutes les dates et évènements à venir ainsi que les Plus Recherchés pour les particuliers.</p>
       <p>Notre objectif</p>
       <p>Optimiser la rencontre des offres de services et produits commerciaux existants à Madagascar.</p>
     </div>
@@ -740,7 +853,7 @@
         <form class="form-inline col-sm-12">
           <div class="input-group">
             <div class="input-group-btn">
-              <button class="btn btn-default" type="submit">
+              <button class="btn btn-default btn-flat" type="submit">
                 <i class="glyphicon glyphicon-search"></i>
               </button>
             </div>
@@ -765,7 +878,7 @@
       </div>
     </div>
   </div>
-  <a href="#dagonline" title="Remonter">
+  <a class="text-green" href="#dagonline" title="Remonter">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <p>Revenir en d&eacute;but de page</p>
@@ -775,13 +888,42 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/fontawesome-all.min.js"></script>
+<script src="js/sticky-kit.min.js"></script>
 <!--Toast-->
 <script src="js/jquery.toast.min.js"></script>
 <!--Fin Toast-->
-<!--Sticky nav-pills -->
-<script src="js/sticky-kit.min.js"></script>
-<!--Fin Animation Carte PUB-->
-<script src="js/filtre-bar.js"></script>
+<!--Carousel plugin-->
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script>
+  $(document).ready(function(){
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+      center: true,
+      loop:true,
+      dots:true,
+      dotsEach:true,
+      items:2,
+      margin:10,
+      responsive:{
+        600:{
+          items:4
+        }
+      },
+      autoplay:true,
+      autoplayTimeout:3000,
+      autoplayHoverPause:true
+    });
+    owl.on('mousewheel', '.owl-stage', function (e) {
+      if (e.deltaY > 0) {
+        owl.trigger('next.owl');
+      } else {
+        owl.trigger('prev.owl');
+      }
+      e.preventDefault();
+    });
+  });
+</script>
 <script src="js/main.js"></script>
 </body>
 </html>

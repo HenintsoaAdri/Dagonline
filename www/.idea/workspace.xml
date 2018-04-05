@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82707021-2394-498b-aa1e-3b1d5e15d61d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/img/maladie-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../correction.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/css/maladie-style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sante/maladie-list.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../sante/detail-article.html" afterPath="$PROJECT_DIR$/../sante/article-detail.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../sante/detail-maladie.html" afterPath="$PROJECT_DIR$/../sante/maladie-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/article.html" afterPath="$PROJECT_DIR$/../sante/article.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/article-style.css" afterPath="$PROJECT_DIR$/../sante/css/article-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/detail-maladie-style.css" afterPath="$PROJECT_DIR$/../sante/css/detail-maladie-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/medicament-style.css" afterPath="$PROJECT_DIR$/../sante/css/medicament-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/pharmacie-style.css" afterPath="$PROJECT_DIR$/../sante/css/pharmacie-style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/css/style.css" afterPath="$PROJECT_DIR$/../sante/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/etablissement-detail.html" afterPath="$PROJECT_DIR$/../sante/etablissement-detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/index.html" afterPath="$PROJECT_DIR$/../sante/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/maladie.html" afterPath="$PROJECT_DIR$/../sante/maladie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/medicament-detail.html" afterPath="$PROJECT_DIR$/../sante/medicament-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/medicament.html" afterPath="$PROJECT_DIR$/../sante/medicament.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/parapharmacie.html" afterPath="$PROJECT_DIR$/../sante/parapharmacie.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/pharmacie-detail.html" afterPath="$PROJECT_DIR$/../sante/pharmacie-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/pharmacie.html" afterPath="$PROJECT_DIR$/../sante/pharmacie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/praticien-detail.html" afterPath="$PROJECT_DIR$/../sante/praticien-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sante/praticien.html" afterPath="$PROJECT_DIR$/../sante/praticien.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
@@ -26,24 +45,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../sante/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="879" column="48" selection-start-line="879" selection-start-column="48" selection-end-line="879" selection-end-column="48" />
+            <state relative-caret-position="183">
+              <caret line="650" column="2" selection-start-line="650" selection-start-column="2" selection-end-line="650" selection-end-column="2" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#39582#39588#1" expanded="true" />
+                <element signature="e#40034#40040#1" expanded="true" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -51,22 +68,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pharmacy.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../sante/img/pharmacy.svg">
+      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sante/article.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="285">
+              <caret line="1130" column="2" selection-start-line="1130" selection-start-column="2" selection-end-line="1130" selection-end-column="2" />
+              <folding>
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article-detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sante/article-detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="992" column="47" selection-start-line="992" selection-start-column="40" selection-end-line="992" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../sante/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="1281" column="10" selection-start-line="1281" selection-start-column="10" selection-end-line="1281" selection-end-column="10" />
+            <state relative-caret-position="239">
+              <caret line="1161" column="9" selection-start-line="1161" selection-start-column="9" selection-end-line="1161" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sante/css/article-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#35#80#0" expanded="false" />
+                <element signature="e#89#114#0" expanded="false" />
+                <element signature="e#125#151#0" expanded="false" />
+                <element signature="e#164#237#0" expanded="false" />
+                <element signature="e#264#352#0" expanded="false" />
+                <element signature="e#393#531#0" expanded="false" />
+                <element signature="e#551#573#0" expanded="false" />
+                <element signature="e#594#723#0" expanded="false" />
+                <element signature="e#753#790#0" expanded="false" />
+                <element signature="e#824#935#0" expanded="false" />
+                <element signature="e#970#1006#0" expanded="false" />
+                <element signature="e#1044#1070#0" expanded="false" />
+                <element signature="e#1110#1180#0" expanded="false" />
+                <element signature="e#1226#1267#0" expanded="false" />
+                <element signature="e#1283#1333#0" expanded="false" />
+                <element signature="e#1360#1475#0" expanded="false" />
+                <element signature="e#1509#1579#0" expanded="false" />
+                <element signature="e#1735#1945#0" expanded="false" />
+                <element signature="e#1969#2075#0" expanded="false" />
+                <element signature="e#2110#2170#0" expanded="false" />
+                <element signature="e#2194#2236#0" expanded="false" />
+                <element signature="e#2252#2406#0" expanded="false" />
+                <element signature="e#2422#2464#0" expanded="false" />
+                <element signature="e#2478#2664#0" expanded="false" />
+                <element signature="e#2684#2720#0" expanded="false" />
+                <element signature="e#2784#2877#0" expanded="false" />
+                <element signature="e#2910#3007#0" expanded="false" />
+                <element signature="e#3046#3069#0" expanded="false" />
+                <element signature="e#3107#3169#0" expanded="false" />
+                <element signature="e#3213#3241#0" expanded="false" />
+                <element signature="e#3290#3345#0" expanded="false" />
+                <element signature="e#3363#3391#0" expanded="false" />
+                <element signature="e#3406#3651#0" expanded="false" />
+                <element signature="e#3672#3723#0" expanded="false" />
+                <element signature="e#3774#3808#0" expanded="false" />
+                <element signature="e#3820#3884#0" expanded="false" />
+                <element signature="e#3898#3967#0" expanded="false" />
+                <element signature="e#3985#4060#0" expanded="false" />
+                <element signature="e#4078#4134#0" expanded="false" />
+                <element signature="e#4149#4290#0" expanded="false" />
+                <element signature="e#4337#4362#0" expanded="false" />
+                <element signature="e#4389#4434#0" expanded="false" />
+                <element signature="e#4458#4516#0" expanded="false" />
+                <element signature="e#4541#4566#0" expanded="false" />
+                <marker date="1522906764884" expanded="false" signature="1635:1713" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,8 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="A:/template/IconHoverEffects/IconHoverEffects/index.html" />
-        <option value="$PROJECT_DIR$/img/arrows.svg" />
         <option value="$PROJECT_DIR$/css/carte-style.css" />
         <option value="$PROJECT_DIR$/img/Madagascar_map.svg" />
         <option value="$PROJECT_DIR$/css/resto-style.css" />
@@ -121,23 +207,25 @@
         <option value="$PROJECT_DIR$/../sante/etablissement.html" />
         <option value="$PROJECT_DIR$/../sante/css/praticien-style.css" />
         <option value="$PROJECT_DIR$/../sante/js/calendrier-function.js" />
-        <option value="$PROJECT_DIR$/../sante/css/article-style.css" />
         <option value="$PROJECT_DIR$/../sante/css/detail-article-style.css" />
-        <option value="$PROJECT_DIR$/../sante/article.html" />
         <option value="$PROJECT_DIR$/../sante/detail-article.html" />
         <option value="$PROJECT_DIR$/../sante/etablissement-detail.html" />
         <option value="$PROJECT_DIR$/../sante/praticien-detail.html" />
         <option value="$PROJECT_DIR$/../sante/css/maladie.css" />
         <option value="$PROJECT_DIR$/../sante/maladie.html" />
-        <option value="$PROJECT_DIR$/../sante/parapharmacie.html" />
         <option value="$PROJECT_DIR$/../sante/pharmacie.html" />
         <option value="$PROJECT_DIR$/../sante/medicament.html" />
         <option value="$PROJECT_DIR$/../sante/medicament-detail.html" />
-        <option value="$PROJECT_DIR$/../sante/pharmacie-detail.html" />
-        <option value="$PROJECT_DIR$/../sante/css/style.css" />
         <option value="$PROJECT_DIR$/../sante/img/Free Pharmacy Vector.svg" />
         <option value="$PROJECT_DIR$/../sante/img/pharmacy.svg" />
+        <option value="$PROJECT_DIR$/../sante/pharmacie-detail.html" />
+        <option value="$PROJECT_DIR$/../sante/parapharmacie.html" />
+        <option value="$PROJECT_DIR$/../sante/css/maladie-style.css" />
+        <option value="$PROJECT_DIR$/../sante/article-detail.html" />
+        <option value="$PROJECT_DIR$/../sante/article.html" />
         <option value="$PROJECT_DIR$/../sante/index.html" />
+        <option value="$PROJECT_DIR$/../sante/css/article-style.css" />
+        <option value="$PROJECT_DIR$/../sante/css/style.css" />
       </list>
     </option>
   </component>
@@ -241,7 +329,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,12 +459,12 @@
       <workItem from="1522498775862" duration="20954000" />
       <workItem from="1522752887541" duration="8532000" />
       <workItem from="1522782634535" duration="35796000" />
-      <workItem from="1522868741850" duration="7613000" />
+      <workItem from="1522868741850" duration="16861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="442197000" />
+    <option name="totallyTimeSpent" value="451445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,6 +483,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -405,7 +494,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -449,28 +537,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../sante/img/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sante/img/slideIndex.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sante/img/icon/favicon-16x16.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petitesAnnonces-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="931" column="33" selection-start-line="931" selection-start-column="33" selection-end-line="931" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../index.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -625,21 +691,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../sante/css/article-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="194" column="1" selection-start-line="194" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../sante/css/detail-article-style.css" />
-    <entry file="file://$PROJECT_DIR$/../sante/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="1026" column="51" selection-start-line="1026" selection-start-column="51" selection-end-line="1029" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../sante/etablissement-detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -667,21 +719,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sante/parapharmacie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="679" column="44" selection-start-line="679" selection-start-column="44" selection-end-line="679" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -689,9 +727,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9979">
           <caret line="587" column="30" selection-start-line="587" selection-start-column="30" selection-end-line="587" selection-end-column="30" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -699,19 +735,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9537">
           <caret line="561" column="33" selection-start-line="561" selection-start-column="33" selection-end-line="561" selection-end-column="33" />
-          <folding>
-            <element signature="n#form#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sante/pharmacie-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13056">
-          <caret line="768" column="37" selection-start-line="768" selection-start-column="37" selection-end-line="768" selection-end-column="37" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -719,23 +743,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="679" column="44" selection-start-line="679" selection-start-column="44" selection-end-line="679" selection-end-column="44" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../sante/img/Free_Pharmacy_Vector.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sante/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="1281" column="10" selection-start-line="1281" selection-start-column="10" selection-end-line="1281" selection-end-column="10" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../sante/img/Free Pharmacy Vector.svg">
@@ -756,26 +770,151 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/pharmacie-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="630" column="18" selection-start-line="622" selection-start-column="16" selection-end-line="630" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/parapharmacie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="501" column="25" selection-start-line="501" selection-start-column="25" selection-end-line="501" selection-end-column="25" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/css/pharmacie-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/css/detail-maladie-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/css/maladie-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../sante/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="879" column="48" selection-start-line="879" selection-start-column="48" selection-end-line="879" selection-end-column="48" />
+        <state relative-caret-position="183">
+          <caret line="650" column="2" selection-start-line="650" selection-start-column="2" selection-end-line="650" selection-end-column="2" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#39582#39588#1" expanded="true" />
+            <element signature="e#40034#40040#1" expanded="true" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/article-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="992" column="47" selection-start-line="992" selection-start-column="40" selection-end-line="992" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="1130" column="2" selection-start-line="1130" selection-start-column="2" selection-end-line="1130" selection-end-column="2" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/css/article-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#35#80#0" expanded="false" />
+            <element signature="e#89#114#0" expanded="false" />
+            <element signature="e#125#151#0" expanded="false" />
+            <element signature="e#164#237#0" expanded="false" />
+            <element signature="e#264#352#0" expanded="false" />
+            <element signature="e#393#531#0" expanded="false" />
+            <element signature="e#551#573#0" expanded="false" />
+            <element signature="e#594#723#0" expanded="false" />
+            <element signature="e#753#790#0" expanded="false" />
+            <element signature="e#824#935#0" expanded="false" />
+            <element signature="e#970#1006#0" expanded="false" />
+            <element signature="e#1044#1070#0" expanded="false" />
+            <element signature="e#1110#1180#0" expanded="false" />
+            <element signature="e#1226#1267#0" expanded="false" />
+            <element signature="e#1283#1333#0" expanded="false" />
+            <element signature="e#1360#1475#0" expanded="false" />
+            <element signature="e#1509#1579#0" expanded="false" />
+            <element signature="e#1735#1945#0" expanded="false" />
+            <element signature="e#1969#2075#0" expanded="false" />
+            <element signature="e#2110#2170#0" expanded="false" />
+            <element signature="e#2194#2236#0" expanded="false" />
+            <element signature="e#2252#2406#0" expanded="false" />
+            <element signature="e#2422#2464#0" expanded="false" />
+            <element signature="e#2478#2664#0" expanded="false" />
+            <element signature="e#2684#2720#0" expanded="false" />
+            <element signature="e#2784#2877#0" expanded="false" />
+            <element signature="e#2910#3007#0" expanded="false" />
+            <element signature="e#3046#3069#0" expanded="false" />
+            <element signature="e#3107#3169#0" expanded="false" />
+            <element signature="e#3213#3241#0" expanded="false" />
+            <element signature="e#3290#3345#0" expanded="false" />
+            <element signature="e#3363#3391#0" expanded="false" />
+            <element signature="e#3406#3651#0" expanded="false" />
+            <element signature="e#3672#3723#0" expanded="false" />
+            <element signature="e#3774#3808#0" expanded="false" />
+            <element signature="e#3820#3884#0" expanded="false" />
+            <element signature="e#3898#3967#0" expanded="false" />
+            <element signature="e#3985#4060#0" expanded="false" />
+            <element signature="e#4078#4134#0" expanded="false" />
+            <element signature="e#4149#4290#0" expanded="false" />
+            <element signature="e#4337#4362#0" expanded="false" />
+            <element signature="e#4389#4434#0" expanded="false" />
+            <element signature="e#4458#4516#0" expanded="false" />
+            <element signature="e#4541#4566#0" expanded="false" />
+            <marker date="1522906764884" expanded="false" signature="1635:1713" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sante/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="1161" column="9" selection-start-line="1161" selection-start-column="9" selection-end-line="1161" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

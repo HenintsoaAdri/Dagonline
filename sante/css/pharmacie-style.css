@@ -241,6 +241,10 @@
   box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
 }
 
+#notices iframe{
+  margin: auto;
+}
+
 @media screen and (min-width: 600px) {
   .blog-card {
     height: 200px;
@@ -290,7 +294,7 @@
             transform: skewX(-5deg);
     content: "";
     background: #fff;
-    width: 100%;
+    width: 110%;
     z-index: -1;
     /*POSITION*/
     position: absolute;
@@ -439,6 +443,9 @@
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  }
+  .coordonnees{
+    margin: auto;
   }
   /*Fin element annonce */
   /*Bouton déposer annonce */

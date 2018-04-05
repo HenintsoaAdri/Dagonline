@@ -29,6 +29,7 @@
     <!--Fin Toast-->
     <!-- Theme personnalisé -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/maladie-style.css">
     <link rel="stylesheet" href="css/font.css">
 
 </head>
@@ -884,6 +885,23 @@
         <div class="jumbotron-text">
             <h1>Dagonline</h1>
             <p>Trouvez et achetez ce qui vous soigne sur tout Madagascar</p>
+            <form class="form-inline col-xs-offset-1 col-xs-10">
+              <div class="form-group">
+                <select class="form-control">
+                  <option disabled selected> Où : Région, Ville </option>
+                  <option>Antananarivo</option>
+                  <option>Diego-Suarez</option>
+                  <option>Majunga</option>
+                  <option>Tamatave</option>
+                  <option>Fianarantsoa</option>
+                  <option>Tuléar</option>
+                </select>
+              </div>
+              <div class="form-group input-group">
+                <input type="text" class="form-control" size="30" value="Maladie" placeholder="Rechercher...">
+              </div>
+              <button type="button" class="form-control btn text-white bg-green">Trouver</button>
+            </form>
         </div>
 
         <div id="SlidePrincipal" class="carousel slide hidden-xs" data-ride="carousel">
@@ -943,60 +961,25 @@
     <div id="body">
         <span id="dagonline"></span>
         <div class="container-fluid bg-warning text-danger pacifico shadow">
-            <div class="text-right p-r-20">
+            <div class="p-r-20">
+              <!-- BreadCrumbs -->
+              <div class="pull-left">
+                <p class="breadcrumbs">
+                  <a href="index.html">Dagonline</a>
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <a href="#" class="actuel">Maladie</a>
+                </p>
+              </div>
+              <!-- Fin BreadCrumbs -->
+              
+              <div class="pull-right">  
                 <h2>Maladie</h2>
-            </div>
+              </div>
+          </div>
         </div>
-        <!-- Container Partie Maladie -->
-        <!-- Container filtre -->
-        <div class="container-fluid formulaire">
-            <form class="form-inline" action="praticien-search.html">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="form-group">
-                            <select class="form-control">
-                                <option disabled selected> Types de maladie </option>
-                                <option>Maladie bucco-dentaires</option>
-                                <option>Maladie chroniques</option>
-                                <option>Maladie de l'appareil circulatoire</option>
-                                <option>Maladie de peau</option>
-                                <option>Maladie des reins</option>
-                                <option>Maladie gynecologue</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Recherche...">
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="form-group">
-                            <label class="radio-inline">
-                                <input type="radio" name="optradio">
-                                <span>Tous</span>
-                            </label>
-                            <label class="radio-inline">
-                                <input type="radio" name="optradio">
-                                <span>Types</span>
-                            </label>
-                            <label class="radio-inline">
-                                <input type="radio" name="optradio">
-                                <span>Maladies</span>
-                            </label>
-                        </div>
-                        <button type="submit" class="form-control btn text-white bg-green">Rechercher</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <!-- Fin Container filtre -->
+        <br>
+        
         <div class="container">
-            <!-- BreadCrumbs -->
-            <p class="breadcrumbs">
-                <a href="#">Dagonline</a>
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <a href="#" class="actuel">Maladie</a>
-            </p>
-            <!-- Fin BreadCrumbs -->
             <div class="row">
                 <div class="col-sm-4">
                     <div class="maladie">
@@ -1012,8 +995,8 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                     ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                                <a href="#" class="link-more">
-                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Lire la suite</a>
+                                <a href="maladie-list.html" class="link-more">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Voir d&eacute;tails</a>
                             </div>
                         </div>
                     </div>
@@ -1032,8 +1015,8 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                     ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                                <a href="#" class="link-more">
-                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Lire la suite</a>
+                                <a href="maladie-list.html" class="link-more">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Voir d&eacute;tails</a>
                             </div>
                         </div>
                     </div>
@@ -1052,8 +1035,8 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                     ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                                <a href="#" class="link-more">
-                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Lire la suite</a>
+                                <a href="maladie-list.html" class="link-more">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Voir d&eacute;tails</a>
                             </div>
                         </div>
                     </div>
@@ -1072,8 +1055,8 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                     ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                                <a href="#" class="link-more">
-                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Lire la suite</a>
+                                <a href="maladie-list.html" class="link-more">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Voir d&eacute;tails</a>
                             </div>
                         </div>
                     </div>
@@ -1092,8 +1075,8 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                     ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                                <a href="#" class="link-more">
-                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Lire la suite</a>
+                                <a href="maladie-list.html" class="link-more">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Voir d&eacute;tails</a>
                             </div>
                         </div>
                     </div>
@@ -1112,46 +1095,14 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                     ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                                <a href="#" class="link-more">
-                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Lire la suite</a>
+                                <a href="maladie-list.html" class="link-more">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Voir d&eacute;tails</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row page-maladie">
-                <ul class="pagination">
-                    <li class="prev">
-                        <a href="#">
-                            <i class="fa fa-chevron-left"></i>
-                        </a>
-                    </li>
-                    <li class="active">
-                        <a href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">4</a>
-                    </li>
-                    <li>
-                        <a href="#">5</a>
-                    </li>
-                    <li>
-                        <a href="#">...</a>
-                    </li>
-                    <li class="next">
-                        <a href="#">
-                            <i class="fa fa-chevron-right"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
         </div>
         <!-- Container Partie Maladie -->
     </div>

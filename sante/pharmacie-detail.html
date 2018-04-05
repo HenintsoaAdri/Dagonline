@@ -19,7 +19,7 @@
   <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
-  <title>Dagonline - Trouvez ce qui vous soigne sur tout Madagascar</title>
+  <title>Dagonline - Trouvez et achetez ce qui vous soigne sur tout Madagascar</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -29,6 +29,8 @@
   <!-- Theme personnalisé -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/pharmacie-style.css">
 </head>
 <body>
@@ -40,9 +42,22 @@
 </div>
 <!--Fin Préloader-->
 
+<!--Lien rapide-->
+<div class="btn-group menu-rapide text-white">
+  <span class="glyphicon glyphicon-menu-left"></span>
+  <div class="btn-group-vertical">
+    <a href="maladie.html" class="btn btn-flat" title="Maladie" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-syringe"></i></a>
+    <a href="medicament.html" class="btn btn-flat" title="Médicament" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-pills"></i></a>
+    <a href="praticien.html" class="btn btn-flat" title="Praticien" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-user-md"></i></a>
+    <a href="parapharmacie.html" class="btn btn-flat" title="Parapharmacie" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-first-aid"></i></a>
+    <a href="etablissement.html" class="btn btn-flat" title="Etablissement" data-toggle="tooltip" data-placement="bottom"><i class="far fa-hospital"></i></a>
+  </div>
+</div>
+<!--Fin de lien rapide-->
+
 <!--Header-->
 <div class="container-fluid">
-  <ul class="list-inline text-right pull-right m-t-5 m-b-5 small text-white">
+  <ul class="list-inline text-right pull-right m-t-5 m-b-5 small">
     <li><a href="#">Top-Recherche</a></li>
     <li><a href="#">R&eacute;cent</a></li>
     <li><a href="#">Favoris</a></li>
@@ -52,7 +67,7 @@
   </ul>
 </div>
 <!--Navigation Bar-->
-<nav class="m-b-0 bg-red navbar navbar-static-top text-white navbar-inverse" data-spy="affix" data-offset-top="32">
+<nav class="m-b-0 navbar navbar-static-top text-white navbar-inverse" data-spy="affix" data-offset-top="32">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -60,611 +75,440 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a href="index.html" class="navbar-brand">
-          <img src="img/logo.png" class="img-responsive shadow">
-        </a>
+      <a href="index.html" class="navbar-brand">
+        <img src="img/logo.png" class="img-responsive shadow">
+      </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cyber
-            </a>
-            <div class="dropdown-menu row">
-              <div class="col-sm-2 col-xs-4">
-                <img src="img/province/Antananarivo.png" class="img-circle img-responsive hidden-xs">
-                <h3 class="dropdown-header p-b-0 m-b-0">Antananarivo</h3><hr>
-                <ul class="dropdown-ul">
-                  <li><a href="#">Page 1-1</a></li>
-                  <li><a href="#">Page 1-2</a></li>
-                  <li><a href="#">Page 1-3</a></li>
-                  <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Maladies
+          </a>
+          <div class="dropdown-menu">
+            <ul class="dropdown-ul">
+              <li>
+                <a href="#">Maladies bucco-dentaires</a>
+              </li>
+              <li>
+                <a href="#">Maladies chroniques</a>
+              </li>
+              <li>
+                <a href="#">Maladies de l’appareil circulatoire</a>
+              </li>
+              <li>
+                <a href="#">Maladies de l’appareil digestif</a>
+              </li>
+              <li>
+                <a href="#">Maladies de l’appareil respiratoire (ORL)</a>
+              </li>
+              <li>
+                <a href="#">Maladies de l’œil</a>
+              </li>
+              <li>
+                <a href="#">Maladies de peau</a>
+              </li>
+              <li>
+                <a href="#">Maladies des reins et appareil urinaire</a>
+              </li>
+              <li>
+                <a href="#">Maladies du système immunitaire</a>
+              </li>
+              <li>
+                <a href="#">Maladies endocriniennes-métaboliques</a>
+              </li>
+              <li>
+                <a href="#">Maladies génétiques</a>
+              </li>
+              <li>
+                <a href="#">Maladies gynécologiques</a>
+              </li>
+              <li>
+                <a href="#">Maladies infantiles</a>
+              </li>
+              <li>
+                <a href="#">Maladies infectieuses</a>
+              </li>
+              <li>
+                <a href="#">Maladies mentales</a>
+              </li>
+              <li>
+                <a href="#">Maladies neurologiques</a>
+              </li>
+              <li>
+                <a href="#">Troubles des os et des articulations</a>
+              </li>
+              <li>
+                <a href="#">Cancers</a>
+              </li>
+              <li>
+                <a href="#">Maladies éruptives </a>
+              </li>
+              <li>
+                <a href="#">Maladies transmissibles durant la grossesse</a>
+              </li>
+              <li>
+                <a href="#">Troubles et maladies liés à la grossesse</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Médicaments
+          </a>
+          <div class="dropdown-menu row">
+            <ul class="dropdown-ul">
+              <li>
+                <a class="title" href="#">Douleurs - fièvre</a>
+                <ul>
+                  <li><a href="#">Paracétamol</a></li>
+                  <li><a href="#">Aspirine</a></li>
+                  <li><a href="#">Ibuprofène</a></li>
+                  <li><a href="#">Migraines</a></li>
+                  <li><a href="#">Anti-inflammatoires</a></li>
+                  <li><a href="#">Douleurs Musculaires</a></li>
+                  <li><a href="#">Douleurs Articulaires</a></li>
                 </ul>
-              </div>
-              <div class="col-sm-2 col-xs-4">
-                  <img src="img/province/Antsiranana.png" class="img-circle img-responsive hidden-xs">
-                <h3 class="dropdown-header">Diego-Suarez</h3><hr>
-                <ul class="dropdown-ul">
-                  <li><a href="#">Page 1-1</a></li>
-                  <li><a href="#">Page 1-2</a></li>
-                  <li><a href="#">Page 1-3</a></li>
-                  <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
+              </li>
+              <li>
+                <a class="title" href="#">Rhume - toux - gorge</a>
+                <ul>
+                  <li><a href="#">Rhume - Etat grippaux</a></li>
+                  <li><a href="#">Maux de gorge</a></li>
+                  <li><a href="#">Toux sèche</a></li>
+                  <li><a href="#">Toux grasse</a></li>
+                  <li><a href="#">Allergies - Sinusite</a></li>
                 </ul>
-              </div>
-              <div class="col-sm-2 col-xs-4">
-                  <img src="img/province/Mahajanga.png" class="img-circle img-responsive hidden-xs">
-                <h3 class="dropdown-header">Majunga</h3><hr>
-                <ul class="dropdown-ul">
-                  <li><a href="#">Page 1-1</a></li>
-                  <li><a href="#">Page 1-2</a></li>
-                  <li><a href="#">Page 1-3</a></li>
-                  <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
+              </li>
+              <li>
+                <a class="title" href="#">Médecine naturelle</a>
+                <ul>
+                  <li><a href="#">Homéopathie</a></li>
+                  <li><a href="#">Oligothérapie</a></li>
+                  <li><a href="#">Phytothérapie</a></li>
+                  <li><a href="#">Huiles essentielles</a></li>
+                  <li><a href="#">Infusions</a></li>
                 </ul>
-              </div>
-              <div class="col-sm-2 col-xs-4">
-                  <img src="img/province/Toamasina.png" class="img-circle img-responsive hidden-xs">
-                <h3 class="dropdown-header">Tamatave</h3><hr>
-                <ul class="dropdown-ul">
-                  <li><a href="#">Page 1-1</a></li>
-                  <li><a href="#">Page 1-2</a></li>
-                  <li><a href="#">Page 1-3</a></li>
-                  <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
+              </li>
+              <li>
+                <a class="title" href="#">Bébé</a>
+                <ul>
+                  <li><a href="#">Affections ORL</a></li>
+                  <li><a href="#">Douleurs dentaires</a></li>
+                  <li><a href="#">Eczéma - Irritations</a></li>
+                  <li><a href="#">Érythème fessier</a></li>
+                  <li><a href="#">Fièvre</a></li>
+                  <li><a href="#">Troubles digestifs</a></li>
                 </ul>
-              </div>
-              <div class="col-sm-2 col-xs-4">
-                  <img src="img/province/Tulear.png" class="img-circle img-responsive hidden-xs">
-                <h3 class="dropdown-header">Tuléar</h3><hr>
-                <ul class="dropdown-ul">
-                  <li><a href="#">Page 1-1</a></li>
-                  <li><a href="#">Page 1-2</a></li>
-                  <li><a href="#">Page 1-3</a></li>
-                  <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
+              </li>
+              <li>
+                <a class="title" href="#">Détente - sommeil</a>
+                <ul>
+                  <li><a href="#">Stress - Dépression</a></li>
+                  <li><a href="#">Troubles du sommeil</a></li>
+                  <li><a href="#">Anti-ronflement</a></li>
                 </ul>
-              </div>
-              <div class="col-sm-2 col-xs-4">
-                  <img src="img/province/Fianarantsoa.png" class="img-circle img-responsive hidden-xs">
-                <h3 class="dropdown-header"a href="#">Fianarantsoa</a></h3><hr>
-                <ul class="dropdown-ul">
-                  <li><a href="#">Page 1-1</a></li>
-                  <li><a href="#">Page 1-2</a></li>
-                  <li><a href="#">Page 1-3</a></li>
-                  <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
+              </li>
+              <li>
+                <a class="title" href="#">Digestion</a>
+                <ul>
+                  <li><a href="#">Ballonnements</a></li>
+                  <li><a href="#">Constipation</a></li>
+                  <li><a href="#">Diarrhée</a></li>
+                  <li><a href="#">Digestion difficile</a></li>
+                  <li><a href="#">Maux d'estomac</a></li>
+                  <li><a href="#">Maux de ventre</a></li>
+                  <li><a href="#">Nausées - Vomissements</a></li>
                 </ul>
-              </div>
-            </div>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Boutique
-          </a>
-          <div class="dropdown-menu row">
-            <div class="col-sm-2 col-xs-4 title-head">
-              <img src="img/province/Antananarivo.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header p-b-0 m-b-0">Antananarivo</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Antsiranana.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Diego-Suarez</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Mahajanga.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Majunga</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Toamasina.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tamatave</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Tulear.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tuléar</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Fianarantsoa.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header"a href="#">Fianarantsoa</a></h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
+              </li>
+              <li>
+                <a class="title" href="#">Sevrage tabagique</a>
+                <ul>
+                  <li><a href="#">Comprimés à sucer</a></li>
+                  <li><a href="#">Gommes à mâcher</a></li>
+                  <li><a href="#">Patchs - Dispositifs transdermiques</a></li>
+                  <li><a href="#">Sprays - Inhaleurs</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Coeur cholesterol</a>
+                <ul>
+                  <li><a href="#">Cholestérol</a></li>
+                  <li><a href="#">Hypertension</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Infections cutanées</a>
+                <ul>
+                  <li><a href="#">Boutons de fièvre - Herpès</a></li>
+                  <li><a href="#">Mycoses</a></li>
+                  <li><a href="#">Verrues</a></li>
+                  <li><a href="#">Irritations cutanées - Acné</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Maux de bouche</a>
+                <ul>
+                  <li><a href="#">Aphtes</a></li>
+                  <li><a href="#">Bains de bouche</a></li>
+                  <li><a href="#">Inflammation des gencives</a></li>
+                  <li><a href="#">Prévention des caries</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Féminité</a>
+                <ul>
+                  <li><a href="#">Contraception</a></li>
+                  <li><a href="#">Grossesse</a></li>
+                  <li><a href="#">Ménopause</a></li>
+                  <li><a href="#">Mycoses</a></li>
+                  <li><a href="#">Sexualité</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Ophtalmologie</a>
+                <ul>
+                  <li><a href="#">Allergies</a></li>
+                  <li><a href="#">Entretien des lentilles</a></li>
+                  <li><a href="#">Infection de l'oeil</a></li>
+                  <li><a href="#">Irritation des yeux - Conjonctivite</a></li>
+                  <li><a href="#">Troubles de la vue</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Tonus/vitamines</a>
+                <ul>
+                  <li><a href="#">Forme - Energie</a></li>
+                  <li><a href="#">Défenses immunitaires</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Premiers soins</a>
+                <ul>
+                  <li><a href="#">Affections de l'oreille</a></li>
+                  <li><a href="#">Œdèmes </a></li>
+                  <li><a href="#">Cicatrisation - Désinfection</a></li>
+                  <li><a href="#">Coups - Bleus - Brûlures </a></li>
+                  <li><a href="#">Pansements</a></li>
+                  <li><a href="#">Voyage - Antimoustiques</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Circulation veineuse</a>
+                <ul>
+                  <li><a href="#">Hémorroïdes</a></li>
+                  <li><a href="#">Jambes lourdes</a></li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </li>
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Technologie
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Parapharmacie
           </a>
           <div class="dropdown-menu row">
-            <div class="col-sm-2 col-xs-4 title-head">
-              <img src="img/province/Antananarivo.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header p-b-0 m-b-0">Antananarivo</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Antsiranana.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Diego-Suarez</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Mahajanga.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Majunga</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Toamasina.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tamatave</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Tulear.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tuléar</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Fianarantsoa.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header"a href="#">Fianarantsoa</a></h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
+            <ul class="dropdown-ul">
+              <li>
+                <a class="title" href="#">Beauté</a>
+                <ul>
+                  <li><a href="#">Anti-âge Antirides Anti-taches </a></li>
+                  <li><a href="#">Acné</a></li>
+                  <li><a href="#">Antirougeurs</a></li>
+                  <li><a href="#">Contour des Yeux</a></li>
+                  <li><a href="#">Démaquillants Nettoyants </a></li>
+                  <li><a href="#">Maquillage Eaux de beauté </a></li>
+                  <li><a href="#">Masque révélateur d'éclat</a></li>
+                  <li><a href="#">Soins hydratants</a></li>
+                  <li><a href="#">Soins lèvres</a></li>
+                  <li><a href="#">Parfum</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Minceur</a>
+                <ul>
+                  <li><a href="#">Bruleurs de graisse </a></li>
+                  <li><a href="#">Coupe faim </a></li>
+                  <li><a href="#">Cremes anti-cellulite </a></li>
+                  <li><a href="#">Destockeur Anti-cellulite </a></li>
+                  <li><a href="#">Draineurs </a></li>
+                  <li><a href="#">Régimes hyperprotéinés</a></li>
+                  <li><a href="#"> 	Ventre plat </a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Cheveux</a>
+                <ul>
+                  <li><a href="#">Brosses &amp; accessoires </a></li>
+                  <li><a href="#">Cheveux gras </a></li>
+                  <li><a href="#">Cheveux normaux</a></li>
+                  <li><a href="#">Cheveux secs &amp; rebelles </a></li>
+                  <li><a href="#">Coiffants</a></li>
+                  <li><a href="#">Colorations &amp; Entretien</a></li>
+                  <li><a href="#">Compléments Alimentaires</a></li>
+                  <li><a href="#">Soins antipelliculaires </a></li>
+                  <li><a href="#">Soins antichute &amp; Fortifiants </a></li>
+                  <li><a href="#">Traitements anti-poux </a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Solaire</a>
+                <ul>
+                  <li><a href="#">Autobronzants </a></li>
+                  <li><a href="#">Capsules solaires </a></li>
+                  <li><a href="#">Eaux Thermales</a></li>
+                  <li><a href="#">Solaires Adultes</a></li>
+                  <li><a href="#">Solaires Cheveux</a></li>
+                  <li><a href="#">Solaires Enfants</a></li>
+                  <li><a href="">Solaires Minceur</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Diététique</a>
+                <ul>
+                  <li><a href="#">Anti-âge Antioxydant Yeux </a></li>
+                  <li><a href="#">Circulation Jambes lourdes</a></li>
+                  <li><a href="#">Confort urinaire Prostate </a></li>
+                  <li><a href="#">Voies respiratoires </a></li>
+                  <li><a href="#">Constipation digestion transit </a></li>
+                  <li><a href="#">Forme Energie Immunité </a></li>
+                  <li><a href="#">Stress Sommeil Mémoire </a></li>
+                  <li><a href="#">Ménopause</a></li>
+                  <li><a href="#">Rhumatismes </a></li>
+                  <li><a href="#">Coeur Cholestérol </a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Maman</a>
+                <ul>
+                  <li><a href="#">Allaitement</a></li>
+                  <li><a href="#">Compléments Alimentaires</a></li>
+                  <li><a href="#">Soins anti-vergetures </a></li>
+                  <li><a href="#">Tests de Grossesse </a></li>
+                  <li><a href="#">Soins jeunes mamans</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Bébé</a>
+                <ul>
+                  <li><a href="#">Accessoires</a></li>
+                  <li><a href="#">Alimentation</a></li>
+                  <li><a href="#">Biberons tétines sucettes </a></li>
+                  <li><a href="#">Change de bébé </a></li>
+                  <li><a href="#">Coffrets &amp; Parfums </a></li>
+                  <li><a href="#">Hygiène nez dents oreilles </a></li>
+                  <li><a href="#">Soins visage &amp; corps </a></li>
+                  <li><a href="#">Toilette de bébé </a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Premiers soins</a>
+                <ul>
+                  <li><a href="#">Incontinence</a></li>
+                  <li><a href="#">Infusion</a></li>
+                  <li><a href="#">Matériel Médical</a></li>
+                  <li><a href="#">Nez - Gorge - Oreilles</a></li>
+                  <li><a href="#">Premiers Soins</a></li>
+                  <li><a href="#">Voyage Anti Moustique</a></li>
+                  <li><a href="#">Huiles Essentielles</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Homme</a>
+                <ul>
+                  <li><a href="#">Bain Douche homme </a></li>
+                  <li><a href="#">Deodorants homme </a></li>
+                  <li><a href="#">Libido</a></li>
+                  <li><a href="#">Minceur Homme</a></li>
+                  <li><a href="#">Rasage Après-rasage </a></li>
+                  <li><a href="#">Soins du corps homme</a></li>
+                  <li><a href="#">Soins du visage homme </a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Sport</a>
+                <ul>
+                  <li><a href="#">Acides aminés &amp; proteines </a></li>
+                  <li><a href="#">Complements alimentaires </a></li>
+                  <li><a href="#">Soins avant &amp; après l'effort </a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Hygiène</a>
+                <ul>
+                  <li><a href="#">Bain &amp; Douche </a></li>
+                  <li><a href="#">Deodorants </a></li>
+                  <li><a href="#">Antiseptiques Antibacteriens</a></li>
+                  <li><a href="#">Entretien des lentilles </a></li>
+                  <li><a href="#">Epilation </a></li>
+                  <li><a href="#">Mains Pieds Podologie </a></li>
+                  <li><a href="#">Nez Oreilles</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Dentaire</a>
+                <ul>
+                  <li><a href="#">Appareils électriques </a></li>
+                  <li><a href="#">Bains de bouche</a></li>
+                  <li><a href="#">Brosses à dents</a></li>
+                  <li><a href="#">Dentifrices gel gingival </a></li>
+                  <li><a href="#">Fils dentaire brossettes </a></li>
+                  <li><a href="#">Haleine fraîche </a></li>
+                  <li><a href="#">Produits appareils dentaires</a></li>
+                  <li><a href="#">Soins blanchissants</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Intime</a>
+                <ul>
+                  <li><a href="#">Hygiène intime </a></li>
+                  <li><a href="#">Préservatifs Lubrifiants </a></li>
+                  <li><a href="#">Sexualité</a></li>
+                  <li><a href="#">Tampons Serviette</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="title" href="#">Vétérinaire</a>
+                <ul>
+                  <li><a href="#">Antipuces - Antitiques - Vermifuges</a></li>
+                  <li><a href="#">Complements alimentaires </a></li>
+                  <li><a href="#">Toilettage - Shampooings</a></li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </li>
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Travaux
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Praticien
           </a>
-          <div class="dropdown-menu row">
-            <div class="col-sm-2 col-xs-4 title-head">
-              <img src="img/province/Antananarivo.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header p-b-0 m-b-0">Antananarivo</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Antsiranana.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Diego-Suarez</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Mahajanga.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Majunga</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Toamasina.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tamatave</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Tulear.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tuléar</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Fianarantsoa.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header"a href="#">Fianarantsoa</a></h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
+          <div class="dropdown-menu">
+            <ul class="dropdown-ul">
+              <li><a href="/dentiste">Chirurgien-dentiste</a></li>
+              <li><a href="/medecin-generaliste">Médecin généraliste</a></li>
+              <li><a href="/pediatre">Pédiatre</a></li>
+              <li><a href="/gynecologue">Gynécologue médical et obstétrique</a></li>
+              <li><a href="/ophtalmologue">Ophtalmologue</a></li>
+              <li><a href="/dermatologue">Dermatologue</a></li>
+              <li><a href="/osteopathe">Ostéopathe</a></li>
+              <li><a href="/masseur-kinesitherapeute">Masseur-kinésithérapeute</a></li>
+              <li><a href="/pedicure-podologue">Pédicure-podologue</a></li>
+              <li><a href="/sage-femme">Sage-femme</a></li>
+              <li><a href="/orl-oto-rhino-laryngologie">ORL</a></li>
+              <li><a href="/allergologue">Allergologue</a></li>
+              <li><a href="/chirurgien-urologue">Chirurgien urologue</a></li>
+              <li><a href="/rhumatologue">Rhumatologue</a></li>
+              <li><a href="/stomatologue">Stomatologue</a></li>
+              <li><a href="/endocrinologue">Endocrinologue</a></li>
+              <li><a href="/chirurgien-orthopediste">Chirurgien orthopédiste</a></li>
+              <li><a href="/dieteticien">Diététicien</a></li>
+              <li><a href="/psychologue">Psychologue</a></li>
+              <li><a href="/neurologue">Neurologue</a></li>
+            </ul>
           </div>
         </li>
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Restaurants & H&ocirc;tels
-          </a>
-          <div class="dropdown-menu row">
-            <div class="col-sm-2 col-xs-4 title-head">
-              <img src="img/province/Antananarivo.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header p-b-0 m-b-0">Antananarivo</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Antsiranana.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Diego-Suarez</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Mahajanga.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Majunga</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Toamasina.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tamatave</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Tulear.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tuléar</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Fianarantsoa.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header"a href="#">Fianarantsoa</a></h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-          </div>
+          <a href="#">Etablissement</a>
         </li>
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">&Eacute;lectrom&eacute;nager
-          </a>
-          <div class="dropdown-menu row">
-            <div class="col-sm-2 col-xs-4 title-head">
-              <img src="img/province/Antananarivo.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header p-b-0 m-b-0">Antananarivo</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Antsiranana.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Diego-Suarez</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Mahajanga.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Majunga</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Toamasina.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tamatave</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Tulear.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tuléar</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Fianarantsoa.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header"a href="#">Fianarantsoa</a></h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-          </div>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Auto-Moto
-          </a>
-          <div class="dropdown-menu row">
-            <div class="col-sm-2 col-xs-4 title-head">
-              <img src="img/province/Antananarivo.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header p-b-0 m-b-0">Antananarivo</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Antsiranana.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Diego-Suarez</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Mahajanga.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Majunga</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Toamasina.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tamatave</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Tulear.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tuléar</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Fianarantsoa.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header"a href="#">Fianarantsoa</a></h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-          </div>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Loisirs
-          </a>
-          <div class="dropdown-menu row">
-            <div class="col-sm-2 col-xs-4 title-head">
-              <img src="img/province/Antananarivo.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header p-b-0 m-b-0">Antananarivo</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Antsiranana.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Diego-Suarez</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Mahajanga.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Majunga</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Toamasina.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tamatave</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Tulear.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tuléar</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Fianarantsoa.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header"a href="#">Fianarantsoa</a></h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-          </div>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sport
-          </a>
-          <div class="dropdown-menu row">
-            <div class="col-sm-2 col-xs-4 title-head">
-              <img src="img/province/Antananarivo.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header p-b-0 m-b-0">Antananarivo</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Antsiranana.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Diego-Suarez</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Mahajanga.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Majunga</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Toamasina.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tamatave</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Tulear.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header">Tuléar</h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-4">
-              <img src="img/province/Fianarantsoa.png" class="img-circle img-responsive hidden-xs">
-              <h3 class="dropdown-header"a href="#">Fianarantsoa</a></h3><hr>
-              <ul class="dropdown-ul">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-                <li class="small more pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Voir plus</a></li>
-              </ul>
-            </div>
-          </div>
-        </li>
-        <li>
-          <a href="#">Petites Annonces</a>
-        </li>
-        <li>
-          <a href="#">Communaut&eacute;</a>
+          <a href="#">Article</a>
         </li>
       </ul>
     </div>
@@ -673,28 +517,15 @@
 <!--Fin Navigation Bar-->
 <!--Fin Header-->
 
-<!--Lien rapide-->
-<div class="btn-group menu-rapide text-white">
-  <span class="glyphicon glyphicon-menu-left"></span>
-  <div class="btn-group-vertical">
-    <a class="btn btn-flat" title="H&ocirc;tel" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-bed"></i></a>
-    <a class="btn btn-flat" title="Restaurant" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-utensils"></i></a>
-    <a class="btn btn-flat" title="Cyber" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-laptop"></i></a>
-    <a class="btn btn-flat" title="Bons Plans" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-glass-martini"></i></a>
-    <a class="btn btn-flat" title="Jobs" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-briefcase"></i></a>
-  </div>
-</div>
-<!--Fin de lien rapide-->
-
 <!--Slide principal-->
 <div class="jumbotron text-center m-b-0">
   <div class="jumbotron-text">
     <h1>Dagonline</h1>
-    <p>Trouvez et achetez ce qui vous chante sur tout Madagascar</p>
+    <p>Trouvez et achetez ce qui vous soigne sur tout Madagascar</p>
     <form class="form-inline col-xs-offset-1 col-xs-10">
       <div class="form-group">
         <select class="form-control">
-          <option disabled selected>Où : Pays, Région, Département, Ville </option>
+          <option disabled selected> Où : Région, Ville </option>
           <option>Antananarivo</option>
           <option>Diego-Suarez</option>
           <option>Majunga</option>
@@ -704,10 +535,9 @@
         </select>
       </div>
       <div class="form-group input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-search text-info"></i></span>
-        <input type="text" class="form-control" size="30" placeholder="Rechercher...">
+        <input type="text" class="form-control" size="30" value="Pharmacie" placeholder="Rechercher...">
       </div>
-      <button type="button" class="form-control btn text-white bg-red">Trouver</button>
+      <button type="button" class="form-control btn text-white bg-green">Trouver</button>
     </form>
   </div>
 
@@ -716,15 +546,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="img/slideIndex.jpg" class="img-responsive">
+        <img src="img/slideDocteur.jpg" class="img-responsive">
       </div>
 
       <div class="item">
-        <img src="img/slideIndex.jpg" class="img-responsive">
+        <img src="img/slideDocteur.jpg" class="img-responsive">
       </div>
 
       <div class="item">
-        <img src="img/slideIndex.jpg" class="img-responsive">
+        <img src="img/slideDocteur.jpg" class="img-responsive">
       </div>
     </div>
 
@@ -746,17 +576,33 @@
 <div id="body">
   <span id="dagonline"></span>
   <div class="container-fluid bg-warning text-danger pacifico shadow">
-	<div class="text-right"><h2>Pharmacie</h2></div>
+      <div class="p-r-20">
+        <!-- BreadCrumbs -->
+        <div class="pull-left">
+          <p class="breadcrumbs">
+            <a href="index.html">Dagonline</a>
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <a href="#" class="actuel">Pharmacie</a>
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <a href="#" class="actuel">Exemple pharmacie</a>
+          </p>
+        </div>
+        <!-- Fin BreadCrumbs -->
+        
+        <div class="pull-right">  
+          <h2>Pharmacie</h2>
+        </div>
+    </div>
   </div>
 
   <!-- Container Petites Annonces -->
   <div class="annonces container-fluid m-t-5">
-    <div class="row">
+    <div class="container">
         <!--LISTE DES ANNONCES-->
         <div id="annonce" class="row m-t-20 p-5">
 
-          <div class="col-sm-offset-1 col-sm-10 col-sm-offset-1 p-l-20 annonce">
-            <h3 class="m-t-20 text-muted">Pharmacie 1</h3>
+          <div class="col-sm-12 p-l-20 annonce">
+            <h1 class="m-t-20 text-muted">Pharmacie 1</h1>
             <small class="text-muted">Ankorondrano, Antananarivo</small>
             <hr>
             <div class="row p-b-20">
@@ -774,24 +620,32 @@
                     </div>
                   </div>
                 </div>
+                <div class="row coordonnees">
+                    <h3 class="m-t-20 text-muted">Coordonn&eacute;es:</h3>
+                    <hr>
+                      <p><i class="fas fa-map-marker-alt"></i> Ankorondrano en face HJRA</p>
+                      <p><i class="fas fa-phone"></i> 020 24 002 00</p>
+                      <p><i class="fas fa-phone"></i> +261 33 02 002 00</p>
+                      <p class="summary"><i class="far fa-clock"></i> <b>Ouverture:</b> 24h/24h</p>
+                      <b style="color:darkorange"><i class="fas fa-circle"></i> De garde</b>
+                </div>
               </div>
               <div class="col-sm-8 p-l-20">
                   <ul class="nav nav-pills nav-justified">
-                    <li class="active"><a data-toggle="pill" href="#descriptions" class="text-uppercase">Descriptions</a></li>
-                    <li><a data-toggle="pill" href="#notices">Adresse</a></li>
+                    <li class="active"><a data-toggle="pill" href="#descriptions" class="text-uppercase">PRESENTATION</a></li>
+                    <li><a data-toggle="pill" href="#notices">ADRESSE</a></li>
+                    <li><a data-toggle="pill" href="#horaires">HORAIRES</a></li>
                   </ul>
                   <div class="tab-content">
                     <div id="descriptions" class="tab-pane fade in active">
-                        <b>
-                            <i class="fas fa-map-marker-alt"></i> Ankorondrano en face HJRA
-                        </b>  
-                        <p>
-                            <i class="fas fa-phone"></i> 020 24 002 00 / +261 34 02 002 00 / +261 33 02 002 00
-                        </p> 
-                        
-                        <p class="summary"><i class="far fa-clock"></i> <b>Ouverture:</b> 24h/24h</p>
-                        <b style="color:darkorange"><i class="fas fa-circle"></i> De garde</b>
-
+                      <div>
+                        <div class="col-sm-12">
+                            <h3>Bienvenue à la pharmacie 1</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt architecto hic quibusdam placeat obcaecati non voluptatibus ipsam, deleniti culpa sed? Beatae vero id quod necessitatibus accusantium accusamus ad assumenda eos.</p>
+                            <a href="#"><i class="fas fa-link"></i> Voir le site</a>
+                            <hr>
+                        </div>
+                      </div>
                     </div>
                     <div id="notices" class="tab-pane fade adresse">
                       <h4 class="indie-flower">Trouvez nous ici</h4>
@@ -801,11 +655,24 @@
                       <p>Batiment Ankorondrano - LOT V 10 B</p>
                       <p>Ankorondrano</p>
                     </div>
+                    <div id="horaires" class="tab-pane fade">
+                      <div>
+                        <div class="col-sm-12">
+                          <h3>Ouverture:</h3>
+                            <p><b>Lundi: </b>8h45 - 20h30</p>
+                            <p><b>Mardi: </b>8h45 - 20h30</p>
+                            <p><b>Mercredi: </b>8h45 - 20h30</p>
+                            <p><b>Jeudi: </b>8h45 - 20h30</p>
+                            <p><b>Vendredi: </b>8h45 - 20h30</p>
+                            <p><b>Samedi: </b>8h45 - 20h30</p>
+                            <hr>
+                        </div>
+                      </div>
+                    </div>
                   </div>
               </div>
             </div>
           </div>
-
         </div>
         <!--FIN LISTE DES ANNONCES-->
     </div>
