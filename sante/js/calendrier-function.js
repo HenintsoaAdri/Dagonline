@@ -26,11 +26,4 @@ $(document).ready(function() {
         },
 		gotoCurrent: true
     });
-    var selectedDate = $("#calendar").datepicker("getDate");
-    $(".date-selected").html($.datepicker.formatDate(dateFormat, selectedDate, {
-        monthNames: monthNames
-    }));
-	$("div.calendar-header").on("click",function(){
-		$.datepicker._gotoToday('#calendar');
-	});
 });

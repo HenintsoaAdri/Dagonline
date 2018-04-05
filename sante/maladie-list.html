@@ -19,7 +19,7 @@
   <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
-  <title>Dagonline - Trouvez et achetez ce qui vous chante sur tout Madagascar</title>
+  <title>Dagonline - Trouvez et achetez ce qui vous soigne sur tout Madagascar</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -29,6 +29,9 @@
   <!-- Theme personnalisé -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/maladie-style.css">
 </head>
 <body>
 
@@ -38,6 +41,19 @@
   www.dagonline.fr
 </div>
 <!--Fin Préloader-->
+
+<!--Lien rapide-->
+<div class="btn-group menu-rapide text-white">
+  <span class="glyphicon glyphicon-menu-left"></span>
+  <div class="btn-group-vertical">
+    <a href="maladie.html" class="btn btn-flat" title="Maladie" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-syringe"></i></a>
+    <a href="medicament.html" class="btn btn-flat" title="Médicament" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-pills"></i></a>
+    <a href="praticien.html" class="btn btn-flat" title="Praticien" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-user-md"></i></a>
+    <a href="parapharmacie.html" class="btn btn-flat" title="Parapharmacie" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-first-aid"></i></a>
+    <a href="etablissement.html" class="btn btn-flat" title="Etablissement" data-toggle="tooltip" data-placement="bottom"><i class="far fa-hospital"></i></a>
+  </div>
+</div>
+<!--Fin de lien rapide-->
 
 <!--Header-->
 <div class="container-fluid">
@@ -59,82 +75,82 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a href="index.html" class="navbar-brand">
-          <img src="img/logo.png" class="img-responsive shadow">
-        </a>
+      <a href="index.html" class="navbar-brand">
+        <img src="img/logo.png" class="img-responsive shadow">
+      </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Maladies
-            </a>
-            <div class="dropdown-menu">
-              <ul class="dropdown-ul">
-                <li>
-                  <a>Maladies bucco-dentaires</a>
-                </li>
-                <li>
-                  <a>Maladies chroniques</a>
-                </li>
-                <li>
-                  <a>Maladies de l’appareil circulatoire</a>
-                </li>
-                <li>
-                  <a>Maladies de l’appareil digestif</a>
-                </li>
-                <li>
-                  <a>Maladies de l’appareil respiratoire (ORL)</a>
-                </li>
-                <li>
-                  <a>Maladies de l’œil</a>
-                </li>
-                <li>
-                  <a>Maladies de peau</a>
-                </li>
-                <li>
-                  <a>Maladies des reins et appareil urinaire</a>
-                </li>
-                <li>
-                  <a>Maladies du système immunitaire</a>
-                </li>
-                <li>
-                  <a>Maladies endocriniennes-métaboliques</a>
-                </li>
-                <li>
-                  <a>Maladies génétiques</a>
-                </li>
-                <li>
-                  <a>Maladies gynécologiques</a>
-                </li>
-                <li>
-                  <a>Maladies infantiles</a>
-                </li>
-                <li>
-                  <a>Maladies infectieuses</a>
-                </li>
-                <li>
-                  <a>Maladies mentales</a>
-                </li>
-                <li>
-                  <a>Maladies neurologiques</a>
-                </li>
-                <li>
-                  <a>Troubles des os et des articulations</a>
-                </li>
-                <li>
-                  <a>Cancers</a>
-                </li>
-                <li>
-                  <a>Maladies éruptives </a>
-                </li>
-                <li>
-                  <a>Maladies transmissibles durant la grossesse</a>
-                </li>
-                <li>
-                  <a>Troubles et maladies liés à la grossesse</a>
-                </li>
-              </ul>
-            </div>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Maladies
+          </a>
+          <div class="dropdown-menu">
+            <ul class="dropdown-ul">
+              <li>
+                <a href="#">Maladies bucco-dentaires</a>
+              </li>
+              <li>
+                <a href="#">Maladies chroniques</a>
+              </li>
+              <li>
+                <a href="#">Maladies de l’appareil circulatoire</a>
+              </li>
+              <li>
+                <a href="#">Maladies de l’appareil digestif</a>
+              </li>
+              <li>
+                <a href="#">Maladies de l’appareil respiratoire (ORL)</a>
+              </li>
+              <li>
+                <a href="#">Maladies de l’œil</a>
+              </li>
+              <li>
+                <a href="#">Maladies de peau</a>
+              </li>
+              <li>
+                <a href="#">Maladies des reins et appareil urinaire</a>
+              </li>
+              <li>
+                <a href="#">Maladies du système immunitaire</a>
+              </li>
+              <li>
+                <a href="#">Maladies endocriniennes-métaboliques</a>
+              </li>
+              <li>
+                <a href="#">Maladies génétiques</a>
+              </li>
+              <li>
+                <a href="#">Maladies gynécologiques</a>
+              </li>
+              <li>
+                <a href="#">Maladies infantiles</a>
+              </li>
+              <li>
+                <a href="#">Maladies infectieuses</a>
+              </li>
+              <li>
+                <a href="#">Maladies mentales</a>
+              </li>
+              <li>
+                <a href="#">Maladies neurologiques</a>
+              </li>
+              <li>
+                <a href="#">Troubles des os et des articulations</a>
+              </li>
+              <li>
+                <a href="#">Cancers</a>
+              </li>
+              <li>
+                <a href="#">Maladies éruptives </a>
+              </li>
+              <li>
+                <a href="#">Maladies transmissibles durant la grossesse</a>
+              </li>
+              <li>
+                <a href="#">Troubles et maladies liés à la grossesse</a>
+              </li>
+            </ul>
+          </div>
         </li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Médicaments
@@ -450,13 +466,13 @@
                 </ul>
               </li>
               <li>
-              <a class="title" href="#">Vétérinaire</a>
-              <ul>
-                <li><a href="#">Antipuces - Antitiques - Vermifuges</a></li>
-                <li><a href="#">Complements alimentaires </a></li>
-                <li><a href="#">Toilettage - Shampooings</a></li>
-              </ul>
-            </li>
+                <a class="title" href="#">Vétérinaire</a>
+                <ul>
+                  <li><a href="#">Antipuces - Antitiques - Vermifuges</a></li>
+                  <li><a href="#">Complements alimentaires </a></li>
+                  <li><a href="#">Toilettage - Shampooings</a></li>
+                </ul>
+              </li>
             </ul>
           </div>
         </li>
@@ -492,7 +508,7 @@
           <a href="#">Etablissement</a>
         </li>
         <li class="dropdown">
-          <a href="article.html">Article</a>
+          <a href="#">Article</a>
         </li>
       </ul>
     </div>
@@ -506,24 +522,6 @@
   <div class="jumbotron-text">
     <h1>Dagonline</h1>
     <p>Trouvez et achetez ce qui vous soigne sur tout Madagascar</p>
-    <form class="form-inline col-xs-offset-1 col-xs-10">
-      <div class="form-group">
-        <select class="form-control">
-          <option disabled selected>Où : Pays, Région, Département, Ville </option>
-          <option>Antananarivo</option>
-          <option>Diego-Suarez</option>
-          <option>Majunga</option>
-          <option>Tamatave</option>
-          <option>Fianarantsoa</option>
-          <option>Tuléar</option>
-        </select>
-      </div>
-      <div class="form-group input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-search text-info"></i></span>
-        <input type="text" class="form-control" size="30" placeholder="Rechercher...">
-      </div>
-      <button type="button" class="form-control btn text-white bg-green">Trouver</button>
-    </form>
   </div>
 
   <div id="SlidePrincipal" class="carousel slide hidden-xs" data-ride="carousel">
@@ -531,15 +529,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="img/slideIndex.jpg" class="img-responsive">
+        <img src="img/slideDocteur.jpg" class="img-responsive">
       </div>
 
       <div class="item">
-        <img src="img/slideIndex.jpg" class="img-responsive">
+        <img src="img/slideDocteur.jpg" class="img-responsive">
       </div>
 
       <div class="item">
-        <img src="img/slideIndex.jpg" class="img-responsive">
+        <img src="img/slideDocteur.jpg" class="img-responsive">
       </div>
     </div>
 
@@ -556,342 +554,256 @@
 </div>
 <!--Fin Slide principal-->
 
-<!--Lien rapide-->
-<div class="btn-group menu-rapide text-white">
-  <span class="glyphicon glyphicon-menu-left"></span>
-  <div class="btn-group-vertical">
-    <a href="maladie.html" class="btn btn-flat" title="Maladie" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-syringe"></i></a>
-    <a href="medicament.html" class="btn btn-flat" title="Médicament" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-pills"></i></a>
-    <a href="praticien.html" class="btn btn-flat" title="Praticien" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-user-md"></i></a>
-    <a href="parapharmacie.html" class="btn btn-flat" title="Parapharmacie" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-first-aid"></i></a>
-    <a href="etablissement.html" class="btn btn-flat" title="Etablissement" data-toggle="tooltip" data-placement="bottom"><i class="far fa-hospital"></i></a>
-  </div>
-</div>
-<!--Fin de lien rapide-->
 
 <!--Corps-->
 <div id="body">
   <span id="dagonline"></span>
   <div class="container-fluid bg-warning text-danger pacifico shadow">
-	<div class="text-center"><h2>Votre santé &agrave; port&eacute;e de clic</h2></div>
+      <div class="p-r-20">
+        <!-- BreadCrumbs -->
+        <div class="pull-left">
+          <p class="breadcrumbs">
+            <a href="index.html">Dagonline</a>
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <a href="#" class="actuel">Maladie</a>
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <a href="#" class="actuel">Exemple Maladie Bucco-Dentaire</a>
+          </p>
+        </div>
+        <!-- Fin BreadCrumbs -->
+        
+        <div class="pull-right">  
+          <h2>Maladie</h2>
+        </div>
+      </div>
   </div>
-  <!-- Main Container -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-8">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="indie-flower">Articles</h2>
-            <!--Grand Article-->
-            <div class="article-body">
-                  <div class="container-une">
-                    <ul>
-                      <li id="image-une-0" style='background-image: url("img/article/article-chocolat.jpg");'>
-                        <div class="article-info image-une-info">
-                          <h1>
-                            <a href="#">5 bonnes raisons de manger du chocolat à Pâques </a>
-                          </h1>
-                          <span class="article-categorie">
-                        <a href="#">Alimentation</a>
-                      </span>
-                          <span class="article-date">
-                        25 Mars 2018
-                      </span>
-                        </div>
-                      </li>
-                      <li id="image-une-1" style='background-image: url("img/article/article-tension.jpg");'>
-                        <div class="article-info">
-                          <h6>
-                            <a>Les causes de l'hypertension</a>
-                          </h6>
-                          <span class="article-categorie">
-                        <a>Actus</a>
-                      </span>
-                          <span class="article-date">
-                        25 Mars 2018
-                      </span>
-                        </div>
-                      </li>
-                      <li id="image-une-1" style='background-image: url("img/article/article-sport.jpg");'>
-                        <div class="article-info">
-                          <h6>
-                            <a>Les bienfaits du sport</a>
-                          </h6>
-                          <span class="article-categorie">
-                        <a>Santé</a>
-                      </span>
-                          <span class="article-date">
-                        25 Mars 2018
-                      </span>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
 
-                  <div class="row article-une-categorie">
-                    <h3 class="titre-categorie">
-                      <span> Actus </span>
-                    </h3>
-                    <div class="col-sm-8 p-r-20">
-                      <div class="une-categorie">
-                        <a href="#">
-                          <img src="img/article/article-tension.jpg" class="img-responsive">
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-sm-4 p-1-20 article-description">
-                      <h3>
-                        <a>Les causes de l'hypertension</a>
-                      </h3>
-                      <p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae
-                        ...</p>
-                    </div>
-                  </div>
-
-                  <div class="row article-row">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                      <div class="liste-article">
-                        <div class="article-image">
-                          <a href="#">
-                            <img src="img/360x240.png" class="img-responsive">
-                          </a>
-                        </div>
-                        <div>
-                          <div class="titre-article">
-                            <h4>
-                              <a href="#">Lorem ipsum</a>
-                            </h4>
-                          </div>
-                          <span class="categorie-article">
-                        <a href="#">Actus</a>
-                      </span>
-                          <span class="date-article">25 Mars 2018</span>
-                          <div class="contenu-article">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                      <div class="liste-article">
-                        <div class="article-image">
-                          <a href="#">
-                            <img src="img/360x240.png" class="img-responsive">
-                          </a>
-                        </div>
-                        <div class="titre-article">
-                          <h4>
-                            <a href="#">Lorem ipsum</a>
-                          </h4>
-                        </div>
-                        <span class="categorie-article">
-                          <a href="#">Actus</a>
-                        </span>
-                        <span class="date-article">25 Mars 2018</span>
-                        <div class="contenu-article">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                      <div class="liste-article">
-                        <div class="article-image">
-                          <a href="#">
-                            <img src="img/360x240.png" class="img-responsive">
-                          </a>
-                        </div>
-                        <div class="titre-article">
-                          <h4>
-                            <a href="#">Lorem ipsum</a>
-                          </h4>
-                        </div>
-                        <span class="categorie-article">
-                          <a href="#">Actus</a>
-                        </span>
-                        <span class="date-article">25 Mars 2018</span>
-                        <div class="contenu-article">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            <!--Fin Grand Article Evenement-->
+  <div class="container-fluid formulaire">
+    <form class="form-inline" action="#">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group search-div">
+            <input type="text" class="form-control search-bar" placeholder="Recherche...">
+            <button type="submit" class="btn text-white bg-green">Rechercher</button>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="indie-flower">Maladies</h2>
-            <!--Grand Article-->
-            <div class="row m-b-20">
-              <div class="col-sm-4">
-                <div class="maladie">
-                  <h5 class="maladie-name">Maladie bucco-dentaires</h5>
-                  <div class="maladie-description">
-                    <div class="maladie-image">
-                      <a href="#">
-                        <img src="img/360x240.png" class="img-responsive">
-                      </a>
-                    </div>
-                    <div class="maladie-body">
-                      <h6>Maladie bucco-dentaires</h6>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                      <a href="detail-maladie.html" class="link-more">
-                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Lire la suite</a>
-                    </div>
-                  </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Container Resultat Recherche -->
+  <div class="container-fluid m-t-5 m-b-20 list-search">
+      <div class="row p-5">
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie/diabete.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Le diabète: qu'est ce que c'est ?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
                 </div>
               </div>
-              <div class="col-sm-4">
-                <div class="maladie">
-                  <h5 class="maladie-name">Maladie chroniques</h5>
-                  <div class="maladie-description">
-                    <div class="maladie-image">
-                      <a href="#">
-                        <img src="img/360x240.png" class="img-responsive">
-                      </a>
-                    </div>
-                    <div class="maladie-body">
-                      <h6>Maladie chroniques</h6>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                      <a href="detail-maladie.html" class="link-more">
-                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Lire la suite</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="maladie">
-                  <h5 class="maladie-name">Maladie de l'appareil circulatoire</h5>
-                  <div class="maladie-description">
-                    <div class="maladie-image">
-                      <a href="#">
-                        <img src="img/360x240.png" class="img-responsive">
-                      </a>
-                    </div>
-                    <div class="maladie-body">
-                      <h6>Maladie de l'appareil circulatoire</h6>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                      <a href="detail-maladie.html" class="link-more">
-                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Lire la suite</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="more text-right"><a href="maladie.html">Voir plus <i class="fa fa-chevron-right"></i></a></div>
             </div>
-            <!--Fin Grand Article Resto-->
           </div>
         </div>
-        <div class="row">
-          <!--Remedes Article-->
-          <div class="col-sm-12 remede">
-              <div class="remede-bubble">
-                <div class="remede-text petit-formal-script">
-                  <h2 class="indie-flower">Remèdes de grand-mère</h2>
-                  <strong>Pour apaiser la sensation désagréable de démangeaison qui peut vous prendre sans raison apparente, il existe différentes astuces recommandées par nos grands-mères.</strong>
-                  <p>La première d’entre elles consiste à appliquer une ou deux gouttes d’huile essentielle de lavande vraie. Si la zone à traiter est importante, vous pouvez les diluer dans la même quantité d’huile végétale de calendula.
-
-                  <br>Ensuite vous pouvez appliquer sur la peau du vinaigre de cidre. Il faut simplement frotter délicatement pour ressentir une sensation d’apaisement.
-
-                  <br>Le jus de citron peut également être utile. Toutefois si vous désirez l’appliquer près de vos muqueuses pensez à le diluer dans de l’eau tiède.
-
-                  <br>Il est également recommandé de réaliser un cataplasme fait avec des carottes râpées.</p>
-                  <div class="more more-div"><a href="detail-article.html"><span class="glyphicon glyphicon-chevron-right"></span> Lire la suite</a></div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie/diabete.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Le diabète: qu'est ce que c'est ?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
                 </div>
               </div>
-              <div class="remede-zebu text-right">
-                <img src="img/zebunet.png">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie/diabete.jpg" class="media-object">
               </div>
-            <!--Fin Remedes Article-->
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Le diabète: qu'est ce que c'est ?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie/diabete.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Le diabète: qu'est ce que c'est ?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie/diabete.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Le diabète: qu'est ce que c'est ?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie-1.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Maux de tête. Qu'est ce que c'est?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie-1.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Maux de tête. Qu'est ce que c'est?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie-1.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Maux de tête. Qu'est ce que c'est?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie-1.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Maux de tête. Qu'est ce que c'est?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie-1.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Maux de tête. Qu'est ce que c'est?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="praticien media">
+            <div class="row">
+              <div class="media-middle col-sm-3">
+                <img src="img/maladie-1.jpg" class="media-object">
+              </div>
+              <div class="item-body col-sm-9">
+                <div class="item-text">
+                  <h4 class="media-heading">Maux de tête. Qu'est ce que c'est?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="maladie-detail.html">Voir d&eacute;tail</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="col-sm-4 p-l-20 m-t-20">
-	  <!-- SIDEBAR -->
         <div class="row">
-          <div class="col-sm-12 m-b-20">
-            <div class="card text-center">
-              <h3>Pharmacie de garde</h3>
-              <div class="p-20">
-                <p><strong>Semaine du 31/03/2018 au 07/04/2018 matin</strong></p><strong>- PHARMACIE ANDRAVOAHANGY </strong><br>
-                  <em> Andravoahangy (Près Epi d'or) <br>
-                    020 22 245 12 </em><br>
-                  <p><strong>- PHARMACIE MIARO </strong><br>
-                    <em> Galerie ARO Ampefiloha <br>
-                      020 22 621 18 </em><br>
-                  </p><p><strong>- PHARMACIE OCEAN INDIEN </strong><br>
-                    <em> Analakely Avenue de l'indépendance <br>
-                      020 22 224 70 </em><br>
-                  </p><p><strong>- PHARMACIE METROPOLE </strong><br>
-                    <em> Antaninarenina <br>
-                      020 22 200 25/020 22 675 22/033 15 200 25/032 07 101 71 </em><br>
-                  </p><p><strong>- PHARMACIE ANTANIMENA </strong><br>
-                    <em> Imm Santa Antanimena, près Chocolaterie Robert <br>
-                      020 22 200 00/032 56 914 77 </em><br>
-
-                    ___________________________
-
-                  </p><p><strong>Semaine du 07/04/2018 au 14/04/2018 matin</strong></p><strong>- PHARMACIE 67HA </strong><br>
-                  <em> En face Eglise Luthérienne <br>
-                    020 22 253 61 </em><br>
-                  <p><strong>- PHARMACIE VOLAHANTA </strong><br>
-                    <em> Anosibe près du rond point vers Soanierana <br>
-                      020 22 355 09/034 24 334 86/033 86 194 15 </em><br>
-                  </p><p><strong>- PHARMACIE IARIVO </strong><br>
-                    <em> Analakely en face Institut d'Hygiène Sociale <br>
-                      020 22 224 26/020 22 699 19/034 16 326 06 </em><br>
-                  </p><p><strong>- PHARMACIE AMBANIDIA </strong><br>
-                    <em> Ambanidia <br>
-                      020 22 255 50 </em><br>
-                  </p><p><strong>- PHARMACIE MAHAVOKY </strong><br>
-                    <em> Mahavoky Andravoahangy <br>
-                      020 22 255 51 </em><br>
-
-
-                  </p><p>&nbsp;</p>
-                  <p><em><strong>PERIPHERIES</strong></em> </p>
-                  <p><strong>-PHARMACIE ANOSIZATO </strong> <br>
-                    <em> 020 22 631 43 / 020 22 686 53 / 020 22 009 87 </em> <br>
-                    <strong>- PHARMACIE AMBOHIBAO </strong><br>
-                    <em>020 22 444 33 / 020 22 482 84 </em><br>
-                    <strong>-PHARMACIE AMBODITSIRY </strong>
-                    <br>
-                    <em> 020 22 528 21 </em><br>
-                    <strong>-PHARMACIE AVARADRANO </strong> <br>
-                    <em> 020 22 423 65 / 020 24 798 43 </em> <br>
-                    <strong>-PHARMACIE DU SOLEIL </strong> <strong>AMBOHITRARAHABA </strong><br>
-                    <em>020 24 356 51 </em></p>
-              </div>
-              <div class="more-div more">
-                <div class="more">
-                  <a href="pharmacie.html">Voir toutes les pharmacies</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 m-b-20">
-            <img src="img/smartup/1.png" alt="Post" class="img-responsive">
-          </div>
+          <ul class="pagination">
+            <li class="prev"><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">...</a></li>
+            <li class="next"><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+          </ul>
         </div>
-        <!-- fin SIDEBAR -->
+    </div>
+  <!-- Fin Container Resultat Recherche -->
+
+  <div class="container-fluid list-med">
+    <h3 class="oswald">Les maladies et problèmes</h3>
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="list-unstyled">
+          <li><a href="#">Maladies bucco-dentaires <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="#">Cancer <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="#">Maladies mentales <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="#">Maladies infectieuses <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="#">Maladies g&eacute;n&eacute;tiques <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="#">Maladies infantiles <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="#">Maladies neurologiques <i class="fa fa-angle-double-right pull-right"></i></a></li>
+          <li><a href="#">Maladie de peau <i class="fa fa-angle-double-right pull-right"></i></a></li>
+        </ul>
       </div>
     </div>
   </div>
-  <!-- Fin Main Container-->
 </div>
 <!--Fin Corps-->
 
@@ -900,7 +812,7 @@
   <div class="row">
     <div class="col-sm-4 text-justify">
       <p>Qu'est ce que Dagonline</p>
-      <p>www.dagonline.fr est une plateforme qui permet à tout utilisateur de trouver des produits et des services auprès des professionnels partenaires. Dagonline c'est bien plus qu'un simple annuairecar chaque entreprise tient sa page et est libre du contenu proposé. Dagonline c'est aussi toutes les dates et évènements à venir ainsi que les petites annonces pour les particuliers.</p>
+      <p>www.dagonline.fr est une plateforme qui permet à tout utilisateur de trouver des produits et des services auprès des professionnels partenaires. Dagonline c'est bien plus qu'un simple annuairecar chaque entreprise tient sa page et est libre du contenu proposé. Dagonline c'est aussi toutes les dates et évènements à venir ainsi que les Plus Recherchés pour les particuliers.</p>
       <p>Notre objectif</p>
       <p>Optimiser la rencontre des offres de services et produits commerciaux existants à Madagascar.</p>
     </div>
@@ -941,7 +853,7 @@
         <form class="form-inline col-sm-12">
           <div class="input-group">
             <div class="input-group-btn">
-              <button class="btn btn-default" type="submit">
+              <button class="btn btn-default btn-flat" type="submit">
                 <i class="glyphicon glyphicon-search"></i>
               </button>
             </div>
@@ -976,9 +888,42 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/fontawesome-all.min.js"></script>
+<script src="js/sticky-kit.min.js"></script>
 <!--Toast-->
 <script src="js/jquery.toast.min.js"></script>
 <!--Fin Toast-->
+<!--Carousel plugin-->
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script>
+  $(document).ready(function(){
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+      center: true,
+      loop:true,
+      dots:true,
+      dotsEach:true,
+      items:2,
+      margin:10,
+      responsive:{
+        600:{
+          items:4
+        }
+      },
+      autoplay:true,
+      autoplayTimeout:3000,
+      autoplayHoverPause:true
+    });
+    owl.on('mousewheel', '.owl-stage', function (e) {
+      if (e.deltaY > 0) {
+        owl.trigger('next.owl');
+      } else {
+        owl.trigger('prev.owl');
+      }
+      e.preventDefault();
+    });
+  });
+</script>
 <script src="js/main.js"></script>
 </body>
 </html>

@@ -309,6 +309,10 @@
 	.card:hover .profileinfo p.bio,	.card:hover .profileinfo a{
 		opacity: 1;
 	  }
+	.profileinfo p.bio{
+		height: 40px;
+		overflow: hidden;
+	}
 	.card:hover .profileinfo{
 		z-index: 100;
   	}
@@ -358,9 +362,6 @@
 	font-style: initial;
 	transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 	opacity: 0;
-	white-space: nowrap; 
-	overflow: hidden;
-	text-overflow: ellipsis; 
 	}
 	.profileinfo a{
 		color: #75D13B;

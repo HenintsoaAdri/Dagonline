@@ -559,9 +559,22 @@
 <div id="body">
   <span id="dagonline"></span>
   <div class="container-fluid bg-warning text-danger pacifico shadow">
-	<div class="text-right"><h2>M&eacute;dicaments</h2></div>
-  </div>
-
+      <div class="p-r-20">
+        <!-- BreadCrumbs -->
+        <div class="pull-left">
+          <p class="breadcrumbs">
+            <a href="index.html">Dagonline</a>
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <a href="#" class="actuel">M&eacute;dicaments</a>
+          </p>
+        </div>
+        <!-- Fin BreadCrumbs -->
+        
+        <div class="pull-right">  
+          <h2>M&eacute;dicaments</h2>
+        </div>
+      </div>
+    </div>
   <!-- Container Petites Annonces -->
   <div class="annonces container-fluid m-t-5">
     <div class="row">
@@ -810,50 +823,6 @@
                 <i class="pull-right text-danger text-shadow fa fa-plus"></i>
                 <h4 class="m-t-0">BONS PLANS</h4></a>
               <div id="more-filtre-bonplans" class="collapse">
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="">Exemple
-                    <span class="checkbox-custom"></span>
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="">Exemple
-                    <span class="checkbox-custom"></span>
-                  </label>
-                </div>
-                
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="">Exemple
-                    <span class="checkbox-custom"></span>
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="">Exemple
-                    <span class="checkbox-custom"></span>
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="">Exemple
-                    <span class="checkbox-custom"></span>
-                  </label>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="">Exemple
-                    <span class="checkbox-custom"></span>
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12">
-              <a href="#more-filtre-region-corps" data-toggle="collapse">
-                <i class="pull-right text-danger text-shadow fa fa-plus"></i>
-                <h4 class="m-t-0">R&Eacute;GION DU CORPS</h4></a>
-              <div id="more-filtre-region-corps" class="collapse">
                 <div class="checkbox">
                   <label>
                     <input type="checkbox" value="">Exemple
@@ -1268,20 +1237,11 @@
 <!--Toast-->
 <script src="js/jquery.toast.min.js"></script>
 <!--Fin Toast-->
-<!--Animation Carte PUB-->
-<script src="js/carte-pub.js"></script>
 <!--Sticky nav-pills -->
 <script src="js/sticky-kit.min.js"></script>
 <!--Fin Animation Carte PUB-->
-<script src="js/petitesAnnonces.js"></script>
+<script src="js/filtre-bar.js"></script>
 <script src="js/main.js"></script>
-<script>
-$(document).ready(function() {
-  if(window.location.href.indexOf('#deposAnnonce') != -1) {
-    $('#deposAnnonce').modal('show');
-  }
-});
-</script>
 
 </body>
 </html>

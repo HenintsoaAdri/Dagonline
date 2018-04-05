@@ -944,66 +944,83 @@
   <div id="body">
     <span id="dagonline"></span>
     <div class="container-fluid bg-warning text-danger pacifico shadow">
-      <div class="text-right p-r-20">
-        <h2>Article</h2>
+        <div class="p-r-20">
+          <!-- BreadCrumbs -->
+          <div class="pull-left">
+            <p class="breadcrumbs">
+              <a href="index.html">Dagonline</a>
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <a href="#" class="actuel">Article</a>
+            </p>
+          </div>
+          <!-- Fin BreadCrumbs -->
+          
+          <div class="pull-right">  
+            <h2>Article</h2>
+          </div>
       </div>
     </div>
     <!-- Container Partie Article-->
     <div class="container article-contenu">
-      <!-- BreadCrumbs -->
-      <p class="breadcrumbs">
-        <a href="#">Dagonline</a>
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <a href="#" class="actuel">Article</a>
-      </p>
-      <!-- Fin BreadCrumbs -->
       <div class="row">
         <div class="col-sm-9">
-          <article>
             <div class="article-body">
-              <div class="container-une">
-                <ul>
-                  <li id="image-une-0" style='background-image: url("img/article/article-chocolat.jpg");'>
-                    <div class="article-info image-une-info">
-                      <h1>
-                        <a href="detail-article.html">5 bonnes raisons de manger du chocolat à Pâques </a>
-                      </h1>
-                      <span class="article-categorie">
-                        <a href="detail-article.html">Alimentation</a>
-                      </span>
-                      <span class="article-date">
-                        25 Mars 2018
-                      </span>
+
+                <div class="row container-une">
+                    <div class="col-sm-8 art" >
+                      <div class="image">
+                        <img src="img/article/article-chocolat.jpg" alt="">
+                        <div class="article-info">
+                          <a href="article-detail.html"><h1>5 bonnes raisons de manger du chocolat à Pâques </h1></a>
+                          <span class="article-categorie">
+                            <a>Alimentation</a>
+                          </span>
+                          <span class="article-date">
+                            25 Mars 2018
+                          </span>
+                        </div>
+                      </div>
                     </div>
-                  </li>
-                  <li id="image-une-1" style='background-image: url("img/article/article-tension.jpg");'>
-                    <div class="article-info">
-                      <h6>
-                        <a href="detail-article.html">Les causes de l'hypertension</a>
-                      </h6>
-                      <span class="article-categorie">
-                        <a href="detail-article.html">Actus</a>
-                      </span>
-                      <span class="article-date">
-                        25 Mars 2018
-                      </span>
+                    
+                    <div class="col-sm-4">
+                      <div class="row art">
+                        <div class="col-sm-12">
+                          <div class="image-small">
+                            <img src="img/article/article-tension.jpg" alt="">
+                            <div class="article-info">
+                              <h6>
+                                <a href="article-detail.html">Les causes de l'hypertension</a>
+                              </h6>
+                              <span class="article-categorie">
+                                <a>Actus</a>
+                              </span>
+                              <span class="article-date">
+                                25 Mars 2018
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row art">
+                        <div class="col-sm-12">
+                          <div class="image-small">
+                            <img src="img/article/article-sport.jpg" alt="">
+                            <div class="article-info">
+                              <h6>
+                                <a href="article-detail.html">Les bienfaits du sport</a>
+                              </h6>
+                              <span class="article-categorie">
+                                <a>Santé</a>
+                              </span>
+                              <span class="article-date">
+                                25 Mars 2018
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </li>
-                  <li id="image-une-1" style='background-image: url("img/article/article-sport.jpg");'>
-                    <div class="article-info">
-                      <h6>
-                        <a href="detail-article.html">Les bienfaits du sport</a>
-                      </h6>
-                      <span class="article-categorie">
-                        <a href="detail-article.html">Santé</a>
-                      </span>
-                      <span class="article-date">
-                        25 Mars 2018
-                      </span>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+                  </div>
 
               <h3 class="titre-categorie">
                 <span> Actus </span>
@@ -1011,16 +1028,17 @@
 
               <div class="row article-une-categorie">
                 <div class="col-sm-8 p-r-20 une-categorie">
-                  <a href="detail-article.html">
+                  <a href="article-detail.html">
                     <img src="img/article/article-tension.jpg" alt>
                   </a>
                 </div>
                 <div class="col-sm-4 p-1-20 article-description">
                   <h3>
-                    <a href="detail-article.html">Les causes de l'hypertension</a> 
+                    <a href="article-detail.html">Les causes de l'hypertension</a> 
                   </h3>
                   <p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae
                     ...</p>
+                    <a href="article-detail.html">Lire la suite</a>
                 </div>
               </div>
 
@@ -1028,18 +1046,18 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                   <div class="liste-article">
                     <div class="article-image">
-                      <a href="detail-article.html">
+                      <a href="article-detail.html">
                         <img width="550" height="360" src="img/360x240.png">
                       </a>
                     </div>
                     <div>
                       <div class="titre-article">
                         <h4>
-                          <a href="detail-article.html">Lorem ipsum patapouf bla bla car</a>
+                          <a href="article-detail.html">Lorem ipsum patapouf bla bla car</a>
                         </h4>
                       </div>
                       <span class="categorie-article">
-                        <a href="detail-article.html">Actus</a>
+                        <a href="article-detail.html">Actus</a>
                       </span>
                       <span class="date-article">25 Mars 2018</span>
                       <div class="contenu-article">
@@ -1047,6 +1065,7 @@
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat
                       </div>
+                      <a href="article-detail.html" class="pull-right">Lire la suite</a>
                     </div>
                   </div>
                 </div>
@@ -1054,46 +1073,48 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                   <div class="liste-article">
                     <div class="article-image">
-                      <a href="detail-article.html">
+                      <a href="article-detail.html">
                         <img width="550" height="360" src="img/360x240.png">
                       </a>
                     </div>
                     <div class="titre-article">
                       <h4>
-                        <a href="detail-article.html">Lorem ipsum patapouf bla bla car</a>
+                        <a href="article-detail.html">Lorem ipsum patapouf bla bla car</a>
                       </h4>
                     </div>
                     <span class="categorie-article">
-                      <a href="detail-article.html">Actus</a>
+                      <a href="article-detail.html">Actus</a>
                     </span>
                     <span class="date-article">25 Mars 2018</span>
                     <div class="contenu-article">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                     </div>
+                    <a href="article-detail.html" class="pull-right">Lire la suite</a>
                   </div>
                 </div>
 
                 <div class="col-md-4 col-sm-6 col-xs-12">
                   <div class="liste-article">
                     <div class="article-image">
-                      <a href="detail-article.html">
+                      <a href="article-detail.html">
                         <img width="550" height="360" src="img/360x240.png">
                       </a>
                     </div>
                     <div class="titre-article">
                       <h4>
-                        <a href="detail-article.html">Lorem ipsum patapouf bla bla car</a>
+                        <a href="article-detail.html">Lorem ipsum patapouf bla bla car</a>
                       </h4>
                     </div>
                     <span class="categorie-article">
-                      <a href="detail-article.html">Actus</a>
+                      <a href="article-detail.html">Actus</a>
                     </span>
                     <span class="date-article">25 Mars 2018</span>
                     <div class="contenu-article">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                     </div>
+                    <a href="article-detail.html" class="pull-right">Lire la suite</a>
                   </div>
                 </div>
               </div>
@@ -1104,18 +1125,19 @@
 
               <div class="row article-une-categorie">
                 <div class="col-sm-8 p-r-20 une-categorie">
-                  <a href="detail-article.html">
+                  <a href="article-detail.html">
                     <img src="img/article/article-bonheur.jpg" alt>
                   </a>
                 </div>
                 <div class="col-sm-4 p-1-20 article-description">
                   <h3>
-                    <a href="detail-article.html">
+                    <a href="article-detail.html">
                       Construire son bonheur au quotidien 
                     </a> 
                   </h3>
                   <p>Maecenas cursus finibus nulla, vitae mattis metus lobortis pharetra. Maecenas est libero, tempor vitae
                     arcu vitae, ultricies laoreet leo.</p>
+                    <a href="article-detail.html">Lire la suite</a>
                 </div>
               </div>
 
@@ -1123,18 +1145,18 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                   <div class="liste-article">
                     <div class="article-image">
-                      <a href="detail-article.html">
+                      <a href="article-detail.html">
                         <img width="550" height="360" src="img/360x240.png">
                       </a>
                     </div>
                     <div>
                       <div class="titre-article">
                         <h4>
-                          <a href="detail-article.html">Lorem ipsum patapouf bla bla car</a>
+                          <a href="article-detail.html">Lorem ipsum patapouf bla bla car</a>
                         </h4>
                       </div>
                       <span class="categorie-article">
-                        <a href="detail-article.html">Psycho</a>
+                        <a href="article-detail.html">Psycho</a>
                       </span>
                       <span class="date-article">25 Mars 2018</span>
                       <div class="contenu-article">
@@ -1142,6 +1164,7 @@
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat
                       </div>
+                      <a href="article-detail.html" class="pull-right">Lire la suite</a>
                     </div>
                   </div>
                 </div>
@@ -1149,52 +1172,54 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                   <div class="liste-article">
                     <div class="article-image">
-                      <a href="detail-article.html">
+                      <a href="article-detail.html">
                         <img width="550" height="360" src="img/360x240.png">
                       </a>
                     </div>
                     <div class="titre-article">
                       <h4>
-                        <a href="detail-article.html">Lorem ipsum patapouf bla bla car</a>
+                        <a href="article-detail.html">Lorem ipsum patapouf bla bla car</a>
                       </h4>
                     </div>
                     <span class="categorie-article">
-                      <a href="detail-article.html">Psycho</a>
+                      <a href="article-detail.html">Psycho</a>
                     </span>
                     <span class="date-article">25 Mars 2018</span>
                     <div class="contenu-article">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                     </div>
+                    <a href="article-detail.html" class="pull-right">Lire la suite</a>
                   </div>
                 </div>
 
                 <div class="col-md-4 col-sm-6 col-xs-12">
                   <div class="liste-article">
                     <div class="article-image">
-                      <a href="detail-article.html">
+                      <a href="article-detail.html">
                         <img width="550" height="360" src="img/360x240.png">
                       </a>
                     </div>
                     <div class="titre-article">
                       <h4>
-                        <a href="detail-article.html">Lorem ipsum patapouf bla bla car</a>
+                        <a href="article-detail.html">Lorem ipsum patapouf bla bla car</a>
                       </h4>
                     </div>
                     <span class="categorie-article">
-                      <a href="detail-article.html">Psycho</a>
+                      <a href="article-detail.html">Psycho</a>
                     </span>
                     <span class="date-article">25 Mars 2018</span>
                     <div class="contenu-article">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                     </div>
+                    <a href="article-detail.html" class="pull-right">Lire la suite</a>
                   </div>
                 </div>
               </div>
             </div>
             <!-- Fin Container Partie Article-->
-          </article>
+            
         </div>
         <div class="col-sm-3">
           <div class="article-sidebar recherche-sidebar">
@@ -1250,6 +1275,8 @@
       </div>
     </div>
   </div>
+
+
 
   <!--Fin Corps-->
 
@@ -1350,7 +1377,6 @@
   <!--Toast-->
   <script src="js/jquery.toast.min.js"></script>
   <!--Fin Toast-->
-  <script src="js/jquery-ui-datepicker.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 

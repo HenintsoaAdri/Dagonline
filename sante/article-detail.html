@@ -30,7 +30,7 @@
     <!-- Theme personnalisé -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font.css">
-    <link rel="stylesheet" type="text/css" href="css/detail-article-style.css" />
+    <link rel="stylesheet" type="text/css" href="css/article-style.css" />
 </head>
 
 <body>
@@ -943,27 +943,33 @@
     <div id="body">
         <span id="dagonline"></span>
         <div class="container-fluid bg-warning text-danger pacifico shadow">
-            <div class="text-center">
-                <h2>Votre santé &agrave; port&eacute;e de clic</h2>
-            </div>
+                <div class="p-r-20">
+                  <!-- BreadCrumbs -->
+                  <div class="pull-left">
+                    <p class="breadcrumbs">
+                      <a href="index.html">Dagonline</a>
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <a href="#" class="actuel">Article</a>
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <a href="#" class="actuel">Exemple Article</a>
+                    </p>
+                  </div>
+                  <!-- Fin BreadCrumbs -->
+                  
+                  <div class="pull-right">  
+                    <h2>Article</h2>
+                  </div>
+              </div>
         </div>
+        <br>
         <!-- Container Partie Detail Article-->
         <div class="container">
-            <!-- BreadCrumbs -->
-            <p class="breadcrumbs">
-                <a href="#">Dagonline</a>
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <a href="#">Article</a>
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <a href="#" class="actuel">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
-            </p>
-            <!-- Fin BreadCrumbs -->
             <div class="row">
                 <div class="col-sm-8">
                     <article>
                         <div class="article-body">
                             <div class="article-image">
-                                <img width="700" height="490" src="img/maladie/diabete.jpg" alt>
+                                <img src="img/maladie/diabete.jpg" class="img-responsive">
                             </div>
                             <div class="contenus-article">
                                 <div class="article-description">
@@ -1282,90 +1288,11 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="article-sidebar calendar-sidebar">
-                        <div class="calendar">
-                            <header>
-                                <h2>Avril</h2>
-                            </header>
-                            <table class="calendar-table">
-                                <thead>
-                                    <tr>
-                                        <td>Lu</td>
-                                        <td>Ma</td>
-                                        <td>Me</td>
-                                        <td>Je</td>
-                                        <td>Ve</td>
-                                        <td>Sa</td>
-                                        <td>Di</td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="prev-month">26</td>
-                                        <td class="prev-month">27</td>
-                                        <td class="prev-month">28</td>
-                                        <td class="prev-month">29</td>
-                                        <td class="prev-month">30</td>
-                                        <td class="prev-month">31</td>
-                                        <td>1</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td class="current-day">3</td>
-                                        <td>4</td>
-                                        <td>5</td>
-                                        <td>6</td>
-                                        <td>7</td>
-                                        <td>8</td>
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>10</td>
-                                        <td>11</td>
-                                        <td>12</td>
-                                        <td>13</td>
-                                        <td>14</td>
-                                        <td>15</td>
-                                    </tr>
-                                    <tr>
-                                        <td>16</td>
-                                        <td>17</td>
-                                        <td>18</td>
-                                        <td>19</td>
-                                        <td>20</td>
-                                        <td>21</td>
-                                        <td>22</td>
-                                    </tr>
-                                    <tr>
-                                        <td>23</td>
-                                        <td>24</td>
-                                        <td>25</td>
-                                        <td>26</td>
-                                        <td>27</td>
-                                        <td>28</td>
-                                        <td>29</td>
-                                    </tr>
-                                    <tr>
-                                        <td>30</td>
-                                        <td class="next-month">1</td>
-                                        <td class="next-month">2</td>
-                                        <td class="next-month">3</td>
-                                        <td class="next-month">4</td>
-                                        <td class="next-month">5</td>
-                                        <td class="next-month">6</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
         <!-- Fin Container Partie Detail Article-->
     </div>
-
-
-
     <!--Fin Corps-->
 
     <!--Footer-->
