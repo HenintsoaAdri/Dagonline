@@ -17,7 +17,7 @@
 	position: relative;
 	margin-bottom: 20px;
 	padding: 0;
-	background-color: #FFFFFF;
+	background-color: #1da86f;
 	box-shadow: 0 1px 6px rgba(0,0,0,0.16);
 	border-radius: 3px;
 	overflow: visible;
@@ -25,41 +25,7 @@
 .list-search .media:nth-last-child(2){
 	margin-bottom: 40px;
 }
-.list-search .media span.ruban{
-	top:inherit;
-	bottom: -8px;
-	left: -8px;
-	width: auto;
-	padding: 5px .5em !important;
-	font-size: 1.5em;
-	height: 2em;
-	-webkit-box-shadow: 0px 2px 20px 0 rgba(45,45,145,0.5);
-	-moz-box-shadow: 0px 2px 20px 0 rgba(45,45,45,0.5);
-	box-shadow: 0px 2px 20px 0 rgba(45,45,45,0.5);
-}
-.list-search .media span.ruban:before{
-	left: 0;
-	top: -8px;
-	border-bottom-width: 8px;
-	border-left: 8px solid transparent;
-	border-right: 0 solid transparent;
-}
-.list-search .media span.ruban:after{
-	left: initial;
-	right: -5px;
-	bottom: 0;
-	border-left: 0px solid transparent;
-	border-top: 21px solid #1fd28d;
-	border-bottom: 21px solid #1fd28d;
-	border-right: 5px solid transparent;
-}
-.list-search .media span.ruban.etablissement:after{
-	border-top-color: #ffffff;
-	border-bottom-color: #ffffff;
-}
-span.ruban:hover {
-	height: 2em;
-}
+
 .list-search .item-body{
 	display: flex;
 	flex-wrap: wrap;
@@ -68,8 +34,8 @@ span.ruban:hover {
 	position: relative;
 	z-index: 2;
 	padding: 10px;
-    width: 85%;
-    left: 5%;
+	width: 85%;
+	left: 5%;
 }
 .list-search .item-body:before{
 	content: '';
@@ -77,22 +43,21 @@ span.ruban:hover {
 	z-index: 1;
 	height: 100%;
 	border-radius: 6px;
-	width: 90%;
+	width: 100%;
 	background-color: #FFFFFF;
 	border: solid 2px #FFFFFF;
-	-webkit-transform: skewX(-20deg);
-	-moz-transform: skewX(-20deg);
-	-ms-transform: skewX(-20deg);
-	-o-transform: skewX(-20deg);
-	transform: skewX(-20deg);
-	box-sizing: content-box;
+	-webkit-transform: skewX(10deg);
+	-moz-transform: skewX(10deg);
+	-ms-transform: skewX(10deg);
+	-o-transform: skewX(10deg);
+	transform: skewX(10deg);
 	box-shadow: 2px 0 20px 0 rgba(220,220,220,.5);
 }
 .list-search .media-object{
 	max-width: 130%;
-    margin: auto;
-    width: 130%;
-    height: 100%;
+	margin: auto;
+	width: 130%;
+	height: 100%;
 }
 
 .list-search .media > .row{
@@ -106,50 +71,11 @@ span.ruban:hover {
 	padding: 0;
 }
 
-.list-search .item-body .item-action{
-	width: 15%;
-	margin: auto;
-}
-.list-search .item-body .item-action > *:not(.fab-button) {
-	display: block;
-	height: 50%;
-	-webkit-box-shadow: 4px 0px 20px 0px rgba(200,200,200,.5);
-	-moz-box-shadow: 4px 0px 20px 0px rgba(200,200,200,.5);
-	box-shadow: 4px 0px 20px 0px rgba(200,200,200,.5);
-}
-.list-search .item-body .item-action > * > *{
-	display: block;
-	margin: auto;
-	height: 100%;
-}
-.list-search .item-body .item-action .praticien{
-	background-color: #1BBE81;
-	color: #FFFFFF;
-}
 .search-div{
     width: 100%;
 }
 .search-bar{
     width: 40% !important;
-}
-.fab-button{
-	font-size: 2em;
-	border-radius: 50% !important;
-	display: block;
-	height: 2em;
-	width: 2em;
-	background-color: #bfa28f;
-	color: white;
-	-webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.5) !important;
-	-moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.5) !important;
-	box-shadow: 0px 2px 2px rgba(0,0,0,0.5) !important;
-}
-.fab-button.focus, .fab-button:focus, .fab-button:hover {
-	color: white;
-	background-color: #b49783;
-	-webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.8) !important;
-	-moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.8) !important;
-	box-shadow: 0px 2px 2px rgba(0,0,0,0.8) !important;
 }
 /* FIN LIST RESULTAT RECHERCHE*/
 
@@ -163,14 +89,20 @@ span.ruban:hover {
 	margin-top: 0;
 }
 .list-med ul{
-	column-width: 245px;
+	column-count: 4;
 	margin: 0;
+}
+.list-med li{
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	break-inside: avoid;
 }
 .list-med li a{
 	background-color: #fbfaf7;
 	padding: 10px;
-	display: block;
 	margin-bottom: 5px;
+	display: block;
 	border-radius: 2px;
 	font-weight: 500;
 	color: #555;

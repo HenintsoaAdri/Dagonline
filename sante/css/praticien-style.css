@@ -11,6 +11,12 @@
 	column-width: 245px;
 	margin: 0;
 }
+.list-med li{
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	break-inside: avoid;
+}
 .list-med li a{
 	background-color: #fbfaf7;
 	padding: 10px;
@@ -200,11 +206,11 @@ h3.title:after{
 	left: -8px;
 	width: auto;
 	padding: 5px .5em !important;
-	font-size: 1.5em;
+	font-size: 1.1em;
 	height: 2em;
-	-webkit-box-shadow: 0px 2px 20px 0 rgba(45,45,145,0.5);
-	-moz-box-shadow: 0px 2px 20px 0 rgba(45,45,45,0.5);
-	box-shadow: 0px 2px 20px 0 rgba(45,45,45,0.5);
+	-webkit-box-shadow: 0px 1px 1px 0 rgba(45, 45, 45, 0.2);
+	-moz-box-shadow: 0px 1px 1px 0 rgba(45, 45, 45, 0.2);
+	box-shadow: 0px 1px 1px 0 rgba(45, 45, 45, 0.2);
 }
 .list-search .media span.ruban:before{
 	left: 0;
@@ -214,13 +220,7 @@ h3.title:after{
 	border-right: 0 solid transparent;
 }
 .list-search .media span.ruban:after{
-	left: initial;
-	right: -5px;
-	bottom: 0;
-	border-left: 0px solid transparent;
-	border-top: 21px solid #1fd28d;
-	border-bottom: 21px solid #1fd28d;
-	border-right: 5px solid transparent;
+	content:none;
 }
 .list-search .media span.ruban.etablissement:after{
 	border-top-color: #ffffff;
@@ -240,7 +240,6 @@ span.ruban:hover {
 	width: 85%;
 }
 .list-search .item-body:before{
-	content: '';
 	position: absolute;
 	left: -35px;
 	z-index: 1;
@@ -254,7 +253,6 @@ span.ruban:hover {
 	-ms-transform: skewX(-20deg);
 	-o-transform: skewX(-20deg);
 	transform: skewX(-20deg);
-	box-sizing: content-box;
 	box-shadow: 2px 0 20px 0 rgba(220,220,220,.5);
 }
 .list-search .media-object{
@@ -381,9 +379,41 @@ div.nav-container > ul.nav-tabs > li.active *{
 	background-color: #FFFFFF;
 }
 /*Etablissement detail*/
-#equipe .media{
-	width: calc((100% - .25em)/2);
+.card-equipe{
+	display: flex;
+	flex-wrap: wrap;
+}
+.card-equipe .card{
+	width: calc((100% - 4em)/4);
 	display: inline-block;
+	text-align: center;
+	margin: auto;
+	box-shadow: 1px 1px 1px 0px rgba(200,200,200,.5);
+	position: relative;
+}
+.card-equipe .card:before{
+	content: '';
+	position: absolute;
+	height: 75%;
+	width: 100%;
+	background: #e8fff7;
+	bottom: -15px;
+	left: 0;
+	-webkit-transform: skewY(-10deg);
+	-moz-transform: skewY(-10deg);
+	-ms-transform: skewY(-10deg);
+	-o-transform: skewY(-10deg);
+	transform: skewY(-10deg);
+}
+.card-equipe .card .content{
+	position:relative;
+}
+.card-equipe .card img{
+	width: 50%;
+	margin: auto;
+	-webkit-box-shadow: -2px -2px 4px 0px rgba(190,190,190,0.2);
+	-moz-box-shadow: -2px -2px 4px 0px rgba(190,190,190,0.2);
+	box-shadow: -2px -2px 4px 0px rgba(190,190,190,0.2);
 }
 /*Fin Etablissement detail*/
 /* FIN DETAIL PAGE */
