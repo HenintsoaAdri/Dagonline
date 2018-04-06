@@ -26,6 +26,7 @@
   <!--Toast-->
   <link rel="stylesheet" href="css/jquery.toast.min.css">
   <!--Fin Toast-->
+  <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
   <!-- Theme personnalisé -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/font.css">
@@ -757,22 +758,16 @@
                 <div class="card-content">
                   <form action="#">
                     <div class="form-group">
-                      <label for="motifRV">Motif du Rendez-vous:</label>
+                      <label for="motifRV">Motif du Rendez-vous :</label>
                       <select class="form-control" id="motifRV">
                         <option disabled selected>Choisissez un motif</option>
                         <option value="Première consultation de médecine générale">Première consultation de médecine générale</option>
                         <option value="Consultation de suivi de médecine générale">Consultation de suivi de médecine générale</option>
                       </select>
                     </div>
-                    <div class="form-group row">
-                      <div class="col-xs-6">
-                        <label for="dateRV">Date:</label>
-                        <input class="form-control" id="dateRV" type="text">
-                      </div>
-                      <div class="col-xs-6">
-                        <label for="heureRV">Heure:</label>
-                        <input class="form-control" id="heureRV" type="text">
-                      </div>
+                    <div class="form-group">
+                      <label for="daterendezvous">Date & Heure :</label>
+                      <input class="form-control datetimepicker-input" id="daterendezvous" type="text">
                     </div>
                     <button type="submit" class="btn btn-default">Valider</button>
                   </form>
@@ -884,8 +879,8 @@
 <!--Fin Toast-->
 <!--Sticky nav-pills -->
 <script src="js/sticky-kit.min.js"></script>
-<!--Fin Animation Carte PUB-->
-<script src="js/filtre-bar.js"></script>
+<!--DateTimePicker-->
+<script src="js/jquery.datetimepicker.full.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
