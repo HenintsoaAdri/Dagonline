@@ -230,56 +230,61 @@ h2, h6 {
 /* FIN Tags */
 
 /* CALENDAR */
-.calendar-sidebar {
-    background-color: #00834e;
+/*.ui-datepicker-header {
+    background-color: #1da76e;
+}*/
+#calendar {
+    padding-bottom: 0px;
 }
 
-.calendar {
-    text-align: center;
-    padding: 1em 0;
+.ui-datepicker-calendar tbody td:hover {
+    background: #fff; 
+    color:  #1da76e;
+}
+
+.ui-datepicker-calendar tbody td:hover a {
+    color: #1da76e;
+}
+
+.ui-state-default {
     color: #FFF;
 }
-.calendar h2 {
-    font-size: 2em;
-    line-height: 1.25em;
-    margin: .25em 0;
+
+.ui-datepicker-calendar, #calendar {
+    background: #1da76e;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
-.calendar-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin: auto;
+.ui-datepicker-title {
+    padding-bottom: 15px;
+    /*color: #FFF;*/
 }
 
-.calendar thead {
-    font-weight: 600;
-    text-transform: uppercase;
+.col-sm-3 .calendar-container table {
+    margin:0;
+}
+.col-sm-4 .calendar-container table {
+    width:70%;
 }
 
-.calendar td {
-    border: 2px solid transparent;
-    border-radius: 50%;
-    height: 3em;
-    line-height: 3em;
-    text-align: center;
-    width: 3em;
+.ui-datepicker-calendar {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-.calendar .prev-month, .calendar .next-month {
-    color: #a8b0b1d4;
+.ui-datepicker-calendar thead {
+    color: #FFF;
 }
 
-.calendar td.current-day {
-    background: #FFF;
-    color: #000000;
-}
-.col-sm-3 .calendar td {
-    height: 2em;
-    line-height: 2em;
-    width: 2em;
+.ui-datepicker-current-day {
+    border: solid 2px #FFF;
+    background-color: #FFF;
+    color: #1da76e;
 }
 
-.col-sm-3 .calendar h2 {
-    font-size: 1.5em;
+.ui-datepicker-current-day a {
+    color: #1da76e;
 }
 /*Fin CALENDAR*/
