@@ -30,6 +30,7 @@
     <!-- Theme personnalisé -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/calendrier-style.css" />
     <link rel="stylesheet" type="text/css" href="css/article-style.css" />
 </head>
 
@@ -870,7 +871,7 @@
                         <a href="#">Etablissement</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#">Article</a>
+                        <a href="article.html">Article</a>
                     </li>
                 </ul>
             </div>
@@ -884,26 +885,6 @@
         <div class="jumbotron-text">
             <h1>Dagonline</h1>
             <p>Trouvez et achetez ce qui vous soigne sur tout Madagascar</p>
-            <form class="form-inline col-xs-offset-1 col-xs-10">
-                <div class="form-group">
-                    <select class="form-control">
-                        <option disabled selected>Où : Pays, Région, Département, Ville </option>
-                        <option>Antananarivo</option>
-                        <option>Diego-Suarez</option>
-                        <option>Majunga</option>
-                        <option>Tamatave</option>
-                        <option>Fianarantsoa</option>
-                        <option>Tuléar</option>
-                    </select>
-                </div>
-                <div class="form-group input-group">
-                    <span class="input-group-addon">
-                        <i class="glyphicon glyphicon-search text-info"></i>
-                    </span>
-                    <input type="text" class="form-control" size="30" placeholder="Rechercher...">
-                </div>
-                <button type="button" class="form-control btn text-white bg-green">Trouver</button>
-            </form>
         </div>
 
         <div id="SlidePrincipal" class="carousel slide hidden-xs" data-ride="carousel">
@@ -911,15 +892,15 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="img/slideIndex.jpg" class="img-responsive">
+                    <img src="img/slideArticle.jpg" class="img-responsive">
                 </div>
 
                 <div class="item">
-                    <img src="img/slideIndex.jpg" class="img-responsive">
+                    <img src="img/slideArticle.jpg" class="img-responsive">
                 </div>
 
                 <div class="item">
-                    <img src="img/slideIndex.jpg" class="img-responsive">
+                    <img src="img/slideArticle.jpg" class="img-responsive">
                 </div>
             </div>
 
@@ -963,300 +944,298 @@
     <div id="body">
         <span id="dagonline"></span>
         <div class="container-fluid bg-warning text-danger pacifico shadow">
-                <div class="p-r-20">
-                  <!-- BreadCrumbs -->
-                  <div class="pull-left">
+            <div class="p-r-20">
+                <!-- BreadCrumbs -->
+                <div class="pull-left">
                     <p class="breadcrumbs">
-                      <a href="index.html">Dagonline</a>
-                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                      <a href="#" class="actuel">Article</a>
-                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                      <a href="#" class="actuel">Exemple Article</a>
+                        <a href="index.html">Dagonline</a>
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <a href="#" class="actuel">Article</a>
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <a href="#" class="actuel">Exemple Article</a>
                     </p>
-                  </div>
-                  <!-- Fin BreadCrumbs -->
-                  
-                  <div class="pull-right">  
+                </div>
+                <!-- Fin BreadCrumbs -->
+
+                <div class="pull-right">
                     <h2>Article</h2>
-                  </div>
-              </div>
+                </div>
+            </div>
         </div>
         <br>
         <!-- Container Partie Detail Article-->
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
-                    <article>
-                        <div class="article-body">
-                            <div class="article-image">
-                                <img src="img/maladie/diabete.jpg" class="img-responsive">
+                    <div class="article-body">
+                        <div class="article-image">
+                            <img src="img/maladie/diabete.jpg" class="img-responsive">
+                        </div>
+                        <div class="contenus-article">
+                            <div class="article-description">
+                                <span class="article-categorie">
+                                    <a href="#">Actus</a>
+                                </span>
+                                <span class="article-date">03 Avril 2018</span>
                             </div>
-                            <div class="contenus-article">
-                                <div class="article-description">
-                                    <span class="article-categorie">
-                                        <a href="#">Actus</a>
-                                    </span>
-                                    <span class="article-date">03 Avril 2018</span>
+                            <h2 class="titre-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <div class="contenu">
+                                <p>Semper leo. Fusce lectus justo, porta quis felis at, imperdiet elementum libero. Duis nec
+                                    dignissim lectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                    scelerisque venenatis purus eget maximus. Fusce dapibus leo sed sem fringilla, nec convallis
+                                    arcu egestas. Nullam ut</p>
+                                <p>Nulla facilisi. Etiam euismod tristique ipsum, vitae fringilla orci tempor at. Cras dignissim
+                                    laoreet ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec vitae
+                                    aliquet dui, sit amet cursus ante. Nulla facilisi. Vestibulum ante ipsum primis in faucibus
+                                    orci luctus et ultrices posuere cubilia Curae; Ut sodales porta lacus, eu facilisis justo.
+                                    Curabitur sed leo dui.</p>
+                                <p>Nam nisl ex, pellentesque eget lorem eget, dignissim lobortis nisi. Curabitur elit elit,
+                                    condimentum non lacus sed, elementum pellentesque mi. Fusce eget accumsan elit. Integer
+                                    euismod libero a tellus tincidunt venenatis. Vivamus sit amet neque id mauris lacinia
+                                    consequat vel ac orci. Suspendisse posuere velit eu pellentesque vestibulum. Vestibulum
+                                    sit amet nibh ut nisl luctus facilisis. Vestibulum et posuere massa, ut luctus enim.
+                                    In id ex dui. Mauris elementum mauris ut mauris luctus gravida. Morbi fermentum mauris
+                                    sollicitudin scelerisque euismod. Nulla tincidunt suscipit accumsan.</p>
+                                <p>Nullam felis leo, tincidunt et facilisis a, gravida non est. In hac habitasse platea dictumst.
+                                    Suspendisse id laoreet nulla. Nullam sodales convallis pellentesque. Donec sed ipsum
+                                    eget urna ultrices accumsan nec id dui. Vestibulum egestas, ex eu venenatis feugiat,
+                                    risus neque congue odio, a suscipit lorem nisl non nunc. Maecenas quis metus et lectus
+                                    luctus hendrerit. Nunc maximus, enim sed condimentum varius, eros nulla ultricies arcu,
+                                    non lobortis orci lacus at neque. Nunc pellentesque tincidunt quam, nec gravida neque
+                                    lacinia vitae. Ut finibus mi eu ante egestas, ut luctus nisl condimentum. Aenean consequat
+                                    finibus sapien id porttitor.</p>
+                            </div>
+                            <div class="auteur-description">
+                                <div class="avatar text-center">
+                                    <img width="75" height="75" src="img/avatar-2.png">
                                 </div>
-                                <h2 class="titre-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                                <div class="contenu">
-                                    <p>Semper leo. Fusce lectus justo, porta quis felis at, imperdiet elementum libero. Duis
-                                        nec dignissim lectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                        scelerisque venenatis purus eget maximus. Fusce dapibus leo sed sem fringilla, nec
-                                        convallis arcu egestas. Nullam ut</p>
-                                    <p>Nulla facilisi. Etiam euismod tristique ipsum, vitae fringilla orci tempor at. Cras dignissim
-                                        laoreet ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec
-                                        vitae aliquet dui, sit amet cursus ante. Nulla facilisi. Vestibulum ante ipsum primis
-                                        in faucibus orci luctus et ultrices posuere cubilia Curae; Ut sodales porta lacus,
-                                        eu facilisis justo. Curabitur sed leo dui.</p>
-                                    <p>Nam nisl ex, pellentesque eget lorem eget, dignissim lobortis nisi. Curabitur elit elit,
-                                        condimentum non lacus sed, elementum pellentesque mi. Fusce eget accumsan elit. Integer
-                                        euismod libero a tellus tincidunt venenatis. Vivamus sit amet neque id mauris lacinia
-                                        consequat vel ac orci. Suspendisse posuere velit eu pellentesque vestibulum. Vestibulum
-                                        sit amet nibh ut nisl luctus facilisis. Vestibulum et posuere massa, ut luctus enim.
-                                        In id ex dui. Mauris elementum mauris ut mauris luctus gravida. Morbi fermentum mauris
-                                        sollicitudin scelerisque euismod. Nulla tincidunt suscipit accumsan.</p>
-                                    <p>Nullam felis leo, tincidunt et facilisis a, gravida non est. In hac habitasse platea
-                                        dictumst. Suspendisse id laoreet nulla. Nullam sodales convallis pellentesque. Donec
-                                        sed ipsum eget urna ultrices accumsan nec id dui. Vestibulum egestas, ex eu venenatis
-                                        feugiat, risus neque congue odio, a suscipit lorem nisl non nunc. Maecenas quis metus
-                                        et lectus luctus hendrerit. Nunc maximus, enim sed condimentum varius, eros nulla
-                                        ultricies arcu, non lobortis orci lacus at neque. Nunc pellentesque tincidunt quam,
-                                        nec gravida neque lacinia vitae. Ut finibus mi eu ante egestas, ut luctus nisl condimentum.
-                                        Aenean consequat finibus sapien id porttitor.</p>
+                                <div class="description">
+                                    <h6>
+                                        <a href="#">A. M. Kevin</a>
+                                    </h6>
+                                    <p>Ed esmod sapien sit amet porttitor faucibus. Cras libero sapien, consequat ac sagittis
+                                        non, dignissim et odio.Aenean iaculis sem eget lacus tempor, vel tristique eros congue.
+                                        Mauris tempus ex ac ipsum rhoncus aliquet.</p>
                                 </div>
-                                <div class="auteur-description">
-                                    <div class="avatar text-center">
-                                        <img width="75" height="75" src="img/avatar-2.png">
-                                    </div>
-                                    <div class="description">
-                                        <h6>
-                                            <a href="#">A. M. Kevin</a>
-                                        </h6>
-                                        <p>Ed esmod sapien sit amet porttitor faucibus. Cras libero sapien, consequat ac sagittis
-                                            non, dignissim et odio.Aenean iaculis sem eget lacus tempor, vel tristique eros
-                                            congue. Mauris tempus ex ac ipsum rhoncus aliquet.</p>
+                            </div>
+                            <div class="related-post">
+                                <div class="row">
+                                    <div class="col-md-11 related-post-title">
+                                        <h3>
+                                            <span>Article Similaire</span>
+                                        </h3>
                                     </div>
                                 </div>
-                                <div class="related-post">
-                                    <div class="row">
-                                        <div class="col-md-11 related-post-title">
-                                            <h3>
-                                                <span>Article Similaire</span>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <div class="carousel slide" id="vignetteEvenement">
-                                                <div class="carousel-inner">
-                                                    <div class="item active">
-                                                        <div class="thumbnails">
-                                                            <div class="col-sm-3">
-                                                                <div class="fff">
-                                                                    <div class="thumbnail">
-                                                                        <a href="#">
-                                                                            <img src="img/360x240.png" alt="">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="caption">
-                                                                        <h4>Praesent commodo</h4>
-                                                                        <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                                        <a class="btn btn-flat" href="#">» Voir détails</a>
-                                                                    </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="carousel slide" id="vignetteEvenement">
+                                            <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <div class="thumbnails">
+                                                        <div class="col-sm-3">
+                                                            <div class="fff">
+                                                                <div class="thumbnail">
+                                                                    <a href="#">
+                                                                        <img src="img/360x240.png" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="caption">
+                                                                    <h4>Praesent commodo</h4>
+                                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                                    <a class="btn btn-flat" href="#">» Voir détails</a>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-sm-3">
-                                                                <div class="fff">
-                                                                    <div class="thumbnail">
-                                                                        <a href="#">
-                                                                            <img src="img/360x240.png" alt="">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="caption">
-                                                                        <h4>Praesent commodo</h4>
-                                                                        <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                                        <a class="btn btn-flat" href="#">» Voir détails</a>
-                                                                    </div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="fff">
+                                                                <div class="thumbnail">
+                                                                    <a href="#">
+                                                                        <img src="img/360x240.png" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="caption">
+                                                                    <h4>Praesent commodo</h4>
+                                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                                    <a class="btn btn-flat" href="#">» Voir détails</a>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-sm-3">
-                                                                <div class="fff">
-                                                                    <div class="thumbnail">
-                                                                        <a href="#">
-                                                                            <img src="img/360x240.png" alt="">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="caption">
-                                                                        <h4>Praesent commodo</h4>
-                                                                        <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                                        <a class="btn btn-flat" href="#">» Voir détails</a>
-                                                                    </div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="fff">
+                                                                <div class="thumbnail">
+                                                                    <a href="#">
+                                                                        <img src="img/360x240.png" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="caption">
+                                                                    <h4>Praesent commodo</h4>
+                                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                                    <a class="btn btn-flat" href="#">» Voir détails</a>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-sm-3">
-                                                                <div class="fff">
-                                                                    <div class="thumbnail">
-                                                                        <a href="#">
-                                                                            <img src="img/360x240.png" alt="">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="caption">
-                                                                        <h4>Praesent commodo</h4>
-                                                                        <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                                        <a class="btn btn-flat" href="#">» Voir détails</a>
-                                                                    </div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="fff">
+                                                                <div class="thumbnail">
+                                                                    <a href="#">
+                                                                        <img src="img/360x240.png" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="caption">
+                                                                    <h4>Praesent commodo</h4>
+                                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                                    <a class="btn btn-flat" href="#">» Voir détails</a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <!-- /Slide1 -->
-                                                    <div class="item">
-                                                        <div class="thumbnails">
-                                                            <div class="col-sm-3">
-                                                                <div class="fff">
-                                                                    <div class="thumbnail">
-                                                                        <a href="#">
-                                                                            <img src="img/360x240.png" alt="">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="caption">
-                                                                        <h4>Praesent commodo</h4>
-                                                                        <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                                        <a class="btn btn-flat" href="#">» Voir détails</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3">
-                                                                <div class="fff">
-                                                                    <div class="thumbnail">
-                                                                        <a href="#">
-                                                                            <img src="img/360x240.png" alt="">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="caption">
-                                                                        <h4>Praesent commodo</h4>
-                                                                        <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                                        <a class="btn btn-flat" href="#">» Voir détails</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3">
-                                                                <div class="fff">
-                                                                    <div class="thumbnail">
-                                                                        <a href="#">
-                                                                            <img src="img/360x240.png" alt="">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="caption">
-                                                                        <h4>Praesent commodo</h4>
-                                                                        <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                                        <a class="btn btn-flat" href="#">» Voir détails</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3">
-                                                                <div class="fff">
-                                                                    <div class="thumbnail">
-                                                                        <a href="#">
-                                                                            <img src="img/360x240.png" alt="">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="caption">
-                                                                        <h4>Praesent commodo</h4>
-                                                                        <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                                        <a class="btn btn-flat" href="#">» Voir détails</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- /Slide2 -->
-                                                    <div class="item">
-                                                        <div class="thumbnails">
-                                                            <div class="col-sm-3">
-                                                                <div class="fff">
-                                                                    <div class="thumbnail">
-                                                                        <a href="#">
-                                                                            <img src="img/360x240.png" alt="">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="caption">
-                                                                        <h4>Praesent commodo</h4>
-                                                                        <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                                        <a class="btn btn-flat" href="#">» Voir détails</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3">
-                                                                <div class="fff">
-                                                                    <div class="thumbnail">
-                                                                        <a href="#">
-                                                                            <img src="img/360x240.png" alt="">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="caption">
-                                                                        <h4>Praesent commodo</h4>
-                                                                        <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                                        <a class="btn btn-flat" href="#">» Voir détails</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3">
-                                                                <div class="fff">
-                                                                    <div class="thumbnail">
-                                                                        <a href="#">
-                                                                            <img src="img/360x240.png" alt="">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="caption">
-                                                                        <h4>Praesent commodo</h4>
-                                                                        <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                                        <a class="btn btn-flat" href="#">» Voir détails</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3">
-                                                                <div class="fff">
-                                                                    <div class="thumbnail">
-                                                                        <a href="#">
-                                                                            <img src="img/360x240.png" alt="">
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="caption">
-                                                                        <h4>Praesent commodo</h4>
-                                                                        <p>Nullam Condimentum Nibh Etiam Sem</p>
-                                                                        <a class="btn btn-flat" href="#">» Voir détails</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- /Slide3 -->
                                                 </div>
-                                                <nav>
-                                                    <ul class="control-box pager pull-right">
-                                                        <li>
-                                                            <a data-slide="prev" href="#vignetteEvenement" class="">
-                                                                <i class="glyphicon glyphicon-chevron-left"></i>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a data-slide="next" href="#vignetteEvenement" class="">
-                                                                <i class="glyphicon glyphicon-chevron-right"></i>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </nav>
-                                                <!-- /.control-box -->
-
+                                                <!-- /Slide1 -->
+                                                <div class="item">
+                                                    <div class="thumbnails">
+                                                        <div class="col-sm-3">
+                                                            <div class="fff">
+                                                                <div class="thumbnail">
+                                                                    <a href="#">
+                                                                        <img src="img/360x240.png" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="caption">
+                                                                    <h4>Praesent commodo</h4>
+                                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                                    <a class="btn btn-flat" href="#">» Voir détails</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="fff">
+                                                                <div class="thumbnail">
+                                                                    <a href="#">
+                                                                        <img src="img/360x240.png" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="caption">
+                                                                    <h4>Praesent commodo</h4>
+                                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                                    <a class="btn btn-flat" href="#">» Voir détails</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="fff">
+                                                                <div class="thumbnail">
+                                                                    <a href="#">
+                                                                        <img src="img/360x240.png" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="caption">
+                                                                    <h4>Praesent commodo</h4>
+                                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                                    <a class="btn btn-flat" href="#">» Voir détails</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="fff">
+                                                                <div class="thumbnail">
+                                                                    <a href="#">
+                                                                        <img src="img/360x240.png" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="caption">
+                                                                    <h4>Praesent commodo</h4>
+                                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                                    <a class="btn btn-flat" href="#">» Voir détails</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /Slide2 -->
+                                                <div class="item">
+                                                    <div class="thumbnails">
+                                                        <div class="col-sm-3">
+                                                            <div class="fff">
+                                                                <div class="thumbnail">
+                                                                    <a href="#">
+                                                                        <img src="img/360x240.png" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="caption">
+                                                                    <h4>Praesent commodo</h4>
+                                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                                    <a class="btn btn-flat" href="#">» Voir détails</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="fff">
+                                                                <div class="thumbnail">
+                                                                    <a href="#">
+                                                                        <img src="img/360x240.png" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="caption">
+                                                                    <h4>Praesent commodo</h4>
+                                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                                    <a class="btn btn-flat" href="#">» Voir détails</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="fff">
+                                                                <div class="thumbnail">
+                                                                    <a href="#">
+                                                                        <img src="img/360x240.png" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="caption">
+                                                                    <h4>Praesent commodo</h4>
+                                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                                    <a class="btn btn-flat" href="#">» Voir détails</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="fff">
+                                                                <div class="thumbnail">
+                                                                    <a href="#">
+                                                                        <img src="img/360x240.png" alt="">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="caption">
+                                                                    <h4>Praesent commodo</h4>
+                                                                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                                                    <a class="btn btn-flat" href="#">» Voir détails</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /Slide3 -->
                                             </div>
+                                            <nav>
+                                                <ul class="control-box pager pull-right">
+                                                    <li>
+                                                        <a data-slide="prev" href="#vignetteEvenement" class="">
+                                                            <i class="glyphicon glyphicon-chevron-left"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-slide="next" href="#vignetteEvenement" class="">
+                                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                            <!-- /.control-box -->
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </article>
+                    </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="article-sidebar recherche-sidebar">
@@ -1308,80 +1287,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="article-sidebar calendar-sidebar">
-                        <div class="calendar">
-                            <header>
-                                <h2>Avril</h2>
-                            </header>
-                            <table class="calendar-table">
-                                <thead>
-                                    <tr>
-                                        <td>Lu</td>
-                                        <td>Ma</td>
-                                        <td>Me</td>
-                                        <td>Je</td>
-                                        <td>Ve</td>
-                                        <td>Sa</td>
-                                        <td>Di</td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="prev-month">26</td>
-                                        <td class="prev-month">27</td>
-                                        <td class="prev-month">28</td>
-                                        <td class="prev-month">29</td>
-                                        <td class="prev-month">30</td>
-                                        <td class="prev-month">31</td>
-                                        <td>1</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td class="current-day">3</td>
-                                        <td>4</td>
-                                        <td>5</td>
-                                        <td>6</td>
-                                        <td>7</td>
-                                        <td>8</td>
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>10</td>
-                                        <td>11</td>
-                                        <td>12</td>
-                                        <td>13</td>
-                                        <td>14</td>
-                                        <td>15</td>
-                                    </tr>
-                                    <tr>
-                                        <td>16</td>
-                                        <td>17</td>
-                                        <td>18</td>
-                                        <td>19</td>
-                                        <td>20</td>
-                                        <td>21</td>
-                                        <td>22</td>
-                                    </tr>
-                                    <tr>
-                                        <td>23</td>
-                                        <td>24</td>
-                                        <td>25</td>
-                                        <td>26</td>
-                                        <td>27</td>
-                                        <td>28</td>
-                                        <td>29</td>
-                                    </tr>
-                                    <tr>
-                                        <td>30</td>
-                                        <td class="next-month">1</td>
-                                        <td class="next-month">2</td>
-                                        <td class="next-month">3</td>
-                                        <td class="next-month">4</td>
-                                        <td class="next-month">5</td>
-                                        <td class="next-month">6</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                    <div class="calendar-sidebar">
+                        <div class="calendar-container">
+                            <div id="calendar"></div>
                         </div>
                     </div>
                 </div>
@@ -1487,6 +1395,9 @@
     <script src="js/fontawesome-all.min.js"></script>
     <!--Toast-->
     <script src="js/jquery.toast.min.js"></script>
+    <!--Calendrier-->
+    <script src="js/jquery-ui-datepicker.min.js"></script>
+    <script src="js/calendrier-function.js"></script>
     <!--Fin Toast-->
     <script src="js/main.js"></script>
 </body>

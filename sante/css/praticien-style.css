@@ -11,6 +11,12 @@
 	column-width: 245px;
 	margin: 0;
 }
+.list-med li{
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	break-inside: avoid;
+}
 .list-med li a{
 	background-color: #fbfaf7;
 	padding: 10px;
@@ -186,10 +192,12 @@ h3.title:after{
 	position: relative;
 	margin-bottom: 20px;
 	padding: 0;
-	background-color: #FFFFFF;
-	box-shadow: 0 1px 6px rgba(0,0,0,0.16);
 	border-radius: 3px;
 	overflow: visible;
+	z-index:0;
+}
+.list-search .media:hover{
+	z-index: 1;
 }
 .list-search .media:nth-last-child(2){
 	margin-bottom: 40px;
@@ -200,11 +208,11 @@ h3.title:after{
 	left: -8px;
 	width: auto;
 	padding: 5px .5em !important;
-	font-size: 1.5em;
+	font-size: 1.1em;
 	height: 2em;
-	-webkit-box-shadow: 0px 2px 20px 0 rgba(45,45,145,0.5);
-	-moz-box-shadow: 0px 2px 20px 0 rgba(45,45,45,0.5);
-	box-shadow: 0px 2px 20px 0 rgba(45,45,45,0.5);
+	-webkit-box-shadow: 0px 1px 1px 0 rgba(45, 45, 45, 0.2);
+	-moz-box-shadow: 0px 1px 1px 0 rgba(45, 45, 45, 0.2);
+	box-shadow: 0px 1px 1px 0 rgba(45, 45, 45, 0.2);
 }
 .list-search .media span.ruban:before{
 	left: 0;
@@ -214,13 +222,7 @@ h3.title:after{
 	border-right: 0 solid transparent;
 }
 .list-search .media span.ruban:after{
-	left: initial;
-	right: -5px;
-	bottom: 0;
-	border-left: 0px solid transparent;
-	border-top: 21px solid #1fd28d;
-	border-bottom: 21px solid #1fd28d;
-	border-right: 5px solid transparent;
+	content:none;
 }
 .list-search .media span.ruban.etablissement:after{
 	border-top-color: #ffffff;
@@ -230,17 +232,45 @@ span.ruban:hover {
 	height: 2em;
 }
 .list-search .item-body{
+	transform-style: preserve-3d;
+}
+.list-search .item-body > div{
+	position : absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height:100%;
+	overflow: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: all 0.8s ease .7s;
+	-moz-transition: all 0.8s ease .7s;
+	-ms-transition: all 0.8s ease .7s;
+	-o-transition: all 0.8s ease .7s;
+	transition: all 0.8s ease .7s;
+}
+
+.list-search .item-body .back{
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	-ms-transform: rotateY(-180deg);
+	-o-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+	background-color: #e7e5db;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.16);
+	text-align:center;
+}
+.list-search .item-body .top{
 	display: flex;
 	flex-wrap: wrap;
+	background-color: #FFFFFF;
+	height:100%;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.16);
 }
-.list-search .item-body .item-text{
-	position: relative;
-	z-index: 2;
-	padding: 10px;
-	width: 85%;
+.list-search .item-body  .top .item-text{
+	padding: 10px 2em;
+	width: 100%;
 }
-.list-search .item-body:before{
-	content: '';
+.list-search .item-body .top:before{
 	position: absolute;
 	left: -35px;
 	z-index: 1;
@@ -254,12 +284,12 @@ span.ruban:hover {
 	-ms-transform: skewX(-20deg);
 	-o-transform: skewX(-20deg);
 	transform: skewX(-20deg);
-	box-sizing: content-box;
 	box-shadow: 2px 0 20px 0 rgba(220,220,220,.5);
 }
 .list-search .media-object{
 	max-width: 100%;
 	margin: auto;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.16);
 }
 
 .list-search .media > .row{
@@ -268,32 +298,32 @@ span.ruban:hover {
 	margin-right: 0;
 	margin-left: 0;
 	width: 100%;
+	perspective: 1000px;
 }
 .list-search .media > .row > div{
 	padding: 0;
 }
 
 .list-search .item-body .item-action{
-	width: 15%;
-	margin: auto;
+	left: initial;
+	right: -1em;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: auto;
+	height: auto;
+	overflow: visible;
+	z-index: 1;
 }
-.list-search .item-body .item-action > *:not(.fab-button) {
-	display: block;
-	height: 50%;
-	-webkit-box-shadow: 4px 0px 20px 0px rgba(200,200,200,.5);
-	-moz-box-shadow: 4px 0px 20px 0px rgba(200,200,200,.5);
-	box-shadow: 4px 0px 20px 0px rgba(200,200,200,.5);
-}
-.list-search .item-body .item-action > * > *{
-	display: block;
-	margin: auto;
+
+.list-search .item-body .item-action svg{
 	height: 100%;
 }
-.list-search .item-body .item-action .praticien{
-	background-color: #1BBE81;
-	color: #FFFFFF;
-}
-.fab-button{
+
+.list-search .item-action .fab-button{
 	font-size: 2em;
 	border-radius: 50% !important;
 	display: block;
@@ -305,14 +335,36 @@ span.ruban:hover {
 	-moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.5) !important;
 	box-shadow: 0px 2px 2px rgba(0,0,0,0.5) !important;
 }
-.fab-button.focus, .fab-button:focus, .fab-button:hover {
+.list-search .item-action .fab-button:focus,
+.list-search .item-action .fab-button:hover {
 	color: white;
 	background-color: #b49783;
 	-webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.8) !important;
 	-moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.8) !important;
 	box-shadow: 0px 2px 2px rgba(0,0,0,0.8) !important;
 }
-/* FIN LIST RESULTAT RECHERCHE*/
+.list-search .item-body .item-action:hover{
+	opacity: 0;
+}
+.list-search .item-body .item-action:hover ~ .back, .list-search .item-body .back:hover{
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	min-height: 100%;
+	height: auto;
+	overflow: visible;
+}
+.list-search .item-body .item-action:hover ~ .top, .list-search .item-body .back:hover ~ .top{
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+	/* FIN LIST RESULTAT RECHERCHE*/
 .map{
 	position: relative;
 	height: 0;
@@ -381,9 +433,41 @@ div.nav-container > ul.nav-tabs > li.active *{
 	background-color: #FFFFFF;
 }
 /*Etablissement detail*/
-#equipe .media{
-	width: calc((100% - .25em)/2);
+.card-equipe{
+	display: flex;
+	flex-wrap: wrap;
+}
+.card-equipe .card{
+	width: calc((100% - 4em)/4);
 	display: inline-block;
+	text-align: center;
+	margin: auto;
+	box-shadow: 1px 1px 1px 0px rgba(200,200,200,.5);
+	position: relative;
+}
+.card-equipe .card:before{
+	content: '';
+	position: absolute;
+	height: 75%;
+	width: 100%;
+	background: #e8fff7;
+	bottom: -15px;
+	left: 0;
+	-webkit-transform: skewY(-10deg);
+	-moz-transform: skewY(-10deg);
+	-ms-transform: skewY(-10deg);
+	-o-transform: skewY(-10deg);
+	transform: skewY(-10deg);
+}
+.card-equipe .card .content{
+	position:relative;
+}
+.card-equipe .card img{
+	width: 50%;
+	margin: auto;
+	-webkit-box-shadow: -2px -2px 4px 0px rgba(190,190,190,0.2);
+	-moz-box-shadow: -2px -2px 4px 0px rgba(190,190,190,0.2);
+	box-shadow: -2px -2px 4px 0px rgba(190,190,190,0.2);
 }
 /*Fin Etablissement detail*/
 /* FIN DETAIL PAGE */

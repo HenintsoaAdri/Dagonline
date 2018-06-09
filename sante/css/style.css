@@ -733,17 +733,20 @@ a.btn-outline:hover, button.btn-outline:hover, input[type='submit'].btn-outline:
 	left:-75%;
 	top: -10%;
 }
-
+.zoom{
+	position:relative;
+}
 .zoom:after {
 	position:absolute;
 	content: '';
-	top:20%;
-	left: 40%;
-	background-image: url("../img/magnifier.svg");
-	background-size: 100%;
+	top: 0;
+	left: 0;
+	background-image: url(../img/magnifier.svg);
+	background-size: 10%;
+	background-position: center;
 	background-repeat: no-repeat;
-	width: 15%;
-	height: 25%;
+	width: 100%;
+	height: 100%;
 	opacity: 0;
 }
 a:hover .zoom > *, a.zoom:hover > *{
@@ -752,6 +755,19 @@ a:hover .zoom > *, a.zoom:hover > *{
 a:hover .zoom:after, a.zoom:hover:after{
 	opacity: 1;
 }
+.modal-zoom .modal-content {
+	 margin: auto;
+	 display: block;
+	 width: 100%;
+	 max-width: 700px;
+	 animation-name: zoom;
+	 animation-duration: 0.6s;
+	 background-color: transparent;
+	 border: none;
+	 -webkit-box-shadow: none;
+	 -moz-box-shadow: none;
+	 box-shadow: none;
+ }
 
 /*FORMULAIRE RECHERCHE
 Background image Designed by macrovector / Freepik
@@ -801,101 +817,110 @@ Background image Designed by macrovector / Freepik
 }
 /*FIN FORMULAIRE RECHERCHE*/
 /*SECTION ARTICLES*/
-.article-body {
+.article-body{
 	background-color: #FFF;
 }
 
-.article-contenu {
-	margin-top: 30px;
-}
-
-.container-une > ul {
-	padding: 0;
-	margin-bottom: 0px !important;
-	list-style-type: none;
-	display: inline-block;
+/*LA UNE ARTICLE*/
+.container-une {
+	margin: 0px;
 	width: 100%;
-	margin: 0 0 10px;
-	overflow: hidden;
-}
-
-@media (min-width: 768px) {
-	.container-une > ul > li#image-une-0 {
-		width: 68%;
-		height: 480px;
-		background-size: cover;
-	}
-}
-
-@media (min-width: 768px) {
-	.container-une > ul > li#image-une-1 {
-		width: 32%;
-		height: 240px;
-		background-size: cover;
-	}
-}
-
-@media (min-width: 990px) {
-	.container-une > ul > li {
-		background-size: 100%;
-	}
-}
-
-@media (min-width: 1200px) {
-	.container-une > ul > li {
-		width: 25%;
-	}
-}
-
-@media (min-width: 768px) {
-	.container-une > ul > li {
-		width: 50%;
-		height: 178px;
-	}
-}
-
-.container-une > ul > li {
-	margin-bottom: 0px !important;
-	width: 100%;
-	height: 360px;
-	display: inline-block;
-	float: left;
+	height: 100%;
+	display: flex;
 	position: relative;
 	background-position: 50% 50%;
 	background-size: cover;
+	overflow: hidden;
 }
 
-.container-une > ul > li .article-info {
+.container-une .article-info {
 	position: absolute;
-	bottom: 25px;
-	left: 35px;
-	right: 35px;
-	max-height: 95px;
+	bottom: 0;
+	left: 0;
 	z-index: 1;
 	color: #FFF;
 	font-family: 'Droid Serif';
 	font-size: 14px;
+	background: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	height: auto;
+	padding: 20px;
 }
 
-.container-une > ul > li .image-une-info {
+.container-une .image-une-info {
 	bottom: 70px;
 }
 
-.container-une > ul > li h1 {
+.container-une h1 {
 	color: #FFF;
 	font-size: 33px;
 	line-height: 37px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: auto;
 }
 
-.container-une > ul > li .article-info a {
+.container-une .article-info a {
 	color: #FFF;
 	font-weight: 400;
 	line-height: 26px;
 	font-family: "Nunito Sans", sans-serif;
 	text-decoration: none;
 }
+
+.container-une .article-categorie a {
+	font-size: 13px;
+	font-family: "Nunito Sans", sans-serif;
+	cursor: pointer;
+}
+
+.container-une .article-categorie:hover {
+	background: #1ec684;
+}
+
+.container-une h6 {
+	font-size: 18px;
+	line-height: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #e1e1e1;
+}
+
+.container-une div{
+	padding: 0;
+}
+.container-une > div:last-child{
+	height: 100%;
+	position: absolute;
+	right: 0;
+}
+.container-une > div:last-child > .row{
+	height: 50%;
+	margin: 0;
+}
+.container-une > div:last-child > .row div{
+	height: 100%;
+}
+.container-une a{
+	text-decoration: none;
+	color: white
+}
+
+.container-une .image{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.container-une .image-small{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.container-une img{
+	min-width: 100%;
+	height: 100%;
+	transition: all 0.1s;
+}
+/*FIN LA UNE ARTICLE*/
 
 .article-categorie, .categorie-article {
 	padding: 3px 10px;
@@ -907,7 +932,6 @@ Background image Designed by macrovector / Freepik
 	font-size: 1em;
 	text-decoration: none;
 }
-
 .article-categorie:hover {
 	background: #1ec684;
 }
@@ -915,55 +939,21 @@ Background image Designed by macrovector / Freepik
 .article-date{
 	margin-left: 1em;
 	font-family: sans-serif;
-}
-
-.container-une > ul > li h6 {
-	font-size: 1.3em;
-}
-
-.une-categorie{
-	overflow: hidden;
-}
-.une-categorie:hover > a > img {
-	-webkit-transform: scale(1.1) rotateZ(2deg);
-	transform: scale(1.1) rotateZ(2deg);
-}
-
-.une-categorie > a > img {
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
+	font-size: .85em;
+	color: #bfbfbf;
 }
 
 .article-description > h3 > a{
-	margin-top: 0px;
 	color: #134a34;
 	font-weight: 700;
 	text-decoration: none;
-	cursor: pointer;
 }
-
 .article-description > h3 > a:hover{
 	color: #00834e;
 }
-
-.article-une-categorie {
-	margin-bottom: 30px;
-}
-
-.sous-image-une {
-	margin-top: 20px;
-}
-
-.sous-article-date {
-	line-height: 25px;
-	font-weight: 400;
-	margin-left: 13px;
-	font-size: 12px;
-	font-family: "Nunito Sans", sans-serif;
-}
-
-.article-row{
-	margin-bottom: 30px;
+.article-description p{
+	height: 80px;
+	overflow: hidden;
 }
 /* Style article par categorie */
 .titre-categorie {
@@ -1001,48 +991,23 @@ Background image Designed by macrovector / Freepik
 	position: relative;
 }
 
-.row {
-	margin-right: 0px;
-	margin-left: 0px;
-}
-
-.col-md-4 {
-	float: left;
-}
-
-.col-md-4, .col-md-12, .col-sm-6, .col-xs-12 {
-	position: relative;
-	min-height: 1px;
-	padding-right: 15px;
-	padding-left: 15px;
-}
-
 .liste-article {
 	padding-bottom: 30px;
 	background: #FFF;
 }
 
 .article-image {
-	margin-bottom: 30px;
 	overflow: hidden;
 }
 
-.article-image:hover > a > img {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+.article-image:hover img, .container-une .image:hover img, .container-une .image-small:hover img{
+	-webkit-transform: scale(1.1) rotateZ(2deg);
+	transform: scale(1.1) rotateZ(2deg);
 }
 
-.article-image > a > img {
+.article-image img, .container-une .image img, .container-une .image-small img {
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	width: 100%;
-	height: 100%;
-}
-
-.contenus {
-	padding: 0px 14px;
 }
 
 .titre-article > h4 > a{
@@ -1056,18 +1021,90 @@ Background image Designed by macrovector / Freepik
 	color: #00834e;
 }
 
-.date-article {
-	margin-left: .85em;
-	font-size: .85em;
-	color: #bfbfbf;
-}
-
 .contenu-article {
 	color: #8c9597;
 	margin-top: 10px;
+	height: 40px;
+	overflow: hidden;
+}
+/*FIN SECTION ARTICLES*/
+
+/*MALADIE*/
+.maladie-name {
+	display: inline-block;
+	padding: 16px 33px 15px;
+	background-color: #1da76e;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 0px;
 }
 
-/*FIN SECTION ARTICLES*/
+.maladie {
+	margin-bottom: 20px;
+}
+
+.maladie h5 {
+	font-size: 15px;
+}
+
+.maladie-description {
+	background-color: #fff;
+	border-left: 3px solid #1da76e;
+}
+
+.maladie-image {
+	margin-bottom: 38px;
+}
+
+.maladie-image img {
+	width: 100%;
+	max-height: 255px;
+	height: auto;
+	line-height: 255px;
+	vertical-align: middle;
+}
+
+.maladie-body {
+	overflow: hidden;
+	padding: 0 26px 26px;
+}
+
+.maladie-body h6 {
+	float: left;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	color: #076b42;
+	font-size: 15px;
+	line-height: 1.86;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.maladie-body p {
+	clear: both;
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.6;
+	margin-bottom: 1.25rem;
+	height: 40px;
+	overflow: hidden;
+}
+
+.maladie-body a {
+	color: #6f6c6c;
+	text-decoration: none;
+}
+
+.maladie-body a:hover{
+	color: #000;
+}
+
+.page-maladie {
+	margin: auto;
+	width: 30%;
+}
+/*FIN MALADIE*/
 
 /*REMEDE GRAND MERE*/
 .remede{
@@ -1122,7 +1159,7 @@ Background image Designed by macrovector / Freepik
 	border-radius: 4px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	position: absolute;
-	top: 30px;
+	top: 35px;
 	right: 0;
 	width: 100%;
 	height: 100%;
@@ -1143,6 +1180,7 @@ Background image Designed by macrovector / Freepik
 .remede .remede-zebu{
 	position: absolute;
 	z-index: 2;
+	top:0;
 	right: 0;
 }
 /*FIN REMEDE GRAND MERE*/
@@ -1167,3 +1205,41 @@ Background image Designed by macrovector / Freepik
 .breadcrumbs .actuel {
     font-weight: bold;
 }
+
+/* fin breadcrumbs */
+/* Pharmacie de garde */
+.pharmacie{
+	position: relative;
+	overflow:visible;
+	border: solid transparent;
+}
+.pharmacie:before{
+	content: '';
+	height: 100%;
+	width: 100%;
+	background-color: #1fd28d;
+	border-radius: 4px;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	-webkit-transform: skew(2deg);
+	-moz-transform: skew(2deg);
+	-ms-transform: skew(2deg);
+	-o-transform: skew(2deg);
+	transform: skew(2deg);
+}
+.pharmacie .card{
+	position:relative;
+}
+.pharmacie .icon{
+	position: absolute;
+	width: 25%;
+	top: -35px;
+	left: -50px;
+	-webkit-transform: rotateZ(-10deg);
+	-moz-transform: rotateZ(-10deg);
+	-ms-transform: rotateZ(-10deg);
+	-o-transform: rotateZ(-10deg);
+	transform: rotateZ(-10deg);
+}
+/* Fin Pharmacie de garde */

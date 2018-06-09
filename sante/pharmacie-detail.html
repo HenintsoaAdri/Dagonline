@@ -607,17 +607,28 @@
             <hr>
             <div class="row p-b-20">
               <div class="col-sm-4">
-                  <img src="img/pharmacie.jpg" class="img-responsive">
-                  
-                  <div class="row coordonnees">
-                      <h3 class="m-t-20 text-muted">Coordonn&eacute;es:</h3>
-                      <hr>
-                        <p><i class="fas fa-map-marker-alt"></i> Ankorondrano en face HJRA</p>
-                        <p><i class="fas fa-phone"></i> 020 24 002 00</p>
-                        <p><i class="fas fa-phone"></i> +261 33 02 002 00</p>
-                        <p class="summary"><i class="far fa-clock"></i> <b>Ouverture:</b> 24h/24h</p>
-                        <b style="color:darkorange"><i class="fas fa-circle"></i> De garde</b>
+                <a class="p-0 photo-pharmacie" href="#zoom" data-toggle="modal">
+                  <div class="zoom">
+                    <img src="img/pharmacie.jpg" class="img-responsive">
                   </div>
+                </a>
+                <div class="modal-zoom modal fade" id="zoom" role="dialog">
+                  <div class="modal-dialog modal-lg">
+                    <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                    <div class="modal-content">
+                      <img src="img/pharmacie.jpg">
+                    </div>
+                  </div>
+                </div>
+                <div class="row coordonnees">
+                    <h3 class="m-t-20 text-muted">Coordonn&eacute;es:</h3>
+                    <hr>
+                      <p><i class="fas fa-map-marker-alt"></i> Ankorondrano en face HJRA</p>
+                      <p><i class="fas fa-phone"></i> 020 24 002 00</p>
+                      <p><i class="fas fa-phone"></i> +261 33 02 002 00</p>
+                      <p class="summary"><i class="far fa-clock"></i> <b>Ouverture:</b> 24h/24h</p>
+                      <b style="color:darkorange"><i class="fas fa-circle"></i> De garde</b>
+                </div>
               </div>
               <div class="col-sm-8 p-l-20">
                   <ul class="nav nav-pills nav-justified">
@@ -638,10 +649,9 @@
                     </div>
                     <div id="notices" class="tab-pane fade adresse">
                       <h4 class="indie-flower">Trouvez nous ici</h4>
-                      <div>
+                      <div class="text-center p-b-20">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60381.96674064899!2d47.532478409619095!3d-18.937018220649918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2smg!4v1516881806035" width="90%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
                       </div>
-                      <br><br>
                       <p>Batiment Ankorondrano - LOT V 10 B</p>
                       <p>Ankorondrano</p>
                     </div>
@@ -760,13 +770,6 @@
 <!--Fin Animation Carte PUB-->
 <script src="js/filtre-bar.js"></script>
 <script src="js/main.js"></script>
-<script>
-$(document).ready(function() {
-  if(window.location.href.indexOf('#deposAnnonce') != -1) {
-    $('#deposAnnonce').modal('show');
-  }
-});
-</script>
 
 </body>
 </html>
