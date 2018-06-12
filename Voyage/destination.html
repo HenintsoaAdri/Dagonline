@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+  <link rel="manifest" href="img/icon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Dagonline - Trouvez et achetez ce qui vous chante sur tout Madagascar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--Toast-->
+  <link rel="stylesheet" href="css/jquery.toast.min.css">
+  <!--Fin Toast-->
+  <!-- Theme personnalisé -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font.css">
+</head>
+<body>
+
+<!--Préloader-->
+<div class="preloader text-center">
+  <div class="loaded">&nbsp;</div>
+  www.dagonline.fr
+</div>
+<!--Fin Préloader-->
+
+<!--Header-->
+<div class="container-fluid">
+  <ul class="list-inline text-right pull-right m-t-5 m-b-5 small">
+    <li><a href="#">Top-Recherche</a></li>
+    <li><a href="#">R&eacute;cent</a></li>
+    <li><a href="#">Favoris</a></li>
+    <li><a href="#">6325 Visiteurs</a></li>
+    <button type="button" class="btn btn-primary btn-xs">S'inscrire</button>
+    <button type="button" class="btn btn-link btn-xs"><span class="glyphicon glyphicon-user"></span> Se connecter</button>
+  </ul>
+</div>
+<!--Navigation Bar-->
+<nav class="m-b-0 navbar navbar-static-top text-white navbar-inverse" data-spy="affix" data-offset-top="32">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" class="img-responsive shadow">
+        </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="collapse" href="#destination">Nos destinations</a>
+			<div id="destination" class="collapse destination">
+				<div class="list-destination text-center">
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="#">Diego-Suarez
+								<img src="img/province/Antsiranana-map.png" class="img-responsive"/>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<a href="#">Majunga
+								<img src="img/province/Mahajanga-map.png"  class="img-responsive"/>
+							</a>
+						</div>
+						<div class="col-sm-4">
+							<a href="#">Antananarivo
+								<img src="img/province/Antananarivo-map.png"  class="img-responsive"/>
+							</a>
+						</div>
+						<div class="col-sm-4">
+							<a href="#">Tamatave
+								<img src="img/province/Toamasina-map.png"  class="img-responsive"/>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-offset-1 col-sm-4">
+							<a href="#">Tuléar
+								<img src="img/province/Tulear-map.png"  class="img-responsive"/>
+							</a>
+						</div>
+						<div class="col-sm-4">
+							<a href="#">Fianarantsoa
+								<img src="img/province/Fianarantsoa-map.png"  class="img-responsive"/>
+							</a>
+						</div>
+					</div>
+				</div>
+				<a class="dismiss" data-toggle="collapse" href="#destination">
+					<i class="glyphicon glyphicon-arrow-left"></i>
+				</a>
+			</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--Fin Navigation Bar-->
+<!--Fin Header-->
+
+<!--Slide principal-->
+<div class="jumbotron text-center m-b-0">
+  <div class="jumbotron-text">
+    <h1>Dagonline</h1>
+    <p>Trouvez et achetez ce qui vous soigne sur tout Madagascar</p>
+    <form class="form-inline col-xs-offset-1 col-xs-10">
+      <div class="form-group">
+        <select class="form-control">
+          <option disabled selected>Où : Pays, Région, Département, Ville </option>
+          <option>Antananarivo</option>
+          <option>Diego-Suarez</option>
+          <option>Majunga</option>
+          <option>Tamatave</option>
+          <option>Fianarantsoa</option>
+          <option>Tuléar</option>
+        </select>
+      </div>
+      <div class="form-group input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-search text-info"></i></span>
+        <input type="text" class="form-control" size="30" placeholder="Rechercher...">
+      </div>
+      <button type="button" class="form-control btn text-white bg-green">Trouver</button>
+    </form>
+  </div>
+
+  <div id="SlidePrincipal" class="carousel slide hidden-xs" data-ride="carousel">
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/slideIndex.jpg" class="img-responsive">
+      </div>
+
+      <div class="item">
+        <img src="img/slideIndex.jpg" class="img-responsive">
+      </div>
+
+      <div class="item">
+        <img src="img/slideIndex.jpg" class="img-responsive">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#SlidePrincipal" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Pr&eacute;c&eacute;dent</span>
+    </a>
+    <a class="right carousel-control" href="#SlidePrincipal" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Suivant</span>
+    </a>
+  </div>
+</div>
+<!--Fin Slide principal-->
+
+<!--Lien rapide-->
+<div class="btn-group menu-rapide text-white">
+  <span class="glyphicon glyphicon-menu-left"></span>
+  <div class="btn-group-vertical">
+    <a href="maladie.html" class="btn btn-flat" title="Maladie" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-syringe"></i></a>
+    <a href="medicament.html" class="btn btn-flat" title="Médicament" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-pills"></i></a>
+    <a href="praticien.html" class="btn btn-flat" title="Praticien" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-user-md"></i></a>
+    <a href="parapharmacie.html" class="btn btn-flat" title="Parapharmacie" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-first-aid"></i></a>
+    <a href="etablissement.html" class="btn btn-flat" title="Etablissement" data-toggle="tooltip" data-placement="bottom"><i class="far fa-hospital"></i></a>
+  </div>
+</div>
+<!--Fin de lien rapide-->
+
+<!--Corps-->
+<div id="body">
+  <span id="dagonline"></span>
+  <div class="container-fluid bg-warning text-danger pacifico shadow">
+	<div class="text-center"><h2>Diego-Suarez</h2></div>
+  </div>
+  <!-- Main Container -->
+  <div class="container-fluid">  
+	<div class="row">
+		<div class="col-sm-12">
+			<form class="form-inline" action="formulaire.html">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group">
+            <select class="form-control">
+              <option disabled selected> Où : Région, Ville </option>
+              <option>Antananarivo</option>
+              <option>Diego-Suarez</option>
+              <option>Majunga</option>
+              <option>Tamatave</option>
+              <option>Fianarantsoa</option>
+              <option>Tuléar</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select class="form-control">
+              <option disabled selected> Disponibilité </option>
+              <option>Aujourd'hui</option>
+              <option>Dans les trois prochains jours</option>
+            </select>
+          </div>
+          <button type="submit" class="form-control btn text-white bg-green">Préparer mon voyage</button>
+        </div>
+      </div>
+    </form>
+		</div>
+	</div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+          <!--Galerie image-->
+		  <div class="grid p-20" data-masonry='{ "itemSelector": ".grid-item"}'>
+			<div class="grid-item">
+				<img src="img/item1.jpg" class="img-responsive"/>
+				<div class="caption">
+					<a class="flat-btn" href="#">Voir ce séjour</a>
+				</div>
+			</div>
+			<div class="grid-item">
+				<img src="img/item2.jpg" class="img-responsive"/>
+				<div class="caption">
+					<a class="flat-btn" href="#">Voir ce séjour</a>
+				</div>
+			</div>
+			<div class="grid-item">
+				<img src="img/item3.jpg" class="img-responsive"/>
+				<div class="caption">
+					<a class="flat-btn" href="#">Voir ce séjour</a>
+				</div>
+			</div>
+			<div class="grid-item">
+				<img src="img/item6.jpg" class="img-responsive"/>
+				<div class="caption">
+					<a class="flat-btn" href="#">Voir ce séjour</a>
+				</div>
+			</div>
+			<div class="grid-item">
+				<p class="text-img indie-flower">
+					Partez à deux
+				</p>
+			</div>
+			<div class="grid-item">
+				<img src="img/item10.jpg" class="img-responsive"/>
+				<div class="caption">
+					<a class="flat-btn" href="#">Voir ce séjour</a>
+				</div>
+			</div>
+			<div class="grid-item">
+				<img src="img/item4.jpg" class="img-responsive"/>
+				<div class="caption">
+					<a class="flat-btn" href="#">Voir ce séjour</a>
+				</div>
+			</div>
+			<div class="grid-item">
+				<img src="img/item5.jpg" class="img-responsive"/>
+				<div class="caption">
+					<a class="flat-btn" href="#">Voir ce séjour</a>
+				</div>
+			</div>
+			<div class="grid-item">
+				<img src="img/item7.jpg" class="img-responsive"/>
+				<div class="caption">
+					<a class="flat-btn" href="#">Voir ce séjour</a>
+				</div>
+			</div>
+			<div class="grid-item">
+				<img src="img/item8.jpg" class="img-responsive"/>
+				<div class="caption">
+					<a class="flat-btn" href="#">Voir ce séjour</a>
+				</div>
+			</div>
+			<div class="grid-item">
+				<img src="img/item9.jpg" class="img-responsive"/>
+				<div class="caption">
+					<a class="flat-btn" href="#">Voir ce séjour</a>
+				</div>
+			</div>
+			<div class="grid-item">
+				<p class="text-img indie-flower">
+					Vacances en famille
+				</p>
+			</div>
+		  </div>
+          <!--Fin Galerie image-->
+        </div>
+      </div>
+		<div class="row p-20 map shadow text-white">
+		  <h3 class="indie-flower">
+			Diego-Suarez
+		  </h3>
+		  <p class="p-20">Antsiranana, aussi appelée Diego-Suarez ou Antsirane, est la plus grande ville du nord de Madagascar et le troisième port de la Grande île. Elle est la capitale de la province de Diego-Suarez. Avec la récente mise en place des vingt-deux régions en 2004, elle est devenue la capitale de la région de Diana. Ses habitants s'appellent les Antsiranais. Son aire urbaine est estimée à 257 163 habitants en 2014.</p>
+		</div>
+    </div>
+  </div>
+  <!-- Fin Main Container-->
+</div>
+<!--Fin Corps-->
+
+<!--Footer-->
+<footer class="container text-center m-t-5">
+  <div class="row">
+    <div class="col-sm-4 text-justify">
+      <p>Qu'est ce que Dagonline</p>
+      <p>www.dagonline.fr est une plateforme qui permet à tout utilisateur de trouver des produits et des services auprès des professionnels partenaires. Dagonline c'est bien plus qu'un simple annuairecar chaque entreprise tient sa page et est libre du contenu proposé. Dagonline c'est aussi toutes les dates et évènements à venir ainsi que les petites annonces pour les particuliers.</p>
+      <p>Notre objectif</p>
+      <p>Optimiser la rencontre des offres de services et produits commerciaux existants à Madagascar.</p>
+    </div>
+    <div class="col-sm-5 row">
+      <div class="col-xs-6">
+        <img src="img/mvola.jpg" class="img-responsive img-rounded">
+      </div>
+      <div class="col-xs-6">
+        <div id="SmartUpCarousel" class="carousel slide" data-ride="carousel">
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/smartup/1.png" title="SMART UP" alt="SMART UP" class="img-responsive">
+            </div>
+
+            <div class="item">
+              <img src="img/smartup/3.png" title="SMART UP" alt="SMART UP" class="img-responsive">
+            </div>
+
+            <div class="item">
+              <img src="img/smartup/2.png" title="SMART UP" alt="SMART UP" class="img-responsive">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#SmartUpCarousel" data-slide="prev">
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#SmartUpCarousel" data-slide="next">
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 text-justify">
+      <div class="row ">
+        <form class="form-inline col-sm-12">
+          <div class="input-group">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
+            <input type="text" class="form-control" placeholder="Recherche">
+          </div>
+        </form>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-12">
+          <p>Espace Professionnel : Connectez-vous<br>
+            <a href="#">Propriétaires</a><br>
+            <a href="#">Business Owners</a><br>
+            Suivez nous!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3"><img src="img/facebook.png"></div>
+        <div class="col-xs-3"><img src="img/instagram.png"></div>
+        <div class="col-xs-3"><img src="img/google-plus.png"></div>
+        <div class="col-xs-3"><img src="img/twitter.png"></div>
+      </div>
+    </div>
+  </div>
+  <a class="text-green" href="#dagonline" title="Remonter">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Revenir en d&eacute;but de page</p>
+  <p>&copy; Dagonline 2018</p>
+</footer>
+<!--Fin footer-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/fontawesome-all.min.js"></script>
+<!--Toast-->
+<script src="js/jquery.toast.min.js"></script>
+<!--Thumbnail grid-->
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
