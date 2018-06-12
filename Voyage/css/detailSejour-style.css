@@ -1,3 +1,10 @@
 #sejour > div{
 	background-color:#fff;
 }
+.back{
+	background-color:#193e5a;
+	background-image:url(../img/plane-icon.png);
+	background-repeat:no-repeat;
+	background-size:50%;
+	background-position:center;
+}
