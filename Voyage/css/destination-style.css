@@ -7,6 +7,11 @@
 	text-align:right;
 	position:relative;
 	width:95%;
+    background-image: url(../img/images.png);
+    background-repeat: no-repeat;
+    width: 95%;
+    background-position: 100% 65%;
+    background-size: 15%;
 }
 .zebu{
 	position:absolute;
