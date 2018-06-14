@@ -1,6 +1,9 @@
 #sejour > div{
 	background-color:#fff;
 }
+#sejour{
+	height:100vh;
+}
 .back{
 	background-color:#193e5a;
 	background-image:url(../img/plane-icon.png);

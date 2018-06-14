@@ -271,18 +271,18 @@ select {
 /*==========================================
 MENU CUSTOMIZE
 ==========================================*/
-.navbar-inverse .navbar-nav>.open>a.dropdown-toggle,.navbar-inverse .navbar-nav>.open>a.dropdown-toggle:focus,.navbar-inverse .navbar-nav>.open>a.dropdown-toggle:hover,.dropdown:hover .dropdown-toggle{
+.navbar-inverse .navbar-nav>.open>anav .dropdown-toggle,.navbar-inverse .navbar-nav>.open>anav .dropdown-toggle:focus,.navbar-inverse .navbar-nav>.open>anav .dropdown-toggle:hover,nav .dropdown:hover nav .dropdown-toggle{
 	background-color: transparent;
 	background-image: url("../img/arrows.svg");
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: 1em;
 }
-.dropdown:hover .dropdown-menu{
+nav .dropdown:hover nav .dropdown-menu{
 	display : block;
 }
 
-.dropdown-menu{
+nav .dropdown-menu{
 	overflow: hidden;
 	background-color: #f4fff3;
 	width: 100%;
@@ -290,24 +290,24 @@ MENU CUSTOMIZE
 	border-color: #f4fff3;
 	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.dropdown-menu h3{
+nav .dropdown-menu h3{
 	text-align: left;
 	font-size: 150%;
 	padding: 0px;
 	margin: 0px;
 	color: #e3e3e3!important;
 }
-.dropdown{
+nav .dropdown{
 	position: static !important;
 }
-.dropdown hr{
+nav .dropdown hr{
 	margin: 0;
 	margin-right: -15px;
 }
-.dropdown-menu li{
+nav .dropdown-menu li{
 	list-style: none;
 }
-.dropdown-menu a{
+nav .dropdown-menu a{
 	color: #555555 !important;
 	-webkit-transition: padding-left 0.5s;
 	-moz-transition: padding-left 0.5s;
@@ -315,15 +315,15 @@ MENU CUSTOMIZE
 	-o-transition: padding-left 0.5s;
 	transition: padding-left 0.5s;
 }
-.dropdown-menu a:hover{
+nav .dropdown-menu a:hover{
 	padding-left: 5px;
 }
-.dropdown-menu img{
+nav .dropdown-menu img{
     width: 75px;
     margin: auto;
 }
 
-.dropdown-ul{
+nav .dropdown-ul{
 	padding: 20px;
 	column-width: 221px;
 	-webkit-transition:all 0.2s ease-out;
@@ -332,10 +332,10 @@ MENU CUSTOMIZE
 	-o-transition:all 0.2s ease-out;
 	transition:all 0.2s ease-out;
 }
-.dropdown-ul ul{
+nav .dropdown-ul ul{
 	padding-left: 20px;
 }
-.dropdown-ul > li > a.title{
+nav .dropdown-ul > li > a.title{
 	font-size: 1.1em;
 	color: #1b496a !important;
 }
@@ -910,4 +910,13 @@ Background image Designed by macrovector / Freepik
     background-attachment: fixed;
 	background-image:url(../img/plane-icon.png);
 	background-repeat:no-repeat;
+	position:relative;
+}
+.map-icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+	transform:translateY(-50%);
+    z-index: 11;
+    width: 20%;
 }

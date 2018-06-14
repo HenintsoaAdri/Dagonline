@@ -62,3 +62,12 @@
 .form-well{
   border-top: solid 15px #2980B9;
 }
+
+.step-icon{
+    position: absolute;
+    top: 50%;
+    right: 0;
+	transform:translate(75%,-50%);
+    z-index: 11;
+    width: 50%;
+}

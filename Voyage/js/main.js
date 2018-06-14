@@ -28,7 +28,9 @@ jQuery(document).ready(function ($) {
             $(this).trigger("click");
         }
     },'select');
-    $('.datepicker').datepicker();
+	try{
+		$('.datepicker').datepicker();
+	}catch (e){}
 });
 
 
