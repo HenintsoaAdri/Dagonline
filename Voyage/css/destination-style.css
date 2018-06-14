@@ -29,6 +29,8 @@
 .about{
 	position:relative;
     overflow: visible;
+	width: 75%;
+    margin: auto;
 }
 .about .card{
 	background-color:#ffffff;
