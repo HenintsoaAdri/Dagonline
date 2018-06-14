@@ -7,9 +7,8 @@
 	text-align:right;
 	position:relative;
 	width:95%;
-    background-image: url(../img/images.png);
+    background-image: url(../img/travel-icon.png);
     background-repeat: no-repeat;
-    width: 95%;
     background-position: 100% 65%;
     background-size: 15%;
 }
@@ -44,9 +43,9 @@
     border-radius: 4px;
 	z-index:2;
 	position:relative;
-	background-image:url(../img/travel-icon.png);
+	background-image:url(../img/images.png);
 	background-repeat:no-repeat;
-	background-size:10%;
+	background-size:20%;
 	background-position:right bottom;
 }
 .about:before {
