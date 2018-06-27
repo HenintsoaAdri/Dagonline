@@ -1,13 +1,171 @@
-#sejour > div{
+.main{
+	position:relative;
+}
+#sejour .page{
 	background-color:#fff;
 }
-#sejour{
-	height:100vh;
+#sejour .page > div{
+	position:relative;
 }
-.back{
+#sejour .page:before{
+	content:'';
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#sejour .page.even:before{
+	background: -webkit-gradient(linear, left top, right top, color-stop(0.95, rgba(0,0,0,0)), color-stop(1, rgba(0,0,0,0.2)));
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 95%, rgba(0,0,0,0.2) 100%);
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 95%, rgba(0,0,0,0.2) 100%);
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0) 95%, rgba(0,0,0,0.2) 100%);
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0) 95%, rgba(0,0,0,0.2) 100%);
+    background-image: linear-gradient(left, rgba(0,0,0,0) 95%, rgba(0,0,0,0.2) 100%);
+}
+#sejour .page.odd:not(.p1):before{
+	background: -webkit-gradient(linear, right top, left top, color-stop(0.95, rgba(0,0,0,0)), color-stop(1, rgba(0,0,0,0.15)));
+    background-image: -webkit-linear-gradient(right, rgba(0,0,0,0) 95%, rgba(0,0,0,0.15) 100%);
+    background-image: -moz-linear-gradient(right, rgba(0,0,0,0) 95%, rgba(0,0,0,0.15) 100%);
+    background-image: -ms-linear-gradient(right, rgba(0,0,0,0) 95%, rgba(0,0,0,0.15) 100%);
+    background-image: -o-linear-gradient(right, rgba(0,0,0,0) 95%, rgba(0,0,0,0.15) 100%);
+    background-image: linear-gradient(right, rgba(0,0,0,0) 95%, rgba(0,0,0,0.15) 100%);
+}
+#sejour{
+	height:calc(100vh - 50px);
+	width:80%;
+	position:relative;
+}
+#sejour .back{
 	background-color:#193e5a;
 	background-image:url(../img/plane-icon.png);
 	background-repeat:no-repeat;
 	background-size:50%;
 	background-position:center;
+}
+#sejour:before{
+	content:url(../img/curved-arrow-left.png);
+	position:absolute;
+	left:0;
+	bottom:0;
+	transform:translate(-50%);
+}
+#sejour:after{
+	content:url(../img/curved-arrow-right.png);
+	position:absolute;
+	right:0;
+	bottom:0;
+	transform:translate(50%);
+}
+#sejour .section{
+	overflow:auto;
+	height:50%;
+}
+.roadtrip{
+	height:300px;
+	width:350px;
+	position:absolute;
+	z-index:1;
+	right:1em;
+	top:1em;
+	cursor:pointer;
+	-webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+}
+.roadtrip .liste:before{
+	content:' ';
+	height:100%;
+	width:.5em;
+	border-left:solid 1px #ffaa9f;
+	border-right:solid 1px #ffaa9f;
+	position:absolute;
+	left:1em;
+    top: 0;
+	z-index:1;
+}
+.roadtrip .liste{
+	height:100%;
+	width:100%;
+	overflow : auto;
+    border-top: solid 2em #dce6f0;
+    border-bottom: solid .5em #edf1f5;
+	background-color: #edf1f5;
+    background-image: url(../img/Map-2-icon.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+	box-shadow:1px 4px 5px rgba(0, 0, 0, 0.40);
+}
+.roadtrip ul{
+	color: #1a1a1a;
+	font-family: courier, monospace;
+	margin:auto;
+}
+.roadtrip ul li {
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  padding-left	: 2em;
+  height: auto;
+  text-transform: capitalize;
+}
+.roadtrip ul li:hover {
+  background-color: #d8e4ef;
+  -webkit-transition: all 0.2s;
+  -moz-transition:    all 0.2s;
+  -ms-transition:     all 0.2s;
+  -o-transition:      all 0.2s;
+}
+.roadtrip a[data-toggle="collapse"]{
+	position:absolute;
+	top:0;
+	right:0;
+    transform: translate(35%, -35%);
+}
+.roadtrip-button{
+    color: #fff;
+    overflow: hidden;
+    z-index: 1;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    background-color: #2970a7;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+.roadtrip-button:hover{
+    background-color: #2b6c9f;
+    color: #fff;
+}
+.collapsing{
+	overflow:visible;
+}
+a[data-toggle="collapse"].ext.roadtrip-button{
+	display:none;
+	font-size: 2em;
+	top:50%;
+	left:50%;
+    transform: translate(-50%, -50%);
+}
+.roadtrip-button.collapsed{
+	display:none;
+}
+a[data-toggle="collapse"].ext.roadtrip-button.collapsed{
+	display:block;
+}
+.roadtrip .title{
+    position: absolute;
+    top: -.5em;
+    left: 1em;
+    z-index: 1;
+    font-size: 2em;
+	font-weight:400;
+    color: #000000;
+    transform: rotate(-4deg);
+}
+.roadtrip .collapsing .title{
+	display:none;
 }

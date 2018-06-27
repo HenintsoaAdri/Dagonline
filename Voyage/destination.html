@@ -25,6 +25,8 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!--Toast-->
   <link rel="stylesheet" href="css/jquery.toast.min.css">
+  <!-- Select -->
+  <link rel="stylesheet" href="css/chosen.min.css">
   <!-- Theme personnalisé -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/destination-style.css">
@@ -71,37 +73,42 @@
 				<div class="list-destination text-center">
 					<div class="row">
 						<div class="col-sm-12">
-							<a href="#">Diego-Suarez
+							<a href="destination.html">Diego-Suarez
 								<img src="img/province/Antsiranana-map.png" class="img-responsive"/>
 							</a>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-4">
-							<a href="#">Majunga
+							<a href="destination.html">Majunga
 								<img src="img/province/Mahajanga-map.png"  class="img-responsive"/>
 							</a>
 						</div>
 						<div class="col-sm-4">
-							<a href="#">Antananarivo
+							<a href="destination.html">Antananarivo
 								<img src="img/province/Antananarivo-map.png"  class="img-responsive"/>
 							</a>
 						</div>
 						<div class="col-sm-4">
-							<a href="#">Tamatave
+							<a href="destination.html">Tamatave
 								<img src="img/province/Toamasina-map.png"  class="img-responsive"/>
 							</a>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-offset-1 col-sm-4">
-							<a href="#">Tuléar
+						<div class="col-sm-4">
+							<a href="destination.html">Tuléar
 								<img src="img/province/Tulear-map.png"  class="img-responsive"/>
 							</a>
 						</div>
 						<div class="col-sm-4">
-							<a href="#">Fianarantsoa
+							<a href="destination.html">Fianarantsoa
 								<img src="img/province/Fianarantsoa-map.png"  class="img-responsive"/>
+							</a>
+						</div>
+						<div class="col-sm-4">
+							<a class="link" data-toggle="collapse" href="#ilesvoisines">
+								&Icirc;les voisines <i class="glyphicon glyphicon-arrow-right"></i>
 							</a>
 						</div>
 					</div>
@@ -110,6 +117,33 @@
 					<i class="glyphicon glyphicon-arrow-left"></i>
 				</a>
 			</div>
+			<div id="ilesvoisines" class="collapse destination">
+				<div class="list-destination text-center">
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="destination.html">&Icirc;le Maurice
+								<img src="img/province/Maurice-map.png" class="img-responsive"/>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="destination.html">&Icirc;le de la R&eacute;union
+								<img src="img/province/Reunion-map.png"  class="img-responsive"/>
+							</a>
+						</div>
+					</div>
+				</div>
+				<a class="dismiss" data-toggle="collapse" href="#ilesvoisines">
+					<i class="glyphicon glyphicon-arrow-left"></i>
+				</a>
+			</div>
+        </li>
+        <li>
+          <a href="formulaire.html">Notre concept</a>
+        </li>
+        <li>
+          <a href="formulaire.html">Demander un devis gratuit</a>
         </li>
       </ul>
     </div>
@@ -124,23 +158,22 @@
   <div class="jumbotron-text">
     <h1>Dagonline</h1>
     <p>Trouvez et organisez vos séjours sur tout Madagascar</p>
-    <form class="form-inline col-xs-offset-1 col-xs-10">
-      <div class="form-group">
-        <select class="form-control">
-          <option disabled selected>Où : Pays, Région, Département, Ville </option>
-          <option>Antananarivo</option>
-          <option>Diego-Suarez</option>
-          <option>Majunga</option>
-          <option>Tamatave</option>
-          <option>Fianarantsoa</option>
-          <option>Tuléar</option>
-        </select>
+    <form action="destination.html">
+      <div class="form-group row">
+		<div class="col-sm-offset-2 col-sm-6">
+			<select data-placeholder="Choisissez une destination..." class="form-control destination-select">
+			  <option>Antananarivo</option>
+			  <option selected>Diego-Suarez</option>
+			  <option>Majunga</option>
+			  <option>Tamatave</option>
+			  <option>Fianarantsoa</option>
+			  <option>Tuléar</option>
+			</select>
+		</div>
+		<div class="col-xs-2">
+			<button type="submit" class="form-control btn text-white bg-green">Trouver</button>
+		</div>
       </div>
-      <div class="form-group input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-search text-info"></i></span>
-        <input type="text" class="form-control" size="30" placeholder="Rechercher...">
-      </div>
-      <button type="button" class="form-control btn text-white bg-green">Trouver</button>
     </form>
   </div>
 
@@ -178,11 +211,8 @@
 <div class="btn-group menu-rapide text-white">
   <span class="glyphicon glyphicon-menu-left"></span>
   <div class="btn-group-vertical">
-    <a href="maladie.html" class="btn btn-flat" title="Maladie" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-syringe"></i></a>
-    <a href="medicament.html" class="btn btn-flat" title="Médicament" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-pills"></i></a>
-    <a href="praticien.html" class="btn btn-flat" title="Praticien" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-user-md"></i></a>
-    <a href="parapharmacie.html" class="btn btn-flat" title="Parapharmacie" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-first-aid"></i></a>
-    <a href="etablissement.html" class="btn btn-flat" title="Etablissement" data-toggle="tooltip" data-placement="bottom"><i class="far fa-hospital"></i></a>
+    <a href="#" class="btn btn-flat" title="Anniversaire" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-birthday-cake"></i></a>
+    <a href="#" class="btn btn-flat" title="Mariage" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-venus-mars"></i></a>
   </div>
 </div>
 <!--Fin de lien rapide-->
@@ -459,6 +489,8 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/fontawesome-all.min.js"></script>
+<!-- Select -->
+<script src="js/chosen.jquery.min.js"></script>
 <!--Toast-->
 <script src="js/jquery.toast.min.js"></script>
 <!--Thumbnail grid-->

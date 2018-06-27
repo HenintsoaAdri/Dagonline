@@ -271,7 +271,7 @@ select {
 /*==========================================
 MENU CUSTOMIZE
 ==========================================*/
-.navbar-inverse .navbar-nav>.open>anav .dropdown-toggle,.navbar-inverse .navbar-nav>.open>anav .dropdown-toggle:focus,.navbar-inverse .navbar-nav>.open>anav .dropdown-toggle:hover,nav .dropdown:hover nav .dropdown-toggle{
+.navbar-inverse .navbar-nav>.open>a.dropdown-toggle,.navbar-inverse .navbar-nav>.open>a.dropdown-toggle:focus,.navbar-inverse .navbar-nav>.open>a.dropdown-toggle:hover,.dropdown:hover .dropdown-toggle{
 	background-color: transparent;
 	background-image: url("../img/arrows.svg");
 	background-repeat: no-repeat;
@@ -420,7 +420,7 @@ FIN LOGO
 	position: relative;
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
+    padding-bottom: 7em;
 }
 .jumbotron > * {
 	z-index: 2;
@@ -432,6 +432,7 @@ FIN LOGO
 	z-index: 1;
 	width: 100vw;
 	height: 100%;
+	overflow: hidden;
 }
 .jumbotron-text{
     background-color: rgba(0,0,0,0.5);
@@ -753,54 +754,6 @@ a:hover .zoom:after, a.zoom:hover:after{
 	opacity: 1;
 }
 
-/*FORMULAIRE RECHERCHE
-Background image Designed by macrovector / Freepik
-*/
-.formulaire{
-	background: url("../img/bg-form.png") fixed #e7e5db;
-	background-repeat: repeat-y;
-	background-size: 100%;
-	padding: 20px 0;
-	margin-bottom: 15px;
-}
-.formulaire form{
-	margin: auto;
-	text-align: center;
-}
-.formulaire form > *{
-	margin-left: 20px;
-	margin-right: 20px;
-}
-.formulaire form .form-control{
-	border-radius: 0;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-.formulaire div.row > div{
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-.formulaire .radio-inline{
-	margin: 5px 0;
-	padding: 0;
-}
-.formulaire .radio-inline span{
-	padding: 2px 20px;
-	background-color: #cdccc9;
-	margin-right: 10px;
-}
-.formulaire .radio-inline [type=radio]{
-	opacity: 0;
-}
-.formulaire .radio-inline:hover span{
-	background-color: #b4b3b1;
-}
-.formulaire .radio-inline [type=radio]:checked + span{
-	background-color: #1A506E;
-	color: #FFFFFF;
-}
-/*FIN FORMULAIRE RECHERCHE*/
-
 .destination{
     left: 0px;
     width: 400px;
@@ -809,6 +762,8 @@ Background image Designed by macrovector / Freepik
     height: 100vh;
     position: fixed;
     top: 0;
+    z-index: 1;
+	overflow:hidden;
 }
 .destination a{
 	color:#fff !important;
@@ -816,19 +771,27 @@ Background image Designed by macrovector / Freepik
 .destination a:hover{
 	background-color:#11466e;
 }
-.destination .dismiss {
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
+.destination .dismiss, .destination .link{
     background: rgba(255, 255, 255, 0.25);
-    position: absolute;
-    top: 10px;
-    right: 10px;
     cursor: pointer;
+    text-align: center;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+	text-decoration: none;
+}
+.destination .link{
+    display: inline-block;
+    margin-top: 50%;
+    padding: 10px;
+}
+.destination .dismiss {
+    width: 35px;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    height: 35px;
+    line-height: 35px;
 }
 .destination:before{
 	content: '';
@@ -842,12 +805,15 @@ Background image Designed by macrovector / Freepik
 }
 .list-destination{
     margin: 20px;
+    overflow: auto;
+    height: 100%;
 }
 .list-destination img{
 	margin:auto;
 }
 .list-destination div{
 	padding:0;
+	position:relative;
 }
 .grid-item{
 	padding:5px;
@@ -919,4 +885,77 @@ Background image Designed by macrovector / Freepik
 	transform:translateY(-50%);
     z-index: 11;
     width: 20%;
+}
+.quote:before {
+    content: open-quote;
+    position: absolute;
+    z-index: 2;
+    font-size: 10em;
+    top: 0;
+    left: 0;
+    transform: translate(-70%,-30%);
+    color: rgba(255, 255, 255, 0.50);
+}
+.destination-carousel h2{
+	position: relative;
+    display: inline-block;
+}
+.destination-carousel h2:after{
+	background-image: url(../img/feet.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    height: 5em;
+    width: 5em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(50%);
+    z-index: 2;
+}
+.destination-carousel .carousel-item{
+	position:relative;
+	transition: all .1s;
+}
+.destination-carousel .carousel-item .caption{
+	position:absolute;    
+	width: 100%;
+	bottom:0;
+	color:#ffffff;
+	background-color: rgba(0,0,0,0.5);
+    background: -webkit-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left,transparent, rgba(0,0,0,0.1),rgba(0,0,0,0.5),rgba(0,0,0,0.1), transparent); /* Standard syntax */
+}
+.destination-carousel .carousel-item > a{
+	height: 100%;
+	width: 100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.destination-carousel .owl-item.center .carousel-item > a{
+      background-color: rgba(41, 117, 172, 0.7);
+}
+.destination-carousel .owl-item.center .carousel-item > a .caption{
+      background: transparent;
+	  font-size: 2em;
+}
+.form-control.destination-select .chosen-drop{
+    left: 0;
+	border:#ffffff;
+}
+.form-control.destination-select .chosen-single, .chosen-container-active.chosen-with-drop .chosen-single{
+	background-image:none;
+	border:#ffffff;
+    height: 100%;
+	box-shadow:none;
+}
+.form-control.chosen-container-active.chosen-with-drop, .form-control.chosen-container-active.chosen-with-drop .chosen-single{
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+.chosen-container-single .chosen-single div b {
+    background: url(../img/arrows1.svg) 97.5% / 1em no-repeat #fff !important;
 }

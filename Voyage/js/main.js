@@ -78,4 +78,39 @@ $(document).ready(function () {
   });
 
   $('div.setup-panel div a.btn-primary').trigger('click');
+  
+  //INDEX CAROUSEL
+    try{
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+            center: true,
+            loop:true,
+            dots:true,
+            dotsEach:true,
+            items:2,
+            margin:5,
+            responsive:{
+                600:{
+                    items:4
+                }
+            },
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true
+        });
+        owl.on('mousewheel', '.owl-stage', function (e) {
+            if (e.deltaY > 0) {
+                owl.trigger('next.owl');
+            } else {
+                owl.trigger('prev.owl');
+            }
+            e.preventDefault();
+        });
+    }catch (e){console.log(e);}
+	
+	//TAG SELECT CHOSEN
+	$('.destination-select').chosen({
+		no_results_text: 'Oops, nous ne connaissons pas cette destination!',
+		inherit_select_classes: true
+	});
 });
