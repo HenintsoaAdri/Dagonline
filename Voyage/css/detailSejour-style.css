@@ -1,8 +1,9 @@
-#sejour > div{
+#sejour .page{
 	background-color:#fff;
 }
 #sejour{
 	height:100vh;
+	cursor:pointer;
 }
 .back{
 	background-color:#193e5a;

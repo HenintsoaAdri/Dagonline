@@ -71,3 +71,7 @@
     z-index: 11;
     width: 50%;
 }
+
+.label-radio{
+    font-weight: 0 !important;
+}
