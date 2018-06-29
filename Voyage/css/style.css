@@ -130,8 +130,47 @@ select {
 	appearance: none !important;
 	background: url(../img/arrows1.svg) 97.5% / 1em no-repeat #fff !important;
 }
-.form-control{
-	border: 0px !important;
+.radio input[type="radio"],.radio-inline input[type="radio"]{
+	display:none;
+}
+.radio span:before,.radio-inline span:before{
+	content: '';
+	background: #f4f4f4;
+	border-radius: 100%;
+	display: inline-block;
+	width: 1.4em;
+	height: 1.4em;
+	margin-right:.5em;
+	vertical-align: middle;
+	cursor: pointer;
+	transition: all .25s ease;
+}
+.radio label > input[type="radio"]:checked ~ span:before,.radio-inline > input[type="radio"]:checked ~ span:before{
+	background-color: #3197EE;
+    border: solid 4px #f4f4f4;
+}
+.checkbox input[type="checkbox"],.checkbox-inline input[type="checkbox"]{
+	display:none;
+}
+.checkbox span:before,.checkbox-inline span:before{
+	content: '';
+	background-color: #f4f4f4;
+	display: inline-block;
+	width: 1.4em;
+	height: 1.4em;
+	margin-right:.5em;
+	vertical-align: top;
+	cursor: pointer;
+	transition: all .25s ease;
+}
+.checkbox label > input[type="checkbox"]:checked ~ span:before,.checkbox-inline > input[type="checkbox"]:checked ~ span:before{
+	border: none;
+    border-right: solid 4px #3197EE;
+    border-bottom: solid 4px #3197EE;
+	background-color:transparent;
+	width:.75em;
+	transform: rotate(40deg);
+    margin-right: 1.2em;
 }
 /* SCROLLBAR CUSTOMIZE */
 /* width */
@@ -942,15 +981,18 @@ a:hover .zoom:after, a.zoom:hover:after{
       background: transparent;
 	  font-size: 2em;
 }
+/* fin select Choosen */
 .form-control.destination-select .chosen-drop{
     left: 0;
 	border:#ffffff;
 }
-.form-control.destination-select .chosen-single, .chosen-container-active.chosen-with-drop .chosen-single{
+.form-control.destination-select .chosen-single, .chosen-container-active.chosen-with-drop .chosen-single,
+.form-control.chosen-container-multi .chosen-choices{
 	background-image:none;
 	border:#ffffff;
     height: 100%;
 	box-shadow:none;
+	overflow:auto;
 }
 .form-control.chosen-container-active.chosen-with-drop, .form-control.chosen-container-active.chosen-with-drop .chosen-single{
 	border-bottom-left-radius:0;
@@ -959,3 +1001,35 @@ a:hover .zoom:after, a.zoom:hover:after{
 .chosen-container-single .chosen-single div b {
     background: url(../img/arrows1.svg) 97.5% / 1em no-repeat #fff !important;
 }
+.form-control.chosen-container-multi{
+	padding:0;
+}
+.chosen-container-multi .chosen-choices{
+	border:none;
+}
+.chosen-container-multi .chosen-choices li.search-choice {
+	color: #ffffff;
+    border: 1px solid #2973aa;
+    background-color: #2973aa;
+	background-image:none;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.05);
+    box-shadow: 0 1px 0 rgba(0,0,0,.05);
+}
+/* fin select Choosen */
+.dropdown-toggle.select, .voyageur .dropdown-toggle{
+    padding-right: 2em;
+    background: url(../img/arrows1.svg) 97.5% / 1em no-repeat !important;
+    border: none;
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+}
+/* Voyageur */
+.voyageur .dropdown-menu input{
+	width:2em;
+    padding: 0em;
+    text-align: center;
+    display: inline-block;
+}
+/* Fin Voyageur */
