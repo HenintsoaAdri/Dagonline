@@ -1057,25 +1057,25 @@ a:hover .zoom:after, a.zoom:hover:after{
 INFO PRATIQUES
 ==========================================*/
 .info-pratique{
+	/* background-image:url(../img/bg-info-pratique.jpg); */
     background-color: #5087a2;
     height: 100%;
     background-size: 100%;
     background-attachment: fixed;
-		box-shadow: 0px 0px 8px 0 rgba(0,0,0,0.2);
-		padding:20px;
-		position:relative;
-    margin-top: 4.5em;
+	box-shadow: 0px 0px 8px 0 rgba(0,0,0,0.2);
+	padding:20px;
+	position:relative;
 }
 .info-pratique:before {
     content: "";
     position: absolute;
-    top: -40px;
+    top: -2%;
     left: 0;
-    height: 300px;
+    height: 100px;
     width: 100%;
     background-color: #5087a2;
     transform: skewY(-5deg);
-		z-index:0;
+	z-index:0;
 }
 .info-pratique:after {
     content: "";
@@ -1083,48 +1083,20 @@ INFO PRATIQUES
     z-index: 0;
     background-color: #5087a2;
     left: 0;
-    bottom: -20px;
+    bottom: -2%;
     width: 100%;
     height: 100px;
     transform: skewY(1.5deg);
 }
-.info-pratique .info-title {
-    position: absolute;
-    top: -50px;
-    right: 20px;
-    transform: translateY(-100%);
-    font-size: 3em;
-    width: 25%;
-    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.5);
-}
-@media (min-width: 3000px){
-	.info-pratique .info-title {
-    font-size: 7em;
-	}
-}
-@media (max-width: 992px){
-	.info-pratique .info-title {
-    top: -20px;
-		right: 0;
-    width: 100%;
-	}
-}
-@media (max-width: 768px){
-	.info-pratique .info-title {
-    top: -20px;
-		right: 0;
-    width: 100%;
-	}
-}
 .info-pratique .row{
-		position:relative;
-		z-index:1;
+	position:relative;
+	z-index:1;
 }
 .info-pratique .widget{
-		border-radius: 4px;
+	border-radius: 4px;
     background-color: #ffffff;
     box-shadow: 2px 6px 8px 0 rgba(0,0,0,0.2);
-		position:relative;
+	position:relative;
 }
 .info-pratique .widget .scroll{
     overflow: auto;
@@ -1133,14 +1105,16 @@ INFO PRATIQUES
 }
 .info-pratique .widget .title{
 	/* background-color:#d32a3e; */
-		color:#352f2f;
-		margin: auto;
+	color:#352f2f;
+	margin: auto;
     padding: .5em;    
-		font-family: 'Petit Formal Script', cursive;
+	font-family: 'Petit Formal Script', cursive;
     font-size: 2em;
+    border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
 }
 .info-pratique .widget .icon{
-		position: absolute;
+	position: absolute;
     width: 15%;
     top: 0;
     left: 0;
@@ -1152,67 +1126,68 @@ INFO PRATIQUES
 }
 
 .info-pratique .loader {
-		position: relative;
-		background-image: url(../img/logo1.png);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 10%;
-		height: 100%;
-		width: 100%;
-		overflow: hidden !important;
+	position: relative;
+	background-color: #fefefe;
+	background-image: url(../img/logo1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: 10%;
+	height: 100%;
+	width: 100%;
+	overflow: hidden !important;
 }
 .info-pratique .loaded {
-		position: absolute;
-		left: 50%;
-		margin-left: -50px;
-		top: 50%;
-		margin-top: -50px;
-		border: 8px solid transparent;
-		border-radius: 50%;
-		border-top-color: #101010;
-		width: 100px;
-		height: 100px;
-		-webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-		animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+	top: 50%;
+	margin-top: -50px;
+	border: 8px solid transparent;
+	border-radius: 50%;
+	border-top-color: #101010;
+	width: 100px;
+	height: 100px;
+	-webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+	animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
 .info-pratique .loaded:before {
-		content: "";
-		position: absolute;
-		top: 5px;
-		left: 5px;
-		right: 5px;
-		bottom: 5px;
-		border-radius: 50%;
-		border: 2px solid transparent;
-		border-top-color: #df1d28;
-		-webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-		animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	border-radius: 50%;
+	border: 2px solid transparent;
+	border-top-color: #df1d28;
+	-webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+	animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
 .info-pratique .loaded:after {
-		content: "";
-		position: absolute;
-		top: 15px;
-		left: 15px;
-		right: 15px;
-		bottom: 15px;
-		border-radius: 50%;
-		border: 2px solid transparent;
-		border-top-color: #f9c922;
-		-webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-		animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+	content: "";
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	border-radius: 50%;
+	border: 2px solid transparent;
+	border-top-color: #f9c922;
+	-webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+	animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
 .info-pratique .widget.top-style, .info-pratique .widget.bottom-style{
-		position:relative;
-		margin-bottom:40px;
+	position:relative;
+	margin-bottom:40px;
 }
 .info-pratique .widget.top-style{
-		border-bottom-left-radius:0;
-		border-bottom-right-radius:0;
-		box-shadow:none;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+	box-shadow:none;
 }
 .info-pratique .widget.bottom-style{
-		border-top-left-radius:0;
-		border-top-right-radius:0;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
 }
 .info-pratique .widget.top-style:before {
     content: "";
@@ -1223,9 +1198,9 @@ INFO PRATIQUES
     width: 100%;
     background-color: #ffffff;
     transform: skewY(-2deg);
-		z-index:-1;
-		border-bottom-left-radius:4px;
-		border-bottom-right-radius:4px;
+	z-index:-1;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
 }
 .info-pratique .widget.bottom-style:before {
     content: "";
@@ -1237,8 +1212,8 @@ INFO PRATIQUES
     height: 28px;
     transform: skewY(-2deg);
     z-index: -1;
-		border-top-left-radius:4px;
-		border-top-right-radius:4px;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
     box-shadow: 2px 6px 8px 0 rgba(0,0,0,0.2);
 }
 .info-pratique .widget.jirama .scroll {
@@ -1252,20 +1227,21 @@ INFO PRATIQUES
 .info-pratique .widget.jirama .table tbody tr:hover {
     background: rgba(255, 255, 255, 0.75);
 }
+.info-pratique .meteo{
+	height:400px;
+	margin-left: 10%;
+}
 .info-pratique .numero-urgence{
-    margin-bottom: 4em;
+    margin-left: 45px;
+    margin-top: 1em;
+    margin-bottom: 3em;
     text-align: right;
     position: relative;
 }
-@media (max-width: 992px){
-	.info-pratique .numero-urgence{
-			margin-bottom: 2em;
-	}
-}
 .info-pratique .numero-urgence .icon{
-		background-color: #ffffff;
+	background-color: #ffffff;
     border-radius: 100%;
-    position: relative;
+    position: absolute;
     z-index: 1;
     left: 0;
     display: inline-block;
@@ -1275,64 +1251,58 @@ INFO PRATIQUES
     height: 80px;
 }
 .info-pratique .numero-urgence .icon img{
-		max-width: 80px;
+	max-width: 80px;
     position: absolute;
     left: -15px;
     top: -5px;
 }
 .info-pratique .numero-urgence .text{
-		background-color: #ffffff;
+	background-color: #ffffff;
     display: inline-block;
     width: 85%;
-    min-height: 80px;
+    padding: 1em;
+    padding-left: 45px;
+    height: 80px;
+    text-align: center;
     vertical-align: middle;
-    position: relative;
-    text-align: left;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    padding: 10px;
-    margin: 0 1em;
+	position:relative;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
 }
-.info-pratique .numero-urgence .text .title {
+.info-pratique .numero-urgence .text .indie-flower {
     font-size: 2.5em;
     position: absolute;
     text-shadow: 2px -2px 2px rgba(255, 255, 255, 0.5);
     top: -1em;
     left: .5em;
-    line-height: 0.75em;
 }
 .info-pratique .numero-urgence .text:before{
     content: "";
     position: absolute;
-    top: -20px;
+    top: -15px;
     left: 0;
     width: 100%;
-    height: 40px;
+    height: 30px;
     border-top-left-radius: 8px;
-		border-top-right-radius: 8px;
+    border-top-right-radius: 8px;
     border: 2px solid transparent;
     background-color: #ffffff;
     transform: skewY(2deg);
-		z-index:-1;
 }
-.info-pratique .meteo{
-		height:400px;
-		margin: auto;
-}
-.info-pratique .calendar{
-		background:rgba(255,255,255,.25);
+.info-pratique .calendar, .info-pratique .meteo{
+	background:rgba(255,255,255,.25) !important;
 }
 .info-pratique .calendar .date{
-		font-size:3em;
-		text-transform:capitalize;
+	font-size:3em;
+	text-transform:capitalize;
 }
 .info-pratique .calendar .time{
-		font-size:2.5em;
+	font-size:2.5em;
 }
 .info-pratique .widget.pharmacie{
     margin: auto;
-		width:90%;
-		position:relative;
+	width:90%;
+	position:relative;
 }
 .info-pratique .widget.pharmacie .content{
     overflow: auto;
@@ -1347,20 +1317,10 @@ INFO PRATIQUES
     position: absolute;
     top: -10px;
     left: 0;
-		z-index:-1;
+	z-index:-1;
     -webkit-transform: skew(2deg);
     -moz-transform: skew(2deg);
     -ms-transform: skew(2deg);
     -o-transform: skew(2deg);
     transform: skew(2deg);
-}
-.info-pratique .ville-list{
-		font-size:1.5em;
-		font-family:'Petit Formal Script', cursive;	
-}
-.info-pratique .ville-list li:not(:first-child):before{
-		content : "\2022 \2003";
-}
-.info-pratique .ville-list li.active a{
-     text-decoration: underline dashed #ffebc2;
 }

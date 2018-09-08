@@ -1,0 +1,17 @@
+var bloc_widget = document.getElementById('widget_meteo');
+var lien = document.getElementById('l_meteo').getElementsByTagName("a")[0];
+var lien_exact = 'http://www.mymeteo.info/';
+if (lien && lien.getAttribute("href").indexOf(lien_exact) == 0){
+    var css = '#l_meteo { font-family:"Arial"; height: 20px; width:20px; display:block; position: absolute; right: 0; bottom: 0; background: url(https://services.my-meteo.com/assets_webmaster/widget/img/infobulle.png) 0 0 no-repeat; text-indent: -9999px; color:#FFF; text-shadow:none; font-size: 11px; } #l_meteo:hover { background:rgba(0,0,0, 0.65) none; cursor: pointer; width: 100%; height:100%; text-indent: 0; text-align: right; } #l_meteo a { color:#FFF; bottom:7px; right:7px; position:absolute; cursor:pointer; } #t_meteo { font:normal 12px "Arial"; background-color:transparent; color:#393939; line-height:20px; }';
+    style = document.createElement('style');
+    if (style.styleSheet) { style.styleSheet.cssText = css; } else { style.appendChild(document.createTextNode(css)); }
+    document.getElementsByTagName('head')[0].appendChild(style);    
+    bloc_widget.style.cssText = 'position:relative; text-align:center; background-color:transparent; border:1px solid transparent; width:334px; padding:0px;-webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px;';
+    var iframe_widget = document.createElement('iframe');
+    iframe_widget.style.cssText = 'display:block; width:334px; height:348px;-webkit-border-bottom-right-radius: 7px; -webkit-border-bottom-left-radius: 7px; -moz-border-radius-bottomright: 7px; -moz-border-radius-bottomleft: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px;';
+    iframe_widget.src = 'https://services.my-meteo.com/widget/iframe?ville=328&format=carre&nb_jours=3&temps&icones&horaires&vent&hum&precip&coins&c1=393939&c2=474242&c3=transparent&c4=transparent&c5=00d2ff&c6=d21515&police=0&t_icones=12&id=meteo';
+    iframe_widget.frameBorder = 0;
+    iframe_widget.scrolling = 'no';
+    iframe_widget.allowTransparency = true;
+    iframe_widget.style.backgroundColor = 'transparent';    bloc_widget.appendChild(iframe_widget);
+}
